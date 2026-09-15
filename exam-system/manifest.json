@@ -1,0 +1,14 @@
+{
+  "exams": [
+    {
+      "id": "115-數學B",
+      "year": "115",
+      "subject": "數學B",
+      "code": "A3204",
+      "group": "大學組第一類組",
+      "title": "115學年度身心障礙學生升學大專校院甄試 數學B",
+      "questionCount": 20,
+      "dataFile": "data/115-數學B.json"
+    }
+  ]
+}
