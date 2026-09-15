@@ -1,0 +1,237 @@
+{
+  "examInfo": {
+    "year": "115",
+    "subject": "英文",
+    "code": "A2202",
+    "group": "大學組第一、二、三、四類組",
+    "title": "115學年度身心障礙學生升學大專校院甄試 英文",
+    "pointsPerQuestion": 4
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "The email that you send will ______ back if the address is incorrect.",
+      "options": {"A": "transfer", "B": "grasp", "C": "attach", "D": "bounce"},
+      "answer": "D",
+      "steps": ["「bounce back」是固定搭配，指信件因地址錯誤被退回（電子郵件退信）。transfer(轉移)、grasp(抓住)、attach(附加)皆不符合語意。"],
+      "final": "答案：(D) bounce"
+    },
+    {
+      "id": 2,
+      "text": "Jenny paused for a moment in ______ before answering the difficult question.",
+      "options": {"A": "hesitation", "B": "harmony", "C": "leisure", "D": "volume"},
+      "answer": "A",
+      "steps": ["「in hesitation」意為「猶豫地」，符合「停頓片刻」的語境。harmony(和諧)、leisure(悠閒)、volume(音量)皆與語境不符。"],
+      "final": "答案：(A) hesitation"
+    },
+    {
+      "id": 3,
+      "text": "Mr. Lin has some ______ plans for his new coffee business. More than ten chain stores are scheduled to open next month.",
+      "options": {"A": "durable", "B": "ambitious", "C": "fluent", "D": "circular"},
+      "answer": "B",
+      "steps": ["下個月要開超過十家連鎖店，顯示計畫「雄心勃勃」，ambitious(有野心的)最符合語意。durable(耐用的)、fluent(流利的)、circular(circular的)皆不符。"],
+      "final": "答案：(B) ambitious"
+    },
+    {
+      "id": 4,
+      "text": "Students in this school are encouraged to ______ the Internet for study purposes in the science class.",
+      "options": {"A": "dismiss", "B": "access", "C": "encounter", "D": "target"},
+      "answer": "B",
+      "steps": ["「access the Internet」是固定用法，意為「使用／連上網路」。dismiss(解散)、encounter(遭遇)、target(以...為目標)皆不符合語境。"],
+      "final": "答案：(B) access"
+    },
+    {
+      "id": 5,
+      "text": "Rise of property values in Taiwan has been so ______ that many people cannot afford housing.",
+      "options": {"A": "fragile", "B": "pessimistic", "C": "dramatic", "D": "fashionable"},
+      "answer": "C",
+      "steps": ["房價上漲到讓許多人買不起房子，顯示漲幅「劇烈、顯著」，dramatic(劇烈的)最符合。fragile(脆弱的)、pessimistic(悲觀的)、fashionable(流行的)皆不符。"],
+      "final": "答案：(C) dramatic"
+    },
+    {
+      "id": 6,
+      "text": "More than 70,000 people have been killed in the Gaza War since 2023. It's a big human ______.",
+      "options": {"A": "protest", "B": "suicide", "C": "caution", "D": "tragedy"},
+      "answer": "D",
+      "steps": ["大量人員死亡是「人道悲劇」，tragedy(悲劇)最符合語境。protest(抗議)、suicide(自殺)、caution(謹慎)皆不符。"],
+      "final": "答案：(D) tragedy"
+    },
+    {
+      "id": 7,
+      "text": "The U.S. state of Maine experienced severe winter storms ______ by low temperatures, strong winds, and significant snowfall.",
+      "options": {"A": "monitored", "B": "characterized", "C": "frustrated", "D": "justified"},
+      "answer": "B",
+      "steps": ["「characterized by」意為「以...為特徵」，暴風雪以低溫、強風、大雪為特徵，語意通順。monitored(被監控)、frustrated(受挫)、justified(被證實合理)皆不符。"],
+      "final": "答案：(B) characterized"
+    },
+    {
+      "id": 8,
+      "text": "Chen Ning Yang, a ______ researcher in physics, was awarded the Nobel Prize in 1957.",
+      "options": {"A": "consistent", "B": "definite", "C": "prominent", "D": "genetic"},
+      "answer": "C",
+      "steps": ["獲得諾貝爾獎的物理學家應是「傑出、知名」的研究者，prominent(卓越的、傑出的)最符合。consistent(一致的)、definite(明確的)、genetic(基因的)皆不符。"],
+      "final": "答案：(C) prominent"
+    },
+    {
+      "id": 9,
+      "text": "Suffering from stage ______, Steve always feels a panic and forgets his lines in front of an audience.",
+      "options": {"A": "fright", "B": "presence", "C": "suspicion", "D": "crash"},
+      "answer": "A",
+      "steps": ["「stage fright」是固定片語，意為「怯場」，符合「在觀眾面前恐慌、忘詞」的語境。"],
+      "final": "答案：(A) fright"
+    },
+    {
+      "id": 10,
+      "text": "Attracted by the interesting new group project, the students started ______, but they soon got bored and lost interest.",
+      "options": {"A": "apparently", "B": "enthusiastically", "C": "identically", "D": "moderately"},
+      "answer": "B",
+      "steps": ["對照後半句「很快就感到無聊失去興趣」，前半句應是「熱情地開始」形成對比，enthusiastically(熱情地)最符合。apparently(顯然地)、identically(相同地)、moderately(適度地)皆不符語境對比。"],
+      "final": "答案：(B) enthusiastically"
+    },
+    {
+      "id": 11,
+      "text": "【11-15題組｜園藝與健康】文章大意：眾所皆知運動有益健康，較少人知道的是園藝也能幫助維持體態健康。\n＿＿(11)＿＿ less known is the role that gardening can play in helping to keep you fit and healthy.",
+      "options": {"A": "Then", "B": "Even", "C": "But", "D": "As"},
+      "answer": "C",
+      "steps": ["前句說「運動有益健康是常識」，本句要表達「較少人知道園藝的角色」，形成語意轉折，But(但是)最符合。"],
+      "final": "答案：(C) But"
+    },
+    {
+      "id": 12,
+      "text": "【11-15題組】Gardeners might be delighted to learn that the number of calories burned from 30 minutes of gardening is ＿＿(12)＿＿ playing badminton or practicing yoga.",
+      "options": {"A": "turned into", "B": "prior to", "C": "counting on", "D": "comparable to"},
+      "answer": "D",
+      "steps": ["「be comparable to」意為「與...相當」，表示園藝燃燒的卡路里與打羽球或做瑜伽相當，語意通順。turned into(變成)、prior to(在...之前)、counting on(依靠)皆不符。"],
+      "final": "答案：(D) comparable to"
+    },
+    {
+      "id": 13,
+      "text": "【11-15題組】growing and eating their own fruit and vegetables, gardeners are more likely to include food produce ＿＿(13)＿＿ their diets.",
+      "options": {"A": "in case of", "B": "on account of", "C": "at risk of", "D": "as part of"},
+      "answer": "D",
+      "steps": ["「as part of their diets」意為「作為飲食的一部分」，符合「將蔬果納入日常飲食」的語意。"],
+      "final": "答案：(D) as part of"
+    },
+    {
+      "id": 14,
+      "text": "【11-15題組】For centuries, gardens have been a source of remedies to treat common ailments. ＿＿(14)＿＿, such as lavenders for mild depression and gingers for headaches, have been embraced by people today.",
+      "options": {"A": "Some", "B": "Both", "C": "Others", "D": "None"},
+      "answer": "A",
+      "steps": ["後面舉例「薰衣草治輕度憂鬱、薑治頭痛」屬於列舉「某些」療法，Some(一些)最符合，且主詞需對應複數可數概念（一些療法/植物）。"],
+      "final": "答案：(A) Some"
+    },
+    {
+      "id": 15,
+      "text": "【11-15題組】those who garden every day have wellbeing ＿＿(15)＿＿ 6.6% higher and stress levels 4.2% lower than people who do not garden at all.",
+      "options": {"A": "scores", "B": "triggers", "C": "increases", "D": "records"},
+      "answer": "A",
+      "steps": ["「wellbeing scores」意為「幸福感分數」，與後面「6.6% higher」的百分比數據搭配最合理，指幸福感量表分數較高。"],
+      "final": "答案：(A) scores"
+    },
+    {
+      "id": 16,
+      "text": "【16-20題組｜航海導航史】文章大意：從古至今，水手用各種方法在海上導航，從觀星辨位到現代GPS。\nFrom using stars and other natural landmarks to ＿＿(16)＿＿ the position of their ships, to modern technology such as GPS...",
+      "options": {"A": "create", "B": "determine", "C": "enlarge", "D": "isolate"},
+      "answer": "B",
+      "steps": ["利用星象與地標「判定」船隻位置，determine(判定、確定)最符合語意。"],
+      "final": "答案：(B) determine"
+    },
+    {
+      "id": 17,
+      "text": "【16-20題組】Polynesians used the stars, feeling the ＿＿(17)＿＿ of currents, observing seabirds and cloud formation to find new islands.",
+      "options": {"A": "vision", "B": "flow", "C": "line", "D": "match"},
+      "answer": "B",
+      "steps": ["「feeling the flow of currents」意為「感受洋流的流動」，flow(流動)最符合航海導航的語境。"],
+      "final": "答案：(B) flow"
+    },
+    {
+      "id": 18,
+      "text": "【16-20題組】an insightful view was developed of the natural world, ＿＿(18)＿＿ allowed them to navigate thousands of miles.",
+      "options": {"A": "that", "B": "where", "C": "which", "D": "thus"},
+      "answer": "C",
+      "steps": ["逗號後接非限定關係子句，修飾前面整個概念（對自然世界的深刻理解），須用which，that不可接在逗號後引導非限定關係子句。"],
+      "final": "答案：(C) which"
+    },
+    {
+      "id": 19,
+      "text": "【16-20題組】the invention of the compass...was a directional tool that made navigation ＿＿(19)＿＿ even when weather and visibility was poor.",
+      "options": {"A": "possible", "B": "intensive", "C": "regular", "D": "noticeable"},
+      "answer": "A",
+      "steps": ["指南針使得「即使天候能見度不佳」時導航仍然「可行」，possible(可能的、可行的)最符合語意。"],
+      "final": "答案：(A) possible"
+    },
+    {
+      "id": 20,
+      "text": "【16-20題組】allowing sailors to plan their journey and to ＿＿(20)＿＿ their intended route.",
+      "options": {"A": "recite", "B": "guard", "C": "contribute", "D": "visualize"},
+      "answer": "D",
+      "steps": ["讓水手能夠規劃行程並「想像、視覺化」預定路線，visualize(將...視覺化)最符合語意。recite(背誦)、guard(守衛)、contribute(貢獻)皆不符。"],
+      "final": "答案：(D) visualize"
+    },
+    {
+      "id": 21,
+      "text": "【21-25題組｜囚徒困境】文章大意：囚徒困境描述人在個人利益與集體利益間抉擇的行為理論，並以氣候談判為例說明其應用。\nWhich of the following states the purpose of the passage?",
+      "options": {
+        "A": "To predict criminals' behavior.",
+        "B": "To show the way of self-protection.",
+        "C": "To explain the difficulty of achieving collaboration.",
+        "D": "To demonstrate the use of strategies to win a lawsuit."
+      },
+      "answer": "C",
+      "steps": ["全文透過囚徒困境理論，說明個人利益與集體利益衝突時，人們往往難以達成合作（即使合作對雙方最有利），並以氣候談判為例呼應此困境，主旨在於解釋「達成合作的困難」。"],
+      "final": "答案：(C) To explain the difficulty of achieving collaboration."
+    },
+    {
+      "id": 22,
+      "text": "【21-25題組】What does the phrase \"the same way\" mean in the first paragraph?",
+      "options": {
+        "A": "Pleasing the other.",
+        "B": "Resolving the dilemma.",
+        "C": "Seeking the common good.",
+        "D": "Serving one's own interests."
+      },
+      "answer": "D",
+      "steps": ["原句「when two individuals act in their own self-interest, they would both experience worse outcomes due to the other behaving in the same way」，「the same way」指的正是前面提到的「act in their own self-interest」，即「服務自己的利益」。"],
+      "final": "答案：(D) Serving one's own interests."
+    },
+    {
+      "id": 23,
+      "text": "【21-25題組】According to the example mentioned in the passage, what would the prisoners most probably get?",
+      "options": {
+        "A": "One being sentenced one year and the other five years.",
+        "B": "One being set free and the other sentenced ten years.",
+        "C": "Both being put in jail for five years.",
+        "D": "Both being sentenced one year."
+      },
+      "answer": "C",
+      "steps": ["囚徒困境的核心正是「雙方都因自利而背叛對方」，導致雙方各判五年（次佳結果），而非合作沉默各判一年（最佳結果）。文章強調「他們更可能背叛對方以逃避懲罰」，故最可能的結果是兩人都被判五年。"],
+      "final": "答案：(C) Both being put in jail for five years."
+    },
+    {
+      "id": 24,
+      "text": "【21-25題組】What light does the prisoner's dilemma shed on climate talks in the last paragraph?",
+      "options": {
+        "A": "The necessity of cooperation for decreasing greenhouse gases.",
+        "B": "The risk of disclosing damages caused by climate change.",
+        "C": "The benefit of solving problems through negotiation.",
+        "D": "The need of regulations to protect the environment."
+      },
+      "answer": "A",
+      "steps": ["末段說明若所有國家在氣候談判中合作減排，長期而言對大家都更有利，呼應囚徒困境「合作才是最佳結果」的核心概念，強調的是「合作對減少溫室氣體排放的必要性」。"],
+      "final": "答案：(A) The necessity of cooperation for decreasing greenhouse gases."
+    },
+    {
+      "id": 25,
+      "text": "【21-25題組】What does \"the burden\" in the last paragraph refer to?",
+      "options": {
+        "A": "The shared financial costs.",
+        "B": "The reduction of gas emissions.",
+        "C": "The pursuit of economic growth.",
+        "D": "The work of conserving natural resources."
+      },
+      "answer": "B",
+      "steps": ["原句引述數學家的話：「每個國家都希望全球減排，但更希望是別人承擔這個負擔」，「the burden」指的正是前面提到的「emission reductions」（減排的負擔），即「溫室氣體排放的削減」。"],
+      "final": "答案：(B) The reduction of gas emissions."
+    }
+  ]
+}
