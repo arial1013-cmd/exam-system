@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>歷屆試題詳解系統</title>
+<link rel="stylesheet" href="shared/styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="inner">
+    <div class="kicker">身心障礙學生升學大專校院甄試</div>
+    <h1>歷屆試題詳解系統</h1>
+    <div class="meta">依科目分類，可選擇「詳解模式」直接複習，或「練習模式」先作答再看詳解</div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div id="content">
+    <div class="empty-note">載入中…</div>
+  </div>
+</div>
+
+<script>
+async function loadManifest(){
+  const contentEl = document.getElementById('content');
+  try{
+    const res = await fetch('manifest.json');
+    if(!res.ok) throw new Error('manifest fetch failed');
+    const data = await res.json();
+    renderExams(data.exams || []);
+  }catch(err){
+    contentEl.innerHTML = '<div class="empty-note">' +
+      '無法載入考卷清單。若你是直接用瀏覽器打開這個檔案（file://），' +
+      '請改成透過網頁伺服器開啟（例如部署到GitHub Pages後用網址開啟），' +
+      '否則瀏覽器會擋掉本機JSON的讀取。</div>';
+    console.error(err);
+  }
+}
+
+function renderExams(exams){
+  const contentEl = document.getElementById('content');
+  if(exams.length === 0){
+    contentEl.innerHTML = '<div class="empty-note">目前還沒有任何考卷資料。</div>';
+    return;
+  }
+  // group by subject
+  const groups = {};
+  exams.forEach(function(ex){
+    const key = ex.subject || '未分類';
+    if(!groups[key]) groups[key] = [];
+    groups[key].push(ex);
+  });
+
+  let html = '';
+  Object.keys(groups).sort().forEach(function(subject){
+    html += '<div class="subject-group"><h2>' + escapeHtml(subject) + '</h2>';
+    groups[subject]
+      .sort(function(a,b){ return (b.year||'').localeCompare(a.year||''); })
+      .forEach(function(ex){
+        html += '<div class="exam-row">';
+        html += '<div><div class="exam-title">' + escapeHtml(ex.title || (ex.year+'年 '+ex.subject)) + '</div>';
+        html += '<div class="exam-meta">' + escapeHtml(ex.year) + '學年度・' + escapeHtml(ex.group||'') +
+                 '・共' + (ex.questionCount||'') + '題</div></div>';
+        html += '<div class="exam-actions">';
+        html += '<a href="viewer.html?exam=' + encodeURIComponent(ex.id) + '">詳解模式</a>';
+        html += '<a class="primary" href="practice.html?exam=' + encodeURIComponent(ex.id) + '">練習模式</a>';
+        html += '</div></div>';
+      });
+    html += '</div>';
+  });
+  contentEl.innerHTML = html;
+}
+
+function escapeHtml(str){
+  const div = document.createElement('div');
+  div.textContent = str == null ? '' : String(str);
+  return div.innerHTML;
+}
+
+loadManifest();
+</script>
+
+</body>
+</html>
