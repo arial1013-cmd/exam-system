@@ -1,0 +1,327 @@
+{
+  "examInfo": {
+    "year": "115",
+    "subject": "數學B",
+    "code": "A3204",
+    "group": "大學組第一類組",
+    "title": "115學年度身心障礙學生升學大專校院甄試 數學B",
+    "pointsPerQuestion": 5
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "球形地球儀上有甲、乙、丙、丁四點：甲(西經30°,北緯45°)、乙(西經120°,北緯80°)、丙(東經0°,北緯70°)、丁(東經60°,北緯60°)。從哪一點沿經線往北走到北極點的路徑最短？",
+      "options": {"A": "甲", "B": "乙", "C": "丙", "D": "丁"},
+      "answer": "B",
+      "steps": [
+        "沿經線往北走到北極，走的距離只跟「緯度」有關，經度完全不影響距離。",
+        "緯度越高，代表已經越接近北極，需要走的路徑就越短。",
+        "四點緯度比較：甲45°、乙80°、丙70°、丁60°。乙的緯度最高。"
+      ],
+      "final": "答案：(B) 乙"
+    },
+    {
+      "id": 2,
+      "text": "某次小考有是非題和選擇題，滿分100分。是非題每題4分、選擇題每題6分時，全班平均84分，其中是非題平均36分。後來發現算錯了，正確配分應為是非題每題3分、選擇題每題7分，求更正後全班平均分數。",
+      "options": {"A": "82", "B": "83", "C": "84", "D": "85"},
+      "answer": "B",
+      "steps": [
+        "是非題平均得分36分，每題4分 → 平均答對題數 = 36 ÷ 4 = 9 題。",
+        "選擇題平均得分 = 全班平均84分 − 是非題36分 = 48分，每題6分 → 平均答對題數 = 48 ÷ 6 = 8 題。",
+        "用「答對題數」乘上新配分：是非題 9題×3分 = 27分；選擇題 8題×7分 = 56分。",
+        "更正後平均 = 27 + 56 = 83分。"
+      ],
+      "final": "答案：(B) 83"
+    },
+    {
+      "id": 3,
+      "text": "兩個公差皆不為0的實數等差數列 &lt;a<sub>n</sub>&gt;、&lt;b<sub>n</sub>&gt;，滿足 a<sub>1</sub>=b<sub>5</sub> 且 a<sub>5</sub>=b<sub>25</sub>。若 &lt;a<sub>n</sub>&gt; 的公差是 &lt;b<sub>n</sub>&gt; 公差的 k 倍，求 k 值。",
+      "options": {
+        "A": "−5",
+        "B": "<span class='frac small'><span class='num'>−1</span><span class='den'>5</span></span>",
+        "C": "<span class='frac small'><span class='num'>1</span><span class='den'>5</span></span>",
+        "D": "5"
+      },
+      "answer": "D",
+      "steps": [
+        "設 &lt;a<sub>n</sub>&gt; 公差為 d<sub>a</sub>，&lt;b<sub>n</sub>&gt; 公差為 d<sub>b</sub>。已知 a<sub>1</sub>=b<sub>5</sub>，故可用 b<sub>1</sub> 表示：a<sub>1</sub> = b<sub>1</sub>+4d<sub>b</sub>。",
+        "a<sub>5</sub> = a<sub>1</sub> + 4d<sub>a</sub> = b<sub>1</sub> + 4d<sub>b</sub> + 4d<sub>a</sub>",
+        "b<sub>25</sub> = b<sub>1</sub> + 24d<sub>b</sub>",
+        "由 a<sub>5</sub>=b<sub>25</sub>：b<sub>1</sub>+4d<sub>b</sub>+4d<sub>a</sub> = b<sub>1</sub>+24d<sub>b</sub> → 4d<sub>a</sub> = 20d<sub>b</sub> → d<sub>a</sub> = 5d<sub>b</sub>。",
+        "所以 k = 5。"
+      ],
+      "final": "答案：(D) 5"
+    },
+    {
+      "id": 4,
+      "text": "平面上兩向量 a⃗、b⃗ 夾角為 2π/3，|a⃗|=12、|b⃗|=3。若 (a⃗+rb⃗) 與 b⃗ 垂直，求 r 的值。",
+      "options": {"A": "−2√3", "B": "−2", "C": "2", "D": "2√3"},
+      "answer": "C",
+      "steps": [
+        "a⃗·b⃗ = |a⃗||b⃗|cos(2π/3) = 12×3×(<span class='frac small'><span class='num'>−1</span><span class='den'>2</span></span>) = −18。",
+        "兩向量垂直 → 內積為0：(a⃗+rb⃗)·b⃗ = a⃗·b⃗ + r|b⃗|² = 0。",
+        "代入：−18 + r×9 = 0 → r = <span class='frac small'><span class='num'>18</span><span class='den'>9</span></span> = 2。"
+      ],
+      "final": "答案：(C) 2"
+    },
+    {
+      "id": 5,
+      "text": "實係數多項式 f(x)=(x²+1)(x+a)，若 f(x) 除以 x²+x+1 所得餘式為 2x+1，求 f(−1) 的值。",
+      "options": {"A": "−4", "B": "−3", "C": "1", "D": "2"},
+      "answer": "A",
+      "steps": [
+        "在模數 x²+x+1 之下，x²+x+1=0，所以 x² ≡ −x−1。",
+        "因此 x²+1 ≡ (−x−1)+1 = −x。",
+        "f(x) = (x²+1)(x+a) ≡ (−x)(x+a) = −x²−ax ≡ −(−x−1)−ax = x+1−ax = (1−a)x + 1。",
+        "比對已知餘式 2x+1：係數對應 1−a = 2 → a = −1。",
+        "f(x) = (x²+1)(x−1)，代入 x=−1：f(−1) = ((−1)²+1)×((−1)−1) = 2×(−2) = −4。"
+      ],
+      "final": "答案：(A) −4"
+    },
+    {
+      "id": 6,
+      "text": "三角形ABC，AB=20、∠BAC=115°、∠ABC=45°，求 BC 的長度表示式。",
+      "options": {
+        "A": "<span class='frac small'><span class='num'>20sin115°</span><span class='den'>sin20°</span></span>",
+        "B": "<span class='frac small'><span class='num'>20sin115°</span><span class='den'>sin45°</span></span>",
+        "C": "<span class='frac small'><span class='num'>20sin20°</span><span class='den'>sin115°</span></span>",
+        "D": "<span class='frac small'><span class='num'>20sin45°</span><span class='den'>sin115°</span></span>"
+      },
+      "answer": "A",
+      "steps": [
+        "三角形內角和180°：∠C = 180° − 115° − 45° = 20°。",
+        "正弦定理：邊與其對角的正弦成比例。BC 對應的角是 ∠A（115°），AB 對應的角是 ∠C（20°）。",
+        "BC / sin(∠A) = AB / sin(∠C) → BC = AB × sin(115°) / sin(20°) = <span class='frac small'><span class='num'>20sin115°</span><span class='den'>sin20°</span></span>。"
+      ],
+      "final": "答案：(A) <span class='frac small'><span class='num'>20sin115°</span><span class='den'>sin20°</span></span>"
+    },
+    {
+      "id": 7,
+      "text": "坐標平面上 O(0,0)、A(−3,4)、B(0,5)、C(4,3)。直線OA、OC分別與直線y=5交於D、E兩點，求 BD/BE 的值。",
+      "options": {
+        "A": "1",
+        "B": "<span class='frac small'><span class='num'>3</span><span class='den'>4</span></span>",
+        "C": "<span class='frac small'><span class='num'>4</span><span class='den'>3</span></span>",
+        "D": "<span class='frac small'><span class='num'>9</span><span class='den'>16</span></span>"
+      },
+      "answer": "D",
+      "steps": [
+        "直線OA方向為(−3,4)，參數式(x,y)=t(−3,4)。令 y=5：4t=5 → t=<span class='frac small'><span class='num'>5</span><span class='den'>4</span></span>，代入x = −3×<span class='frac small'><span class='num'>5</span><span class='den'>4</span></span> = −<span class='frac small'><span class='num'>15</span><span class='den'>4</span></span>。所以 D=(−15/4, 5)。",
+        "直線OC方向為(4,3)，參數式(x,y)=t(4,3)。令 y=5：3t=5 → t=<span class='frac small'><span class='num'>5</span><span class='den'>3</span></span>，代入x = 4×<span class='frac small'><span class='num'>5</span><span class='den'>3</span></span> = <span class='frac small'><span class='num'>20</span><span class='den'>3</span></span>。所以 E=(20/3, 5)。",
+        "B=(0,5)，D、E、B皆在 y=5 上，可直接比較x座標距離：BD = <span class='frac small'><span class='num'>15</span><span class='den'>4</span></span>，BE = <span class='frac small'><span class='num'>20</span><span class='den'>3</span></span>。",
+        "<span class='eqblock'><span class='frac'><span class='num'>BD</span><span class='den'>BE</span></span> = <span class='frac small'><span class='num'>15</span><span class='den'>4</span></span> ÷ <span class='frac small'><span class='num'>20</span><span class='den'>3</span></span> = <span class='frac small'><span class='num'>15</span><span class='den'>4</span></span> × <span class='frac small'><span class='num'>3</span><span class='den'>20</span></span> = <span class='frac small'><span class='num'>45</span><span class='den'>80</span></span> = <span class='frac small'><span class='num'>9</span><span class='den'>16</span></span></span>"
+      ],
+      "final": "答案：(D) <span class='frac small'><span class='num'>9</span><span class='den'>16</span></span>"
+    },
+    {
+      "id": 8,
+      "text": "A為二階實數方陣，若 A<span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>1</span><span>0</span><span>0</span><span>−2</span></span><span class='bracket'>]</span></span> = <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>2</span><span>4</span><span>−4</span><span>6</span></span><span class='bracket'>]</span></span>，求 <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>−2</span><span>0</span><span>0</span><span>1</span></span><span class='bracket'>]</span></span>A 會是下列哪一個選項？",
+      "options": {
+        "A": "<span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>4</span><span>2</span><span>6</span><span>−4</span></span><span class='bracket'>]</span></span>",
+        "B": "<span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>−4</span><span>6</span><span>2</span><span>4</span></span><span class='bracket'>]</span></span>",
+        "C": "<span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>6</span><span>4</span><span>−4</span><span>2</span></span><span class='bracket'>]</span></span>",
+        "D": "<span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>−4</span><span>4</span><span>−4</span><span>−3</span></span><span class='bracket'>]</span></span>"
+      },
+      "answer": "D",
+      "steps": [
+        "設 A = <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>p</span><span>q</span><span>r</span><span>s</span></span><span class='bracket'>]</span></span>。乘上對角矩陣 <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>1</span><span>0</span><span>0</span><span>−2</span></span><span class='bracket'>]</span></span> 相當於：第1行不變、第2行乘以−2。",
+        "A×<span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>1</span><span>0</span><span>0</span><span>−2</span></span><span class='bracket'>]</span></span> = <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>p</span><span>−2q</span><span>r</span><span>−2s</span></span><span class='bracket'>]</span></span> = <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>2</span><span>4</span><span>−4</span><span>6</span></span><span class='bracket'>]</span></span>。",
+        "比對：p=2，−2q=4→q=−2；r=−4，−2s=6→s=−3。所以 A = <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>2</span><span>−2</span><span>−4</span><span>−3</span></span><span class='bracket'>]</span></span>。",
+        "計算 <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>−2</span><span>0</span><span>0</span><span>1</span></span><span class='bracket'>]</span></span>×A：這相當於「第1列乘以−2、第2列不變」。",
+        "第1列：[2,−2]×(−2) = [−4,4]；第2列：[−4,−3] 不變。",
+        "結果為 <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>−4</span><span>4</span><span>−4</span><span>−3</span></span><span class='bracket'>]</span></span>。"
+      ],
+      "final": "答案：(D) <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>−4</span><span>4</span><span>−4</span><span>−3</span></span><span class='bracket'>]</span></span>"
+    },
+    {
+      "id": 9,
+      "text": "某產品第1~5個月出貨量依序為12、17、20、26、30噸。求迴歸直線 y=mx+b 的斜率 m 最接近哪個選項？",
+      "options": {"A": "−3", "B": "2.5", "C": "4.5", "D": "6"},
+      "answer": "C",
+      "steps": [
+        "x = 1,2,3,4,5，平均 x̄ = 3。y = 12,17,20,26,30，平均 ȳ = <span class='frac small'><span class='num'>12+17+20+26+30</span><span class='den'>5</span></span> = <span class='frac small'><span class='num'>105</span><span class='den'>5</span></span> = 21。",
+        "斜率公式（依題目給的相關係數與標準差定義，化簡後等同最小平方法）：<span class='eqblock'>m = <span class='frac'><span class='num'>Σ(x−x̄)(y−ȳ)</span><span class='den'>Σ(x−x̄)²</span></span></span>",
+        "逐項計算 (x−x̄)(y−ȳ)：x=1: (−2)×(−9)=18；x=2: (−1)×(−4)=4；x=3: 0×(−1)=0；x=4: 1×5=5；x=5: 2×9=18。總和 = 18+4+0+5+18 = 45。",
+        "Σ(x−x̄)²：(−2)²+(−1)²+0²+1²+2² = 4+1+0+1+4 = 10。",
+        "<span class='eqblock'>m = <span class='frac small'><span class='num'>45</span><span class='den'>10</span></span> = 4.5</span>"
+      ],
+      "final": "答案：(C) 4.5"
+    },
+    {
+      "id": 10,
+      "text": "a、b為兩實數，log(ab)=10 且 1&lt;ab<sup>10</sup>&lt;10。選出正確的選項。",
+      "options": {
+        "A": "0&lt;b&lt;10<sup>−17⁄9</sup>",
+        "B": "10<sup>−10⁄9</sup>&lt;b&lt;10<sup>−1</sup>",
+        "C": "10<sup>−9⁄10</sup>&lt;b&lt;1",
+        "D": "1&lt;b&lt;10"
+      },
+      "answer": "B",
+      "steps": [
+        "log(ab)=10 → ab=10<sup>10</sup> → a = <span class='frac small'><span class='num'>10<sup>10</sup></span><span class='den'>b</span></span>（此處隱含 b&gt;0，配合選項判斷取b&gt;0的情形）。",
+        "將 a 代入 ab<sup>10</sup>：ab<sup>10</sup> = <span class='frac small'><span class='num'>10<sup>10</sup></span><span class='den'>b</span></span>×b<sup>10</sup> = 10<sup>10</sup>×b<sup>9</sup>。",
+        "已知 1 &lt; ab<sup>10</sup> &lt; 10，代入：1 &lt; 10<sup>10</sup>b<sup>9</sup> &lt; 10。",
+        "兩邊除以10<sup>10</sup>：10<sup>−10</sup> &lt; b<sup>9</sup> &lt; 10<sup>−9</sup>。",
+        "b<sup>9</sup> 是遞增函數（b&gt;0時），對三邊同取九次方根：10<sup>−10⁄9</sup> &lt; b &lt; 10<sup>−9⁄9</sup> = 10<sup>−1</sup>。"
+      ],
+      "final": "答案：(B) 10<sup>−10⁄9</sup> &lt; b &lt; 10<sup>−1</sup>"
+    },
+    {
+      "id": 11,
+      "text": "A燈：綠35秒、黃5秒、紅40秒（週期80秒）；B燈：綠40秒、黃25秒、紅25秒（週期90秒）。10點0分0秒時A、B同時由紅轉綠。10點8分t秒時A、B皆為紅燈，求t可能的值。",
+      "options": {"A": "5", "B": "20", "C": "30", "D": "45"},
+      "answer": "D",
+      "steps": [
+        "以t=0（10點0分0秒）為起點，經過的秒數為 480+t（8分=480秒）。",
+        "A燈週期80秒，紅燈落在每週期的 [40,80) 秒。480 mod 80 = 0，所以需要 t mod 80 ∈ [40,80)。",
+        "B燈週期90秒，紅燈落在每週期的 [65,90) 秒。480 mod 90 = 30，所以需要 (30+t) mod 90 ∈ [65,90)，即 t mod 90 ∈ [35,60)。",
+        "逐一代入選項驗證：t=45時，45 mod 80=45（落在[40,80)內✓）；45 mod 90=45（落在[35,60)內✓）。兩條件同時成立。",
+        "其餘選項（5、20、30）代入至少一個條件不成立。"
+      ],
+      "final": "答案：(D) 45"
+    },
+    {
+      "id": 12,
+      "text": "畫家眼睛離地面160公分，眼睛與畫布水平距離50公分。畫布頂端離地170公分、底部離地110公分。物體底部A點在畫布上的位置恰位於畫布中心，求A點與畫家站立點的距離。",
+      "options": {"A": "150", "B": "200", "C": "350", "D": "400"},
+      "answer": "D",
+      "steps": [
+        "畫布中心高度 = (頂端170 + 底部110) / 2 = 140公分。",
+        "建立座標：畫家眼睛在 (0, 160)，畫布位在水平距離 x=50 處，畫布中心點為 (50, 140)。",
+        "視線從眼睛(0,160)通過畫布中心(50,140)，延伸到地面（y=0）才會碰到物體底部A點。",
+        "此直線斜率 = <span class='frac small'><span class='num'>140−160</span><span class='den'>50−0</span></span> = <span class='frac small'><span class='num'>−20</span><span class='den'>50</span></span> = <span class='frac small'><span class='num'>−2</span><span class='den'>5</span></span>。",
+        "直線方程式：y − 160 = <span class='frac small'><span class='num'>−2</span><span class='den'>5</span></span>(x − 0) → y = 160 − <span class='frac small'><span class='num'>2</span><span class='den'>5</span></span>x。",
+        "令 y=0：160 = <span class='frac small'><span class='num'>2</span><span class='den'>5</span></span>x → x = 400。"
+      ],
+      "final": "答案：(D) 400"
+    },
+    {
+      "id": 13,
+      "text": "a、b為兩個非零實數。若 |a−<span class='frac small'><span class='num'>3</span><span class='den'>2</span></span>b|=1 且 |a−<span class='frac small'><span class='num'>5</span><span class='den'>3</span></span>b|=1，求 |a−<span class='frac small'><span class='num'>7</span><span class='den'>4</span></span>b| 的值。",
+      "options": {
+        "A": "1",
+        "B": "<span class='frac small'><span class='num'>3</span><span class='den'>2</span></span>",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "C",
+      "steps": [
+        "把 f(t) = a − tb 看成關於 t 的一次函數，因為 b≠0，這是嚴格單調函數，不是常數函數。",
+        "對於嚴格單調函數，兩個不同的 t 值都得到 |f(t)|=1，唯一可能是 f(3/2) = −f(5/3)。",
+        "<span class='eqblock'>a−<span class='frac small'><span class='num'>3</span><span class='den'>2</span></span>b = −(a−<span class='frac small'><span class='num'>5</span><span class='den'>3</span></span>b) → 2a = <span class='frac small'><span class='num'>5</span><span class='den'>3</span></span>b + <span class='frac small'><span class='num'>3</span><span class='den'>2</span></span>b = <span class='frac small'><span class='num'>19</span><span class='den'>6</span></span>b → a = <span class='frac small'><span class='num'>19</span><span class='den'>12</span></span>b</span>",
+        "代回 f(3/2)：<span class='eqblock'>a−<span class='frac small'><span class='num'>3</span><span class='den'>2</span></span>b = <span class='frac small'><span class='num'>19</span><span class='den'>12</span></span>b − <span class='frac small'><span class='num'>18</span><span class='den'>12</span></span>b = <span class='frac small'><span class='num'>1</span><span class='den'>12</span></span>b</span> 已知 |f(3/2)|=1 → |b|=12。",
+        "取 b=12、a=19：f(7/4) = 19 − <span class='frac small'><span class='num'>7</span><span class='den'>4</span></span>×12 = 19−21 = −2。取另一組 b=−12、a=−19：f(7/4) = −19+21 = 2。兩種情況絕對值皆為2。"
+      ],
+      "final": "答案：(C) 2"
+    },
+    {
+      "id": 14,
+      "text": "袋中有標示100元、200元、300元的卡片各一張，及空白卡片兩張。每次抽一張不放回，抽中空白則繼續抽，抽中有獎金的卡片則遊戲結束並獲得該獎金。求獎金的期望值。",
+      "options": {"A": "140", "B": "200", "C": "250", "D": "300"},
+      "answer": "B",
+      "steps": [
+        "關鍵技巧：把「依序抽卡直到抽到獎金卡」想成把5張卡片一次隨機排成一列，遊戲結果就是「排列中最先出現的那張獎金卡」。",
+        "由對稱性，三張獎金卡（100、200、300元）中，每一張「最先出現」的機率都相同，皆為 <span class='frac small'><span class='num'>1</span><span class='den'>3</span></span>。",
+        "<span class='eqblock'>期望值 = 100×<span class='frac small'><span class='num'>1</span><span class='den'>3</span></span> + 200×<span class='frac small'><span class='num'>1</span><span class='den'>3</span></span> + 300×<span class='frac small'><span class='num'>1</span><span class='den'>3</span></span> = <span class='frac small'><span class='num'>600</span><span class='den'>3</span></span> = 200</span>"
+      ],
+      "final": "答案：(B) 200"
+    },
+    {
+      "id": 15,
+      "text": "兔子最初數量24隻，5年後變成240隻，呈指數成長。該區域面積2400萬平方公里，經N年後每平方公里兔子數量平均值達到10萬隻，求N的最小值（N為整數）。",
+      "options": {"A": "10", "B": "11", "C": "50", "D": "55"},
+      "answer": "D",
+      "steps": [
+        "設成長率為r，由 24r<sup>5</sup>=240 得 r<sup>5</sup>=10。",
+        "N年後兔子總數 P(N) = 24×r<sup>N</sup> = 24×10<sup>N⁄5</sup>（因為 r=10<sup>1⁄5</sup>）。",
+        "所需總隻數 = 土地面積 × 每平方公里密度 = 2400萬 × 10萬 = 2.4×10<sup>12</sup>。",
+        "列不等式：24×10<sup>N⁄5</sup> ≥ 2.4×10<sup>12</sup>。",
+        "兩邊除以24：10<sup>N⁄5</sup> ≥ 10<sup>11</sup>。",
+        "比較指數：<span class='frac small'><span class='num'>N</span><span class='den'>5</span></span> ≥ 11 → N ≥ 55。N為整數，最小值為55。"
+      ],
+      "final": "答案：(D) 55"
+    },
+    {
+      "id": 16,
+      "text": "某社群軟體中任兩人間只有「朋友」或「互不認識」兩種關係。甲、乙、丙、丁四人使用，已知甲與乙為「互不認識」。求這四人之間的交友關係總共有多少種？",
+      "options": {"A": "5", "B": "16", "C": "32", "D": "63"},
+      "answer": "C",
+      "steps": [
+        "4人之間共有 C(4,2) = 6 對關係。",
+        "甲與乙這一對關係已經確定（互不認識），不再有選擇。",
+        "剩下5對關係，每一對都可以獨立選擇「朋友」或「互不認識」，共2種可能。",
+        "5對關係各自獨立，總共有 2⁵ = 32 種組合。"
+      ],
+      "final": "答案：(C) 32"
+    },
+    {
+      "id": 17,
+      "text": "直線L斜率為m，−2&lt;m&lt;0，且L與圓C相切於點(4,2)。試問圓C的圓心不可能落在第幾象限？",
+      "options": {"A": "第一象限", "B": "第二象限", "C": "第三象限", "D": "第四象限"},
+      "answer": "B",
+      "steps": [
+        "圓與切線垂直於半徑，所以圓心必落在「通過切點(4,2)、且垂直於L」的直線上。",
+        "L的斜率 m ∈ (−2,0)，垂直線的斜率 = <span class='frac small'><span class='num'>−1</span><span class='den'>m</span></span>。當 m 在(−2,0)之間變化時，這個值的範圍是 (<span class='frac small'><span class='num'>1</span><span class='den'>2</span></span>, +∞)（恆正）。",
+        "這條過(4,2)、斜率恆正且大於<span class='frac small'><span class='num'>1</span><span class='den'>2</span></span>的直線，設為 y − 2 = k(x − 4)，其中 k &gt; <span class='frac small'><span class='num'>1</span><span class='den'>2</span></span>。",
+        "往右上（x&gt;4）走：x、y都持續增加，恆為正值 → 會經過第一象限。",
+        "往左下走，考慮 x=0 時：y = 2 − 4k。因為 k &gt; 1/2，所以 4k &gt; 2，故 2 − 4k &lt; 0，代表直線在x還沒變成負值之前，y就已經降到負值以下。",
+        "這代表直線是先進入第四象限（x&gt;0,y&lt;0），再進入第三象限（x&lt;0,y&lt;0），完全跳過第二象限（x&lt;0,y&gt;0）。"
+      ],
+      "final": "答案：(B) 第二象限"
+    },
+    {
+      "id": 18,
+      "text": "兩輪比賽決定優勝：第一輪先贏兩場者晉級，第二輪先贏三場者為優勝，無和局。求獲得優勝的可能勝敗紀錄總共有幾種？",
+      "options": {"A": "12", "B": "13", "C": "15", "D": "30"},
+      "answer": "D",
+      "steps": [
+        "第一輪（先贏2場即晉級，最後一場必勝）：可能紀錄為 WW（2戰）、LWW、WLW（3戰），共3種。",
+        "第二輪（先贏3場即優勝，最後一場必勝），依總場數分類：3戰全勝C(2,2)=1種；4戰結束（前3場恰贏2場）C(3,2)=3種；5戰結束（前4場恰贏2場）C(4,2)=6種。",
+        "第二輪總共 1+3+6 = 10 種可能紀錄。",
+        "第一輪與第二輪紀錄依序組合，總紀錄數 = 3 × 10 = 30 種。"
+      ],
+      "final": "答案：(D) 30"
+    },
+    {
+      "id": 19,
+      "text": "實數數列&lt;a<sub>n</sub>&gt;首項為1。令 b<sub>n</sub>=a<sub>n+1</sub>/a<sub>n</sub>，已知&lt;b<sub>n</sub>&gt;是首項與公比都是√2的等比數列。求 a<sub>5</sub> 的值。",
+      "options": {
+        "A": "2<sup>2</sup>",
+        "B": "2<sup>5⁄2</sup>",
+        "C": "2<sup>5</sup>",
+        "D": "2<sup>15⁄2</sup>"
+      },
+      "answer": "C",
+      "steps": [
+        "&lt;b<sub>n</sub>&gt;首項與公比皆為√2，所以 b<sub>n</sub> = √2 × (√2)<sup>n−1</sup> = (√2)<sup>n</sup> = 2<sup>n⁄2</sup>。",
+        "b<sub>n</sub> = <span class='frac small'><span class='num'>a<sub>n+1</sub></span><span class='den'>a<sub>n</sub></span></span>，所以 a<sub>5</sub> = a<sub>1</sub> × b<sub>1</sub> × b<sub>2</sub> × b<sub>3</sub> × b<sub>4</sub>。",
+        "<span class='eqblock'>a<sub>5</sub> = 1 × 2<sup>1⁄2</sup> × 2<sup>2⁄2</sup> × 2<sup>3⁄2</sup> × 2<sup>4⁄2</sup> = 2<sup>(1+2+3+4)⁄2</sup> = 2<sup>10⁄2</sup> = 2<sup>5</sup></span>"
+      ],
+      "final": "答案：(C) 2<sup>5</sup>"
+    },
+    {
+      "id": 20,
+      "text": "箱中有標示「×2」、數字「5」、數字「1」的球各一顆。共抽4次（每次抽1球後放回）。記錄4次抽中球的數字總和，每多一顆「×2」的球，分數就乘2倍。分數等於8可得獎品。求得到獎品的機率。",
+      "options": {
+        "A": "<span class='frac small'><span class='num'>14</span><span class='den'>81</span></span>",
+        "B": "<span class='frac small'><span class='num'>5</span><span class='den'>27</span></span>",
+        "C": "<span class='frac small'><span class='num'>16</span><span class='den'>81</span></span>",
+        "D": "<span class='frac small'><span class='num'>2</span><span class='den'>9</span></span>"
+      },
+      "answer": "A",
+      "steps": [
+        "設4次中有k次抽到「×2」，其餘(4−k)次是數字球（5或1）。若這些數字球中有j次是「5」，則有(4−k−j)次是「1」。",
+        "分數 = [5j + (4−k−j)] × 2<sup>k</sup>，要讓這個值等於8，逐一檢驗 k=0,1,2,3,4：",
+        "k=0：數字總和需=8。4j+4=8 → j=1（1個5、3個1）。位置排列C(4,1)=4種。",
+        "k=1：剩3次數字總和需=4。4j+3=4無整數解，無解。",
+        "k=2：剩2次數字總和需=2。4j+2=2 → j=0（2次都是1）。位置排列C(4,2)=6種。",
+        "k=3：剩1次數字需=1（這次是1）。位置排列C(4,1)=4種。",
+        "k=4：4次全是×2，分數固定為0，不等於8，無解。",
+        "總有利排列數 = 4+0+6+4+0 = 14種。",
+        "每次抽球有3種等機率結果，每一種特定的4次排列機率為 (<span class='frac small'><span class='num'>1</span><span class='den'>3</span></span>)<sup>4</sup> = <span class='frac small'><span class='num'>1</span><span class='den'>81</span></span>。",
+        "得獎機率 = 14 × <span class='frac small'><span class='num'>1</span><span class='den'>81</span></span> = <span class='frac small'><span class='num'>14</span><span class='den'>81</span></span>。"
+      ],
+      "final": "答案：(A) <span class='frac small'><span class='num'>14</span><span class='den'>81</span></span>"
+    }
+  ]
+}
