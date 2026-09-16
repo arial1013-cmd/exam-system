@@ -98,6 +98,105 @@
       "questionCount": 20,
       "dataFile": "data/115-mathA.json",
       "category": "身障甄試"
+    },
+    {
+      "id": "114-mathB",
+      "year": "114",
+      "subject": "數學B",
+      "code": "A3204",
+      "group": "大學組第一類組",
+      "title": "114學年度身心障礙學生升學大專校院甄試 數學B",
+      "questionCount": 20,
+      "dataFile": "data/114-mathB.json",
+      "category": "身障甄試"
+    },
+    {
+      "id": "114-mathA",
+      "year": "114",
+      "subject": "數學A",
+      "code": "A1103",
+      "group": "大學組第二、三、四類組",
+      "title": "114學年度身心障礙學生升學大專校院甄試 數學A",
+      "questionCount": 20,
+      "dataFile": "data/114-mathA.json",
+      "category": "身障甄試"
+    },
+    {
+      "id": "114-chemistry",
+      "year": "114",
+      "subject": "化學",
+      "code": "A1208",
+      "group": "大學組第二、三、四類組",
+      "title": "114學年度身心障礙學生升學大專校院甄試 化學",
+      "questionCount": 25,
+      "dataFile": "data/114-chemistry.json",
+      "category": "身障甄試"
+    },
+    {
+      "id": "114-physics",
+      "year": "114",
+      "subject": "物理",
+      "code": "A1307",
+      "group": "大學組第二、三類組",
+      "title": "114學年度身心障礙學生升學大專校院甄試 物理",
+      "questionCount": 20,
+      "dataFile": "data/114-physics.json",
+      "category": "身障甄試"
+    },
+    {
+      "id": "114-biology",
+      "year": "114",
+      "subject": "生物",
+      "code": "A2109",
+      "group": "大學組第三、四類組",
+      "title": "114學年度身心障礙學生升學大專校院甄試 生物",
+      "questionCount": 25,
+      "dataFile": "data/114-biology.json",
+      "category": "身障甄試"
+    },
+    {
+      "id": "114-geography",
+      "year": "114",
+      "subject": "地理",
+      "code": "A3306",
+      "group": "大學組第一類組",
+      "title": "114學年度身心障礙學生升學大專校院甄試 地理",
+      "questionCount": 25,
+      "dataFile": "data/114-geography.json",
+      "category": "身障甄試"
+    },
+    {
+      "id": "114-history",
+      "year": "114",
+      "subject": "歷史",
+      "code": "A3105",
+      "group": "大學組第一類組",
+      "title": "114學年度身心障礙學生升學大專校院甄試 歷史",
+      "questionCount": 25,
+      "dataFile": "data/114-history.json",
+      "category": "身障甄試"
+    },
+    {
+      "id": "114-chinese",
+      "year": "114",
+      "subject": "國文",
+      "code": "A2301",
+      "group": "大學組第一、二、三、四類組",
+      "title": "114學年度身心障礙學生升學大專校院甄試 國文",
+      "questionCount": 20,
+      "dataFile": "data/114-chinese.json",
+      "category": "身障甄試"
+    },
+    {
+      "id": "114-english",
+      "year": "114",
+      "subject": "英文",
+      "code": "A2202",
+      "group": "大學組第一、二、三、四類組",
+      "title": "114學年度身心障礙學生升學大專校院甄試 英文",
+      "questionCount": 25,
+      "dataFile": "data/114-english.json",
+      "category": "身障甄試"
     }
   ]
 }

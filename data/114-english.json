@@ -1,0 +1,227 @@
+{
+  "examInfo": {
+    "year": "114",
+    "subject": "英文",
+    "code": "A2202",
+    "group": "大學組第一、二、三、四類組",
+    "title": "114學年度身心障礙學生升學大專校院甄試 英文",
+    "pointsPerQuestion": 4
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "The victory in the 2024 international baseball game does not represent the success of one individual but rather a ______ effort of the whole team.",
+      "options": {"A": "joint", "B": "previous", "C": "tribal", "D": "responsible"},
+      "answer": "A",
+      "steps": ["「joint effort」意為「共同努力」，符合「整個團隊的努力」的語境。"],
+      "final": "答案：(A) joint"
+    },
+    {
+      "id": 2,
+      "text": "You should ______ this button back on your shirt right away before you lose it.",
+      "options": {"A": "bind", "B": "repair", "C": "sew", "D": "tie"},
+      "answer": "C",
+      "steps": ["「sew a button」（縫鈕釦）是固定搭配，指把鈕釦縫回衣服上。"],
+      "final": "答案：(C) sew"
+    },
+    {
+      "id": 3,
+      "text": "You should come to the party tonight; it is a good chance to ______ with colleagues from other departments.",
+      "options": {"A": "assemble", "B": "network", "C": "impact", "D": "overlook"},
+      "answer": "B",
+      "steps": ["「network with someone」意為「與人建立人脈、交流拓展關係」，符合與其他部門同事互動的語境。"],
+      "final": "答案：(B) network"
+    },
+    {
+      "id": 4,
+      "text": "The employee solved the problem, but her boss took all the ______.",
+      "options": {"A": "credit", "B": "gratitude", "C": "legend", "D": "performance"},
+      "answer": "A",
+      "steps": ["「take credit」意為「把功勞攬為己有」，符合上司搶走部屬功勞的語境。"],
+      "final": "答案：(A) credit"
+    },
+    {
+      "id": 5,
+      "text": "Customers are required by the restaurant to pay a ______ of NT$1,000 when they make the reservation.",
+      "options": {"A": "budget", "B": "deposit", "C": "fine", "D": "contribution"},
+      "answer": "B",
+      "steps": ["「deposit」意為「訂金、押金」，符合訂位時須先支付一筆款項的語境。"],
+      "final": "答案：(B) deposit"
+    },
+    {
+      "id": 6,
+      "text": "The mayor's phone has been ringing ______ since the news about the scandal was released this morning.",
+      "options": {"A": "furiously", "B": "promptly", "C": "nervously", "D": "constantly"},
+      "answer": "D",
+      "steps": ["「ringing constantly」意為「持續不斷地響」，符合電話從早上開始不停響的語境。"],
+      "final": "答案：(D) constantly"
+    },
+    {
+      "id": 7,
+      "text": "The survivors were in ______ need of medical help as many of them had been seriously injured in the air crash.",
+      "options": {"A": "alert", "B": "intense", "C": "urgent", "D": "essential"},
+      "answer": "C",
+      "steps": ["「urgent need」意為「急迫的需求」，符合空難重傷倖存者急需醫療協助的語境。"],
+      "final": "答案：(C) urgent"
+    },
+    {
+      "id": 8,
+      "text": "The host of the talk show has received many complaints from the audience as one of the guest speakers made some really ______ statements in the show.",
+      "options": {"A": "clumsy", "B": "flexible", "C": "objectionable", "D": "experimental"},
+      "answer": "C",
+      "steps": ["「objectionable」意為「令人反感、招致反對的」，符合來賓發言引起觀眾大量投訴抱怨的語境。"],
+      "final": "答案：(C) objectionable"
+    },
+    {
+      "id": 9,
+      "text": "Please put that ______ of books in the recycle bin after you clean off the shelf.",
+      "options": {"A": "stack", "B": "banner", "C": "framework", "D": "shortage"},
+      "answer": "A",
+      "steps": ["「a stack of books」意為「一疊書」，是常見搭配用語。"],
+      "final": "答案：(A) stack"
+    },
+    {
+      "id": 10,
+      "text": "The missing child's family is desperately seeking any possible information about his activities or ______.",
+      "options": {"A": "documentaries", "B": "whereabouts", "C": "stereotypes", "D": "rebellions"},
+      "answer": "B",
+      "steps": ["「whereabouts」意為「下落、行蹤」，符合家屬急欲得知失蹤孩童行蹤的語境。"],
+      "final": "答案：(B) whereabouts"
+    },
+    {
+      "id": 11,
+      "text": "【11-15題組｜冷沙漠】文章大意：冷沙漠（溫帶沙漠）終年寒冷乾燥，動植物發展出特殊適應方式。\n＿＿(11)＿＿ the lack of air moisture, they experience dry weather and very little rain or snow.",
+      "options": {"A": "As for", "B": "Concerned about", "C": "Regardless of", "D": "Owing to"},
+      "answer": "D",
+      "steps": ["「Owing to」意為「由於、因為」，表因果關係，符合「因空氣濕度不足，故經歷乾燥氣候」的語意邏輯。"],
+      "final": "答案：(D) Owing to"
+    },
+    {
+      "id": 12,
+      "text": "【11-15題組】Most animals living in cold deserts have developed adaptations to ＿＿(12)＿＿ the falling temperatures.",
+      "options": {"A": "bring about", "B": "cope with", "C": "follow after", "D": "hand over"},
+      "answer": "B",
+      "steps": ["「cope with」意為「應付、因應」，符合動物演化出適應機制以「應付」低溫的語境。"],
+      "final": "答案：(B) cope with"
+    },
+    {
+      "id": 13,
+      "text": "【11-15題組】Bactrian camels ＿＿(13)＿＿ in the Gobi desert have thick and hairy coats to keep them warm during the cold winters.",
+      "options": {"A": "find", "B": "finding", "C": "are found", "D": "found"},
+      "answer": "D",
+      "steps": ["此處為過去分詞作後位修飾語（省略關係代名詞及be動詞的化簡關係子句），意即「被發現於戈壁沙漠的雙峰駱駝」，故用過去分詞found。"],
+      "final": "答案：(D) found"
+    },
+    {
+      "id": 14,
+      "text": "【11-15題組】The accumulation and ＿＿(14)＿＿ of snow changes the landscapes of cold deserts drastically.",
+      "options": {"A": "melting", "B": "draining", "C": "burying", "D": "polluting"},
+      "answer": "A",
+      "steps": ["「accumulation and melting」（積雪與融雪）是一組相對的自然過程，兩者共同劇烈改變地貌景觀，語意通順。"],
+      "final": "答案：(A) melting"
+    },
+    {
+      "id": 15,
+      "text": "【11-15題組】Many cold desert animals change their color to match their changing ＿＿(15)＿＿ so as to protect themselves from being seen and preyed upon.",
+      "options": {"A": "boundaries", "B": "contexts", "C": "surroundings", "D": "frontiers"},
+      "answer": "C",
+      "steps": ["「surroundings」意為「周遭環境」，符合動物改變體色以配合環境變化、避免被天敵發現的語境。"],
+      "final": "答案：(C) surroundings"
+    },
+    {
+      "id": 16,
+      "text": "【16-20題組｜黑色星期五】文章大意：感恩節隔天「黑色星期五」成為美國最熱鬧的購物日，文章探討此名稱的由來。\nEvery year, millions of shoppers visit websites and ＿＿(16)＿＿ stores on that day, seeking the best deals of the season.",
+      "options": {"A": "call upon", "B": "draw on", "C": "flood into", "D": "hang over"},
+      "answer": "C",
+      "steps": ["「flood into」意為「湧入」，符合大批購物者湧入實體店面搶購優惠的語境。"],
+      "final": "答案：(C) flood into"
+    },
+    {
+      "id": 17,
+      "text": "【16-20題組】police officers in Philadelphia began using \"Black Friday\" ＿＿(17)＿＿ the disorder that resulted on that day.",
+      "options": {"A": "describes", "B": "to describe", "C": "described", "D": "were describing"},
+      "answer": "B",
+      "steps": ["「使用……來描述……」為不定詞表目的的用法：begin using X to describe Y，故填不定詞to describe。"],
+      "final": "答案：(B) to describe"
+    },
+    {
+      "id": 18,
+      "text": "【16-20題組】The huge crowds created a headache for the police, who worked longer ＿＿(18)＿＿ than usual.",
+      "options": {"A": "distances", "B": "errands", "C": "forces", "D": "shifts"},
+      "answer": "D",
+      "steps": ["「work longer shifts」意為「輪值更長的班次」，符合警察因應人潮需超時輪班工作的語境。"],
+      "final": "答案：(D) shifts"
+    },
+    {
+      "id": 19,
+      "text": "【16-20題組】＿＿(19)＿＿, many look at this name through an accounting lens.",
+      "options": {"A": "Eventually", "B": "However", "C": "Moreover", "D": "Accordingly"},
+      "answer": "B",
+      "steps": ["前段是警方角度的命名由來解釋，此處以「However」（然而）轉折，引出另一種從會計角度出發的不同解釋。"],
+      "final": "答案：(B) However"
+    },
+    {
+      "id": 20,
+      "text": "【16-20題組】red ink indicated a loss and black ＿＿(20)＿＿ a profit.",
+      "options": {"A": "demonstrated", "B": "reminded", "C": "schemed", "D": "yielded"},
+      "answer": "A",
+      "steps": ["此句與前半部「red ink indicated a loss」為對稱平行結構，「demonstrated」（顯示、表明）與「indicated」意義相近，符合對稱語意「黑色墨水則顯示獲利」。"],
+      "final": "答案：(A) demonstrated"
+    },
+    {
+      "id": 21,
+      "text": "【21-25題組｜關島棕樹蛇】文章大意：棕樹蛇入侵關島造成鳥類滅絕與蜘蛛數量暴增，生態嚴重失衡。\nWhat is the main idea of the passage?",
+      "options": {
+        "A": "The invasion of snakes has caused the ecosystem of Guam to be out of balance.",
+        "B": "The birds on Guam are dying out because of the introduction of snakes.",
+        "C": "The population of spiders is exploding on Guam due to the absence of birds.",
+        "D": "The unpredictable weather system has turned Guam into a hellish island."
+      },
+      "answer": "A",
+      "steps": ["全文涵蓋蛇入侵導致鳥類滅絕、進而造成蜘蛛數量暴增等一連串生態連鎖反應，主旨應是「蛇的入侵造成關島生態系失衡」這個較全面的概念，(A)最為適當，其餘選項僅涵蓋文章的部分內容（單獨鳥類滅絕或蜘蛛暴增），並非完整主旨；(D)則與文章內容（生態入侵，非天氣）無關。"],
+      "final": "答案：(A) The invasion of snakes has caused the ecosystem of Guam to be out of balance."
+    },
+    {
+      "id": 22,
+      "text": "【21-25題組】What does \"one\" in Paragraph Two refer to?",
+      "options": {"A": "Pig.", "B": "Snake.", "C": "Bird.", "D": "Spider."},
+      "answer": "C",
+      "steps": ["第二段提及蛇「emptying the jungle of every single one」，呼應第一段提到的原生鳥類（native birds），且後文接著說「12種鳥類中10種已滅絕」，故「one」指的是「鳥（bird）」。"],
+      "final": "答案：(C) Bird."
+    },
+    {
+      "id": 23,
+      "text": "【21-25題組】Which of the following is closest in meaning to \"Guam's spider population may once have been unremarkable\" in Paragraph Four?",
+      "options": {
+        "A": "There may have been few spiders on Guam before.",
+        "B": "The spider's webs on Guam were not remarkably beautiful before.",
+        "C": "The number of spiders used to be smaller than the population of Guam.",
+        "D": "There may have been more spiders on Guam than on the nearby islands."
+      },
+      "answer": "A",
+      "steps": ["「unremarkable」意為「不特別顯眼、不出眾」，套用於蜘蛛族群數量，意指當時蜘蛛數量並不特別多、不引人注目，最接近選項(A)「以前可能蜘蛛數量很少」的說法。"],
+      "final": "答案：(A) There may have been few spiders on Guam before."
+    },
+    {
+      "id": 24,
+      "text": "【21-25題組】Which of the following is most likely the major organizational structure of the passage?",
+      "options": {"A": "Comparison and contrast.", "B": "Problem-solution.", "C": "Time sequence.", "D": "Cause-effect."},
+      "answer": "D",
+      "steps": ["全文以「蛇的入侵」為起因，依序說明其導致鳥類滅絕、蜘蛛暴增等一連串「結果」，屬於典型的「因果關係」（cause-effect）文章組織架構。"],
+      "final": "答案：(D) Cause-effect."
+    },
+    {
+      "id": 25,
+      "text": "【21-25題組】According to the passage, which of the following statements is true?",
+      "options": {
+        "A": "Wildlife scientists managed to correct the mistakes made by human.",
+        "B": "Guam has 40 times more spiders than neighboring islands all year round.",
+        "C": "Brown tree snakes were intentionally imported into Guam by merchants.",
+        "D": "In the Bahamas, there are more spiders on islands without lizards."
+      },
+      "answer": "D",
+      "steps": ["文中明確提及巴哈馬的研究發現「沒有蜥蜴（其天敵）的島嶼上蜘蛛數量約多10倍」，符合(D)敘述。(A)錯誤：文末說明「入侵者正在獲勝」，人類尚未成功糾正此生態問題。(B)錯誤：文中限定「雨季期間」蜘蛛數量為鄰近島嶼的40倍，並非「全年」皆是如此。(C)錯誤：文中說明棕樹蛇是「意外（accidentally）」隨貨船引入，並非商人「刻意」引進。"],
+      "final": "答案：(D) In the Bahamas, there are more spiders on islands without lizards."
+    }
+  ]
+}
