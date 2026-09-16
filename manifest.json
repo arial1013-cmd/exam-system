@@ -54,6 +54,50 @@
       "questionCount": 25,
       "dataFile": "data/115-history.json",
       "category": "身障甄試"
+    },
+    {
+      "id": "115-physics",
+      "year": "115",
+      "subject": "物理",
+      "code": "A1307",
+      "group": "大學組第二、三類組",
+      "title": "115學年度身心障礙學生升學大專校院甄試 物理",
+      "questionCount": 20,
+      "dataFile": "data/115-physics.json",
+      "category": "身障甄試"
+    },
+    {
+      "id": "115-chemistry",
+      "year": "115",
+      "subject": "化學",
+      "code": "A1208",
+      "group": "大學組第二、三、四類組",
+      "title": "115學年度身心障礙學生升學大專校院甄試 化學",
+      "questionCount": 25,
+      "dataFile": "data/115-chemistry.json",
+      "category": "身障甄試"
+    },
+    {
+      "id": "115-biology",
+      "year": "115",
+      "subject": "生物",
+      "code": "A2109",
+      "group": "大學組第三、四類組",
+      "title": "115學年度身心障礙學生升學大專校院甄試 生物",
+      "questionCount": 25,
+      "dataFile": "data/115-biology.json",
+      "category": "身障甄試"
+    },
+    {
+      "id": "115-mathA",
+      "year": "115",
+      "subject": "數學A",
+      "code": "A1103",
+      "group": "大學組第二、三、四類組",
+      "title": "115學年度身心障礙學生升學大專校院甄試 數學A",
+      "questionCount": 20,
+      "dataFile": "data/115-mathA.json",
+      "category": "身障甄試"
     }
   ]
 }

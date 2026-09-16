@@ -1,0 +1,310 @@
+{
+  "examInfo": {
+    "year": "115",
+    "subject": "數學A",
+    "code": "A1103",
+    "group": "大學組第二、三、四類組",
+    "title": "115學年度身心障礙學生升學大專校院甄試 數學A",
+    "pointsPerQuestion": 5
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "若實數a、b滿足 2<sup>a+b</sup>=2×4<sup>a−b</sup>，則a−3b的值為何？",
+      "options": {"A": "−2", "B": "−1", "C": "0", "D": "1"},
+      "answer": "B",
+      "steps": [
+        "將右式化成以2為底：2×4<sup>a−b</sup> = 2¹×(2²)<sup>a−b</sup> = 2<sup>1+2(a−b)</sup> = 2<sup>1+2a−2b</sup>",
+        "兩邊指數相等：a+b = 1+2a−2b",
+        "整理：a+b−2a+2b = 1 → −a+3b = 1 → a−3b = −1"
+      ],
+      "final": "答案：(B) −1"
+    },
+    {
+      "id": 2,
+      "text": "設二次實係數多項式 y=−x²+a(x−1)²，其函數圖形頂點的x坐標為−1，試問a的值為何？",
+      "options": {
+        "A": "<span class='frac small'><span class='num'>−1</span><span class='den'>2</span></span>",
+        "B": "<span class='frac small'><span class='num'>−1</span><span class='den'>4</span></span>",
+        "C": "<span class='frac small'><span class='num'>1</span><span class='den'>4</span></span>",
+        "D": "<span class='frac small'><span class='num'>1</span><span class='den'>2</span></span>"
+      },
+      "answer": "D",
+      "steps": [
+        "展開：y = −x² + a(x²−2x+1) = (a−1)x² − 2ax + a",
+        "頂點x坐標 = −(−2a)/(2(a−1)) = a/(a−1)",
+        "設 a/(a−1) = −1 → a = −(a−1) = −a+1 → 2a=1 → a=1/2"
+      ],
+      "final": "答案：(D) 1/2"
+    },
+    {
+      "id": 3,
+      "text": "已知實數a、b、c為等比數列，且a−b、a+c、a−2b+c三數為等差數列。試求 b/a 的值為何？",
+      "options": {"A": "−1", "B": "2", "C": "−3", "D": "4"},
+      "answer": "C",
+      "steps": [
+        "設等比數列公比為r，則b=ar，c=ar²。",
+        "等差數列條件：2(a+c) = (a−b)+(a−2b+c) → 2a+2c = 2a−3b+c → c = −3b",
+        "代入 c=ar²=−3b=−3ar：ar²=−3ar → r²=−3r → r(r+3)=0，因r≠0（等比數列公比不為0）故 r=−3",
+        "b/a = r = −3"
+      ],
+      "final": "答案：(C) −3"
+    },
+    {
+      "id": 4,
+      "text": "設a、b、c為實數，有一聯立方程組 ax+y+2z=1，bx−y+z=2，(a−b)x+2y+z=c，其增廣矩陣為 <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>a</span><span>1</span><span>2</span><span>1</span><span>b</span><span>−1</span><span>1</span><span>2</span><span>a−b</span><span>2</span><span>1</span><span>c</span></span><span class='bracket'>]</span></span>。若此聯立方程組有解，試問c的值為何？",
+      "options": {"A": "−2", "B": "−1", "C": "1", "D": "2"},
+      "answer": "B",
+      "steps": [
+        "觀察第三式的係數，恰好等於第一式減去第二式的係數：(1)−(2)得 (a−b)x + 2y + z = 1−2 = −1",
+        "而第三式正是 (a−b)x+2y+z=c，若方程組有解（相容），則必須 c = −1，否則將產生矛盾方程式。"
+      ],
+      "final": "答案：(B) −1"
+    },
+    {
+      "id": 5,
+      "text": "平面上有一梯形ABCD，AD與BC平行，AB=4、BC=6，且cos∠ABC=1/4。若∠ACD=∠ACB，試問AD的長度為何？",
+      "options": {"A": "4", "B": "5", "C": "2√7", "D": "6"},
+      "answer": "A",
+      "steps": [
+        "因AD∥BC，∠DAC與∠ACB為內錯角，故∠DAC=∠ACB；又已知∠ACD=∠ACB，所以∠DAC=∠ACD，三角形ACD為等腰三角形，AD=CD。",
+        "在三角形ABC中，用餘弦定理求AC：AC² = 4²+6²−2×4×6×(1/4) = 16+36−12 = 40，AC=2√10。",
+        "設∠ACB=θ，由cos∠ABC=1/4得sin∠ABC=√15/4。用正弦定理：AB/sinθ = AC/sin∠ABC，解得 sinθ = AB×sin∠ABC/AC = 4×(√15/4)/(2√10) = √15/(2√10) = √6/4，故 cosθ=√(1−6/16)=√10/4。",
+        "在等腰三角形ACD中，設∠DAC=∠ACD=θ，用正弦定理：AD = AC/(2cosθ) = 2√10/(2×√10/4) = 4"
+      ],
+      "final": "答案：(A) 4"
+    },
+    {
+      "id": 6,
+      "text": "坐標平面上有一圓及圓上兩點P、Q，已知P、Q兩點對稱於直線x−2y+6=0且圓心到直線PQ的距離為4。若P點的坐標為(0,−2)，則此圓的半徑為何？",
+      "options": {"A": "4", "B": "2√5", "C": "5", "D": "6"},
+      "answer": "D",
+      "steps": [
+        "P、Q對稱於直線L：x−2y+6=0，代表L是PQ的垂直平分線，故圓心必在L上（圓心到P、Q距離相等）。",
+        "設M為P在L上的垂足（同時也是PQ的中點）。用垂足公式求得 M=(−2,2)。",
+        "PM的長度 = |(0−(−2), −2−2)| = |(2,−4)| = 2√5。",
+        "因為圓心O在L上，M也在L上，且PQ⊥L，所以OM沿著L方向，正好是「圓心到弦PQ的距離」，已知OM=4。",
+        "三角形OMP為直角三角形（直角在M）：OP² = OM²+PM² = 4²+(2√5)² = 16+20 = 36，OP=6。OP即為半徑，故半徑=6。"
+      ],
+      "final": "答案：(D) 6"
+    },
+    {
+      "id": 7,
+      "text": "一個不透明袋子裡裝有八顆球，標示1號的球有四顆，2號的球有三顆，4號的球有一顆。每次取一顆球，取後不放回，共取出三顆球。在取出的三顆球號碼相乘的數字為8的條件下，第一顆取出的球是1號的機率為何？",
+      "options": {
+        "A": "<span class='frac small'><span class='num'>2</span><span class='den'>3</span></span>",
+        "B": "<span class='frac small'><span class='num'>24</span><span class='den'>73</span></span>",
+        "C": "<span class='frac small'><span class='num'>4</span><span class='den'>13</span></span>",
+        "D": "<span class='frac small'><span class='num'>2</span><span class='den'>7</span></span>"
+      },
+      "answer": "C",
+      "steps": [
+        "三數相乘為8的組合（數字只能是1,2,4）只有兩種：{1,2,4}或{2,2,2}。",
+        "考慮抽球有順序，分母（乘積=8的所有取法數）：{1,2,4}組合共有 4×3×1×3!=72種排列；{2,2,2}組合（3顆2號球全取）共有 3!=6種排列。分母 = 72+6 = 78。",
+        "分子（第一顆是1號、且總乘積=8的取法數）：第一顆選1號（4種選擇），後兩顆必須是2號和4號各一顆（湊成乘積8），選法為3×1，且這兩顆有2種順序排列：4×3×1×2 = 24。",
+        "所求機率 = 24/78 = 4/13"
+      ],
+      "final": "答案：(C) 4/13"
+    },
+    {
+      "id": 8,
+      "text": "平面上有四個相異點A、B、C、D，已知∠ABC=45°、∠ACB=60°，且D在線段BC上。若三角形ABD的外接圓半徑為6，則三角形ACD的外接圓半徑為何？",
+      "options": {"A": "2√2", "B": "2√3", "C": "2√6", "D": "3√3"},
+      "answer": "C",
+      "steps": [
+        "因D在BC上，∠ADB與∠ADC互補（相加=180°），故sin∠ADB=sin∠ADC。",
+        "用正弦定理：三角形ABD中，AB/sin∠ADB = 2×6 = 12；三角形ACD中，AC/sin∠ADC = 2R（R為所求半徑）。",
+        "由於sin∠ADB=sin∠ADC：2R = AC/sin∠ADC = AC×(12/AB) = 12×(AC/AB)",
+        "在三角形ABC中用正弦定理求AC/AB：AC/sin45° = AB/sin60° → AC/AB = sin45°/sin60° = (√2/2)/(√3/2) = √6/3",
+        "2R = 12×(√6/3) = 4√6，R = 2√6"
+      ],
+      "final": "答案：(C) 2√6"
+    },
+    {
+      "id": 9,
+      "text": "坐標平面上有兩向量u⃗和v⃗。已知u⃗+v⃗=(2√2,2√2)，且向量內積u⃗·v⃗≥1。若u⃗=(0,b)，則b的最大值為何？",
+      "options": {"A": "1+√2", "B": "2+√2", "C": "3+√2", "D": "4+√2"},
+      "answer": "A",
+      "steps": [
+        "v⃗ = (2√2,2√2)−(0,b) = (2√2, 2√2−b)",
+        "u⃗·v⃗ = 0×2√2 + b×(2√2−b) = 2√2b − b² ≥ 1",
+        "整理：b²−2√2b+1 ≤ 0，解此二次不等式：b = [2√2±√(8−4)]/2 = √2±1，故 b∈[√2−1, √2+1]",
+        "b的最大值 = √2+1 = 1+√2"
+      ],
+      "final": "答案：(A) 1+√2"
+    },
+    {
+      "id": 10,
+      "text": "令 f(x)=3cosπx+4sinπx，其中π為圓周率。試問 g(x)=f(x)+f(−x) 的振幅為何？",
+      "options": {"A": "3", "B": "4", "C": "6", "D": "8"},
+      "answer": "C",
+      "steps": [
+        "f(−x) = 3cos(−πx)+4sin(−πx) = 3cosπx − 4sinπx（cos為偶函數，sin為奇函數）",
+        "g(x) = f(x)+f(−x) = (3cosπx+4sinπx)+(3cosπx−4sinπx) = 6cosπx",
+        "振幅 = |6| = 6"
+      ],
+      "final": "答案：(C) 6"
+    },
+    {
+      "id": 11,
+      "text": "設a、b為兩實數且 log b = −2ᵃ。若a<0，則下列哪一個選項的值最大？",
+      "options": {
+        "A": "log b",
+        "B": "<span class='frac small'><span class='num'>1</span><span class='den'>log b</span></span>（即log(1/b)）",
+        "C": "(log b)²",
+        "D": "log√b"
+      },
+      "answer": "B",
+      "steps": [
+        "因a<0，2ᵃ∈(0,1)，故 log b = −2ᵃ ∈ (−1, 0)。設 t=log b，t為介於−1與0之間的負數。",
+        "比較各選項：(A) t（負值）；(B) log(1/b)=−t（正值）；(C) t²（正值）；(D) (1/2)t（負值，介於−0.5與0之間）。",
+        "只需比較(B)與(C)兩個正值：設t=−s，s∈(0,1)，則(B)=s，(C)=s²。因s∈(0,1)，故s>s²（例如s=0.5時，s²=0.25<0.5），所以(B)>(C)。",
+        "綜合比較，最大值為選項(B) log(1/b)。"
+      ],
+      "final": "答案：(B) log(1/b)"
+    },
+    {
+      "id": 12,
+      "text": "設O、P為坐標空間中相異兩點，其中O為原點，且點P在平面x+y+z=1的投影點為Q。已知向量內積 PQ⃗·OQ⃗=3，試問|PQ⃗|的值為何？",
+      "options": {"A": "2√3", "B": "3", "C": "3√2", "D": "3√3"},
+      "answer": "D",
+      "steps": [
+        "Q是P在平面x+y+z=1上的投影點，故PQ⃗垂直於該平面，即PQ⃗與法向量(1,1,1)平行，設PQ⃗=λ(1,1,1)。",
+        "因Q在平面上，滿足(1,1,1)·OQ⃗=1（即Q的坐標和為1）。",
+        "PQ⃗·OQ⃗ = λ(1,1,1)·OQ⃗ = λ×1 = λ = 3",
+        "PQ⃗=3(1,1,1)，|PQ⃗| = 3×√(1²+1²+1²) = 3√3"
+      ],
+      "final": "答案：(D) 3√3"
+    },
+    {
+      "id": 13,
+      "text": "設三次實係數多項式f(x)的首項係數為1。已知 f(x)=(x²+1)g(x)+x，其中g(x)為多項式且f(1)=−1。試求函數y=f(x)圖形的對稱中心之x坐標為何？",
+      "options": {
+        "A": "<span class='frac small'><span class='num'>2</span><span class='den'>3</span></span>",
+        "B": "<span class='frac small'><span class='num'>1</span><span class='den'>3</span></span>",
+        "C": "<span class='frac small'><span class='num'>−1</span><span class='den'>3</span></span>",
+        "D": "<span class='frac small'><span class='num'>−2</span><span class='den'>3</span></span>"
+      },
+      "answer": "A",
+      "steps": [
+        "因f(x)為三次首項係數1的多項式，且f(x)=(x²+1)g(x)+x，比較次數可知g(x)必為一次多項式，設g(x)=x+d，則f(x)=(x²+1)(x+d)+x = x³+dx²+2x+d",
+        "代入f(1)=−1：1+d+2+d=−1 → 2d+3=−1 → d=−2，故f(x)=x³−2x²+2x−2",
+        "三次多項式 y=x³+px²+qx+r 的對稱中心x坐標公式為 −p/3，這裡p=−2，故對稱中心x坐標 = −(−2)/3 = 2/3"
+      ],
+      "final": "答案：(A) 2/3"
+    },
+    {
+      "id": 14,
+      "text": "已知θ₁、θ₂、θ₃三個實數成等差數列，且公差為π/2。若π/2≤θ₁<π且sin²θ₂=9/25，則sin(θ₁+θ₃)之值為何？",
+      "options": {
+        "A": "<span class='frac small'><span class='num'>12</span><span class='den'>25</span></span>",
+        "B": "<span class='frac small'><span class='num'>−12</span><span class='den'>25</span></span>",
+        "C": "<span class='frac small'><span class='num'>−24</span><span class='den'>25</span></span>",
+        "D": "<span class='frac small'><span class='num'>24</span><span class='den'>25</span></span>"
+      },
+      "answer": "D",
+      "steps": [
+        "θ₂=θ₁+π/2，θ₃=θ₁+π。sin(θ₁+θ₃)=sin(2θ₁+π)=−sin(2θ₁)",
+        "sinθ₂=sin(θ₁+π/2)=cosθ₁，所以cos²θ₁=sin²θ₂=9/25，cosθ₁=±3/5。因π/2≤θ₁<π（第二象限），cosθ₁<0，故cosθ₁=−3/5。",
+        "sinθ₁=√(1−9/25)=4/5（第二象限sin為正）",
+        "sin(2θ₁)=2sinθ₁cosθ₁=2×(4/5)×(−3/5)=−24/25",
+        "sin(θ₁+θ₃) = −sin(2θ₁) = −(−24/25) = 24/25"
+      ],
+      "final": "答案：(D) 24/25"
+    },
+    {
+      "id": 15,
+      "text": "某公司舉辦活動，起始分數是1分，擲一公正硬幣，正面則將目前分數翻倍並可繼續投擲，反面便扣1分並停止，每人最多擲三次。求某甲得分的期望值。",
+      "options": {
+        "A": "<span class='frac small'><span class='num'>5</span><span class='den'>4</span></span>",
+        "B": "<span class='frac small'><span class='num'>11</span><span class='den'>6</span></span>",
+        "C": "<span class='frac small'><span class='num'>13</span><span class='den'>8</span></span>",
+        "D": "<span class='frac small'><span class='num'>17</span><span class='den'>10</span></span>"
+      },
+      "answer": "C",
+      "steps": [
+        "逐一列出所有可能路徑：反(機率1/2)→得0分；正反(機率1/4)→得1分；正正反(機率1/8)→得3分；正正正(機率1/8，達最多三次停止)→得8分。",
+        "驗證機率總和：1/2+1/4+1/8+1/8=1 ✓",
+        "期望值 = 0×(1/2)+1×(1/4)+3×(1/8)+8×(1/8) = 2/8+3/8+8/8 = 13/8"
+      ],
+      "final": "答案：(C) 13/8"
+    },
+    {
+      "id": 16,
+      "text": "令A為逆時針旋轉30°之旋轉矩陣。已知坐標平面上一點(a,a)滿足 A<span class='matrix'><span class='bracket'>[</span><span class='mgrid'><span>a</span><span>a</span></span><span class='bracket'>]</span></span>=<span class='matrix'><span class='bracket'>[</span><span class='mgrid'><span>b</span><span>c</span></span><span class='bracket'>]</span></span>，其中b>c且bc=2。試求a的值為何？",
+      "options": {"A": "−2", "B": "−√3", "C": "√3", "D": "2"},
+      "answer": "A",
+      "steps": [
+        "旋轉矩陣A(逆時針30°) = <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>cos30°</span><span>−sin30°</span><span>sin30°</span><span>cos30°</span></span><span class='bracket'>]</span></span> = <span class='matrix'><span class='bracket'>[</span><span class='mgrid c2'><span>√3/2</span><span>−1/2</span><span>1/2</span><span>√3/2</span></span><span class='bracket'>]</span></span>",
+        "A[a;a] = [a(√3−1)/2 ; a(√3+1)/2]，所以 b=a(√3−1)/2，c=a(√3+1)/2",
+        "bc = a²(√3−1)(√3+1)/4 = a²(3−1)/4 = a²/2 = 2 → a²=4 → a=±2",
+        "b−c = a[(√3−1)−(√3+1)]/2 = a(−2)/2 = −a。已知b>c，即b−c>0，故−a>0，a<0。",
+        "結合a²=4與a<0，得 a=−2"
+      ],
+      "final": "答案：(A) −2"
+    },
+    {
+      "id": 17,
+      "text": "坐標平面上有五點，其x坐標分別為−2,−1,0,1,2。試問這五點都在下列哪一個選項的函數圖形上時，其所對應的迴歸直線斜率為0？",
+      "options": {
+        "A": "f(x)=x+2",
+        "B": "f(x)=x²+2",
+        "C": "f(x)=x³+2",
+        "D": "f(x)=(x+2)⁴"
+      },
+      "answer": "B",
+      "steps": [
+        "x值對稱分布（−2,−1,0,1,2），平均值x̄=0。回歸直線斜率 = Σxy/Σx²（因x̄=0），斜率為0需要Σx·f(x)=0。",
+        "檢驗(B) f(x)=x²+2：Σx(x²+2)=Σx³+2Σx=Σx³（因Σx=0）。逐項計算Σx³ = (−2)³+(−1)³+0+1³+2³ = −8−1+0+1+8 = 0，符合斜率為0的條件！",
+        "檢驗其他選項：(A)Σx(x+2)=Σx²≠0；(C)Σx(x³+2)=Σx⁴=34≠0；(D)非對稱函數，一般不會恰好使Σxy=0。"
+      ],
+      "final": "答案：(B) f(x)=x²+2"
+    },
+    {
+      "id": 18,
+      "text": "某商店有3款餅乾、3款飲料與3款玩具，每款餅乾一份100公克，每款飲料一份200公克，每款玩具一份300公克。現該店想推出重量為1000公克的福袋，每個福袋須包含餅乾、飲料及玩具，且款項均不重複。試問福袋有幾種不同的組合？",
+      "options": {"A": "15", "B": "27", "C": "36", "D": "45"},
+      "answer": "D",
+      "steps": [
+        "設選x款餅乾、y款飲料、z款玩具，重量方程：100x+200y+300z=1000，化簡為 x+2y+3z=10，其中1≤x,y,z≤3（皆須包含且各不超過3款）。",
+        "逐一檢驗滿足條件的(x,y,z)組合：z=1時，x+2y=7，(x,y)=(3,2)或(1,3)符合範圍；z=2時，x+2y=4，(x,y)=(2,1)符合範圍；z=3時無解。",
+        "合法組合為(3,2,1)、(1,3,1)、(2,1,2)。",
+        "各組合的選法數 = C(3,x)×C(3,y)×C(3,z)：(3,2,1)→1×3×3=9；(1,3,1)→3×1×3=9；(2,1,2)→3×3×3=27。",
+        "總組合數 = 9+9+27 = 45"
+      ],
+      "final": "答案：(D) 45"
+    },
+    {
+      "id": 19,
+      "text": "某遊戲有甲、乙兩個角色，遊戲初始甲共有x隻（x為正整數），乙共有60隻。每回合開始時，甲會增為當前數量的4倍，乙會增為當前數量的2倍，隨後乙立即開始消滅甲（每1隻乙恰能消滅1隻甲）。若甲要到第三回合才會被乙完全消滅，則x值可能為下列哪一個選項？",
+      "options": {"A": "45", "B": "50", "C": "55", "D": "60"},
+      "answer": "B",
+      "steps": [
+        "第一回合開始：甲=4x，乙=120。乙消滅甲後，甲剩餘=4x−120（需4x>120，即x>30，否則第一回合就被消滅完）。",
+        "第二回合開始：甲=4(4x−120)=16x−480，乙=2×120=240。乙消滅甲後，甲剩餘=16x−480−240=16x−720（需x>45，否則第二回合就被消滅完）。",
+        "第三回合開始：甲=4(16x−720)=64x−2880，乙=2×240=480。要在第三回合被完全消滅，需 64x−2880≤480 → x≤52.5。",
+        "綜合條件：45<x≤52.5，符合的選項只有50。"
+      ],
+      "final": "答案：(B) 50"
+    },
+    {
+      "id": 20,
+      "text": "坐標空間中有兩歪斜線L₁: x=y=−z/2 及 L₂: (x−2)/2=(6−y)/4=1−z。已知直線L與L₁及L₂都相交且垂直。若在L上有一點(a,b,c)分別到L₁及L₂的距離都相等，則a+b+c之值為何？",
+      "options": {
+        "A": "3",
+        "B": "<span class='frac small'><span class='num'>7</span><span class='den'>2</span></span>",
+        "C": "4",
+        "D": "<span class='frac small'><span class='num'>−7</span><span class='den'>2</span></span>"
+      },
+      "answer": "A",
+      "steps": [
+        "L₁方向向量d₁=(1,1,−2)，L₂方向向量d₂=(2,−4,−1)。L的方向 = d₁×d₂ = (−9,−3,−6)，化簡為(3,1,2)。",
+        "設L₁上一點A(t,t,−2t)、L₂上一點B(2+2s,6−4s,1−s)，令AB垂直於d₁和d₂，解聯立方程組得 t=1, s=1，故A=(1,1,−2)，B=(4,2,0)（此即公垂線L與兩歪斜線的交點）。",
+        "設L上的點 P = A+k(3,1,2)。由於L⊥L₁，A是垂足，故 P到L₁的距離 = |PA| = |k|√14；同理P到L₂的距離 = |PB| = |k−1|√14（B對應k=1）。",
+        "令兩距離相等：|k| = |k−1|，解得 k=1/2。",
+        "P = (1,1,−2)+(1/2)(3,1,2) = (2.5, 1.5, −1)，故 a+b+c = 2.5+1.5−1 = 3"
+      ],
+      "final": "答案：(A) 3"
+    }
+  ]
+}
