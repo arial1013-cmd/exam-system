@@ -8,7 +8,8 @@
       "group": "大學組第一類組",
       "title": "115學年度身心障礙學生升學大專校院甄試 數學B",
       "questionCount": 20,
-      "dataFile": "data/115-mathB.json"
+      "dataFile": "data/115-mathB.json",
+      "category": "身障甄試"
     },
     {
       "id": "115-geography",
@@ -18,7 +19,8 @@
       "group": "大學組第一類組",
       "title": "115學年度身心障礙學生升學大專校院甄試 地理",
       "questionCount": 25,
-      "dataFile": "data/115-geography.json"
+      "dataFile": "data/115-geography.json",
+      "category": "身障甄試"
     },
     {
       "id": "115-english",
@@ -28,7 +30,8 @@
       "group": "大學組第一、二、三、四類組",
       "title": "115學年度身心障礙學生升學大專校院甄試 英文",
       "questionCount": 25,
-      "dataFile": "data/115-english.json"
+      "dataFile": "data/115-english.json",
+      "category": "身障甄試"
     },
     {
       "id": "115-chinese",
@@ -38,7 +41,8 @@
       "group": "大學組第一、二、三、四類組",
       "title": "115學年度身心障礙學生升學大專校院甄試 國文",
       "questionCount": 20,
-      "dataFile": "data/115-chinese.json"
+      "dataFile": "data/115-chinese.json",
+      "category": "身障甄試"
     },
     {
       "id": "115-history",
@@ -48,7 +52,8 @@
       "group": "大學組第一類組",
       "title": "115學年度身心障礙學生升學大專校院甄試 歷史",
       "questionCount": 25,
-      "dataFile": "data/115-history.json"
+      "dataFile": "data/115-history.json",
+      "category": "身障甄試"
     }
   ]
 }

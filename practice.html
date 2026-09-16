@@ -23,16 +23,32 @@
     <button onclick="resetProgress()">清除作答紀錄，重新開始</button>
   </div>
 
+  <div id="modeChoice" style="display:none;" class="note">
+    <div style="margin-bottom:12px; font-weight:700;">這份考卷要怎麼作答？</div>
+    <div class="controls" style="margin:0;">
+      <button class="primary" onclick="chooseMode('immediate')">每題作答後立即看詳解</button>
+      <button class="primary" onclick="chooseMode('end')">全部作答完再一起對答案</button>
+    </div>
+  </div>
+
   <div id="questionList"><div class="empty-note">載入中…</div></div>
+
+  <footer class="site-footer">
+    教材製作／詳解撰寫：新竹市立成德高中 杜昀蓁<br>
+    © 2026 版權所有，僅供教學使用，未經同意請勿轉載
+  </footer>
 </div>
 
 <div class="summary-bar" id="summaryBar" style="display:none;">
   <div class="score" id="scoreText">已作答 0 / 0</div>
-  <div id="scoreDetail">正確 0 題</div>
+  <div id="scoreDetail" style="display:flex; align-items:center; gap:12px;">
+    <span id="scoreDetailText">正確 0 題</span>
+    <button id="submitBtn" style="display:none;" onclick="submitExam()">交卷對答案</button>
+  </div>
 </div>
 
 <script>
-let examId, examData, progress = {};
+let examId, examData, progress = { mode: null, submitted: false, answers: {} };
 
 function getExamId(){
   const params = new URLSearchParams(window.location.search);
@@ -43,15 +59,23 @@ function storageKey(){ return 'examPractice_' + examId; }
 function loadProgress(){
   try{
     const raw = localStorage.getItem(storageKey());
-    progress = raw ? JSON.parse(raw) : {};
-  }catch(e){ progress = {}; }
+    const parsed = raw ? JSON.parse(raw) : null;
+    if(parsed && parsed.answers){
+      progress = parsed;
+    }else if(parsed){
+      // legacy format from earlier version: flat {qid: {selected, correct}}
+      progress = { mode: 'immediate', submitted: true, answers: parsed };
+    }else{
+      progress = { mode: null, submitted: false, answers: {} };
+    }
+  }catch(e){ progress = { mode: null, submitted: false, answers: {} }; }
 }
 function saveProgress(){
   try{ localStorage.setItem(storageKey(), JSON.stringify(progress)); }catch(e){}
 }
 function resetProgress(){
   if(!confirm('確定要清除這份考卷的作答紀錄嗎？此動作無法復原。')) return;
-  progress = {};
+  progress = { mode: null, submitted: false, answers: {} };
   saveProgress();
   renderExam(window._examMeta, examData);
 }
@@ -86,6 +110,12 @@ async function init(){
   }
 }
 
+function chooseMode(mode){
+  progress.mode = mode;
+  saveProgress();
+  renderExam(window._examMeta, examData);
+}
+
 function renderExam(examMeta, data){
   const info = data.examInfo || {};
   document.title = (info.title || examMeta.title) + ' 練習';
@@ -93,14 +123,28 @@ function renderExam(examMeta, data){
     (info.year||examMeta.year) + '學年度・' + (info.group||examMeta.group||'') + '・練習模式';
   document.getElementById('examTitle').textContent =
     (info.subject||examMeta.subject) + '（' + (info.code||examMeta.code||'') + '）練習';
-  document.getElementById('examMeta').textContent =
-    '共 ' + data.questions.length + ' 題，點選一個選項後會立即顯示對錯與詳解';
 
+  const modeChoiceEl = document.getElementById('modeChoice');
+  const listEl = document.getElementById('questionList');
+
+  if(!progress.mode){
+    modeChoiceEl.style.display = 'block';
+    listEl.innerHTML = '';
+    document.getElementById('summaryBar').style.display = 'none';
+    document.getElementById('examMeta').textContent = '共 ' + data.questions.length + ' 題，請先選擇作答方式';
+    return;
+  }
+  modeChoiceEl.style.display = 'none';
+
+  document.getElementById('examMeta').textContent =
+    '共 ' + data.questions.length + ' 題・' +
+    (progress.mode === 'immediate' ? '每題作答後立即看詳解' : '全部作答完再一起對答案');
+
+  const revealAll = (progress.mode === 'immediate') || progress.submitted;
   const optionLabels = ['A','B','C','D'];
   let html = '';
   data.questions.forEach(function(q){
     const qid = 'p' + q.id;
-    const answered = progress[q.id];
     html += '<div class="pcard" id="' + qid + '">';
     html += '  <div class="qhead2">';
     html += '    <div class="qnum">' + String(q.id).padStart(2,'0') + '</div>';
@@ -123,12 +167,16 @@ function renderExam(examMeta, data){
     html += '  </div>';
     html += '</div>';
   });
-  document.getElementById('questionList').innerHTML = html;
+  listEl.innerHTML = html;
 
-  // restore previously answered questions
+  // restore previously chosen answers
   data.questions.forEach(function(q){
-    if(progress[q.id]){
-      applyAnswerUI(q, progress[q.id].selected, false);
+    const a = progress.answers[q.id];
+    if(!a) return;
+    if(revealAll){
+      applyRevealUI(q, a.selected);
+    }else{
+      applySelectedOnlyUI(q, a.selected);
     }
   });
 
@@ -136,17 +184,36 @@ function renderExam(examMeta, data){
 }
 
 function pick(qid, label){
-  // already answered? ignore further clicks
-  if(progress[qid]) return;
+  if(progress.submitted) return; // locked after submit
   const q = examData.questions.find(function(x){ return x.id === qid; });
-  const correct = (label === q.answer);
-  progress[qid] = { selected: label, correct: correct, ts: Date.now() };
-  saveProgress();
-  applyAnswerUI(q, label, true);
+
+  if(progress.mode === 'immediate'){
+    if(progress.answers[qid]) return; // already answered, locked
+    const correct = (label === q.answer);
+    progress.answers[qid] = { selected: label, correct: correct };
+    saveProgress();
+    applyRevealUI(q, label);
+  }else{
+    // end mode: allow changing selection until submit
+    progress.answers[qid] = { selected: label, correct: null };
+    saveProgress();
+    applySelectedOnlyUI(q, label);
+  }
   updateSummary(examData);
 }
 
-function applyAnswerUI(q, selectedLabel, animate){
+function applySelectedOnlyUI(q, selectedLabel){
+  const card = document.getElementById('p' + q.id);
+  const opts = card.querySelectorAll('.poption');
+  opts.forEach(function(opt){
+    opt.classList.remove('selected');
+    if(opt.getAttribute('data-label') === selectedLabel){
+      opt.classList.add('selected');
+    }
+  });
+}
+
+function applyRevealUI(q, selectedLabel){
   const card = document.getElementById('p' + q.id);
   const correct = selectedLabel === q.answer;
   card.classList.add(correct ? 'correct' : 'wrong');
@@ -155,6 +222,7 @@ function applyAnswerUI(q, selectedLabel, animate){
   opts.forEach(function(opt){
     const label = opt.getAttribute('data-label');
     opt.onclick = null;
+    opt.classList.remove('selected');
     if(label === selectedLabel && label === q.answer){
       opt.classList.add('correct-pick');
     }else if(label === selectedLabel && label !== q.answer){
@@ -171,14 +239,44 @@ function applyAnswerUI(q, selectedLabel, animate){
   document.getElementById('sol' + q.id).classList.add('show');
 }
 
+function submitExam(){
+  const total = examData.questions.length;
+  const answered = Object.keys(progress.answers).length;
+  if(answered < total){
+    if(!confirm('還有 ' + (total - answered) + ' 題沒作答，確定要交卷嗎？')) return;
+  }
+  // grade everything
+  examData.questions.forEach(function(q){
+    const a = progress.answers[q.id];
+    if(a){
+      a.correct = (a.selected === q.answer);
+      applyRevealUI(q, a.selected);
+    }
+  });
+  progress.submitted = true;
+  saveProgress();
+  updateSummary(examData);
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
 function updateSummary(data){
   const total = data.questions.length;
-  const answered = Object.keys(progress).length;
-  const correctCount = Object.values(progress).filter(function(p){ return p.correct; }).length;
+  const answered = Object.keys(progress.answers).length;
+  const correctCount = Object.values(progress.answers).filter(function(p){ return p.correct === true; }).length;
   const bar = document.getElementById('summaryBar');
   bar.style.display = 'flex';
   document.getElementById('scoreText').textContent = '已作答 ' + answered + ' / ' + total;
-  document.getElementById('scoreDetail').textContent = '正確 ' + correctCount + ' 題';
+
+  const submitBtn = document.getElementById('submitBtn');
+  const detailText = document.getElementById('scoreDetailText');
+
+  if(progress.mode === 'end' && !progress.submitted){
+    detailText.textContent = '尚未對答案';
+    submitBtn.style.display = 'inline-block';
+  }else{
+    detailText.textContent = '正確 ' + correctCount + ' 題';
+    submitBtn.style.display = 'none';
+  }
 }
 
 init();

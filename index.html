@@ -20,6 +20,10 @@
   <div id="content">
     <div class="empty-note">載入中…</div>
   </div>
+  <footer class="site-footer">
+    教材製作／詳解撰寫：新竹市立成德高中 杜昀蓁<br>
+    © 2026 版權所有，僅供教學使用，未經同意請勿轉載
+  </footer>
 </div>
 
 <script>
@@ -45,29 +49,47 @@ function renderExams(exams){
     contentEl.innerHTML = '<div class="empty-note">目前還沒有任何考卷資料。</div>';
     return;
   }
-  // group by subject
-  const groups = {};
+  // group by category, then by subject within category
+  const categories = {};
   exams.forEach(function(ex){
-    const key = ex.subject || '未分類';
-    if(!groups[key]) groups[key] = [];
-    groups[key].push(ex);
+    const cat = ex.category || '未分類';
+    const subj = ex.subject || '未分類';
+    if(!categories[cat]) categories[cat] = {};
+    if(!categories[cat][subj]) categories[cat][subj] = [];
+    categories[cat][subj].push(ex);
+  });
+
+  // preferred category order, unknown categories appended after
+  const preferredOrder = ['身障甄試', '學測'];
+  const catKeys = Object.keys(categories).sort(function(a,b){
+    const ia = preferredOrder.indexOf(a);
+    const ib = preferredOrder.indexOf(b);
+    if(ia === -1 && ib === -1) return a.localeCompare(b);
+    if(ia === -1) return 1;
+    if(ib === -1) return -1;
+    return ia - ib;
   });
 
   let html = '';
-  Object.keys(groups).sort().forEach(function(subject){
-    html += '<div class="subject-group"><h2>' + escapeHtml(subject) + '</h2>';
-    groups[subject]
-      .sort(function(a,b){ return (b.year||'').localeCompare(a.year||''); })
-      .forEach(function(ex){
-        html += '<div class="exam-row">';
-        html += '<div><div class="exam-title">' + escapeHtml(ex.title || (ex.year+'年 '+ex.subject)) + '</div>';
-        html += '<div class="exam-meta">' + escapeHtml(ex.year) + '學年度・' + escapeHtml(ex.group||'') +
-                 '・共' + (ex.questionCount||'') + '題</div></div>';
-        html += '<div class="exam-actions">';
-        html += '<a href="viewer.html?exam=' + encodeURIComponent(ex.id) + '">詳解模式</a>';
-        html += '<a class="primary" href="practice.html?exam=' + encodeURIComponent(ex.id) + '">練習模式</a>';
-        html += '</div></div>';
-      });
+  catKeys.forEach(function(cat){
+    html += '<div class="category-group"><h1 class="category-title">' + escapeHtml(cat) + '</h1>';
+    const subjects = categories[cat];
+    Object.keys(subjects).sort().forEach(function(subject){
+      html += '<div class="subject-group"><h2>' + escapeHtml(subject) + '</h2>';
+      subjects[subject]
+        .sort(function(a,b){ return (b.year||'').localeCompare(a.year||''); })
+        .forEach(function(ex){
+          html += '<div class="exam-row">';
+          html += '<div><div class="exam-title">' + escapeHtml(ex.title || (ex.year+'年 '+ex.subject)) + '</div>';
+          html += '<div class="exam-meta">' + escapeHtml(ex.year) + '學年度・' + escapeHtml(ex.group||'') +
+                   '・共' + (ex.questionCount||'') + '題</div></div>';
+          html += '<div class="exam-actions">';
+          html += '<a href="viewer.html?exam=' + encodeURIComponent(ex.id) + '">詳解模式</a>';
+          html += '<a class="primary" href="practice.html?exam=' + encodeURIComponent(ex.id) + '">練習模式</a>';
+          html += '</div></div>';
+        });
+      html += '</div>';
+    });
     html += '</div>';
   });
   contentEl.innerHTML = html;

@@ -136,8 +136,20 @@ header.top .backlink:hover{color:#fff;}
   font-size:14px;
 }
 .summary-bar .score{font-family:var(--serif); font-size:18px; font-weight:600;}
+.summary-bar button{
+  font-family:var(--sans); font-size:13px; cursor:pointer;
+  border:1px solid #fff; background:var(--mark); color:#fff;
+  padding:7px 14px; border-radius:2px;
+}
+.summary-bar button:hover{background:#b47a24;}
 
 /* ---------- entry portal ---------- */
+.category-group{margin-bottom:40px;}
+.category-title{
+  font-family:var(--serif); font-size:22px; font-weight:700;
+  color:var(--ink); background:var(--ink); color:#fff;
+  display:inline-block; padding:6px 18px; border-radius:2px; margin-bottom:18px;
+}
 .subject-group{margin-bottom:32px;}
 .subject-group h2{
   font-family:var(--serif); font-size:18px; font-weight:600;
@@ -179,6 +191,13 @@ sup .frac, sub .frac{font-size:0.85em; margin:0 1px;}
   max-width:780px; margin:0 auto 24px; padding:14px 18px;
   background:var(--accent-soft); border-left:4px solid var(--accent);
   font-size:13.5px; color:var(--slate);
+}
+
+.site-footer{
+  max-width:780px; margin:32px auto 0; padding:16px 18px 0;
+  border-top:1px solid var(--line);
+  font-size:12.5px; color:var(--slate); text-align:center;
+  line-height:1.8;
 }
 
 @media print{
