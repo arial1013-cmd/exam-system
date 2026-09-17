@@ -17,6 +17,12 @@
 </header>
 
 <div class="wrap">
+  <div class="controls" id="filterBar" style="display:none;">
+    <label for="yearFilter" style="display:flex; align-items:center; gap:8px; font-size:14px; color:var(--slate);">
+      年度：
+      <select id="yearFilter" onchange="onYearChange()"></select>
+    </label>
+  </div>
   <div id="content">
     <div class="empty-note">載入中…</div>
   </div>
@@ -27,13 +33,17 @@
 </div>
 
 <script>
+let allExams = [];
+
 async function loadManifest(){
   const contentEl = document.getElementById('content');
   try{
     const res = await fetch('manifest.json');
     if(!res.ok) throw new Error('manifest fetch failed');
     const data = await res.json();
-    renderExams(data.exams || []);
+    allExams = data.exams || [];
+    setupYearFilter(allExams);
+    renderExams(allExams);
   }catch(err){
     contentEl.innerHTML = '<div class="empty-note">' +
       '無法載入考卷清單。若你是直接用瀏覽器打開這個檔案（file://），' +
@@ -43,10 +53,31 @@ async function loadManifest(){
   }
 }
 
+function setupYearFilter(exams){
+  const years = Array.from(new Set(exams.map(function(ex){ return ex.year; }).filter(Boolean)));
+  years.sort(function(a,b){ return b.localeCompare(a); }); // newest first
+  if(years.length === 0) return;
+
+  const select = document.getElementById('yearFilter');
+  let html = '<option value="">全部年度</option>';
+  years.forEach(function(y){
+    html += '<option value="' + escapeHtml(y) + '">' + escapeHtml(y) + '學年度</option>';
+  });
+  select.innerHTML = html;
+  document.getElementById('filterBar').style.display = 'flex';
+}
+
+function onYearChange(){
+  const year = document.getElementById('yearFilter').value;
+  const filtered = year ? allExams.filter(function(ex){ return ex.year === year; }) : allExams;
+  renderExams(filtered);
+}
+
 function renderExams(exams){
   const contentEl = document.getElementById('content');
   if(exams.length === 0){
-    contentEl.innerHTML = '<div class="empty-note">目前還沒有任何考卷資料。</div>';
+    const msg = allExams.length === 0 ? '目前還沒有任何考卷資料。' : '這個年度目前沒有考卷資料。';
+    contentEl.innerHTML = '<div class="empty-note">' + msg + '</div>';
     return;
   }
   // group by category, then by subject within category

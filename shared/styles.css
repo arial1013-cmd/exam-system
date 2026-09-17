@@ -62,6 +62,11 @@ header.top .backlink:hover{color:#fff;}
 .controls button:hover, .controls a.btn:hover{background:var(--ink); color:#fff;}
 .controls .primary{background:var(--accent); border-color:var(--accent); color:#fff;}
 .controls .primary:hover{background:#254a4e;}
+.controls select{
+  font-family:var(--sans); font-size:13px; color:var(--ink);
+  border:1px solid var(--ink); background:var(--card);
+  padding:7px 10px; border-radius:2px; cursor:pointer;
+}
 
 /* ---------- question cards (viewer) ---------- */
 .qcard{
