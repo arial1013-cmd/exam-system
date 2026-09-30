@@ -148,6 +148,46 @@ header.top .backlink:hover{color:#fff;}
 }
 .summary-bar button:hover{background:#b47a24;}
 
+/* ---------- notes (text + handwriting) ---------- */
+.notes-block{margin-top:14px; padding-top:12px; border-top:1px dashed var(--line);}
+.notes-toggle{
+  font-family:var(--sans); font-size:12.5px; cursor:pointer;
+  border:1px solid var(--line); background:#fbfbfa; color:var(--slate);
+  padding:5px 12px; border-radius:2px;
+}
+.notes-toggle:hover{background:var(--accent-soft); color:var(--ink); border-color:var(--accent);}
+.notes-panel{margin-top:10px;}
+.notes-tabs{display:flex; gap:6px; margin-bottom:8px;}
+.notes-tab{
+  font-family:var(--sans); font-size:12px; cursor:pointer;
+  border:1px solid var(--line); background:#fff; color:var(--slate);
+  padding:5px 12px; border-radius:2px;
+}
+.notes-tab.active{background:var(--ink); color:#fff; border-color:var(--ink);}
+.notes-textarea{
+  width:100%; min-height:90px; padding:10px; box-sizing:border-box;
+  font-family:var(--sans); font-size:14px; color:var(--ink);
+  border:1px solid var(--line); border-radius:2px; resize:vertical;
+  background:#fffef9;
+}
+.notes-draw-toolbar{display:flex; gap:6px; margin-bottom:6px;}
+.notes-draw-toolbar button.draw-tool.active{background:var(--accent); color:#fff; border-color:var(--accent);}
+.notes-draw-toolbar button{
+  font-family:var(--sans); font-size:12px; cursor:pointer;
+  border:1px solid var(--line); background:#fff; color:var(--slate);
+  padding:5px 12px; border-radius:2px;
+}
+.notes-canvas{
+  width:100%; max-width:600px; height:220px;
+  border:1px solid var(--line); border-radius:2px;
+  background:#fff; touch-action:none; cursor:crosshair;
+  display:block;
+}
+.pcard .notes-block{margin-left:48px;}
+@media (max-width:560px){
+  .pcard .notes-block{margin-left:0;}
+}
+
 /* ---------- entry portal ---------- */
 .category-group{margin-bottom:40px;}
 .category-title{
@@ -212,6 +252,7 @@ sup .frac, sub .frac{font-size:0.85em; margin:0 1px;}
   .controls{display:none;}
   .qcard{break-inside:avoid; border-left-width:3px;}
   .solution{display:block !important; background:#fff;}
+  .notes-block{display:none;}
 }
 @media (max-width:560px){
   .options{grid-template-columns:1fr;}

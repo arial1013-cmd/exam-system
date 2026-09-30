@@ -47,6 +47,7 @@
   </div>
 </div>
 
+<script src="shared/notes.js"></script>
 <script>
 let examId, examData, progress = { mode: null, submitted: false, answers: {} };
 
@@ -89,6 +90,7 @@ async function init(){
   }
   document.getElementById('viewerLink').href = 'viewer.html?exam=' + encodeURIComponent(examId);
   loadProgress();
+  initNotesFor(examId);
 
   try{
     const manifestRes = await fetch('manifest.json');
@@ -157,6 +159,7 @@ function renderExam(examMeta, data){
               label + ') ' + q.options[label] + '</div>';
     });
     html += '  </div>';
+    html += buildNotesHtml(q.id);
     html += '  <div class="presult" id="result' + q.id + '"></div>';
     html += '  <div class="psolution" id="sol' + q.id + '">';
     html += '    <div class="label">詳解</div>';

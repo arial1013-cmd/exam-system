@@ -35,6 +35,7 @@
   </footer>
 </div>
 
+<script src="shared/notes.js"></script>
 <script>
 function getExamId(){
   const params = new URLSearchParams(window.location.search);
@@ -49,6 +50,7 @@ async function init(){
     return;
   }
   document.getElementById('practiceLink').href = 'practice.html?exam=' + encodeURIComponent(examId);
+  initNotesFor(examId);
 
   try{
     const manifestRes = await fetch('manifest.json');
@@ -107,6 +109,7 @@ function renderExam(examMeta, examData){
     if(q.final){
       html += '    <div class="final">' + q.final + '</div>';
     }
+    html += buildNotesHtml(q.id);
     html += '  </div>';
     html += '</div>';
   });
