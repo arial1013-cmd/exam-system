@@ -36,6 +36,7 @@
 </div>
 
 <script src="shared/notes.js"></script>
+<script src="shared/render.js"></script>
 <script>
 function getExamId(){
   const params = new URLSearchParams(window.location.search);
@@ -76,39 +77,37 @@ function renderExam(examMeta, examData){
   document.title = (info.title || examMeta.title) + ' 詳解';
   document.getElementById('kicker').textContent =
     (info.year||examMeta.year) + '學年度・' + (info.group||examMeta.group||'');
+  const codePart = (info.code||examMeta.code) ? '（' + (info.code||examMeta.code) + '）' : '';
   document.getElementById('examTitle').textContent =
-    (info.subject||examMeta.subject) + '（' + (info.code||examMeta.code||'') + '）詳解講義';
-  document.getElementById('examMeta').textContent =
-    '共 ' + examData.questions.length + ' 題單選題，每題 ' + (info.pointsPerQuestion||5) + ' 分';
+    (info.subject||examMeta.subject) + codePart + '詳解講義';
+  document.getElementById('examMeta').textContent = info.summaryText ||
+    ('共 ' + examData.questions.length + ' 題單選題，每題 ' + (info.pointsPerQuestion||5) + ' 分');
 
-  const optionLabels = ['A','B','C','D'];
+  const shown = {};
   let html = '';
   examData.questions.forEach(function(q){
     const qid = 'q' + q.id;
+    const opts = q.options || null;   // 文意選填的選項顯示在題組文章中
+    html += sectionHtml(q);
+    html += passageHtml(q, examData, shown);
     html += '<div class="qcard" id="' + qid + '">';
     html += '  <div class="qhead" onclick="toggle(\'' + qid + '\')">';
     html += '    <div class="qnum">' + String(q.id).padStart(2,'0') + '</div>';
     html += '    <div class="qbody">';
-    html += '      <div class="qtext">' + q.text + '</div>';
-    html += '      <div class="options">';
-    optionLabels.forEach(function(label){
-      if(q.options[label] !== undefined){
-        html += '<div>(' + label + ') ' + q.options[label] + '</div>';
-      }
-    });
-    html += '      </div></div>';
-    html += '    <div class="ans-badge">' + q.answer + '</div>';
+    html += '      <div class="qtext">' + typeTag(q) + q.text + '</div>';
+    if(opts){
+      html += '      <div class="options">';
+      Object.keys(opts).forEach(function(label){
+        html += '<div>(' + label + ') ' + opts[label] + '</div>';
+      });
+      html += '      </div>';
+    }
+    html += '    </div>';
+    const bt = badgeText(q);
+    html += '    <div class="ans-badge' + (bt.length > 1 ? ' wide' : '') + '">' + bt + '</div>';
     html += '  </div>';
     html += '  <div class="solution">';
-    html += '    <div class="label">詳解</div>';
-    html += '    <ul class="steps">';
-    (q.steps||[]).forEach(function(step){
-      html += '<li>' + step + '</li>';
-    });
-    html += '    </ul>';
-    if(q.final){
-      html += '    <div class="final">' + q.final + '</div>';
-    }
+    html += solutionInner(q);
     html += buildNotesHtml(q.id);
     html += '  </div>';
     html += '</div>';

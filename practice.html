@@ -48,6 +48,7 @@
 </div>
 
 <script src="shared/notes.js"></script>
+<script src="shared/render.js"></script>
 <script>
 let examId, examData, progress = { mode: null, submitted: false, answers: {} };
 
@@ -118,166 +119,247 @@ function chooseMode(mode){
   renderExam(window._examMeta, examData);
 }
 
+function findQ(qid){ return examData.questions.find(function(x){ return x.id === qid; }); }
+function gradable(data){ return data.questions.filter(function(q){ return qType(q) !== 'open'; }); }
+function sortedLetters(str){ return str.split('').sort().join(''); }
+function ansText(q){ return q.answer.split('').map(function(c){ return '(' + c + ')'; }).join(''); }
+
+function isRevealed(q){
+  if(progress.submitted) return true;
+  const a = progress.answers[q.id];
+  if(progress.mode !== 'immediate' || !a) return false;
+  if(qType(q) === 'open') return !!a.revealed;
+  if(qType(q) === 'multi') return a.confirmed === true;
+  return true;
+}
+
 function renderExam(examMeta, data){
   const info = data.examInfo || {};
   document.title = (info.title || examMeta.title) + ' 練習';
   document.getElementById('kicker').textContent =
     (info.year||examMeta.year) + '學年度・' + (info.group||examMeta.group||'') + '・練習模式';
-  document.getElementById('examTitle').textContent =
-    (info.subject||examMeta.subject) + '（' + (info.code||examMeta.code||'') + '）練習';
+  const codePart = (info.code||examMeta.code) ? '（' + (info.code||examMeta.code) + '）' : '';
+  document.getElementById('examTitle').textContent = (info.subject||examMeta.subject) + codePart + '練習';
 
   const modeChoiceEl = document.getElementById('modeChoice');
   const listEl = document.getElementById('questionList');
+  const nOpen = data.questions.length - gradable(data).length;
+  const countText = '共 ' + data.questions.length + ' 題' + (nOpen ? '（含 ' + nOpen + ' 題非選擇題，自行對照參考答案）' : '');
 
   if(!progress.mode){
     modeChoiceEl.style.display = 'block';
     listEl.innerHTML = '';
     document.getElementById('summaryBar').style.display = 'none';
-    document.getElementById('examMeta').textContent = '共 ' + data.questions.length + ' 題，請先選擇作答方式';
+    document.getElementById('examMeta').textContent = countText + '，請先選擇作答方式';
     return;
   }
   modeChoiceEl.style.display = 'none';
-
-  document.getElementById('examMeta').textContent =
-    '共 ' + data.questions.length + ' 題・' +
+  document.getElementById('examMeta').textContent = countText + '・' +
     (progress.mode === 'immediate' ? '每題作答後立即看詳解' : '全部作答完再一起對答案');
 
-  const revealAll = (progress.mode === 'immediate') || progress.submitted;
-  const optionLabels = ['A','B','C','D'];
+  const shown = {};
   let html = '';
   data.questions.forEach(function(q){
     const qid = 'p' + q.id;
+    const t = qType(q);
+    const opts = optionsOf(q, data);
+    html += sectionHtml(q);
+    html += passageHtml(q, data, shown);
     html += '<div class="pcard" id="' + qid + '">';
     html += '  <div class="qhead2">';
     html += '    <div class="qnum">' + String(q.id).padStart(2,'0') + '</div>';
-    html += '    <div class="qtext">' + q.text + '</div>';
+    html += '    <div class="qtext">' + typeTag(q) + q.text + '</div>';
     html += '  </div>';
-    html += '  <div class="poptions">';
-    optionLabels.forEach(function(label){
-      if(q.options[label] === undefined) return;
-      html += '<div class="poption" data-qid="' + q.id + '" data-label="' + label + '" onclick="pick(' + q.id + ',\'' + label + '\')">(' +
-              label + ') ' + q.options[label] + '</div>';
-    });
-    html += '  </div>';
+    if(t === 'open'){
+      html += '  <div class="open-wrap"><textarea class="open-input" id="open' + q.id + '" placeholder="在這裡作答…" oninput="openInput(' + q.id + ')"></textarea></div>';
+      html += '  <button class="reveal-btn" id="revealBtn' + q.id + '" style="display:none;" onclick="revealOpen(' + q.id + ')">看參考答案與評分原則</button>';
+    }else{
+      if(t === 'multi') html += '  <div class="multi-hint">多選題：可選一個以上，選好後按「確認答案」。</div>';
+      html += '  <div class="poptions">';
+      Object.keys(opts).forEach(function(label){
+        html += '<div class="poption" data-qid="' + q.id + '" data-label="' + label + '" onclick="pick(' + q.id + ',\'' + label + '\')">(' +
+                label + ') ' + opts[label] + '</div>';
+      });
+      html += '  </div>';
+      if(t === 'multi') html += '  <button class="confirm-btn" id="confirmBtn' + q.id + '" style="display:none;" onclick="confirmMulti(' + q.id + ')">確認答案</button>';
+    }
     html += buildNotesHtml(q.id);
     html += '  <div class="presult" id="result' + q.id + '"></div>';
-    html += '  <div class="psolution" id="sol' + q.id + '">';
-    html += '    <div class="label">詳解</div>';
-    html += '    <ul class="steps">';
-    (q.steps||[]).forEach(function(step){ html += '<li>' + step + '</li>'; });
-    html += '    </ul>';
-    if(q.final){ html += '<div class="final">' + q.final + '</div>'; }
-    html += '  </div>';
+    html += '  <div class="psolution" id="sol' + q.id + '">' + solutionInner(q) + '</div>';
     html += '</div>';
   });
   listEl.innerHTML = html;
 
-  // restore previously chosen answers
   data.questions.forEach(function(q){
     const a = progress.answers[q.id];
-    if(!a) return;
-    if(revealAll){
-      applyRevealUI(q, a.selected);
-    }else{
-      applySelectedOnlyUI(q, a.selected);
+    const t = qType(q);
+    if(t === 'open'){
+      const ta = document.getElementById('open' + q.id);
+      if(a && a.text) ta.value = a.text;
+      refreshOpenUI(q);
+      return;
     }
+    if(!a) return;
+    if(isRevealed(q)) applyRevealUI(q);
+    else applySelectedOnlyUI(q);
   });
-
   updateSummary(data);
 }
 
-function pick(qid, label){
-  if(progress.submitted) return; // locked after submit
-  const q = examData.questions.find(function(x){ return x.id === qid; });
+function chosenSet(qid){
+  const a = progress.answers[qid];
+  return (a && a.selected) ? a.selected.split('') : [];
+}
 
-  if(progress.mode === 'immediate'){
-    if(progress.answers[qid]) return; // already answered, locked
-    const correct = (label === q.answer);
-    progress.answers[qid] = { selected: label, correct: correct };
+function pick(qid, label){
+  if(progress.submitted) return;
+  const q = findQ(qid);
+  const t = qType(q);
+  if(t === 'multi'){
+    let a = progress.answers[qid];
+    if(a && a.confirmed) return;
+    const set = chosenSet(qid);
+    const i = set.indexOf(label);
+    if(i >= 0) set.splice(i,1); else set.push(label);
+    if(set.length === 0){ delete progress.answers[qid]; }
+    else{ progress.answers[qid] = { selected: sortedLetters(set.join('')), correct: null, confirmed: false }; }
     saveProgress();
-    applyRevealUI(q, label);
+    applySelectedOnlyUI(q);
+    updateSummary(examData);
+    return;
+  }
+  if(progress.mode === 'immediate'){
+    if(progress.answers[qid]) return;
+    progress.answers[qid] = { selected: label, correct: (label === q.answer) };
+    saveProgress();
+    applyRevealUI(q);
   }else{
-    // end mode: allow changing selection until submit
     progress.answers[qid] = { selected: label, correct: null };
     saveProgress();
-    applySelectedOnlyUI(q, label);
+    applySelectedOnlyUI(q);
   }
   updateSummary(examData);
 }
 
-function applySelectedOnlyUI(q, selectedLabel){
-  const card = document.getElementById('p' + q.id);
-  const opts = card.querySelectorAll('.poption');
-  opts.forEach(function(opt){
-    opt.classList.remove('selected');
-    if(opt.getAttribute('data-label') === selectedLabel){
-      opt.classList.add('selected');
-    }
-  });
+function confirmMulti(qid){
+  const q = findQ(qid);
+  const a = progress.answers[qid];
+  if(!a || progress.mode !== 'immediate') return;
+  a.confirmed = true;
+  a.correct = (a.selected === sortedLetters(q.answer));
+  saveProgress();
+  applyRevealUI(q);
+  updateSummary(examData);
 }
 
-function applyRevealUI(q, selectedLabel){
+function applySelectedOnlyUI(q){
   const card = document.getElementById('p' + q.id);
-  const correct = selectedLabel === q.answer;
+  const set = chosenSet(q.id);
+  card.querySelectorAll('.poption').forEach(function(opt){
+    opt.classList.toggle('selected', set.indexOf(opt.getAttribute('data-label')) >= 0);
+  });
+  const btn = document.getElementById('confirmBtn' + q.id);
+  if(btn) btn.style.display = (progress.mode === 'immediate' && set.length) ? 'inline-block' : 'none';
+}
+
+function applyRevealUI(q){
+  const card = document.getElementById('p' + q.id);
+  const a = progress.answers[q.id];
+  const set = a && a.selected ? a.selected.split('') : [];
+  const right = q.answer.split('');
+  const correct = !!a && sortedLetters(a.selected) === sortedLetters(q.answer);
   card.classList.add(correct ? 'correct' : 'wrong');
 
-  const opts = card.querySelectorAll('.poption');
-  opts.forEach(function(opt){
+  card.querySelectorAll('.poption').forEach(function(opt){
     const label = opt.getAttribute('data-label');
     opt.onclick = null;
-    opt.classList.remove('selected');
-    if(label === selectedLabel && label === q.answer){
-      opt.classList.add('correct-pick');
-    }else if(label === selectedLabel && label !== q.answer){
-      opt.classList.add('wrong-pick');
-    }else if(label === q.answer){
-      opt.classList.add('reveal-correct');
-    }
+    opt.classList.remove('selected','correct-pick','wrong-pick','reveal-correct');
+    const picked = set.indexOf(label) >= 0, isRight = right.indexOf(label) >= 0;
+    if(picked && isRight) opt.classList.add('correct-pick');
+    else if(picked && !isRight) opt.classList.add('wrong-pick');
+    else if(!picked && isRight) opt.classList.add('reveal-correct');
   });
+  const btn = document.getElementById('confirmBtn' + q.id);
+  if(btn) btn.style.display = 'none';
 
   const resultEl = document.getElementById('result' + q.id);
+  resultEl.classList.remove('right','wrong');
   resultEl.classList.add('show', correct ? 'right' : 'wrong');
-  resultEl.textContent = correct ? '答對了！' : ('答錯了，正確答案是 (' + q.answer + ')');
-
+  resultEl.textContent = correct ? '答對了！' : ('答錯了，正確答案是 ' + ansText(q));
   document.getElementById('sol' + q.id).classList.add('show');
 }
 
-function submitExam(){
-  const total = examData.questions.length;
-  const answered = Object.keys(progress.answers).length;
-  if(answered < total){
-    if(!confirm('還有 ' + (total - answered) + ' 題沒作答，確定要交卷嗎？')) return;
+/* ----- 非選擇題 ----- */
+function openInput(qid){
+  const v = document.getElementById('open' + qid).value;
+  if(v.trim()){
+    const a = progress.answers[qid] || {};
+    a.text = v;
+    progress.answers[qid] = a;
+  }else if(progress.answers[qid] && !progress.answers[qid].revealed){
+    delete progress.answers[qid];
   }
-  // grade everything
+  saveProgress();
+  refreshOpenUI(findQ(qid));
+  updateSummary(examData);
+}
+function refreshOpenUI(q){
+  const a = progress.answers[q.id];
+  const btn = document.getElementById('revealBtn' + q.id);
+  const sol = document.getElementById('sol' + q.id);
+  const reveal = isRevealed(q);
+  if(btn) btn.style.display = (progress.mode === 'immediate' && !reveal) ? 'inline-block' : 'none';
+  if(sol) sol.classList.toggle('show', reveal);
+}
+function revealOpen(qid){
+  const a = progress.answers[qid] || {};
+  a.revealed = true;
+  progress.answers[qid] = a;
+  saveProgress();
+  refreshOpenUI(findQ(qid));
+  updateSummary(examData);
+}
+
+function submitExam(){
+  const g = gradable(examData);
+  const answered = g.filter(function(q){ return progress.answers[q.id]; }).length;
+  if(answered < g.length){
+    if(!confirm('選擇題還有 ' + (g.length - answered) + ' 題沒作答，確定要交卷嗎？')) return;
+  }
   examData.questions.forEach(function(q){
+    if(qType(q) === 'open') return;
     const a = progress.answers[q.id];
     if(a){
-      a.correct = (a.selected === q.answer);
-      applyRevealUI(q, a.selected);
+      a.confirmed = true;
+      a.correct = (a.selected === sortedLetters(q.answer));
     }
   });
   progress.submitted = true;
   saveProgress();
+  examData.questions.forEach(function(q){
+    if(qType(q) === 'open') refreshOpenUI(q);
+    else if(progress.answers[q.id]) applyRevealUI(q);
+  });
   updateSummary(examData);
   window.scrollTo({top:0, behavior:'smooth'});
 }
 
 function updateSummary(data){
-  const total = data.questions.length;
-  const answered = Object.keys(progress.answers).length;
-  const correctCount = Object.values(progress.answers).filter(function(p){ return p.correct === true; }).length;
+  const g = gradable(data);
+  const total = g.length;
+  const answered = g.filter(function(q){ return progress.answers[q.id]; }).length;
+  const correctCount = g.filter(function(q){ const a = progress.answers[q.id]; return a && a.correct === true; }).length;
   const bar = document.getElementById('summaryBar');
   bar.style.display = 'flex';
-  document.getElementById('scoreText').textContent = '已作答 ' + answered + ' / ' + total;
+  document.getElementById('scoreText').textContent = '選擇題已作答 ' + answered + ' / ' + total;
 
   const submitBtn = document.getElementById('submitBtn');
   const detailText = document.getElementById('scoreDetailText');
-
   if(progress.mode === 'end' && !progress.submitted){
     detailText.textContent = '尚未對答案';
     submitBtn.style.display = 'inline-block';
   }else{
-    detailText.textContent = '正確 ' + correctCount + ' 題';
+    detailText.textContent = '選擇題正確 ' + correctCount + ' 題';
     submitBtn.style.display = 'none';
   }
 }

@@ -1,0 +1,973 @@
+{
+ "examInfo": {
+  "year": "115",
+  "subject": "英文",
+  "code": "",
+  "group": "學科能力測驗",
+  "title": "115學年度學科能力測驗 英文考科",
+  "totalPoints": 100,
+  "summaryText": "共 53 題：選擇題 1–46 題 (62 分)、混合題 47–50 題 (10 分)、非選擇題 51–53 題 (中譯英 2 題＋作文，共 28 分)。（為方便編號：中譯英第 1、2 題標為第 51、52 題，英文作文標為第 53 題。）"
+ },
+ "passages": {
+  "e11_15": {
+   "title": "第 11 至 15 題為題組",
+   "html": "<p>From the campfire to the café, people have always gathered together to share the latest news. White rhinoceroses, <b>【11】</b>, do the same thing—only their choice of meeting place is a giant pile of poop.</p><p>A new study indicates that rhinos have a smelly way to <b>【12】</b>. Scientists studying white rhinos in South Africa have found that these animals leave messages in their poop. In particular, they leave their poop in the same place for all the other members in the group to smell—just like humans leaving messages on social media. Furthermore, different rhinos leave different chemicals in their poop, which provide important <b>【13】</b> about the age, sex, general health, and reproductive conditions of each specific rhino. This is of great significance for the peace and harmony in the group. When all members in a group know what’s going on with each other, it is <b>【14】</b> that they will fight.</p><p>The researchers have even made “fake poop” to see how different rhinos would react. They find that dominant males are particularly <b>【15】</b> the “fake poop” that carries chemicals from females ready to mate. The males sniff it for longer duration and come back to the same spot more frequently, a clear sign that they are gathering information about mating opportunities from the poop.</p>"
+  },
+  "e16_20": {
+   "title": "第 16 至 20 題為題組",
+   "html": "<p>The history of dim sum stretches back to the early days of the Silk Road, an ancient network of trade routes connecting the East and the West. Those who traveled along the routes through China needed places to rest. Teahouses thus sprang up to <b>【16】</b> the weary travelers, offering them a cup of tea to help them regain energy. But the culinary art of dim sum <b>【17】</b>, for it was considered inappropriate to pair tea with food. Centuries later, the ability of tea to aid in digestion finally became known. Teahouse owners therefore began providing bite-sized snacks as an accompaniment, and the tradition of these Cantonese delicacies was born.</p><p>Dim sum is more than just an example of Chinese cuisine. It is <b>【18】</b> an enjoyable dining experience that can span hours. The small portions were designed to merely “touch the heart,” as the name literally means, and <b>【19】</b> were first enjoyed as snacks. The small size allows the customer to order a great variety of dishes, creating a banquet of different tastes and flavors. It is customary for big groups to enjoy simple dishes together as <b>【20】</b>. Ultimately, dim sum—the food—is only a small part of the dim sum experience.</p>"
+  },
+  "e21_30": {
+   "title": "第 21 至 30 題為題組（文意選填）",
+   "html": "<p>Are you feeling a little guilty about your daily mid-afternoon snooze? Well, you don’t need to. Taking a nap in the middle of the day is by no means <b>【21】</b>. In fact, you are giving your brain and your body some time to recharge and turn up refreshed.</p><p>Research has shown that napping is linked with brain size and <b>【22】</b>; specifically, it can boost our cognition and memory. In our early 20s, our brain starts shrinking, which gradually slows cognition and increases dementia <b>【23】</b> in later life. The brain size of habitual nappers, however, is found to be better preserved. This suggests that napping may significantly <b>【24】</b> age-related brain shrinkage, and thus lower the possibility of developing dementia. Neurologists also confirm that naps can enhance memory and learning. For students cramming for college exams, napping will help <b>【25】</b> acquired knowledge and learned skills.</p><p>Understanding how to perfect your nap is vital for reaping its benefits. To begin with, you need to find out the ideal length of a nap. Some studies recommend napping for 20 to 40 minutes, while others <b>【26】</b> shorter naps, such as 15 to 20 minutes. The best nap length, however, may <b>【27】</b> a person’s physical condition and fatigue level. For some people, even a five-minute nap can bring about surprisingly <b>【28】</b> benefits.</p><p>Furthermore, the environment where naps are taken also plays an important role. A dark space with little distraction is ideal for napping. So, find yourself a quiet place with <b>【29】</b> light or with blackout curtains. If you can’t find a dark room, consider wearing a sleep mask. You can also add some soothing nature sounds to create a relaxing <b>【30】</b>, which can make your naps more effective.</p>",
+   "options": {
+    "A": "retain",
+    "B": "depend on",
+    "C": "atmosphere",
+    "D": "delay",
+    "E": "unproductive",
+    "F": "risk",
+    "G": "function",
+    "H": "minimal",
+    "I": "dramatic",
+    "J": "point to"
+   }
+  },
+  "e31_34": {
+   "title": "第 31 至 34 題為題組（篇章結構）",
+   "html": "<p>Smiling is a gesture that many people engage in dozens of times a day without thought. Most people believe that smiling is an expression of good feelings, a simple way to show happiness and friendliness. But does this hold true across time and cultures?</p><p><b>【31】</b> In the West, for example, portraits of men and women before the 1700s typically depicted them with a serious, unsmiling expression. The absence of smiles stemmed partly from the attempt to hide their decayed teeth caused by poor dental hygiene. More importantly, smiling and laughter had long been perceived in the society as manifestations of a lack of self-control and good manners. Paintings with white-toothed smiles emerged after the 1700s, with the gradual rise of a culture that valued perception and responsiveness.</p><p>Recent studies also show that interpretations of smiling may vary from culture to culture. While in most cultures smiling is associated with positive emotions, in certain cultures the same person can be judged as less intelligent when smiling. <b>【32】</b></p><p>The amount people smile is culturally influenced as well. People smile more when they are from countries that are high in individualism and low in population. These are often places where the needs and rights of the individual take precedence over those of the group. <b>【33】</b> Newcomers from different parts of the world are found to smile more. Without a shared language, they often resort to smiling to get along with others. For them, smiling is a straightforward way to indicate that one is reliable and trustworthy.</p><p><b>【34】</b> As many psychologists now point out, this simple gesture is in fact far more complicated than it may appear.</p>",
+   "options": {
+    "A": "Another crucial factor is a society’s immigration diversity.",
+    "B": "Various factors have thus contributed to the phenomenon of smiling.",
+    "C": "For most of recorded human history, the open smile has been deeply unfashionable.",
+    "D": "A genuine smile indicates contentment, while a forced smile suggests underlying distress.",
+    "E": "In fact, there is a well-known Russian proverb that goes, “Smiling with no reason is a sign of stupidity.”"
+   }
+  },
+  "e35_38": {
+   "title": "第 35 至 38 題為題組",
+   "html": "<p>In March 2022, the Endurance—the lost vessel of the famed polar explorer Ernest Shackleton—was found in Antarctica, 107 years after it sank. The news made headlines around the world, not only for the incredible achievement of the search team, but because the discovery marked the final chapter in a legendary story of extraordinary courage and perseverance.</p><p>On August 4, 1914, Sir Ernest Shackleton, along with a skilled crew of 27, set sail on the Endurance toward the South Pole, hoping to make the first land crossing over Antarctica. From Plymouth, UK, the team arrived in Buenos Aires, Argentina, and on November 5 reached South Georgia Island, the last settlement of civilization en route to Antarctica. There, the real challenge began. Two days after leaving South Georgia in December, the Endurance encountered floating ice, and was soon completely trapped in pack ice.</p><p>The worthy vessel held up for nine months, drifting down south slowly and then pushed northward by the ice. Gradually, the pressure from the ice buckled the planks. Freezing water rushed in and <b>exacerbated the situation</b>. On October 27, 1915, Shackleton ordered his crew to abandon the ship, pitching tents on the ice a mile and a half away. Weeks later, they watched the Endurance sink beneath the Weddell Sea.</p><p>The next five months, the crew camped out on the pack ice as it drifted north, surviving on penguins, seals, and seaweed. Finally, the ice broke up enough for them to escape in lifeboats. For seven days, they sailed more than a hundred miles to the uninhabited Elephant Island. But the crew couldn’t survive long there. So, Shackleton made a dangerous attempt to get help: With five crew members, he sailed 800 miles over 16 days across freezing, stormy seas to South Georgia Island. Then the group hiked for 36 hours across the island to reach a whaling station.</p><p>Help was almost at hand, but ice and bad weather hindered their return. On August 30, 1916, Shackleton finally got back to Elephant Island with a ship big enough to rescue the rest of his men. All the members of the expedition team survived, but the Endurance remained lost under the sea until its discovery in 2022.</p>"
+  },
+  "e39_42": {
+   "title": "第 39 至 42 題為題組",
+   "html": "<p>In many old castles in Europe, visitors often find a fantastic spiral staircase, which provides a captivating focal point as it winds up the building. This prominent structure actually has a long and rich heritage.</p><p>In the Old Testament, reference is made to spiral staircases in the Temple of Solomon, suggesting that they were already in use by around 1,000 BC. The oldest spiral staircase still standing today is at Trajan’s Column in Rome. The staircase was built in 113 AD, with a total of 185 steps carved in stone and marble. Around this time, spiral staircases began to find much wider use in Roman architecture and across Europe.</p><p>Throughout the Middle Ages, winding staircases became a well-established feature of European castles, mainly for their advantages in helping to defend against attackers. To begin with, these staircases were quite narrow, so attackers would have to ascend one at a time, making it impossible to launch a mass attack. Also, the stairs were designed to turn clockwise upwards. This means that ascenders would have their right hand tight against the narrowest part of the staircases, close to the central pole, and as a result were unable to use their sword effectively. The attackers’ challenge was further complicated by the uneven steps of the staircase, often strategically designed by the castle owners. The defenders, living in the castles, were familiar with the stair pattern and could retreat up <b>them</b> very swiftly; while the attackers were much more likely to stumble and fall, particularly in the dimly lit confines of the staircase.</p><p>Being associated with medieval castles and kings, spiral staircases gradually won popularity in European architecture, with new materials emerging to cope with customers’ needs. In Victorian times, cast iron spiral staircases were popular for public buildings and homes for the rich. In the latter half of the 20th century, steel frames became cost-effective, and thus affordable for a much wider staircase market. Then, steel spiral staircases as fire escape stairs appeared in many buildings. Today, spiral staircases come in a wide variety of materials: steel, wood, concrete, and recently even glass. The timeless appeal of their classical design makes spiral staircases a much-desired feature in luxury homes, offices, and public buildings nowadays.</p>"
+  },
+  "e43_46": {
+   "title": "第 43 至 46 題為題組",
+   "html": "<p>Have you ever wondered why north comes at the top of a map? Well, north may seem a natural choice for the top spot today, but that wasn’t always the case.</p><p>Documents from ancient times indicate that many maps in early ages were pointing to the east, where the sun rose. In ancient India, for example, maps were most likely oriented to the east. Though there is no physical evidence to support <b>this</b>, the word dakshina “south” in Indian languages also means “right,” suggesting that ancient Indians were oriented toward the east, and therefore south was on their right-hand side. Ample evidences from the Old Testament also suggest that east was at the top of maps in pre-Biblical and Biblical eras, a reason why east is still referred to as the “Orient” today.</p><p>In the oldest surviving maps, south is at the top, and north points down. Early Egyptian maps showed south on top, most likely because the Nile, vital to Egyptian livelihood, originated in the south. As rivers were believed to flow downward, “up” was therefore south. Map makers in Arabia also drew maps with south on top since the earliest Muslims lived north of Mecca, and a south-oriented map would show the followers looking up toward their holy city.</p><p>The preference for north arose during the European age of exploration. At the time, sailors relied on the North Star to find their way across the Mediterranean and later the Atlantic. By the 16th century, when Europe’s search for trading routes was at its peak, maps became Eurocentric, with north on top. The expansion of European imperialism in the following centuries further established the “north up” practice as the standard.</p><p>Today, map orientation is taking on a new perspective. In perhaps our most common interaction with maps—the use of GPS systems on our phones and in our cars, directions have ceased to be as important. The layouts are dynamic, oriented toward our travel path.</p><p>So, perhaps the north-on-top practice is less a rule and more <b>a blip</b>. After centuries of technological advancements, it seems we’ve ended up right where we began in ancient times: with ourselves in the middle, and our destinations at the top.</p>"
+  },
+  "e47_50": {
+   "title": "第 47 至 50 題為題組（混合題）",
+   "html": "<p>Located along the sparkling coastline of the Pacific Ocean, Wonder Village is a famous indigenous district in eastern Taiwan. The historic village exhibits the traditional way of life of the tribe there. However, it does not live in the past. As numerous new restaurants and shops have sprung up in recent years, it has become not only a cultural center but also a unique commercial zone. The following six shops are examples of some of the specialty stores there.</p><p><b>A. Oh Eco</b><br>Greatly concerned about the presence of fake “green” products on the market, Alice Bao decided to open this shop. She sells environmentally friendly items such as reusable bottles, bamboo toothbrushes, and soy candles. “Here everyone looks out for each other and the neighborhood,” she says. “There’s a sense of community in the area.”</p><p><b>B. After Work</b><br>Neighborhood beer lovers rejoiced when After Work moved in last summer. “We knew we were coming into a really cool neighborhood,” says co-owner Joey Ma. Aside from handcrafted beer, the menu boasts hand-made gourmet pizzas such as the Yummy Duck n’ Cheese, loaded with roast duck and, yes, creamy delicious cheese. A truly unique blend!</p><p><b>C. Aroma Paradise</b><br>The fragrances at this scent shop are largely customized to meet the individual shopper’s taste. Owner Joseph Tang says he knew the idea would work well in this unique district: “Each store is one of a kind in Wonder Village,” he states. “Aroma Paradise wants to create a paradise for those who are looking for fragrance made for their special preferences.”</p><p><b>D. Something Different</b><br>Looking for something unique? Yes, at this tiny antique store you can always find, as promised, something different. Open since 1996, the store features traditional-style home accessories, ranging from cabinets and chairs to picture frames and decorative mirrors.</p><p><b>E. Beyond World</b><br>Owner Foting Mayaw opened this boutique in what he calls “the most fascinating area in Taiwan.” The shop focuses on selling various “good goods” that showcase the skill and spirit of neighborhood artisans. From fashion items to rice snacks, it carries products only from local makers and small businesses owned by indigenous people.</p><p><b>F. The Pinery</b><br>This restaurant got its name from the pineapple farms that once populated the area. Indeed, the fruit appears in some innovative menu items (e.g., pineapple jam on the burger). “Wonder Village is much more than just a tourist destination,” says owner Carol Hon. “It is a place where the old meets the new: diverse, unique, and always full of surprises.”</p>"
+  }
+ },
+ "questions": [
+  {
+   "id": 1,
+   "type": "single",
+   "text": "The mayor has such a ______ schedule that it takes weeks to arrange an interview with her.",
+   "options": {
+    "A": "hasty",
+    "B": "tight",
+    "C": "diligent",
+    "D": "routine"
+   },
+   "answer": "B",
+   "points": 1,
+   "steps": [
+    "「tight schedule」指「行程緊湊、排得很滿」；市長行程太滿，才會要等好幾週才排得出訪問。",
+    "hasty (倉促的)、diligent (勤勉的，修飾人)、routine (例行的)，皆無法與 schedule 搭配出「很難約」的語意。"
+   ],
+   "final": "答案：(B) tight",
+   "section": "第壹部分、選擇題　一、詞彙題（第 1–10 題，每題 1 分）"
+  },
+  {
+   "id": 2,
+   "type": "single",
+   "text": "Jane started as an ______ art designer, but now she has a professional studio of her own.",
+   "options": {
+    "A": "official",
+    "B": "instant",
+    "C": "amateur",
+    "D": "elementary"
+   },
+   "answer": "C",
+   "points": 1,
+   "steps": [
+    "but 前後語意對比：「起初是業餘的」(amateur)↔「現在有專業工作室」(professional)。",
+    "official (官方的)、instant (立即的)、elementary (初級的；基本的，多形容課程或問題，不形容人的身分)。"
+   ],
+   "final": "答案：(C) amateur"
+  },
+  {
+   "id": 3,
+   "type": "single",
+   "text": "The teaching ______ at the famous high school soon attracted more than a dozen well-qualified applicants.",
+   "options": {
+    "A": "career",
+    "B": "vacancy",
+    "C": "expectation",
+    "D": "inspiration"
+   },
+   "answer": "B",
+   "points": 1,
+   "steps": [
+    "「teaching vacancy」＝教職缺額，缺額公布後才會吸引應徵者。",
+    "career (職涯)、expectation (期待)、inspiration (靈感)，皆無法被「applicants」應徵。"
+   ],
+   "final": "答案：(B) vacancy"
+  },
+  {
+   "id": 4,
+   "type": "single",
+   "text": "Designed by a young engineer, the new product has created far more profit than ______ expected.",
+   "options": {
+    "A": "initially",
+    "B": "genuinely",
+    "C": "alternatively",
+    "D": "fundamentally"
+   },
+   "answer": "A",
+   "points": 1,
+   "steps": [
+    "「than initially expected」＝比起初預期的(還多)，省略了 it was。",
+    "genuinely (真正地)、alternatively (或者)、fundamentally (根本上)，放在 than 後面都不通順。"
+   ],
+   "final": "答案：(A) initially"
+  },
+  {
+   "id": 5,
+   "type": "single",
+   "text": "It has been confirmed that a balanced ______ of fruit and vegetables is a key element to good health.",
+   "options": {
+    "A": "dimension",
+    "B": "integration",
+    "C": "provision",
+    "D": "consumption"
+   },
+   "answer": "D",
+   "points": 1,
+   "steps": [
+    "「a balanced consumption of fruit and vegetables」＝均衡攝取蔬果；consumption 除了「消費」，也指食物的「攝取量」。",
+    "dimension (面向、層面)、integration (整合)、provision (供給；條款)，皆不符語意。"
+   ],
+   "final": "答案：(D) consumption"
+  },
+  {
+   "id": 6,
+   "type": "single",
+   "text": "As a shy boy afraid of making public appearances, Timmy ______ the thought of speaking before large audiences.",
+   "options": {
+    "A": "dreads",
+    "B": "stresses",
+    "C": "wanders",
+    "D": "escapes"
+   },
+   "answer": "A",
+   "points": 1,
+   "steps": [
+    "前面說他「害羞、害怕公開露面」，因此 Timmy「害怕」在大批觀眾前說話 → dread (畏懼；擔憂)，後面可直接接名詞或 V-ing。",
+    "stress 當動詞是「強調」；wander 是不及物動詞 (漫步)；escape 是「逃脫」，皆不合。"
+   ],
+   "final": "答案：(A) dreads"
+  },
+  {
+   "id": 7,
+   "type": "single",
+   "text": "To the newly-crowned winner of the piano competition, music is his life’s ______, which he has devoted himself to whole-heartedly.",
+   "options": {
+    "A": "resource",
+    "B": "impact",
+    "C": "passion",
+    "D": "emphasis"
+   },
+   "answer": "C",
+   "points": 1,
+   "steps": [
+    "「be devoted to…whole-heartedly」(全心投入)的對象，應是「熱愛的事物」→ passion (熱情；熱愛的事物)。",
+    "resource (資源)、impact (影響)、emphasis (強調；重點)，皆不符「全心投入」的語意。"
+   ],
+   "final": "答案：(C) passion"
+  },
+  {
+   "id": 8,
+   "type": "single",
+   "text": "The drunk driver who shouted at passers-by and ______ them with glass bottles was quickly arrested by the police.",
+   "options": {
+    "A": "shattered",
+    "B": "assaulted",
+    "C": "overturned",
+    "D": "condemned"
+   },
+   "answer": "B",
+   "points": 1,
+   "steps": [
+    "「assault sb. with sth.」＝用某物攻擊某人；酒駕者對路人叫囂又拿玻璃瓶攻擊，才會被警察逮捕。",
+    "shatter (打碎，受詞應是物品)、overturn (使翻覆)、condemn (譴責，不能搭配 with glass bottles)。"
+   ],
+   "final": "答案：(B) assaulted"
+  },
+  {
+   "id": 9,
+   "type": "single",
+   "text": "There were so many people at the bus station that I had to ______ my way through the crowd to board the bus in time.",
+   "options": {
+    "A": "crash",
+    "B": "tumble",
+    "C": "elbow",
+    "D": "struggle"
+   },
+   "answer": "C",
+   "points": 1,
+   "steps": [
+    "「elbow one’s way through…」＝用手肘推擠開路前進，為固定用法；人多擁擠，只能用手肘擠過人群才趕得上車。",
+    "crash (撞擊；墜毀)、tumble (跌倒；滾落) 皆為不及物動詞，不接 one’s way；struggle 側重「掙扎、奮力」，不是用手肘推擠開路的具體動作，與 to board the bus in time 的擁擠情境不如 elbow 貼切。"
+   ],
+   "final": "答案：(C) elbow"
+  },
+  {
+   "id": 10,
+   "type": "single",
+   "text": "Deadly shootings on US campuses have raised ______ concerns about how to prevent such tragic incidents from happening again.",
+   "options": {
+    "A": "swift",
+    "B": "brutal",
+    "C": "harsh",
+    "D": "grave"
+   },
+   "answer": "D",
+   "points": 1,
+   "steps": [
+    "「grave concerns」＝嚴重的憂慮，是常見搭配 (grave＝嚴重的；莊重的)。",
+    "swift (迅速的)、brutal (殘忍的)、harsh (嚴厲的；刺耳的)，都無法修飾 concerns。"
+   ],
+   "final": "答案：(D) grave"
+  },
+  {
+   "id": 11,
+   "type": "single",
+   "passageId": "e11_15",
+   "text": "請選出最適合填入空格 11 的選項。",
+   "options": {
+    "A": "what is more",
+    "B": "it turns out",
+    "C": "in other words",
+    "D": "all in all"
+   },
+   "answer": "B",
+   "points": 1,
+   "steps": [
+    "前文說人們會聚在一起分享最新消息；White rhinoceroses「事實上／原來也」做同樣的事 → it turns out (結果發現；原來)，用來引出出人意料的事實。",
+    "what is more (而且；更重要的是) 是在補充前一個論點；in other words (換句話說) 與 all in all (總而言之) 前後並非同義改寫或總結關係。"
+   ],
+   "final": "答案：(B) it turns out",
+   "section": "二、綜合測驗（第 11–20 題，每題 1 分）"
+  },
+  {
+   "id": 12,
+   "type": "single",
+   "passageId": "e11_15",
+   "text": "請選出最適合填入空格 12 的選項。",
+   "options": {
+    "A": "demonstrate",
+    "B": "immigrate",
+    "C": "communicate",
+    "D": "manipulate"
+   },
+   "answer": "C",
+   "points": 1,
+   "steps": [
+    "後文說犀牛會在糞便中留下訊息，「a smelly way to communicate」＝一種有氣味的溝通方式。",
+    "demonstrate (展示) 為及物動詞，後面需接受詞；immigrate (移民)、manipulate (操縱) 語意不符。"
+   ],
+   "final": "答案：(C) communicate"
+  },
+  {
+   "id": 13,
+   "type": "single",
+   "passageId": "e11_15",
+   "text": "請選出最適合填入空格 13 的選項。",
+   "options": {
+    "A": "doubts",
+    "B": "icons",
+    "C": "matches",
+    "D": "clues"
+   },
+   "answer": "D",
+   "points": 1,
+   "steps": [
+    "不同犀牛留下不同化學物質，提供關於年齡、性別、健康與生殖狀態的重要「線索」→ clues。",
+    "doubts (疑慮)、icons (圖示；偶像)、matches (火柴；比賽；相配的人事物) 皆不合。"
+   ],
+   "final": "答案：(D) clues"
+  },
+  {
+   "id": 14,
+   "type": "single",
+   "passageId": "e11_15",
+   "text": "請選出最適合填入空格 14 的選項。",
+   "options": {
+    "A": "hardly surprising",
+    "B": "more acceptable",
+    "C": "truly important",
+    "D": "less likely"
+   },
+   "answer": "D",
+   "points": 1,
+   "steps": [
+    "上一句強調這對群體的「和平與和諧」很重要；每個成員都知道彼此狀況時，它們「較不可能」(less likely) 打架。",
+    "若選 hardly surprising (不令人意外)，變成「它們打架並不意外」，與 peace and harmony 矛盾。"
+   ],
+   "final": "答案：(D) less likely"
+  },
+  {
+   "id": 15,
+   "type": "single",
+   "passageId": "e11_15",
+   "text": "請選出最適合填入空格 15 的選項。",
+   "options": {
+    "A": "responsive to",
+    "B": "annoyed at",
+    "C": "considerate of",
+    "D": "tolerant with"
+   },
+   "answer": "A",
+   "points": 1,
+   "steps": [
+    "後面說雄犀牛會久久嗅聞、頻繁回到同一地點，顯示牠們對帶有雌性訊息的「假糞便」特別有「反應」→ be responsive to (對…有反應)。",
+    "annoyed at (對…惱怒)、considerate of (體貼)、tolerant with (容忍) 皆與「感興趣、蒐集資訊」不合。"
+   ],
+   "final": "答案：(A) responsive to"
+  },
+  {
+   "id": 16,
+   "type": "single",
+   "passageId": "e16_20",
+   "text": "請選出最適合填入空格 16 的選項。",
+   "options": {
+    "A": "accommodate",
+    "B": "compensate",
+    "C": "anticipate",
+    "D": "reinforce"
+   },
+   "answer": "A",
+   "points": 1,
+   "steps": [
+    "茶館興起是為了「招待、容納」疲憊的旅人 (accommodate 可指提供住宿或服務)，並提供一杯茶讓他們恢復體力。",
+    "compensate (補償)、anticipate (預期)、reinforce (強化) 皆不符。"
+   ],
+   "final": "答案：(A) accommodate"
+  },
+  {
+   "id": 17,
+   "type": "single",
+   "passageId": "e16_20",
+   "text": "請選出最適合填入空格 17 的選項。",
+   "options": {
+    "A": "would hardly develop",
+    "B": "had yet to develop",
+    "C": "was fast developing",
+    "D": "had almost developed"
+   },
+   "answer": "B",
+   "points": 1,
+   "steps": [
+    "後面的 for 說明理由：當時認為茶配食物不合宜，所以點心的烹飪藝術「尚未發展」→ had yet to develop (還沒有發展)。",
+    "would hardly develop 語氣是過去的預測，與敘述的歷史事實不合；was fast developing (快速發展) 與 had almost developed (幾乎已發展) 都與「不被認可」矛盾。"
+   ],
+   "final": "答案：(B) had yet to develop"
+  },
+  {
+   "id": 18,
+   "type": "single",
+   "passageId": "e16_20",
+   "text": "請選出最適合填入空格 18 的選項。",
+   "options": {
+    "A": "passed on to",
+    "B": "brought up as",
+    "C": "thought to have",
+    "D": "meant to be"
+   },
+   "answer": "D",
+   "points": 1,
+   "steps": [
+    "「It is meant to be an enjoyable dining experience」＝它原本就是要成為一種愉快的用餐體驗 (be meant to be 旨在；本意是)。",
+    "其餘三項放進空格後句型或語意皆不通：passed on to (傳給)、brought up as (被撫養成)、thought to have (被認為擁有，後面需接名詞但 an experience 不被「擁有」)。"
+   ],
+   "final": "答案：(D) meant to be"
+  },
+  {
+   "id": 19,
+   "type": "single",
+   "passageId": "e16_20",
+   "text": "請選出最適合填入空格 19 的選項。",
+   "options": {
+    "A": "if so",
+    "B": "as such",
+    "C": "by then",
+    "D": "in that"
+   },
+   "answer": "B",
+   "points": 1,
+   "steps": [
+    "small portions 被設計成「只是點到為止、觸動心弦」，因此(以這樣的份量)一開始就被「當作點心」享用 → as such (因此；以此形式)。",
+    "if so (若是如此，會變成假設語氣)；by then (到那時)；in that (因為，後面需接完整子句) 皆不合。"
+   ],
+   "final": "答案：(B) as such"
+  },
+  {
+   "id": 20,
+   "type": "single",
+   "passageId": "e16_20",
+   "text": "請選出最適合填入空格 20 的選項。",
+   "options": {
+    "A": "a widely known delicacy",
+    "B": "an intimate romantic dinner",
+    "C": "a joyful social activity",
+    "D": "an amazing local cuisine"
+   },
+   "answer": "C",
+   "points": 1,
+   "steps": [
+    "前句說大群人「一起享用簡單餐點」是慣例，結論句強調點心不只是食物，更是一種體驗 → 把用餐當作「愉快的社交活動」。",
+    "romantic dinner (浪漫晚餐) 與「大團體」矛盾；delicacy、cuisine 都是在講食物本身，與下一句「食物只是體驗的一小部分」不符。"
+   ],
+   "final": "答案：(C) a joyful social activity"
+  },
+  {
+   "id": 21,
+   "type": "single",
+   "passageId": "e21_30",
+   "text": "請從選項中選出最適合填入空格 21 的字詞。",
+   "answer": "E",
+   "points": 1,
+   "steps": [
+    "空格前是 is by no means (絕非)，要接形容詞：絕非「沒有效益的」(unproductive)；下一句 In fact 說明午睡其實讓腦與身體充電。",
+    "by no means＋負面形容詞＝「一點也不…」，反而表示午睡是有益的。"
+   ],
+   "final": "答案：(E) unproductive",
+   "section": "三、文意選填（第 21–30 題，每題 1 分）"
+  },
+  {
+   "id": 22,
+   "type": "single",
+   "passageId": "e21_30",
+   "text": "請從選項中選出最適合填入空格 22 的字詞。",
+   "answer": "G",
+   "points": 1,
+   "steps": [
+    "linked with brain size and ___：與腦容量並列的名詞，後面 specifically 說明它能提升認知與記憶，指的是大腦的「功能」(function)。",
+    "risk 與 atmosphere 之意與 cognition and memory 不合。"
+   ],
+   "final": "答案：(G) function"
+  },
+  {
+   "id": 23,
+   "type": "single",
+   "passageId": "e21_30",
+   "text": "請從選項中選出最適合填入空格 23 的字詞。",
+   "answer": "F",
+   "points": 1,
+   "steps": [
+    "腦部萎縮使認知變慢並增加晚年失智的「風險」(dementia risk)；後面 lower the possibility of developing dementia 也呼應 risk。"
+   ],
+   "final": "答案：(F) risk"
+  },
+  {
+   "id": 24,
+   "type": "single",
+   "passageId": "e21_30",
+   "text": "請從選項中選出最適合填入空格 24 的字詞。",
+   "answer": "D",
+   "points": 1,
+   "steps": [
+    "午睡「延緩」(delay) 與年齡相關的腦萎縮，因此降低失智可能；空格需要原形動詞，前面有助動詞 may。",
+    "retain (保留) 適合用在 acquired knowledge，不適合萎縮；point to 後面不接此語意。"
+   ],
+   "final": "答案：(D) delay"
+  },
+  {
+   "id": 25,
+   "type": "single",
+   "passageId": "e21_30",
+   "text": "請從選項中選出最適合填入空格 25 的字詞。",
+   "answer": "A",
+   "points": 1,
+   "steps": [
+    "午睡有助於「保留／記住」(retain) 所學到的知識與技能；cram for exams 的學生最需要這個功能。"
+   ],
+   "final": "答案：(A) retain"
+  },
+  {
+   "id": 26,
+   "type": "single",
+   "passageId": "e21_30",
+   "text": "請從選項中選出最適合填入空格 26 的字詞。",
+   "answer": "J",
+   "points": 1,
+   "steps": [
+    "Some studies recommend … while others ___ shorter naps：others 後接動詞，且語意為「有些研究建議 20–40 分鐘，另一些則主張／指向較短的午睡」→ point to (指出；顯示；支持)。",
+    "depend on 已用於 27，且語意不符。"
+   ],
+   "final": "答案：(J) point to"
+  },
+  {
+   "id": 27,
+   "type": "single",
+   "passageId": "e21_30",
+   "text": "請從選項中選出最適合填入空格 27 的字詞。",
+   "answer": "B",
+   "points": 1,
+   "steps": [
+    "The best nap length may depend on a person’s physical condition and fatigue level (最佳午睡長度取決於個人身體狀況與疲勞程度)；may 後接原形動詞片語 depend on。"
+   ],
+   "final": "答案：(B) depend on"
+  },
+  {
+   "id": 28,
+   "type": "single",
+   "passageId": "e21_30",
+   "text": "請從選項中選出最適合填入空格 28 的字詞。",
+   "answer": "I",
+   "points": 1,
+   "steps": [
+    "even a five-minute nap 就能帶來 surprisingly ___ benefits：驚人的「顯著的」益處 → dramatic (戲劇性的；明顯的)。",
+    "minimal (極少的) 與 surprisingly 語氣矛盾。"
+   ],
+   "final": "答案：(I) dramatic"
+  },
+  {
+   "id": 29,
+   "type": "single",
+   "passageId": "e21_30",
+   "text": "請從選項中選出最適合填入空格 29 的字詞。",
+   "answer": "H",
+   "points": 1,
+   "steps": [
+    "找一個安靜且光線「極少」(minimal) 的地方，或掛遮光窗簾；與前句 dark space 呼應。"
+   ],
+   "final": "答案：(H) minimal"
+  },
+  {
+   "id": 30,
+   "type": "single",
+   "passageId": "e21_30",
+   "text": "請從選項中選出最適合填入空格 30 的字詞。",
+   "answer": "C",
+   "points": 1,
+   "steps": [
+    "加入舒緩的大自然聲音，營造放鬆的「氛圍」(atmosphere)，使午睡更有效。"
+   ],
+   "final": "答案：(C) atmosphere"
+  },
+  {
+   "id": 31,
+   "type": "single",
+   "passageId": "e31_34",
+   "text": "請選出最適合填入空格 31 的句子。",
+   "answer": "C",
+   "points": 2,
+   "steps": [
+    "第一段拋出問題：微笑是否「跨時間與文化」皆代表好感？第 31 空接在後面的 In the West, for example, portraits … before the 1700s … unsmiling，所以空格應是「在大部分有記載的人類歷史中，露齒微笑一直很不受歡迎」的總說句，後文才用西方肖像畫舉例。",
+    "關鍵：for example 前需要一個概括性主題句；(C) 的 for most of recorded human history 與 before the 1700s 呼應。"
+   ],
+   "final": "答案：(C) For most of recorded human history, the open smile has been deeply unfashionable.",
+   "section": "四、篇章結構（第 31–34 題，每題 2 分）"
+  },
+  {
+   "id": 32,
+   "type": "single",
+   "passageId": "e31_34",
+   "text": "請選出最適合填入空格 32 的句子。",
+   "answer": "E",
+   "points": 2,
+   "steps": [
+    "前一句：在某些文化中，微笑的人會被認為「較不聰明」；(E) 用俄羅斯諺語「無緣無故微笑是愚蠢的表現」作為具體例證，並以 In fact 加強。",
+    "(D) 談真誠與假笑的差別，主題偏離「跨文化解讀」，是干擾選項。"
+   ],
+   "final": "答案：(E) In fact, there is a well-known Russian proverb…"
+  },
+  {
+   "id": 33,
+   "type": "single",
+   "passageId": "e31_34",
+   "text": "請選出最適合填入空格 33 的句子。",
+   "answer": "A",
+   "points": 2,
+   "steps": [
+    "前文說明國家的個人主義與人口多寡影響微笑量；後面的 Newcomers … smile more (新移民微笑更多) 是另一個因素 → (A) Another crucial factor is a society’s immigration diversity. (另一個關鍵因素是社會的移民多元程度)。",
+    "Another 承接前一個 factor；後面 Newcomers 則為其舉例。"
+   ],
+   "final": "答案：(A) Another crucial factor is a society’s immigration diversity."
+  },
+  {
+   "id": 34,
+   "type": "single",
+   "passageId": "e31_34",
+   "text": "請選出最適合填入空格 34 的句子。",
+   "answer": "B",
+   "points": 2,
+   "steps": [
+    "末段總結：Various factors have thus contributed to the phenomenon of smiling.(因此各種因素造就了微笑現象)，下一句 As many psychologists now point out 再補充「這個簡單的動作其實複雜得多」，語氣自然。",
+    "thus 表示結論，承接前面文化、個人主義、移民等多個因素。"
+   ],
+   "final": "答案：(B) Various factors have thus contributed to the phenomenon of smiling."
+  },
+  {
+   "id": 35,
+   "type": "single",
+   "passageId": "e35_38",
+   "text": "What is this passage mainly about?",
+   "options": {
+    "A": "A renowned Antarctic explorer.",
+    "B": "The extreme weather in Antarctica.",
+    "C": "A challenging voyage to Antarctica.",
+    "D": "The amazing discovery of a sunken ship."
+   },
+   "answer": "C",
+   "points": 2,
+   "steps": [
+    "全文依時間敘述 Shackleton 帶領 Endurance 前往南極：船被浮冰困住、沉沒、船員乘救生艇求生並求援，是一趟充滿挑戰的「航行／遠征」，所以主旨是 (C)。",
+    "(A) 只著重人物，卻漏掉探險過程；(B) 極端天氣只是背景；(D) 2022 年發現沉船只在首尾提及，是引子與結尾，不是全文主軸。"
+   ],
+   "final": "答案：(C)",
+   "section": "五、閱讀測驗（第 35–46 題，每題 2 分）"
+  },
+  {
+   "id": 36,
+   "type": "single",
+   "passageId": "e35_38",
+   "text": "Which of the following idioms is closest in meaning to “exacerbated the situation” in the third paragraph?",
+   "options": {
+    "A": "Broke the ice.",
+    "B": "Cost an arm and a leg.",
+    "C": "Missed the boat.",
+    "D": "Added fuel to the fire."
+   },
+   "answer": "D",
+   "points": 2,
+   "steps": [
+    "exacerbate 是「使惡化」；冰壓使船板彎曲，冷水又湧入，讓情況更糟 → add fuel to the fire (火上加油)。",
+    "(A) break the ice (打破僵局)；(B) cost an arm and a leg (所費不貲)；(C) miss the boat (錯失良機)。"
+   ],
+   "final": "答案：(D)"
+  },
+  {
+   "id": 37,
+   "type": "single",
+   "passageId": "e35_38",
+   "text": "According to the passage, which of the following is true about Shackleton and his Antarctic expedition?",
+   "options": {
+    "A": "His journey lasted more than two years.",
+    "B": "He was the first man to cross over the Antarctic.",
+    "C": "His team camped out on Elephant Island for five months.",
+    "D": "He sent five crew members on a lifeboat to get help from a whaling station."
+   },
+   "answer": "A",
+   "points": 2,
+   "steps": [
+    "1914 年 8 月 4 日出發，1916 年 8 月 30 日才回到象島救出其餘隊員，歷時兩年多 → (A) 正確。",
+    "(B) 他「希望」完成首次橫越，但船被困，並未成功；(C) 五個月是在浮冰上露營，之後才到象島；(D) 是 Shackleton「本人」與五名船員一起航行求援，並非派五人前往。"
+   ],
+   "final": "答案：(A)"
+  },
+  {
+   "id": 38,
+   "type": "single",
+   "passageId": "e35_38",
+   "text": "Which of the following shows the correct route of the Endurance after leaving South Georgia?",
+   "options": {
+    "A": "路線圖 (A)：從 South Georgia 出發順時針繞完 Weddell Sea 一整圈，回到起點附近",
+    "B": "路線圖 (B)：從 South Georgia 出發逆時針繞 Weddell Sea 一圈",
+    "C": "路線圖 (C)：從 South Georgia 沿東側往南，繞過 Weddell Sea 南端後再向北，終點在海面上，未到 Elephant Island",
+    "D": "路線圖 (D)：從 South Georgia 往西南直接駛向南極半島附近，路線不折返"
+   },
+   "answer": "C",
+   "points": 2,
+   "steps": [
+    "第三段：船先「向南漂」(drifting down south)，再被浮冰推向北；最後在 Weddell Sea 沉沒，所以路線是先往南(沿東側)，繞到南端後轉北，並止於海面上 → (C)。",
+    "路線圖 (A) 的終點回到起點附近，不符；(B) 方向相反；(D) 沒有轉北的過程。Elephant Island 是船員搭救生艇抵達的地方，不是船的路線終點。",
+    "※ 原題為四張地圖，此處以文字描述，請對照原卷圖形。"
+   ],
+   "final": "答案：(C)",
+   "figure": "原題為四張 Weddell Sea 路線地圖，網頁以文字描述；詳見原試題卷第 6 頁。"
+  },
+  {
+   "id": 39,
+   "type": "single",
+   "passageId": "e39_42",
+   "text": "Which question can the passage answer?",
+   "options": {
+    "A": "Where was the first spiral staircase constructed?",
+    "B": "Who was the first designer of the spiral staircase?",
+    "C": "What is the world’s most famous spiral staircase?",
+    "D": "Why is the spiral staircase popular in modern times?"
+   },
+   "answer": "D",
+   "points": 2,
+   "steps": [
+    "末段指出：螺旋梯與城堡、國王相關，加上材料多樣 (鋼、木、混凝土、玻璃)，且古典設計具有永恆魅力，因此至今仍受歡迎 → (D)。",
+    "(A) 只說最古老「仍存的」在羅馬，且所羅門聖殿可能更早，無法回答「第一座蓋在哪」；(B)(C) 文中沒有提到設計者，也沒有比較名氣。"
+   ],
+   "final": "答案：(D)"
+  },
+  {
+   "id": 40,
+   "type": "single",
+   "passageId": "e39_42",
+   "text": "What does “them” in the third paragraph refer to?",
+   "options": {
+    "A": "Stairs.",
+    "B": "Confines.",
+    "C": "Attackers.",
+    "D": "Defenders."
+   },
+   "answer": "A",
+   "points": 2,
+   "steps": [
+    "could retreat up them very swiftly：「爬上去」的對象只能是樓梯 → them 指前面 the stair pattern 所屬的 stairs (the staircase)。",
+    "retreat up (往上撤退) 的是 defenders (主詞)，但 up 後面的受詞不可能是人。"
+   ],
+   "final": "答案：(A)"
+  },
+  {
+   "id": 41,
+   "type": "single",
+   "passageId": "e39_42",
+   "text": "According to the passage, which is a correct time sequence of the materials used in making spiral staircases?",
+   "options": {
+    "A": "stone → iron → steel → glass",
+    "B": "stone → wood → iron → steel",
+    "C": "iron → marble → wood → glass",
+    "D": "marble → wood → stone → concrete"
+   },
+   "answer": "A",
+   "points": 2,
+   "steps": [
+    "文中時間線索：西元 113 年的圖拉真柱以石與大理石建造 (stone / marble)；維多利亞時代流行鑄鐵 (cast iron)；20 世紀後半鋼材變便宜 (steel)；如今「甚至」有玻璃 (recently even glass) → (A)。",
+    "木頭 (wood) 只出現在「今日材料種類」的列舉，沒有時間先後，所以 (B)(C)(D) 不能當作時間順序。"
+   ],
+   "final": "答案：(A)"
+  },
+  {
+   "id": 42,
+   "type": "single",
+   "passageId": "e39_42",
+   "text": "Which of the following statements can be inferred about spiral staircases in the Medieval Ages?",
+   "options": {
+    "A": "The staircase was too narrow to allow any quick retreat.",
+    "B": "The clockwise design favored right-handed castle defenders.",
+    "C": "The uneven steps made it easier to ascend than descend the stairs.",
+    "D": "The staircase was dark enough for defenders to hide from attackers."
+   },
+   "answer": "B",
+   "points": 2,
+   "steps": [
+    "順時針往上的設計，使往上爬的攻擊者右手貼近中柱、揮劍受限；反過來，由上往下防守的人右手在外側、空間較寬，右手持劍者較有利 → (B) 可推論。",
+    "(A) 守軍熟悉樓梯，能迅速往上撤退；(C) 不平整的階梯讓攻擊者(往上)更容易跌倒，所以是上樓較難；(D) 文中只說昏暗使攻擊者易跌倒，沒有說守軍躲藏。"
+   ],
+   "final": "答案：(B)"
+  },
+  {
+   "id": 43,
+   "type": "single",
+   "passageId": "e43_46",
+   "text": "What is the passage mainly about?",
+   "options": {
+    "A": "Why east is referred to as the “Orient.”",
+    "B": "How maps differ from GPS in function.",
+    "C": "How map orientation evolved over time.",
+    "D": "Why maps were important during the age of exploration."
+   },
+   "answer": "C",
+   "points": 2,
+   "steps": [
+    "全文依時間說明地圖方位：古代以東為上 → 最早的地圖以南為上(埃及、阿拉伯) → 大航海時代起以北為上 → 今日 GPS 隨行進方向而動，是「地圖方向的演變」→ (C)。",
+    "(A) 只是第二段的細節；(B)(D) 只是局部資訊，不能涵蓋全文。"
+   ],
+   "final": "答案：(C)"
+  },
+  {
+   "id": 44,
+   "type": "single",
+   "passageId": "e43_46",
+   "text": "What does “this” refer to in the second paragraph?",
+   "options": {
+    "A": "The word dakshina.",
+    "B": "Physical evidence.",
+    "C": "Ancient India.",
+    "D": "East-orientation of maps."
+   },
+   "answer": "D",
+   "points": 2,
+   "steps": [
+    "前一句：古印度的地圖「很可能」以東為上；接著 Though there is no physical evidence to support this，意思是「雖然沒有實體證據支持『古印度地圖以東為上』這件事」→ (D)。",
+    "後面才用 dakshina 這個字的語言證據說明，所以 (A) 不是 this，(B) 是 evidence 本身，(C) 不是被支持的內容。"
+   ],
+   "final": "答案：(D)"
+  },
+  {
+   "id": 45,
+   "type": "single",
+   "passageId": "e43_46",
+   "text": "Which of the following is closest in meaning to “a blip” in the last paragraph?",
+   "options": {
+    "A": "A temporary state.",
+    "B": "An urgent need.",
+    "C": "A critical decision.",
+    "D": "An advanced system."
+   },
+   "answer": "A",
+   "points": 2,
+   "steps": [
+    "末段：north-on-top 也許「與其說是一條規則，不如說是一時的 blip」；後文又說科技發展了幾個世紀，我們又回到古代「以自己為中心」，可見北方在上只是一段暫時的現象 → a blip＝短暫的狀態。",
+    "blip 原意是雷達螢幕上的小亮點、短暫的小插曲。"
+   ],
+   "final": "答案：(A)"
+  },
+  {
+   "id": 46,
+   "type": "single",
+   "passageId": "e43_46",
+   "text": "Which of the following statements is true?",
+   "options": {
+    "A": "Sailors took the North Star as their final destination.",
+    "B": "The GPS system has a fixed direction for orientation.",
+    "C": "South was placed at the top of maps in the pre-Biblical era.",
+    "D": "Old Islamic maps put south at the top for religious purposes."
+   },
+   "answer": "D",
+   "points": 2,
+   "steps": [
+    "第三段：阿拉伯地圖南方在上，是因為最早的穆斯林住在麥加以北，朝南看就是「抬頭望向聖城」→ 出於宗教考量 (D)。",
+    "(A) 北極星是用來「導航」，不是目的地；(B) GPS 版面是動態的，隨行進路線改變；(C) pre-Biblical 與 Biblical 時代是東在上，南在上是「現存最古老」地圖(埃及等)。"
+   ],
+   "final": "答案：(D)"
+  },
+  {
+   "id": 47,
+   "type": "open",
+   "section": "第貳部分、混合題（第 47–50 題，共 10 分）",
+   "passageId": "e47_50",
+   "points": 2,
+   "text": "47–48 填充題（共 4 分，各 2 分）：請從文章中找出兩個單詞，分別填入下列句子空格中，並視句型結構需要做適當的字形變化，每格限填一個單詞。<br>Wonder Village, a famous tourist site, is characterized by its diversity and uniqueness. It is a place where the old meets the new—where tradition coexists harmoniously with <b>【47】</b>, and local features are perfectly <b>【48】</b> with foreign elements.<br><b>請作答第 47 格。</b>",
+   "modelAnswer": [
+    "innovation"
+   ],
+   "scoring": "完全正確 (含選字與字形變化) 得 2 分；字形或拼字錯誤得 1 分；空白、答案錯誤或無關得 0 分。",
+   "steps": [
+    "old meets the new：tradition 的對比是「創新」。文中 The Pinery 提到 innovative menu items (創新的菜單)，題目空格前是介系詞 with，要接名詞，所以 innovative → <b>innovation</b>。",
+    "寫成 innovative (形容詞) 或 innovate (動詞) 屬於字形錯誤，只得 1 分。"
+   ],
+   "final": "參考答案：innovation"
+  },
+  {
+   "id": 48,
+   "type": "open",
+   "passageId": "e47_50",
+   "points": 2,
+   "text": "承上題，請作答第 <b>【48】</b> 格：local features are perfectly <b>【48】</b> with foreign elements.",
+   "modelAnswer": [
+    "blended"
+   ],
+   "scoring": "完全正確得 2 分；字形或拼字錯誤得 1 分；空白、答案錯誤得 0 分。",
+   "steps": [
+    "After Work 的介紹最後一句：A truly unique blend! (獨特的融合)。local features 與 foreign elements 被「融合」，主詞是被動關係，且前面有 are perfectly，所以要用過去分詞 → <b>blended</b>。",
+    "寫成 blend (原形) 或 blending 屬於字形錯誤，得 1 分。"
+   ],
+   "final": "參考答案：blended"
+  },
+  {
+   "id": 49,
+   "type": "multi",
+   "passageId": "e47_50",
+   "points": 4,
+   "text": "49. While visiting Wonder Village, the Chen family decide to buy the following items as souvenirs: (1) a 19th century oil lamp　(2) recycled plastic sunglasses　(3) an aboriginal wooden beads necklace. Which stores should they go to for these items? (多選題，請選出商店名稱前的英文字母)",
+   "options": {
+    "A": "Oh Eco",
+    "B": "After Work",
+    "C": "Aroma Paradise",
+    "D": "Something Different",
+    "E": "Beyond World",
+    "F": "The Pinery"
+   },
+   "answer": "ADE",
+   "steps": [
+    "(1) 19 世紀的油燈：古董 → D. Something Different (tiny antique store，賣傳統風格的居家擺設)。",
+    "(2) 回收塑膠製的太陽眼鏡：重視環保、販售 environmentally friendly items → A. Oh Eco。",
+    "(3) 原住民木珠項鍊：Beyond World 只賣在地工藝家與原住民小商家的產品 → E. Beyond World。",
+    "B 是啤酒與披薩店、C 是客製香氛店、F 是餐廳，都不賣這三種紀念品。"
+   ],
+   "final": "答案：A、D、E"
+  },
+  {
+   "id": 50,
+   "type": "open",
+   "passageId": "e47_50",
+   "points": 2,
+   "text": "50. Which phrase is used by Joseph Tang to describe the “uniqueness” of the stores in Wonder Village? (簡答題)",
+   "modelAnswer": [
+    "one of a kind"
+   ],
+   "scoring": "以文章中的片語作答；本題未公布細部給分，建議答案須完整、拼字正確。",
+   "steps": [
+    "Joseph Tang 是 Aroma Paradise 的老闆，他說：“Each store is <b>one of a kind</b> in Wonder Village.”，形容每間店都是獨一無二的。",
+    "注意題目問的是 Joseph Tang 用來形容「uniqueness」的片語，不是 something different (D 店名)，也不是 truly unique (After Work 的評語)。"
+   ],
+   "final": "參考答案：one of a kind"
+  },
+  {
+   "id": 51,
+   "type": "open",
+   "section": "第參部分、非選擇題（共 28 分）",
+   "points": 4,
+   "textId": "tr1",
+   "text": "一、中譯英 第 1 題（4 分）：現在越來越多高中英文老師已經增加在課堂上使用英文的百分比。",
+   "modelAnswer": [
+    "Now / Nowadays, more and more senior high school English teachers have increased the percentage of English use / using English in class."
+   ],
+   "scoring": "每個錯誤扣 0.5 分，各部分獨立，扣完為止；相同的拼字或文法錯誤只扣一次；句首未大寫或標點不妥各扣 0.5 分，只扣一次。本句要求使用現在完成式。",
+   "steps": [
+    "<b>句型</b>：「已經增加」→ 現在完成式 have increased；「越來越多」→ more and more；「高中英文老師」→ senior high school English teachers。",
+    "<b>「現在」</b>可寫 Now 或 Nowadays；「在課堂上」→ in class。",
+    "<b>「使用英文的百分比」</b>：the percentage of English use，或 the percentage of using English (of 後面接名詞或動名詞)。",
+    "<b>常見錯誤</b>：1) 漏用現在完成式，寫成 are increasing / increase；2) percentage 前少了定冠詞 the；3) 把 teachers 與 more and more 的主詞單複數搭配錯 (須用複數 have)。"
+   ],
+   "final": "參考答案：Nowadays, more and more senior high school English teachers have increased the percentage of English use in class."
+  },
+  {
+   "id": 52,
+   "type": "open",
+   "points": 4,
+   "text": "一、中譯英 第 2 題（4 分）：他們將學生依英語能力分成不同組別，進行多樣的聽、說活動。",
+   "modelAnswer": [
+    "They divide students into different groups based on their English ability / proficiency and conduct various / diverse / a variety of listening and speaking activities."
+   ],
+   "scoring": "每個錯誤扣 0.5 分；相同錯誤只扣一次；句首未大寫或標點不妥各扣 0.5 分，只扣一次。本句為基本句構 (S＋V)，後半句可使用分詞構句。",
+   "steps": [
+    "<b>句型</b>：divide A into B (把 A 分成 B)；依…分組 → based on / according to；「英語能力」→ English ability / English proficiency。",
+    "<b>後半句</b>有兩種寫法：(1) 對等連接詞 and 連接兩個動詞：…, and conduct various listening and speaking activities；(2) 分詞構句：…, conducting various listening and speaking activities。",
+    "<b>「多樣的」</b>→ various / diverse / a variety of (用 a variety of 時，後面接複數名詞)。",
+    "<b>常見錯誤</b>：把 divide 後的 into 寫成 to；忘記 students 與 groups 用複數；listening and speaking 前少了形容詞或寫成 listen and speak。"
+   ],
+   "final": "參考答案：They divide students into different groups based on their English proficiency and conduct various listening and speaking activities."
+  },
+  {
+   "id": 53,
+   "type": "open",
+   "points": 20,
+   "text": "二、英文作文（20 分）：近年來養寵物的風氣在臺灣日漸普遍，而寵物在人們生活中的角色也與過去不同。請以此為主題，並參照圖片，寫一篇至少 120 個單詞的英文作文，文分兩段。第一段描述這些圖片中所呈現的現象；第二段則根據你自身的經驗或觀察，說明此現象的原因以及可能的影響。<br><i>（圖片：左圖為一家人在公園裡推著寵物推車、拉著寵物拖車散步；中圖為父母與兩個孩子在家，一旁寵物被一同照顧；右圖為一家人和兩隻狗一起坐在餐桌旁用餐。原圖請見原試題卷第 11 頁。）</i>",
+   "modelAnswer": [
+    "（以下為示範範文，非大考中心官方答案）<br>In the pictures, pets are no longer just animals kept at home; they have become important members of the family. In the first picture, a family takes their dogs for a walk in the park, pushing them in a stroller and a wagon just like babies. In the other two, parents spend time with their children while pets stay close by, and everyone even enjoys a meal together with two dogs. Obviously, pets receive the same love and care as children do.<br>There are several reasons for this change. First, more young couples choose to have fewer children or none at all because of high living costs, so pets fill the emotional gap. Second, my neighbor told me that her dog always waits for her at the door after work, which helps relieve her stress. As a result, the pet industry has grown quickly in Taiwan, and more restaurants and parks welcome pets. However, owners should also learn to be responsible and respect people who are afraid of animals, so that humans and pets can live together in harmony."
+   ],
+   "scoring": "依內容、組織、文法句構、字彙拼字四項給整體分數 (優／可／差／劣)；字數明顯不足扣 1 分，未分段亦扣 1 分；完全空白、離題、抄襲選文或不成句者 0 分。",
+   "steps": [
+    "<b>寫作架構</b>：第一段「描述圖片」(現象)：寵物被當成家人；用 in the first picture / in the other two 帶出細節。第二段「原因與影響」：原因(少子化、孤獨、情感寄託)＋自身經驗＋影響(寵物產業、公共空間、責任)。",
+    "<b>要點</b>：必須兩段、至少 120 字；第一段只描述，不要提早寫原因；第二段要有具體個人經驗或觀察，不能只寫空泛的口號。",
+    "<b>可用句型</b>：Not only … but also …；It is no wonder that …；As a result, …；which helps (sb.) to V (非限定用法關係子句)。",
+    "<b>常見扣分</b>：只寫一段、字數不足、時態混亂 (描述圖片用現在式)、把 pets 寫成單數搭配錯誤、離題寫成「要不要養寵物」。"
+   ],
+   "final": "本題為開放式作文，請依評分指標自我檢核。"
+  }
+ ]
+}

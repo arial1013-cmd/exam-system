@@ -197,6 +197,28 @@
       "questionCount": 25,
       "dataFile": "data/114-english.json",
       "category": "身障甄試"
+    },
+    {
+      "id": "115-gsat-chinese",
+      "year": "115",
+      "subject": "國文",
+      "code": "",
+      "group": "學科能力測驗",
+      "title": "115學年度學科能力測驗 國文考科（國語文綜合能力測驗）",
+      "questionCount": 36,
+      "dataFile": "data/115-gsat-chinese.json",
+      "category": "學測"
+    },
+    {
+      "id": "115-gsat-english",
+      "year": "115",
+      "subject": "英文",
+      "code": "",
+      "group": "學科能力測驗",
+      "title": "115學年度學科能力測驗 英文考科",
+      "questionCount": 53,
+      "dataFile": "data/115-gsat-english.json",
+      "category": "學測"
     }
   ]
 }
