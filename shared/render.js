@@ -34,8 +34,38 @@ function passageHtml(q, data, shown){
 }
 
 function badgeText(q){
-  if(qType(q) === 'open') return '非選';
+  const t = qType(q);
+  if(t === 'open') return '非選';
+  if(t === 'fill') return q.badge || (q.fills||[]).map(function(f){ return f.answer; }).join('、');
   return q.answer;
+}
+
+/* ----- 選填題（填數字／分數）：全部空格都對才算對，答錯不倒扣 ----- */
+function normFill(s){
+  return String(s==null?'':s).replace(/[\s　]/g,'').replace(/[－−–—]/g,'-').replace(/[／÷]/g,'/')
+    .replace(/[０-９]/g,function(c){ return String.fromCharCode(c.charCodeAt(0)-0xFEE0); });
+}
+function fillOk(q, vals){
+  return (q.fills||[]).every(function(f,i){ return normFill(vals && vals[i]) === normFill(f.answer); });
+}
+function fillAnsText(q){
+  return (q.fills||[]).map(function(f){ return (f.label ? f.label.replace(/<[^>]+>/g,'') + ' ' : '') + f.answer; }).join('；');
+}
+
+/* ----- 多選題部分給分：答錯 k 個選項（含漏選）得 (n−2k)/n，低於 0 以 0 計 ----- */
+function partialNote(q, data, selected){
+  if(!(data.examInfo && data.examInfo.partialScoring) || qType(q) !== 'multi') return '';
+  const opts = optionsOf(q, data); if(!opts) return '';
+  const n = Object.keys(opts).length;
+  const right = q.answer.split(''), picked = (selected||'').split('');
+  let k = 0;
+  Object.keys(opts).forEach(function(l){
+    if((right.indexOf(l) >= 0) !== (picked.indexOf(l) >= 0)) k++;
+  });
+  if(k === 0 || !picked.length) return '';
+  if(n - 2*k <= 0) return '；錯 ' + k + ' 個選項，依學測計分得 0 分';
+  const sc = q.points ? '（' + (q.points*(n-2*k)/n) + ' 分）' : '';
+  return '；錯 ' + k + ' 個選項，依學測計分得該題 ' + (n-2*k) + '/' + n + ' 的分數' + sc;
 }
 
 /* 詳解內容（步驟＋參考答案＋評分原則＋最終答案） */
@@ -57,6 +87,7 @@ function solutionInner(q){
 function typeTag(q){
   const t = qType(q);
   if(t === 'multi') return '<span class="qtag multi">多選題</span>';
+  if(t === 'fill') return '<span class="qtag fill">選填題</span>';
   if(t === 'open') return '<span class="qtag open">非選擇題' + (q.points ? '・' + q.points + '分' : '') + '</span>';
   return '';
 }

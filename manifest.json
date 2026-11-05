@@ -219,6 +219,17 @@
       "questionCount": 53,
       "dataFile": "data/115-gsat-english.json",
       "category": "學測"
+    },
+    {
+      "id": "115-gsat-math",
+      "year": "115",
+      "subject": "數學B",
+      "code": "",
+      "group": "學科能力測驗",
+      "title": "115學年度學科能力測驗 數學B考科",
+      "questionCount": 20,
+      "dataFile": "data/115-gsat-math.json",
+      "category": "學測"
     }
   ]
 }

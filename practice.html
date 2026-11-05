@@ -122,14 +122,18 @@ function chooseMode(mode){
 function findQ(qid){ return examData.questions.find(function(x){ return x.id === qid; }); }
 function gradable(data){ return data.questions.filter(function(q){ return qType(q) !== 'open'; }); }
 function sortedLetters(str){ return str.split('').sort().join(''); }
-function ansText(q){ return q.answer.split('').map(function(c){ return '(' + c + ')'; }).join(''); }
+function ansText(q){
+  if(qType(q) === 'fill') return fillAnsText(q);
+  return q.answer.split('').map(function(c){ return '(' + c + ')'; }).join('');
+}
+function objLabel(data){ return data.questions.some(function(q){ return qType(q) === 'fill'; }) ? '選擇（填）題' : '選擇題'; }
 
 function isRevealed(q){
   if(progress.submitted) return true;
   const a = progress.answers[q.id];
   if(progress.mode !== 'immediate' || !a) return false;
   if(qType(q) === 'open') return !!a.revealed;
-  if(qType(q) === 'multi') return a.confirmed === true;
+  if(qType(q) === 'multi' || qType(q) === 'fill') return a.confirmed === true;
   return true;
 }
 
@@ -173,6 +177,15 @@ function renderExam(examMeta, data){
     if(t === 'open'){
       html += '  <div class="open-wrap"><textarea class="open-input" id="open' + q.id + '" placeholder="在這裡作答…" oninput="openInput(' + q.id + ')"></textarea></div>';
       html += '  <button class="reveal-btn" id="revealBtn' + q.id + '" style="display:none;" onclick="revealOpen(' + q.id + ')">看參考答案與評分原則</button>';
+    }else if(t === 'fill'){
+      html += '  <div class="fill-wrap">';
+      (q.fills||[]).forEach(function(f,i){
+        html += '<label class="fill-row">' + (f.label ? '<span>' + f.label + '</span>' : '') +
+                '<input type="text" class="fill-input" id="fill' + q.id + '_' + i + '" autocomplete="off" placeholder="' + (f.hint||'') +
+                '" oninput="fillInput(' + q.id + ')"></label>';
+      });
+      html += '  </div>';
+      html += '  <button class="confirm-btn" id="confirmBtn' + q.id + '" style="display:none;" onclick="confirmFill(' + q.id + ')">確認答案</button>';
     }else{
       if(t === 'multi') html += '  <div class="multi-hint">多選題：可選一個以上，選好後按「確認答案」。</div>';
       html += '  <div class="poptions">';
@@ -199,7 +212,14 @@ function renderExam(examMeta, data){
       refreshOpenUI(q);
       return;
     }
-    if(!a) return;
+    if(t === 'fill'){
+      if(a && a.vals) (q.fills||[]).forEach(function(f,i){ document.getElementById('fill' + q.id + '_' + i).value = a.vals[i] || ''; });
+      if(a && isRevealed(q)) applyFillReveal(q);
+      else if(!a && progress.submitted) revealUnanswered(q);
+      else refreshFillUI(q);
+      return;
+    }
+    if(!a){ if(progress.submitted) revealUnanswered(q); return; }
     if(isRevealed(q)) applyRevealUI(q);
     else applySelectedOnlyUI(q);
   });
@@ -285,8 +305,71 @@ function applyRevealUI(q){
   const resultEl = document.getElementById('result' + q.id);
   resultEl.classList.remove('right','wrong');
   resultEl.classList.add('show', correct ? 'right' : 'wrong');
-  resultEl.textContent = correct ? '答對了！' : ('答錯了，正確答案是 ' + ansText(q));
+  resultEl.textContent = correct ? '答對了！' : ('答錯了，正確答案是 ' + ansText(q) + partialNote(q, examData, a.selected));
   document.getElementById('sol' + q.id).classList.add('show');
+}
+
+/* ----- 選填題 ----- */
+function fillVals(q){
+  return (q.fills||[]).map(function(f,i){ return document.getElementById('fill' + q.id + '_' + i).value; });
+}
+function fillInput(qid){
+  if(progress.submitted) return;
+  const q = findQ(qid), vals = fillVals(q);
+  if(vals.some(function(v){ return v.trim(); })){
+    progress.answers[qid] = { vals: vals, correct: null, confirmed: false };
+  }else{ delete progress.answers[qid]; }
+  saveProgress();
+  refreshFillUI(q);
+  updateSummary(examData);
+}
+function refreshFillUI(q){
+  const a = progress.answers[q.id];
+  const btn = document.getElementById('confirmBtn' + q.id);
+  if(btn) btn.style.display = (progress.mode === 'immediate' && a && !a.confirmed &&
+    a.vals.every(function(v){ return v.trim(); })) ? 'inline-block' : 'none';
+}
+function confirmFill(qid){
+  const q = findQ(qid), a = progress.answers[qid];
+  if(!a || progress.mode !== 'immediate') return;
+  a.confirmed = true;
+  a.correct = fillOk(q, a.vals);
+  saveProgress();
+  applyFillReveal(q);
+  updateSummary(examData);
+}
+function applyFillReveal(q){
+  const card = document.getElementById('p' + q.id);
+  const a = progress.answers[q.id];
+  const correct = fillOk(q, a.vals);
+  card.classList.add(correct ? 'correct' : 'wrong');
+  (q.fills||[]).forEach(function(f,i){
+    const inp = document.getElementById('fill' + q.id + '_' + i);
+    inp.disabled = true;
+    inp.classList.add(normFill(a.vals[i]) === normFill(f.answer) ? 'ok' : 'bad');
+  });
+  const btn = document.getElementById('confirmBtn' + q.id);
+  if(btn) btn.style.display = 'none';
+  const resultEl = document.getElementById('result' + q.id);
+  resultEl.classList.remove('right','wrong');
+  resultEl.classList.add('show', correct ? 'right' : 'wrong');
+  resultEl.textContent = correct ? '答對了！' : ('答錯了，正確答案是 ' + fillAnsText(q) + '（選填題要全部空格都對才給分）');
+  document.getElementById('sol' + q.id).classList.add('show');
+}
+
+/* 交卷後仍未作答的題目：直接顯示答案與詳解 */
+function revealUnanswered(q){
+  const card = document.getElementById('p' + q.id);
+  card.classList.add('wrong');
+  const resultEl = document.getElementById('result' + q.id);
+  resultEl.classList.add('show','wrong');
+  resultEl.textContent = '未作答，正確答案是 ' + ansText(q);
+  document.getElementById('sol' + q.id).classList.add('show');
+  card.querySelectorAll('.poption').forEach(function(opt){
+    opt.onclick = null;
+    if(q.answer.indexOf(opt.getAttribute('data-label')) >= 0 && qType(q) !== 'fill') opt.classList.add('reveal-correct');
+  });
+  card.querySelectorAll('.fill-input').forEach(function(i){ i.disabled = true; });
 }
 
 /* ----- 非選擇題 ----- */
@@ -324,21 +407,23 @@ function submitExam(){
   const g = gradable(examData);
   const answered = g.filter(function(q){ return progress.answers[q.id]; }).length;
   if(answered < g.length){
-    if(!confirm('選擇題還有 ' + (g.length - answered) + ' 題沒作答，確定要交卷嗎？')) return;
+    if(!confirm(objLabel(examData) + '還有 ' + (g.length - answered) + ' 題沒作答，確定要交卷嗎？')) return;
   }
   examData.questions.forEach(function(q){
     if(qType(q) === 'open') return;
     const a = progress.answers[q.id];
     if(a){
       a.confirmed = true;
-      a.correct = (a.selected === sortedLetters(q.answer));
+      a.correct = (qType(q) === 'fill') ? fillOk(q, a.vals) : (a.selected === sortedLetters(q.answer));
     }
   });
   progress.submitted = true;
   saveProgress();
   examData.questions.forEach(function(q){
     if(qType(q) === 'open') refreshOpenUI(q);
+    else if(qType(q) === 'fill'){ if(progress.answers[q.id]) applyFillReveal(q); else revealUnanswered(q); }
     else if(progress.answers[q.id]) applyRevealUI(q);
+    else revealUnanswered(q);
   });
   updateSummary(examData);
   window.scrollTo({top:0, behavior:'smooth'});
@@ -351,7 +436,7 @@ function updateSummary(data){
   const correctCount = g.filter(function(q){ const a = progress.answers[q.id]; return a && a.correct === true; }).length;
   const bar = document.getElementById('summaryBar');
   bar.style.display = 'flex';
-  document.getElementById('scoreText').textContent = '選擇題已作答 ' + answered + ' / ' + total;
+  document.getElementById('scoreText').textContent = objLabel(data) + '已作答 ' + answered + ' / ' + total;
 
   const submitBtn = document.getElementById('submitBtn');
   const detailText = document.getElementById('scoreDetailText');
@@ -359,7 +444,7 @@ function updateSummary(data){
     detailText.textContent = '尚未對答案';
     submitBtn.style.display = 'inline-block';
   }else{
-    detailText.textContent = '選擇題正確 ' + correctCount + ' 題';
+    detailText.textContent = objLabel(data) + '正確 ' + correctCount + ' 題';
     submitBtn.style.display = 'none';
   }
 }
