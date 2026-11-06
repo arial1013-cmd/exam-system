@@ -1,0 +1,1218 @@
+{
+ "examInfo": {
+  "year": "115",
+  "subject": "自然",
+  "code": "",
+  "group": "學科能力測驗",
+  "title": "115學年度學科能力測驗 自然考科",
+  "totalPoints": 128,
+  "partialScoring": true,
+  "summaryText": "共 56 題：第壹部分選擇題 1–36 題（每題 2 分，共 72 分）；第貳部分混合題或非選擇題 37–56 題（共 56 分，含 8 題非選擇題各 4 分）。地球科學、物理、化學、生物四科混合出題，詳解首行標示各題所屬科目（【地球科學】【物理】【化學】【生物】為本系統依題意歸類，8 題非選擇題科目以大考中心公告為準）。"
+ },
+ "passages": {
+  "p7_8": {
+   "title": "7-8 題組",
+   "html": "各國建置地震或海嘯的預警系統，希望能夠減少地震與海嘯所造成的災害。然而西元 2011 年 3 月 11 日在日本東北地區外海發生大地震（簡稱 311 大地震）並引發海嘯，還是造成日本東北沿岸地區重大的傷亡與財物損失。"
+  },
+  "p11_12": {
+   "title": "11-12 題組",
+   "html": "如圖 5 所示，一塔式起重機將一個重物自地面甲點從靜止鉛直上拉，歷經乙、丙兩點後，停止於丁點。其中甲、乙兩點之間保持加速運動，乙、丙兩點之間為等速度運動，丙、丁兩點之間保持減速運動。回答 11-12 題。<div class='fig'><img src='data/img/sci-q11.jpg' alt='圖 5' style='max-width:200px'/><div class='cap'>圖 5</div></div>"
+  },
+  "p17_18": {
+   "title": "17-18 題組",
+   "html": "表 1 為地球與月球的赤道日夜均溫。新的登月計畫將設計小型模組核反應器（簡稱 SMR），提供維生與探究的能源。SMR 的發電功率為 <i>P</i><sub>e</sub> = 300 MW，採用的核反應如圖 7 所示。一顆中子射入一個鈾核，激發核反應，產生核能 <i>E</i><sub>N</sub>、一個鋇核、一個氪核與 3 顆中子。SMR 之核能轉換為電能的效率約是 33%。依據以上資料與所學，回答下列問題。<table class='qt'><tr><th>星球＼時段</th><th>日間</th><th>夜間</th></tr><tr><td>地球</td><td>31℃</td><td>23℃</td></tr><tr><td>月球</td><td>121℃</td><td>−133℃</td></tr></table><div class='cap'>表 1</div><div class='fig'><img src='data/img/sci-q17.jpg' alt='圖 7' style='max-width:320px'/><div class='cap'>圖 7</div></div>"
+  },
+  "p25_27": {
+   "title": "25-27 題組",
+   "html": "小芬修習「探究與實作」後，知道香蕉的果皮與果肉中，富含鹼金屬與鹼土金屬元素的鹽類。她想從香蕉中提取鉀鹽，經老師指導與蒐集資料後，進行實驗，實驗步驟與紀錄如下：<br>步驟 1. 整理資料，得每一百克香蕉所含成分如表 5；而表 6 則整理出鹼金屬／鹼土金屬化合物，在 30 ℃ 時的溶解度（g/100 g 水）。<table class='qt'><tr><th>成分</th><th>重量（g）</th><th>礦物質</th><th>重量（mg）</th></tr><tr><td>醣類</td><td>28</td><td>鈣</td><td>150</td></tr><tr><td>脂肪</td><td>0.5</td><td>鎂</td><td>130</td></tr><tr><td>蛋白質</td><td>1.5</td><td>磷</td><td>20</td></tr><tr><td>胺基酸</td><td>0.05</td><td>鉀</td><td>390</td></tr><tr><td>維生素</td><td>0.1</td><td>鈉</td><td>1</td></tr><tr><td>水分</td><td>69</td><td>鋅</td><td>0.1</td></tr></table><div class='cap'>表 5</div><table class='qt'><tr><th>陽離子＼陰離子</th><th>SO<sub>4</sub><sup>2−</sup></th><th>ClO<sub>3</sub><sup>−</sup></th><th>ClO<sub>4</sub><sup>−</sup></th><th>NO<sub>3</sub><sup>−</sup></th><th>CO<sub>3</sub><sup>2−</sup></th></tr><tr><td>Na<sup>+</sup></td><td>110</td><td>105</td><td>209</td><td>104</td><td>110</td></tr><tr><td>K<sup>+</sup></td><td>130</td><td>10</td><td>1.3</td><td>160</td><td>120</td></tr><tr><td>Mg<sup>2+</sup></td><td>24</td><td>150</td><td>100</td><td>140</td><td>&lt;0.01</td></tr><tr><td>Ca<sup>2+</sup></td><td>0.3</td><td>130</td><td>190</td><td>150</td><td>&lt;0.01</td></tr></table><div class='cap'>表 6</div>步驟 2. 收集 1 公斤香蕉，清洗、烘乾後，混合木炭將有機物完全燃燒，礦物質完全變成碳酸鹽與氧化物固體。<br>步驟 3. 將固體秤重、磨成粉末，加入 50 mL 熱水，攪拌並靜置過夜。<br>步驟 4. 以濾紙濾除不溶物。已知表 6 中五種陰離子的銨鹽均可溶於水，依據表 6，逐步加入 NH<sub>4</sub>ClO<sub>4</sub> 於濾液中，溶液會出現沉澱，繼續添加，直到沉澱不再出現。<br>步驟 5. 以濾紙收集沉澱物、乾燥並秤重。移入 600 ℃ 的烘箱內加熱，重量減少，反覆加熱，直到重量不再變化，最終重量比原先減少 46.2%。推測原因，應是在加熱過程中發生分解反應。依據上述，回答下列問題。（莫耳質量：NaClO<sub>4</sub> = 122.5 g/mol、KClO<sub>4</sub> = 138.5 g/mol、NaCl = 58.5 g/mol、KCl = 74.5 g/mol）"
+  },
+  "p37_39": {
+   "title": "37-39 題組",
+   "html": "巴西龜（<i>Trachemys scripta</i>）的性別是由受精卵孵化時的環境溫度所決定。將卵置於 26 ℃，性別決定基因 <i>Dmrt1</i> 會表現出來，胚胎發育為雄性。將卵置於 32 ℃，<i>Dmrt1</i> 基因不會表現，胚胎發育為雌性。<br>進一步的研究發現，<i>Kdm6b</i> 基因會影響 <i>Dmrt1</i> 基因的表現與否，即 Kdm6b 蛋白質的量相對較高時，會促進 <i>Dmrt1</i> 基因表現 RNA，進而產生更多的 Dmrt1 蛋白質。在 26 ℃ 時，Kdm6b 蛋白質的表現量相對較高，於是活化 <i>Dmrt1</i> 基因。在 32 ℃ 時，Kdm6b 蛋白質的表現量相對低，使得 <i>Dmrt1</i> 基因幾乎不表現。"
+  },
+  "p40_43": {
+   "title": "40-43 題組",
+   "html": "植物的花蜜富含香氣，可吸引某些鳥類前來取食。鳥類吸取花蜜之時，身體會接觸到花蕊與花粉，間接幫助植物授粉及繁衍後代。研究發現某野生菸草，其花蜜的主要成分為具香氣的苄丙酮與具毒性的尼古丁，兩者結構式如圖 15。<br>為了探究這兩種成分對蜂鳥取食花蜜及對菸草繁衍的影響，研究者創造了花蜜中只含苄丙酮、只含尼古丁、以及兩者都缺乏的三型基改菸草。<div class='fig'><img src='data/img/sci-q40a.jpg' alt='圖 15（苄丙酮與尼古丁的結構式）' style='max-width:420px'/><div class='cap'>圖 15（苄丙酮與尼古丁的結構式）</div></div>然後，將這三型基改菸草與野生型菸草分別種植在不同樣區，於菸草開花期間同步記錄各區每天受蜂鳥到訪的花朵數目（圖 16 甲）、蜂鳥在每朵花停留時間的平均值（圖 16 乙）、果實之成熟率（圖 16 丙）與花朵中花蜜剩餘的體積（圖 16 丁）。<br>圖 16 之甲～丁橫軸為花蜜中含苄丙酮及尼古丁的狀態，如表 7 的說明。依據圖文資料，回答 40～43 題。<div class='fig'><img src='data/img/sci-q40b.jpg' alt='圖 16（甲：每天受訪花朵數；乙：平均停留時間（秒）；丙：果實成熟率（%）；丁：花蜜剩餘體積（微升））' style='max-width:640px'/><div class='cap'>圖 16（甲：每天受訪花朵數；乙：平均停留時間（秒）；丙：果實成熟率（%）；丁：花蜜剩餘體積（微升））</div></div><table class='qt'><tr><th>圖示</th><th>狀態</th></tr><tr><td>+/+</td><td>含苄丙酮及尼古丁</td></tr><tr><td>+/−</td><td>含苄丙酮，但無尼古丁</td></tr><tr><td>−/+</td><td>無苄丙酮，但含尼古丁</td></tr><tr><td>−/−</td><td>不含苄丙酮與尼古丁</td></tr></table><div class='cap'>表 7</div>"
+  },
+  "p44_46": {
+   "title": "44-46 題組",
+   "html": "在 2023 年，諾貝爾化學獎頒給從事奈米級量子點研究的三位學者。量子點是直徑介於 1 至 10 奈米的奈米粒子，由於其微小尺寸，可表現出獨特的性質。量子點的合成，可藉由添加不同界面活性劑等方法，來控制其大小及成分。硫化鋅量子點的合成實驗步驟如下：<br>步驟 1. 配製甲與乙兩溶液，其組成如下：<br>　甲：0.25 M 半胱胺酸（胺基酸的一種）＋ 0.125 M ZnSO<sub>4</sub><br>　乙：0.125 M Na<sub>2</sub>S<br>步驟 2. 將甲和乙溶液混合後，於 47 ℃ 反應 60 分鐘，然後使用 1 M 醋酸鈉溶液，調整 pH 值至 6。<br>步驟 3. 將冰冷乙醇逐滴加入，直到生成含有 ZnS 的白色沉澱物（稱為乙醇沉澱）。<br>步驟 4. 經過 10 分鐘的離心後，取出沉澱物重新懸浮於水溶液中。<br>步驟 5. 為去除大部分未反應的成分，需要進行至少兩次以上 3～4 步驟。<br>表 8 顯示不同比例反應物及所得產物的鋅離子、硫離子含量及量子點的產率。<table class='qt'><tr><th>樣品</th><th>ZnSO<sub>4</sub><br>(10<sup>−6</sup> 莫耳)</th><th>Na<sub>2</sub>S<br>(10<sup>−6</sup> 莫耳)</th><th>半胱胺酸<br>(10<sup>−6</sup> 莫耳)</th><th>Zn<sup>2+</sup><br>(10<sup>−6</sup> 莫耳)</th><th>S<sup>2−</sup><br>(10<sup>−6</sup> 莫耳)</th><th>量子點的產率（%）</th></tr><tr><td>1</td><td>200</td><td>50</td><td>400</td><td>7.2</td><td>9.4</td><td>18.1</td></tr><tr><td>2</td><td>200</td><td>100</td><td>400</td><td>37.6</td><td>46.5</td><td>44.7</td></tr><tr><td>3</td><td>200</td><td>150</td><td>400</td><td>62.4</td><td>69.3</td><td>44.4</td></tr><tr><td>4</td><td>200</td><td>200</td><td>400</td><td>88.0</td><td>88.0</td><td>44.0</td></tr><tr><td>5</td><td>200</td><td>300</td><td>400</td><td>93.6</td><td>108.8</td><td>45.5</td></tr><tr><td>6</td><td>200</td><td>400</td><td>400</td><td>104.6</td><td>117.0</td><td>50.2</td></tr></table><div class='cap'>表 8（前三欄為反應物，後三欄為產物）</div>"
+  },
+  "p47_49": {
+   "title": "47-49 題組",
+   "html": "圖 17 為汞原子的部分能階 <i>n</i>（<i>n</i> = 0, 1, 2, …）與其能量 <i>E</i><sub>n</sub> 的示意圖，並以最高能量 <i>E</i><sub>0</sub> = 0 eV 為參考能量，其中 1 eV = 1.6×10<sup>−19</sup> J，是常用能量單位。例如，晶片製程使用的 365 nm 紫外光（UV），其光子能量為 3.4 eV。<br>晶片先進製程使用的 13.5 nm 極紫外光（EUV），並採用反射鏡來匯聚與引導，如圖 18 所示。然而 EUV 於反射鏡上無法全部被反射，仍會有部分透射與被吸收。<br>圖 19（a）為反射鏡面的局部放大圖，示意以重複的薄膜單元（實線框）加強 EUV 反射效率的機制，圖中的箭號 I<sub>1</sub> 代表一束射入表面的光線，箭號 R<sub>1</sub>、R<sub>2</sub>、R<sub>3</sub>… 依序對應於 I<sub>1</sub> 光線從各個薄膜單元界面反射而出的光線。每一個薄膜單元包含兩層，EUV 在快波速介質（白色層）的波速大於在慢波速介質（灰色層）的波速。圖 19（a）薄膜單元內的點線僅示意 R<sub>1</sub>、R<sub>2</sub>、R<sub>3</sub>… 的反射來源，未能精確代表實際光線的反射與折射角度。<br>已知普朗克常數為 <i>h</i> = 6.63×10<sup>−34</sup> J·s，真空中光速為 <i>c</i> = 3×10<sup>8</sup> m/s。依據以上資料與所學，回答下列問題。<div class='fig'><img src='data/img/sci-q47.jpg' alt='圖 17（汞原子能階）、圖 18（EUV 微影系統）、圖 19（薄膜單元與界面反射）' style='max-width:640px'/><div class='cap'>圖 17（汞原子能階）、圖 18（EUV 微影系統）、圖 19（薄膜單元與界面反射）</div></div>"
+  },
+  "p50_53": {
+   "title": "50-53 題組",
+   "html": "潮汐對生活有許多影響，例如船舶進出港、水下工程施工、海釣遊憩活動等。為瞭解海岸潮汐型態及預報潮位高低，某港口碼頭邊設置了一個潮汐觀測站。根據潮位儀記錄的水位，減掉水位記錄平均值之後，可得到某星期一中午 12 時至次日 1 時的逐時相對潮汐水位記錄如表 9。<table class='qt'><tr><th>時</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th><th>17</th><th>18</th><th>19</th><th>20</th><th>21</th><th>22</th><th>23</th><th>0</th><th>1</th></tr><tr><td>潮位（公尺）</td><td>0.0</td><td>−0.75</td><td>−1.25</td><td>−1.5</td><td>−1.25</td><td>−1.0</td><td>−0.5</td><td>0.25</td><td>1.25</td><td>1.75</td><td>1.5</td><td>1.0</td><td>0.25</td><td>−0.25</td></tr></table><div class='cap'>表 9</div>潮汐為永續能源。例如圖 20 所示，可在海灣口築堤壩以蓄水儲能於海灣內。漲潮時海水流入海灣，退潮時海水流出海灣，都經過壩底通道，可驅動水車發電機進行發電，假設漲、退潮發電量相同。圖 21 為另一種發電設施，潮汐造成海面升降，經由浮筒與連桿，推拉磁鐵相對於線圈運動，因而產生感應電流。<div class='fig'><img src='data/img/sci-q50a.jpg' alt='圖 20（左）、圖 21（右）' style='max-width:560px'/><div class='cap'>圖 20（左）、圖 21（右）</div></div>"
+  },
+  "p54_56": {
+   "title": "54-56 題組",
+   "html": "太陽系的小天體是由太陽星雲中的塵埃累積而成，掉落到地球上的隕石大部分是這些小天體的碎片，但偶爾也會有一些來自太陽系外的物質。科學家透過隕石來瞭解太陽系的形成時間，若想要知道隕石的年齡，可藉由放射性同位素定年法得知。表 11 為可使用的放射性元素與其半衰期。<table class='qt'><tr><th>母元素</th><th>子元素</th><th>半衰期（年）</th></tr><tr><td>鈾 238</td><td>鉛 206</td><td>45 億</td></tr><tr><td>銣 87</td><td>鍶 87</td><td>500 億</td></tr><tr><td>碳 14</td><td>氮 14</td><td>～6 千</td></tr></table><div class='cap'>表 11</div>"
+  }
+ },
+ "questions": [
+  {
+   "id": 1,
+   "type": "single",
+   "points": 2,
+   "text": "陽光從太陽發射傳遞至地球大約需時 500 秒，又已知月球與地球的平均距離約為 0.0025 天文單位，試問登陸月球的太空船將資訊透過無線電訊號傳達地球大約需時多少秒？",
+   "options": {
+    "A": "0.001",
+    "B": "0.1",
+    "C": "1",
+    "D": "10",
+    "E": "100"
+   },
+   "answer": "C",
+   "steps": [
+    "<b>【地球科學】</b><b>抓關鍵：</b>1 天文單位 = 日地平均距離，光（電磁波，無線電也是）走這段要 500 秒。",
+    "月球距離只有 0.0025 天文單位，所需時間 = 500 秒 × 0.0025 = <b>1.25 秒</b>，約 1 秒。",
+    "無線電訊號和光同樣是電磁波、速率相同，所以不用管「無線電」這個干擾字眼。其他選項差了 1000 倍以上或 100 倍，都不對。"
+   ],
+   "final": "答案：(C)",
+   "section": "第壹部分、選擇題（占 72 分）：第 1 題至第 36 題，含單選題及多選題，每題 2 分。單選題答對得 2 分，答錯、未作答或劃記多於一個選項得 0 分；多選題每題有 5 個選項，答錯 k 個選項得該題 (5−2k)/5 的分數，低於零分以零分計。"
+  },
+  {
+   "id": 2,
+   "type": "single",
+   "points": 2,
+   "text": "從宇宙形成至今不斷有天體陸續生成，科學家可以藉由不同的方法來判斷天體的年齡。以下有關不同天體的敘述何者<u><b>錯誤</b></u>？",
+   "options": {
+    "A": "所有的恆星都是在宇宙形成後才出現",
+    "B": "銀河系存在的時間比太陽系存在的時間長",
+    "C": "距離地球五百萬光年的星系，其年齡是五百萬年",
+    "D": "太陽系中的行星與衛星都比太陽年輕",
+    "E": "同一星系內的不同星團，其年齡不盡相同"
+   },
+   "answer": "C",
+   "steps": [
+    "<b>【地球科學】</b>本題選<b>錯誤</b>的。逐項檢查：",
+    "(C) 距離五百萬光年，代表光要走五百萬年才到地球，我們看到的是它<b>五百萬年前</b>的樣子，和星系的年齡（可能上百億年）完全是兩回事。✗ → 這是答案。",
+    "(A) 宇宙先形成，之後才陸續有恆星誕生 ✓　(B) 太陽系約 46 億年前才形成，銀河系更古老 ✓　(D) 太陽先形成，行星與衛星由太陽星雲的剩餘物質形成，較年輕 ✓　(E) 星團陸續誕生，年齡不一 ✓"
+   ],
+   "final": "答案：(C)"
+  },
+  {
+   "id": 3,
+   "type": "single",
+   "points": 2,
+   "text": "天文觀測從一開始的可見光逐漸走向多波段觀測，下列有關於天文觀測的描述何者正確？",
+   "options": {
+    "A": "大氣窗是指某些地區讓各種波長的電磁波都可以通過地球大氣層",
+    "B": "若想要觀測宇宙中低溫的星雲，最適合使用 γ 射線進行觀測",
+    "C": "天文學家都透過觀測到的顏色來估恆星與行星表面溫度",
+    "D": "紅外線望遠鏡放在太空中的原因之一，是為了避免溫室氣體的吸收",
+    "E": "大氣中的臭氧會吸收紫外線，其主要分布在中氣層內"
+   },
+   "answer": "D",
+   "steps": [
+    "<b>【地球科學】</b>逐項判斷：",
+    "(D) 水氣、二氧化碳等溫室氣體會吸收紅外線，所以紅外線望遠鏡要放上太空，才能接收完整的紅外線 ✓ → 答案。",
+    "(A) 大氣窗是「某些<b>波段</b>」的電磁波（可見光、部分電波）能穿過大氣，不是各種波長都能通過。✗　(B) 低溫天體主要輻射紅外線／電波，γ 射線是極高能量才會有的。✗",
+    "(C) 恆星可由顏色（光譜）估表面溫度，但行星本身不發光，主要是反射恆星的光，不能這樣估。✗　(E) 臭氧層主要分布在<b>平流層</b>。✗"
+   ],
+   "final": "答案：(D)"
+  },
+  {
+   "id": 4,
+   "type": "single",
+   "points": 2,
+   "text": "圖 1 為飽和水氣壓曲線圖，甲、乙、丙、丁分別代表 4 種大氣狀態，甲、乙、丙有相同的水氣壓，甲和丁有相同的溫度。下列敘述何者正確？<div class='fig'><img src='data/img/sci-q4.jpg' alt='圖 1' style='max-width:420px'/><div class='cap'>圖 1</div></div>",
+   "options": {
+    "A": "夏天從冰箱取出冷飲，空氣接觸飲料罐表面會產生類似由乙→丙的過程",
+    "B": "冷、暖氣團交會時，暖氣團會產生類似由甲→丁的過程",
+    "C": "空氣因地形舉升時，會產生類似由乙→甲的過程",
+    "D": "泡溫泉時，在剛放滿熱溫泉水浴池上方的空氣會產生類似由丁→乙的過程",
+    "E": "在房間打開電暖氣，室內的空氣會產生類似由乙→丁的過程"
+   },
+   "answer": "A",
+   "steps": [
+    "<b>【地球科學】</b><b>先讀圖：</b>甲、乙、丙水氣壓相同（約 20 百帕），差在溫度：丙在曲線上（剛好飽和），乙、甲溫度較高，離飽和更遠。丁和甲同溫，但水氣壓較大。",
+    "所以：乙→丙＝<b>水氣不變、降溫</b>，降到露點；乙→甲＝水氣不變、<b>升溫</b>；甲→丁＝溫度不變、<b>水氣增加</b>；丁→乙＝降溫且水氣減少。",
+    "(A) 冷飲罐表面使空氣降溫到露點，凝結成水滴，就是乙→丙 ✓ → 答案。",
+    "(B) 冷暖氣團交會，暖空氣被抬升冷卻，是降溫，不是增加水氣 ✗　(C) 地形舉升，空氣膨脹降溫，應是乙→丙而非升溫 ✗　(D) 熱溫泉水蒸發使水氣增加，應是水氣壓變大而非變小 ✗　(E) 電暖氣使空氣升溫、水氣壓不變，是乙→甲而非乙→丁 ✗"
+   ],
+   "final": "答案：(A)"
+  },
+  {
+   "id": 5,
+   "type": "single",
+   "points": 2,
+   "text": "威爾斯（J.W. Wells）在 1963 年提出生物時鐘理論。根據珊瑚的年成長值與日成長值推斷出泥盆紀（419-358 百萬年前）時，地球一年有 402 天；而石炭紀（358-298 百萬年前）早期一年則有 393 天。科學家推論此現象主要是由過去到現在地球自轉速率變化而造成，公轉速率則無太大改變。圖 2 為根據生物時鐘理論所推估出不同時間一年的天數。根據此圖，下列敘述何者<u><b>錯誤</b></u>？<div class='fig'><img src='data/img/sci-q5.jpg' alt='圖 2' style='max-width:470px'/><div class='cap'>圖 2</div></div>",
+   "options": {
+    "A": "四億年（400 百萬年）前，地球每一天約 22 小時",
+    "B": "六億年（600 百萬年）前，地球的一天約 20.7 小時",
+    "C": "從六億年前至今，平均每經過 10 百萬年，地球一年的天數約減少一天",
+    "D": "由古至今，地球自轉速率有增快的趨勢",
+    "E": "千年後，地球一年的天數與現在相同"
+   },
+   "answer": "D",
+   "steps": [
+    "<b>【地球科學】</b>本題選<b>錯誤</b>的。核心概念：公轉週期（一年）不變，一年的「天數」愈多，代表<b>每一天愈短</b>、自轉愈快。",
+    "(D) 圖中越古老，一年的天數越多（一天越短），所以是由古至今<b>一天越來越長、自轉變慢</b>，不是增快。✗ → 答案。",
+    "(A) 400 百萬年前約 396 天：365 × 24 ÷ 396 ≈ 22.1 小時 ✓　(B) 600 百萬年前約 424 天：365 × 24 ÷ 424 ≈ 20.7 小時 ✓",
+    "(C) 600 百萬年間一年的天數從約 424 天減到 365 天，約少 59 天，平均每 10 百萬年少約 1 天 ✓　(E) 千年對 46 億年而言極短，自轉速率變化可忽略，天數視為相同 ✓"
+   ],
+   "final": "答案：(D)"
+  },
+  {
+   "id": 6,
+   "type": "single",
+   "points": 2,
+   "text": "颱風抵達前、正通過以及通過後，當地的風場、氣壓及降雨都會呈現變化。若有一颱風以直線路徑往正西前進，於 8 月 18 日下午 2 點從花蓮登陸，於 8 月 19 日清晨 5 點從臺中離開。下列狀況何者<u><b>最不可能</b></u>？",
+   "options": {
+    "A": "隨颱風眼逐漸接近，花蓮當地氣壓通常會急遽上升後持續下降",
+    "B": "花蓮當地在颱風到達前風向會偏北風；通過後則偏南風",
+    "C": "臺灣西南部在 8 月 19 日後須嚴防豪大雨發生",
+    "D": "颱風中心通過臺中時，臺東地區可能出現焚風現象",
+    "E": "8 月 17 日到 8 月 19 日期間，太平洋副熱帶高壓強度較強且位置偏西"
+   },
+   "answer": "A",
+   "steps": [
+    "<b>【地球科學】</b>本題選<b>最不可能</b>的。",
+    "(A) 颱風是低氣壓中心，越靠近氣壓<b>越低</b>，眼過境時最低，之後再回升。「先急遽上升」違背常識。✗ → 答案。",
+    "(B) 颱風氣流為<b>逆時針</b>。颱風在花蓮東側時，花蓮位於颱風西側 → 吹偏北風；颱風過境後花蓮在颱風東側 → 偏南風 ✓",
+    "(C) 颱風離開後，西南季風被引入，臺灣西南部容易有豪雨 ✓　(D) 颱風中心在臺中（西部）時，臺東位於背風側，西風越過中央山脈下沉增溫，可能有焚風 ✓　(E) 颱風往西走，通常受太平洋高壓南側的東風引導；高壓強且偏西時最符合 ✓"
+   ],
+   "final": "答案：(A)"
+  },
+  {
+   "id": 7,
+   "type": "multi",
+   "points": 2,
+   "text": "下列敘述哪些正確？（應選 2 項）",
+   "options": {
+    "A": "311 大地震發生在板塊邊界帶上",
+    "B": "海嘯都是由海底地震活動所引發的",
+    "C": "311 大地震造成重大傷亡，說明預警系統無效",
+    "D": "臺灣周圍海域與日本東北外海的板塊邊界類型不同，所以不會發生海嘯災害",
+    "E": "海嘯波可以在大洋中傳遞，並在遠處造成災害，因此需要全球性的預警系統"
+   },
+   "answer": "AE",
+   "steps": [
+    "<b>【地球科學】</b>311 地震是太平洋板塊隱沒到北美（鄂霍次克）板塊下方的<b>聚合板塊邊界</b>所引起。",
+    "(A) ✓　(E) 海嘯波可橫越整個大洋，遠處也可能受災，所以需要國際合作的預警網 ✓",
+    "(B) 海底火山噴發、海底山崩等也能引發海嘯，不只地震 ✗　(C) 預警系統是爭取逃生時間，有傷亡不代表無效 ✗　(D) 臺灣東部海域也是聚合邊界（菲律賓海板塊與歐亞板塊），同樣可能發生海嘯 ✗"
+   ],
+   "final": "答案：(A)(E)",
+   "passageId": "p7_8"
+  },
+  {
+   "id": 8,
+   "type": "multi",
+   "points": 2,
+   "text": "以 311 大地震為例，若 P 波波速為每秒 6 公里，S 波波速為每秒 3 公里，海嘯波波速為每分鐘 12 公里。假設距離震源最近的地震站位於和震源相距 150 公里的海岸線上，該地震站收到 P 波後，計算並發出地震與海嘯預警的時間約需 10 秒，則下列敘述哪些正確？（應選 2 項）",
+   "options": {
+    "A": "S 波抵達海岸線前沒有預警時間",
+    "B": "S 波抵達海岸線前的預警時間約為 15 秒",
+    "C": "S 波抵達海岸線前的預警時間約為 50 秒",
+    "D": "海嘯抵達海岸線前的預警時間約為 12 分鐘",
+    "E": "海嘯抵達海岸線前的預警時間約為 120 分鐘"
+   },
+   "answer": "BD",
+   "steps": [
+    "<b>【地球科學】</b>距離 150 公里，把各波抵達時間算出來：",
+    "P 波：150 ÷ 6 = <b>25 秒</b>；S 波：150 ÷ 3 = <b>50 秒</b>；海嘯波：150 ÷ (12 公里／分) = 12.5 分 = <b>750 秒</b>。",
+    "預警在 P 波到達後 10 秒發出，也就是第 25 + 10 = <b>35 秒</b>發布。",
+    "S 波到達前的預警時間 = 50 − 35 = <b>15 秒</b>（B ✓）；海嘯到達前 = 750 − 35 = 715 秒 ≈ <b>11.9 分 ≈ 12 分鐘</b>（D ✓）。",
+    "(A)(C)(E) 都和計算結果不符。"
+   ],
+   "final": "答案：(B)(D)",
+   "passageId": "p7_8"
+  },
+  {
+   "id": 9,
+   "type": "multi",
+   "points": 2,
+   "text": "科學家以各種方式研究不同時間尺度上的氣候變遷，圖 3 為臺灣某平原與高山湖泊中沉積物岩芯的孢子與花粉重建紀錄。縱軸為沉積物岩芯的深度，橫軸為蕨類孢子或鐵杉花粉於該深度所有孢子與花粉總量所占的比例。已知蕨類喜歡潮濕的環境，鐵杉喜歡冷涼的環境，假設兩岩芯同樣的深度代表同樣的沉積年代，下列敘述哪些正確？（應選 2 項）<div class='fig'><img src='data/img/sci-q9.jpg' alt='圖 3' style='max-width:380px'/><div class='cap'>圖 3</div></div>",
+   "options": {
+    "A": "無論是平原或高山湖泊，當鐵杉花粉比例越多時，可能指示該地越冷涼",
+    "B": "平原湖泊整段岩芯的鐵杉花粉比例變化不大，主要原因是該地區氣候維持潮濕溫熱",
+    "C": "高山湖泊整段岩芯的鐵杉花粉比例幾乎都比平原湖泊多，主因是高山氣溫較平原低",
+    "D": "在湖泊岩芯 4 到 5 m 範圍中的蕨類孢子與鐵杉花粉比例都有逐漸降低的趨勢，顯示氣候越來越冷涼",
+    "E": "湖泊沉積物中的孢子與花粉組合變化主要是受到人為活動（例如伐木）的影響"
+   },
+   "answer": "AC",
+   "steps": [
+    "<b>【地球科學】</b><b>先讀圖：</b>實線是鐵杉（喜冷涼），虛線是蕨類（喜潮濕）。平原湖泊鐵杉比例一直很低；高山湖泊鐵杉比例明顯較高。",
+    "(A) 鐵杉喜冷涼，比例高 → 可能較冷涼 ✓　(C) 同一時期高山鐵杉比例比平原高，是因為高山氣溫比平原低，更適合鐵杉 ✓",
+    "(B) 平原鐵杉少，是因為平原本來就偏暖，不能由此推論「氣候一直維持潮濕溫熱」，蕨類比例其實有起伏 ✗",
+    "(D) 深度越深越古老，4 到 5 m 是由新往舊；鐵杉比例是往下（變老）愈高，並非一致降低，且比例降低反而代表愈近代愈不冷涼，不能推出「越來越冷涼」 ✗　(E) 長時間尺度的孢粉變化主要反映氣候，題目沒有任何人為活動的證據 ✗"
+   ],
+   "final": "答案：(A)(C)"
+  },
+  {
+   "id": 10,
+   "type": "single",
+   "points": 2,
+   "text": "有一部質量為 1000 公斤的汽車由靜止開始，在水平路面朝正東方直線加速至速度為 10 公尺/秒。接著它保持等速度前進，一段時間後因失去動力而減速至停止。若汽車的速度隨時間的變化如圖 4 所示，則下列敘述何者正確？<div class='fig'><img src='data/img/sci-q10.jpg' alt='圖 4' style='max-width:330px'/><div class='cap'>圖 4</div></div>",
+   "options": {
+    "A": "汽車的加速度量值在減速階段為加速階段的 2 倍",
+    "B": "減速過程阻力對汽車所作的功為 −5×10<sup>6</sup> 焦耳",
+    "C": "汽車的位移在減速階段為加速階段的 2 倍",
+    "D": "汽車在加速階段的位移為 50 公尺",
+    "E": "整個過程中汽車的位移為 200 公尺"
+   },
+   "answer": "C",
+   "steps": [
+    "<b>【物理】</b>v–t 圖：斜率＝加速度，面積＝位移。",
+    "加速階段（0–5 s）：<i>a</i> = 10 ÷ 5 = 2 m/s²，位移 = ½ × 5 × 10 = <b>25 m</b>。等速（5–10 s）：位移 = 10 × 5 = 50 m。減速（10–20 s）：<i>a</i> = −10 ÷ 10 = −1 m/s²，位移 = ½ × 10 × 10 = <b>50 m</b>。",
+    "(C) 50 ÷ 25 = 2 倍 ✓ → 答案。",
+    "(A) 減速的加速度量值 1，是加速階段 2 的<b>一半</b> ✗　(B) 阻力做功 = 動能變化 = 0 − ½ × 1000 × 10² = <b>−5×10<sup>4</sup> J</b>，不是 10<sup>6</sup> ✗　(D) 加速階段位移是 25 m ✗　(E) 總位移 = 25 + 50 + 50 = 125 m ✗"
+   ],
+   "final": "答案：(C)"
+  },
+  {
+   "id": 11,
+   "type": "multi",
+   "points": 2,
+   "text": "假設重物的位移、速度、加速度與所受合力分別為 <span style='position:relative;display:inline-block'><i>D</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span>、<span style='position:relative;display:inline-block'><i>v</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span>、<span style='position:relative;display:inline-block'><i>a</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 與 <span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span>，則下列敘述哪些正確？（應選 2 項）",
+   "options": {
+    "A": "甲至乙、丙至丁兩段路程，<span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 的方向皆向上",
+    "B": "甲至乙、丙至丁兩段路程，<span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 的方向皆向下",
+    "C": "丙至丁段路程之中 <span style='position:relative;display:inline-block'><i>D</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 與 <span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 的方向相同",
+    "D": "丙至丁段路程之中 <span style='position:relative;display:inline-block'><i>v</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 與 <span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 的方向相反",
+    "E": "丙至丁段路程之中 <span style='position:relative;display:inline-block'><i>a</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 與 <span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 的方向相同"
+   },
+   "answer": "DE",
+   "steps": [
+    "<b>【物理】</b>重點：合力 <span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 的方向 = 加速度 <span style='position:relative;display:inline-block'><i>a</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 的方向（牛頓第二定律）。",
+    "甲→乙：往上<b>加速</b>，<span style='position:relative;display:inline-block'><i>a</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 向上，所以 <span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 向上。丙→丁：往上運動但<b>減速</b>，<span style='position:relative;display:inline-block'><i>a</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 向下，所以 <span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 向下。",
+    "丙→丁：位移 <span style='position:relative;display:inline-block'><i>D</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 向上、速度 <span style='position:relative;display:inline-block'><i>v</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 向上；<span style='position:relative;display:inline-block'><i>a</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span>、<span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 向下。",
+    "(D) <span style='position:relative;display:inline-block'><i>v</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span>（上）與 <span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span>（下）相反 ✓　(E) <span style='position:relative;display:inline-block'><i>a</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 與 <span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 同向 ✓　(A)(B) 兩段 <span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> 方向不同 ✗　(C) <span style='position:relative;display:inline-block'><i>D</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span>（上）與 <span style='position:relative;display:inline-block'><i>F</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span>（下）相反 ✗"
+   ],
+   "final": "答案：(D)(E)",
+   "passageId": "p11_12"
+  },
+  {
+   "id": 12,
+   "type": "multi",
+   "points": 2,
+   "text": "假設 ΔU<sub>甲乙</sub>、ΔU<sub>乙丙</sub> 及 ΔU<sub>丙丁</sub> 分別代表重物於甲至乙、乙至丙及丙至丁三段路程中起點與終點的重力位能變化量，ΔK<sub>甲乙</sub>、ΔK<sub>乙丙</sub> 及 ΔK<sub>丙丁</sub> 分別代表重物於甲至乙、乙至丙及丙至丁三段路程中起點與終點的動能變化量，則下列關係哪些正確？（應選 2 項）",
+   "options": {
+    "A": "ΔU<sub>甲乙</sub> + ΔK<sub>甲乙</sub> = 0",
+    "B": "ΔK<sub>甲乙</sub> + ΔK<sub>丙丁</sub> = 0",
+    "C": "ΔU<sub>乙丙</sub> + ΔK<sub>乙丙</sub> = 0",
+    "D": "ΔK<sub>甲乙</sub> + ΔK<sub>乙丙</sub> + ΔK<sub>丙丁</sub> &gt; 0",
+    "E": "ΔU<sub>甲乙</sub> + ΔU<sub>乙丙</sub> + ΔU<sub>丙丁</sub> &gt; 0"
+   },
+   "answer": "BE",
+   "steps": [
+    "<b>【物理】</b>重物一路往上，<b>重力位能一直增加</b>：ΔU<sub>甲乙</sub>、ΔU<sub>乙丙</sub>、ΔU<sub>丙丁</sub> 都 &gt; 0。",
+    "動能：甲在靜止（<i>K</i> = 0）→ 乙達到速率 <i>v</i>：ΔK<sub>甲乙</sub> = +½<i>mv</i>²；乙→丙等速：ΔK<sub>乙丙</sub> = 0；丙→丁減速到靜止：ΔK<sub>丙丁</sub> = −½<i>mv</i>²。",
+    "(B) ΔK<sub>甲乙</sub> + ΔK<sub>丙丁</sub> = +½<i>mv</i>² − ½<i>mv</i>² = 0 ✓　(E) 三段位能變化都為正，相加 &gt; 0 ✓",
+    "(A) ΔU 與 ΔK 都 &gt; 0，和不是 0 ✗（因為起重機對重物作了功）　(C) ΔK<sub>乙丙</sub> = 0，但 ΔU<sub>乙丙</sub> &gt; 0，和不是 0 ✗　(D) 三段動能變化總和 = 0 − 0 = 0，不是 &gt; 0 ✗"
+   ],
+   "final": "答案：(B)(E)",
+   "passageId": "p11_12"
+  },
+  {
+   "id": 13,
+   "type": "single",
+   "points": 2,
+   "text": "2019 年諾貝爾物理獎主題之一為對太陽系外行星系統的探究。實際上某一行星與某恆星皆以 x 點為圓心作圓周運動，如圖 6 所示。在甲時刻，該恆星接近地球。在乙時刻，該恆星遠離地球。已知在實驗室中，靜止光源發出與該恆星相同光譜線的頻率為 <i>f</i><sub>0</sub>。若地面測站與該恆星繞行的圓軌道共平面，則該恆星發出的相同光譜線，從地面測站觀測，所測得頻率 <i>f</i> 隨時間 <i>t</i> 的變化最接近下列何者？<div class='fig'><img src='data/img/sci-q13a.jpg' alt='圖 6' style='max-width:440px'/><div class='cap'>圖 6</div></div><div class='fig'><img src='data/img/sci-q13b.jpg' alt='(A)～(E) 為 f–t 圖（橫軸為時間 t，虛線標示甲、乙時刻）' style='max-width:620px'/><div class='cap'>(A)～(E) 為 <i>f</i>–<i>t</i> 圖（橫軸為時間 <i>t</i>，虛線標示甲、乙時刻）</div></div>",
+   "options": {
+    "A": "見上圖 (A)",
+    "B": "見上圖 (B)",
+    "C": "見上圖 (C)",
+    "D": "見上圖 (D)",
+    "E": "見上圖 (E)"
+   },
+   "answer": "E",
+   "steps": [
+    "<b>【物理】</b>這題用<b>都卜勒效應</b>：波源接近觀察者 → 頻率變高（藍移），遠離 → 頻率變低（紅移）。",
+    "甲時刻恆星接近地球：<i>f</i> &gt; <i>f</i><sub>0</sub>（而且是接近速率最大時，<i>f</i> 最高）；乙時刻恆星遠離：<i>f</i> &lt; <i>f</i><sub>0</sub>（<i>f</i> 最低）。",
+    "圓周運動在視線方向的速度分量隨時間呈<b>正弦變化</b>，所以 <i>f</i> 也圍繞 <i>f</i><sub>0</sub> 上下做正弦振盪。",
+    "符合「甲時刻在 <i>f</i><sub>0</sub> 上方的波峰附近、乙時刻在下方的波谷附近」的圖形是 (E)。(A) 完全不變 ✗；(B) 甲低乙高，剛好相反 ✗；(C)(D) 甲、乙兩時刻同為波谷或同為波峰，不符合一接近一遠離 ✗"
+   ],
+   "final": "答案：(E)"
+  },
+  {
+   "id": 14,
+   "type": "single",
+   "points": 2,
+   "text": "一個氦原子的原子核內有兩個質子與兩個中子，而原子核外則有兩個電子環繞。若氦原子裡兩質子間的靜電力量值為甲，兩中子間的重力量值為乙，一個質子與一個電子間的靜電力量值為丙，兩質子間的強力量值為丁，則這四個量值間的大小關係為下列何者？",
+   "options": {
+    "A": "甲＝丁＞丙＞乙",
+    "B": "丁＞甲＝乙＞丙",
+    "C": "甲＞丙＞乙",
+    "D": "甲＝丙＞乙",
+    "E": "甲＞乙＞丙＞丁"
+   },
+   "answer": "C",
+   "steps": [
+    "<b>【物理】</b>比較三種力：",
+    "<b>甲 vs 丙（靜電力）：</b>兩質子相距約 10<sup>−15</sup> m（核內），電子離核約 10<sup>−10</sup> m。庫侖力與距離平方成反比，而電量乘積相同，所以 <b>甲 ≫ 丙</b>。",
+    "<b>丙 vs 乙：</b>重力比電磁力小約 10<sup>36</sup> 倍，中子間的重力（乙）小到幾乎可忽略，所以 <b>丙 ≫ 乙</b>。",
+    "因此 甲 &gt; 丙 &gt; 乙，(C) 正確。",
+    "(A)(B) 強力在核內比靜電力大很多（丁 &gt; 甲），不可能「甲＝丁」，也不可能甲＝乙 ✗　(D) 甲遠大於丙，不相等 ✗　(E) 乙（重力）最小，不可能大於丙 ✗"
+   ],
+   "final": "答案：(C)"
+  },
+  {
+   "id": 15,
+   "type": "single",
+   "points": 2,
+   "text": "電場為單位正電荷在空間中任一位置所受的靜電力，電器內常以電場驅動帶電粒子，進行運算、控制與調節等工作。設 N 為牛頓、C 為庫侖、V 為伏特、A 為安培，則下列何者為電場的 SI 單位？",
+   "options": {
+    "A": "<span class='frac small'><span class='num'>C</span><span class='den'>N</span></span>",
+    "B": "<span class='frac small'><span class='num'>N</span><span class='den'>C</span></span>",
+    "C": "<span class='frac small'><span class='num'>V</span><span class='den'>A</span></span>",
+    "D": "<span class='frac small'><span class='num'>A</span><span class='den'>V</span></span>",
+    "E": "<span class='frac small'><span class='num'>N<sup>2</sup></span><span class='den'>C</span></span>"
+   },
+   "answer": "B",
+   "steps": [
+    "<b>【物理】</b>電場的定義：<i>E</i> = <i>F</i> ÷ <i>q</i>，也就是<b>力 ÷ 電荷</b>。",
+    "力的單位是 N，電荷的單位是 C，所以電場單位 = <b>N/C</b>（也可寫成 V/m）。",
+    "(A) C/N 是倒過來 ✗；(C) V/A 是電阻（Ω）✗；(D) A/V 是電導 ✗；(E) N²/C 不是任何常見電學單位 ✗"
+   ],
+   "final": "答案：(B)"
+  },
+  {
+   "id": 16,
+   "type": "single",
+   "points": 2,
+   "text": "假設氫原子中的質子位於 <i>x</i> 軸原點，則下列何者最接近電子所受靜電力 <i>F</i> 隨著位置 <i>x</i> 的變化？（令靜電力 <i>F</i> 朝 +<i>x</i> 方向為正值）<div class='fig'><img src='data/img/sci-q16.jpg' alt='選項 (A)～(E)（橫軸 x、縱軸 F）' style='max-width:620px'/><div class='cap'>選項 (A)～(E)（橫軸 <i>x</i>、縱軸 <i>F</i>）</div></div>",
+   "options": {
+    "A": "見上圖 (A)",
+    "B": "見上圖 (B)",
+    "C": "見上圖 (C)",
+    "D": "見上圖 (D)",
+    "E": "見上圖 (E)"
+   },
+   "answer": "B",
+   "steps": [
+    "<b>【物理】</b>質子（+）與電子（−）互相<b>吸引</b>，力永遠指向原點。",
+    "電子在 <i>x</i> &gt; 0：被拉向原點，力朝 −<i>x</i>，所以 <i>F</i> &lt; 0；電子在 <i>x</i> &lt; 0：力朝 +<i>x</i>，<i>F</i> &gt; 0。也就是左半邊在 <i>x</i> 軸上方、右半邊在下方。",
+    "大小與距離平方成反比（<i>F</i> ∝ 1/<i>x</i>²），越靠近原點力越大，曲線向原點方向急遽變大。符合的圖是 (B)。",
+    "(A) 方向相反（相當於互相排斥）；(C)(D) 力和位置成線性關係，是彈簧力的形式；(E) 兩側力都是負號，不合左右方向的規律。"
+   ],
+   "final": "答案：(B)"
+  },
+  {
+   "id": 17,
+   "type": "single",
+   "points": 2,
+   "text": "已知氣體分子平均動能正比於其克氏溫度（絕對溫度），則在月球赤道處，相同氣體分子的平均動能於日間為夜間的多少倍？",
+   "options": {
+    "A": "31/23",
+    "B": "304/296",
+    "C": "121/133",
+    "D": "394/403",
+    "E": "394/140"
+   },
+   "answer": "E",
+   "steps": [
+    "<b>【物理】</b>氣體分子平均動能 ∝ <b>絕對溫度</b>（K = ℃ + 273），不能直接用攝氏溫度相比。",
+    "月球日間：121 + 273 = <b>394 K</b>；夜間：−133 + 273 = <b>140 K</b>。",
+    "倍數 = 394 ÷ 140，也就是 (E)。(A) 用的是地球日夜的攝氏溫度；(B) 是地球日夜的絕對溫度比；(C) 直接用月球的攝氏溫度相除；(D) 是把夜間 −133℃ 誤當成 +130℃ 再換算 ✗"
+   ],
+   "final": "答案：(E)",
+   "passageId": "p17_18"
+  },
+  {
+   "id": 18,
+   "type": "single",
+   "points": 2,
+   "text": "假設圖 7 中鈾核、氪核、鋇核及中子的質量分別為 <i>M</i><sub>U</sub>、<i>M</i><sub>Kr</sub>、<i>M</i><sub>Ba</sub> 及 <i>M</i><sub>n</sub>，核反應發生頻率控制為 <i>R</i><sub>N</sub>（即每秒發生核反應的次數）。已知該核反應前後質量損失為 Δ<i>m</i> = 3.3 × 10<sup>−28</sup> kg，光速為 <i>c</i> = 3 × 10<sup>8</sup> m/s，則下列有關該 SMR 發電的敘述，何者正確？",
+   "options": {
+    "A": "Δ<i>m</i> = <i>M</i><sub>U</sub> − (<i>M</i><sub>Kr</sub> + <i>M</i><sub>Ba</sub>)",
+    "B": "<i>E</i><sub>N</sub> = Δ<i>m</i> × <i>c</i>",
+    "C": "<i>E</i><sub>N</sub> 約為 3 × 10<sup>−8</sup> J",
+    "D": "<i>R</i><sub>N</sub> = <span class='frac small'><span class='num'><i>P</i><sub>e</sub> × 33%</span><span class='den'><i>E</i><sub>N</sub></span></span>",
+    "E": "<i>R</i><sub>N</sub> 約為 3 × 10<sup>19</sup> Hz"
+   },
+   "answer": "E",
+   "steps": [
+    "<b>【物理】</b>先算<b>每次核反應釋出的核能</b>：<i>E</i><sub>N</sub> = Δ<i>m</i> <i>c</i>² = 3.3×10<sup>−28</sup> × (3×10<sup>8</sup>)² ≈ <b>3×10<sup>−11</sup> J</b>。",
+    "發電功率 300 MW = 3×10<sup>8</sup> W 是「電能」，效率 33%，所以核反應總功率 = <i>P</i><sub>e</sub> ÷ 0.33。每秒反應次數：<i>R</i><sub>N</sub> = <i>P</i><sub>e</sub> ÷ (0.33 <i>E</i><sub>N</sub>) = 3×10<sup>8</sup> ÷ (0.33 × 3×10<sup>−11</sup>) ≈ <b>3×10<sup>19</sup> 次/秒</b>（E ✓）。",
+    "(A) 反應前有 1 顆中子射入，反應後多出 3 顆中子，算質量損失要寫成 <i>M</i><sub>U</sub> + <i>M</i><sub>n</sub> − (<i>M</i><sub>Kr</sub> + <i>M</i><sub>Ba</sub> + 3<i>M</i><sub>n</sub>)，漏了中子 ✗　(B) 愛因斯坦公式是 Δ<i>m</i> <i>c</i>²，不是 <i>c</i> ✗　(C) 數量級應是 10<sup>−11</sup> J ✗　(D) 效率 33% 應在分母（核能轉電能，要除以 0.33），不能乘在分子 ✗"
+   ],
+   "final": "答案：(E)",
+   "passageId": "p17_18"
+  },
+  {
+   "id": 19,
+   "type": "single",
+   "points": 2,
+   "text": "下列反應所得到的溶液，何者可使藍色的石蕊試紙變為紅色？",
+   "options": {
+    "A": "金屬鈉丟入水中",
+    "B": "氧化鈣溶於水",
+    "C": "3% 雙氧水以二氧化錳當催化劑進行分解",
+    "D": "二氧化硫在空氣中與雨水作用",
+    "E": "小蘇打溶於水中"
+   },
+   "answer": "D",
+   "steps": [
+    "<b>【化學】</b>藍色石蕊試紙變<b>紅色</b>＝遇到<b>酸性</b>溶液。逐項看產物：",
+    "(D) SO<sub>2</sub> 與水反應生成亞硫酸（H<sub>2</sub>SO<sub>3</sub>），再被空氣中氧氣氧化可生成硫酸，溶液呈<b>酸性</b> ✓ → 答案（酸雨的成因）。",
+    "(A) 2Na + 2H<sub>2</sub>O → 2NaOH + H<sub>2</sub>，鹼性 ✗　(B) CaO + H<sub>2</sub>O → Ca(OH)<sub>2</sub>，鹼性 ✗　(C) 雙氧水分解成水和氧氣，接近中性 ✗　(E) NaHCO<sub>3</sub> 水溶液呈弱鹼性，不會讓藍色石蕊變紅 ✗"
+   ],
+   "final": "答案：(D)"
+  },
+  {
+   "id": 20,
+   "type": "single",
+   "points": 2,
+   "text": "相圖是表示物質的狀態（常見有固態、液態、氣態）與溫度、壓力的關係圖，可得知熔點與沸點會隨著壓力而改變。圖 8 是化合物甲的相圖，表 2 列出化合物甲在 1.0 大氣壓下的一些物理性質。若取 20.0 克的甲，在 1.0 大氣壓下，由 0 ℃加熱至 150 ℃，則所需的熱量約是多少（kJ）？<table class='qt'><tr><td>莫耳質量</td><td>100.0 g/mol</td></tr><tr><td>熔化熱</td><td>4.0 kJ/mol</td></tr><tr><td>汽化熱</td><td>20.0 kJ/mol</td></tr><tr><td>固體莫耳比熱</td><td>100 J/mol·℃</td></tr><tr><td>液體莫耳比熱</td><td>120 J/mol·℃</td></tr><tr><td>氣體莫耳比熱</td><td>30 J/mol·℃</td></tr></table><div class='cap'>表 2</div><div class='fig'><img src='data/img/sci-q20.jpg' alt='圖 8（相圖）' style='max-width:300px'/><div class='cap'>圖 8（相圖）</div></div>",
+   "options": {
+    "A": "4.2",
+    "B": "5.8",
+    "C": "7.4",
+    "D": "21.0",
+    "E": "29.0"
+   },
+   "answer": "A",
+   "steps": [
+    "<b>【化學】</b><b>先從相圖找 1.0 atm 的相變溫度：</b>在 1.0 大氣壓畫一條水平線，與固液界線交在約 <b>55 ℃</b>（熔點）；與液氣界線的交點在 150 ℃ 以後（約 200 ℃），所以 0 → 150 ℃ 這段<b>只會熔化，不會沸騰</b>。",
+    "莫耳數 = 20.0 ÷ 100.0 = <b>0.200 mol</b>。",
+    "① 固體升溫 0 → 55 ℃：0.200 × 100 × 55 = 1100 J = 1.1 kJ<br>② 熔化：0.200 × 4.0 = 0.8 kJ<br>③ 液體升溫 55 → 150 ℃：0.200 × 120 × 95 = 2280 J ≈ 2.3 kJ",
+    "總和 ≈ 1.1 + 0.8 + 2.3 ≈ <b>4.2 kJ</b>，選 (A)。若誤以為會汽化，把 20 × 0.2 = 4.0 kJ 加進去就會得到 (B) 附近的錯誤結果。"
+   ],
+   "final": "答案：(A)"
+  },
+  {
+   "id": 21,
+   "type": "single",
+   "points": 2,
+   "text": "化學實驗室中有五種酸鹼指示劑，其變色範圍 pH 列於表 3 中。現有甲、乙、丙、丁、戊等五種溶液，小雨想要比較此五種溶液的酸鹼度，於是她在此五種溶液中分別滴入不同的指示劑，所觀察到的顏色如表 4 所示。下列有關溶液中氫離子濃度的比較，何者正確？<table class='qt'><tr><th>指示劑</th><th>甲基橙</th><th>甲基紅</th><th>溴瑞香草酚藍</th><th>酚紅</th><th>酚酞</th></tr><tr><td>顏色與變色範圍 pH</td><td>紅 黃<br>3.2～4.4</td><td>紅 黃<br>4.2～6.3</td><td>黃 藍<br>6.0～7.6</td><td>黃 紅<br>6.8～8.4</td><td>無 紅<br>8.2～10.0</td></tr></table><div class='cap'>表 3</div><table class='qt'><tr><th></th><th>甲基橙</th><th>甲基紅</th><th>溴瑞香草酚藍</th><th>酚紅</th><th>酚酞</th></tr><tr><td>甲</td><td>－</td><td>紅色</td><td>－</td><td>－</td><td>－</td></tr><tr><td>乙</td><td>－</td><td>－</td><td>綠色</td><td>－</td><td>－</td></tr><tr><td>丙</td><td>橙色</td><td>－</td><td>－</td><td>－</td><td>－</td></tr><tr><td>丁</td><td>－</td><td>－</td><td>－</td><td>紅色</td><td>－</td></tr><tr><td>戊</td><td>－</td><td>－</td><td>－</td><td>－</td><td>無色</td></tr></table><div class='cap'>表 4</div>",
+   "options": {
+    "A": "甲＞乙＞丙",
+    "B": "甲＞丁＞乙",
+    "C": "甲＞丁＞戊",
+    "D": "乙＞丙＞戊",
+    "E": "丙＞乙＞丁"
+   },
+   "answer": "E",
+   "steps": [
+    "<b>【化學】</b><b>把每種溶液的 pH 範圍估出來：</b>",
+    "甲：甲基紅呈<b>紅色</b> → pH &lt; 4.2。乙：溴瑞香草酚藍呈<b>綠色</b>（黃與藍的中間色）→ pH 約 6.8 左右。丙：甲基橙呈<b>橙色</b>（紅與黃的中間色）→ pH 約 3.8。丁：酚紅呈<b>紅色</b> → pH &gt; 8.4。戊：酚酞<b>無色</b> → pH &lt; 8.2。",
+    "氫離子濃度愈大，pH 愈小。<b>丙（約 3.8）&gt; 乙（約 6.8）&gt; 丁（&gt; 8.4）</b>，所以 (E) ✓。",
+    "(A) 乙 pH 比丙大，濃度應該是丙 &gt; 乙 ✗　(B)(C) 丁 pH &gt; 8.4 是五者中最鹼的，氫離子最少，不可能排在乙、戊前面 ✗　(D) 戊 pH &lt; 8.2，但無法與丙比大小；而且丙的 pH 約 3.8，一定比乙更酸 ✗"
+   ],
+   "final": "答案：(E)"
+  },
+  {
+   "id": 22,
+   "type": "single",
+   "points": 2,
+   "text": "常溫、常壓下，P<sub>4</sub>O<sub>6</sub> 與 P<sub>4</sub>O<sub>10</sub> 皆為固體，可從 P<sub>4</sub> 固體與氧氣反應而得。在標準狀態下，1 莫耳 P<sub>4</sub> 分別與足量氧氣反應，各自生成 P<sub>4</sub>O<sub>6</sub> 與 P<sub>4</sub>O<sub>10</sub>，且依序放出 1640 kJ 與 3000 kJ 的熱量。今有 12.4 克的 P<sub>4</sub> 與氧氣反應後得到 5.5 克 P<sub>4</sub>O<sub>6</sub> 與 21.3 克 P<sub>4</sub>O<sub>10</sub>，其未平衡的熱化學反應式為 P<sub>4</sub>(s) + O<sub>2</sub>(g) → P<sub>4</sub>O<sub>6</sub>(s) + P<sub>4</sub>O<sub>10</sub>(s)，Δ<i>H</i> = <i>Q</i>，則 <i>Q</i> 值為何？（原子量：O = 16.0，P = 31.0）",
+   "options": {
+    "A": "−4640 kJ",
+    "B": "464 kJ",
+    "C": "−266 kJ",
+    "D": "250 kJ",
+    "E": "−232 kJ"
+   },
+   "answer": "C",
+   "steps": [
+    "<b>【化學】</b><b>先算各物質的莫耳數：</b>P<sub>4</sub> 莫耳質量 = 4 × 31.0 = 124 → 12.4 g = <b>0.100 mol</b>。P<sub>4</sub>O<sub>6</sub> = 124 + 96 = 220 g/mol → 5.5 g = <b>0.025 mol</b>。P<sub>4</sub>O<sub>10</sub> = 124 + 160 = 284 g/mol → 21.3 g = <b>0.075 mol</b>。",
+    "檢查：0.025 + 0.075 = 0.100 mol，P<sub>4</sub> 剛好用完，沒有剩。",
+    "放熱量：生成 P<sub>4</sub>O<sub>6</sub> 放 0.025 × 1640 = <b>41 kJ</b>；生成 P<sub>4</sub>O<sub>10</sub> 放 0.075 × 3000 = <b>225 kJ</b>。合計放出 266 kJ。",
+    "放熱時 Δ<i>H</i> 為負，所以這次反應 <i>Q</i> = <b>−266 kJ</b>，選 (C)。（<i>Q</i> 是以題目給的這次實際用量為基準，不必再把係數平衡。）"
+   ],
+   "final": "答案：(C)"
+  },
+  {
+   "id": 23,
+   "type": "multi",
+   "points": 2,
+   "text": "圖 9 為週期表的一部分，下列關於甲～戊 5 種元素的敘述，哪些正確？（應選 2 項）<div class='fig'><img src='data/img/sci-q23.jpg' alt='圖 9' style='max-width:620px'/><div class='cap'>圖 9</div></div>",
+   "options": {
+    "A": "甲容易失去一個電子，形成帶一個正電荷的陽離子",
+    "B": "非金屬性質：丁＞丙＞戊",
+    "C": "在自然界中，丙不具有同位素",
+    "D": "原子半徑大小：戊＞丁＞丙＞乙",
+    "E": "獲得電子的趨勢：戊＞丁＞甲"
+   },
+   "answer": "AE",
+   "steps": [
+    "<b>【化學】</b><b>先從圖中位置辨認元素：</b>甲在第 1 族第 3 週期＝<b>鈉 Na</b>；乙在第 2 族第 2 週期＝<b>鈹 Be</b>；丙、丁在第 2 週期的第 14、15 族＝<b>碳 C、氮 N</b>；戊在第 3 週期第 17 族＝<b>氯 Cl</b>。",
+    "(A) 鈉最外層 1 個電子，易失去形成 Na<sup>+</sup> ✓　(E) 獲得電子的傾向（非金屬性）：Cl 最強，N 次之，Na 是金屬最弱，所以 戊 &gt; 丁 &gt; 甲 ✓",
+    "(B) 非金屬性：Cl（戊）&gt; N（丁）&gt; C（丙），不是 丁 &gt; 丙 &gt; 戊 ✗　(C) 碳有 <sup>12</sup>C、<sup>13</sup>C、<sup>14</sup>C 等同位素 ✗　(D) 同一週期由左到右原子半徑變小，所以 C（丙）&gt; N（丁），「丁＞丙」不成立 ✗"
+   ],
+   "final": "答案：(A)(E)"
+  },
+  {
+   "id": 24,
+   "type": "single",
+   "points": 2,
+   "text": "下列物質結構的示意圖，何者最能代表在常溫、常壓下鈉金屬的結構？<div class='fig'><img src='data/img/sci-q24.jpg' alt='選項 (A)～(E)（由左至右）' style='max-width:620px'/><div class='cap'>選項 (A)～(E)（由左至右）</div></div>",
+   "options": {
+    "A": "見上圖 (A)",
+    "B": "見上圖 (B)",
+    "C": "見上圖 (C)",
+    "D": "見上圖 (D)",
+    "E": "見上圖 (E)"
+   },
+   "answer": "B",
+   "steps": [
+    "<b>【化學】</b>金屬的結構特色是<b>金屬鍵</b>：金屬原子失去價電子變成<b>正離子（陽離子）排列整齊</b>，價電子變成<b>自由移動的「電子海」</b>包圍著它們。所以金屬能導電、導熱。",
+    "(B) 圖中是排列成格子的正離子（⊕），周圍有許多可移動的電子（e<sup>−</sup>），正是金屬鍵的結構 ✓。",
+    "其他選項：(A) 是由六元環連成的層狀共價結構（如石墨）；(C) 是原子以共價鍵相連的立體網狀結構（如鑽石、石英）；(D) 是正、負離子相間排列的離子晶體；(E) 是由原子連成的多面體分子／團簇。這題的關鍵是找出「正離子排列＋自由電子」的圖。"
+   ],
+   "final": "答案：(B)"
+  },
+  {
+   "id": 25,
+   "type": "single",
+   "points": 2,
+   "text": "在上述步驟中，包括下列哪些實驗方法？（應選 2 項）",
+   "options": {
+    "A": "濾紙層析法",
+    "B": "蒸餾法",
+    "C": "過濾法",
+    "D": "沉澱法",
+    "E": "萃取法"
+   },
+   "answer": "CD",
+   "steps": [
+    "<b>【化學】</b>把題目步驟對照到實驗方法：",
+    "步驟 4、5：「以濾紙濾除不溶物」、「以濾紙收集沉澱物」→ <b>過濾法</b>（C ✓）。步驟 4：加入 NH<sub>4</sub>ClO<sub>4</sub>，使鉀離子以溶解度很小的 KClO<sub>4</sub> 形式析出 → <b>沉澱法</b>（D ✓）。",
+    "(A) 濾紙層析是利用物質在濾紙上移動速率不同來分離，題目沒有；(B) 蒸餾需要加熱使液體氣化再冷凝，沒有；(E) 萃取是用兩種互不相溶溶劑分配溶質，步驟 3 只是用熱水把鹽溶解出來（溶解），不是萃取 ✗"
+   ],
+   "final": "答案：(CD)",
+   "passageId": "p25_27"
+  },
+  {
+   "id": 26,
+   "type": "multi",
+   "points": 2,
+   "text": "下列相關敘述，哪些選項正確？（應選 3 項）",
+   "options": {
+    "A": "香蕉成分中的醣類、脂肪、蛋白質、胺基酸均屬於有機化合物",
+    "B": "步驟 2 中，將礦物質變成碳酸鹽的目的，是希望去除鈣離子與鎂離子",
+    "C": "步驟 4 中選用 NH<sub>4</sub>ClO<sub>4</sub>，可有效分離鈉離子與鉀離子",
+    "D": "步驟 4 中的 NH<sub>4</sub>ClO<sub>4</sub>，可使用 (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub> 來替代",
+    "E": "步驟 5 中的沉澱物主要是 NaClO<sub>4</sub>"
+   },
+   "answer": "ABC",
+   "steps": [
+    "<b>【化學】</b>對照表 6（30 ℃ 溶解度）來判斷：",
+    "(A) 醣類、脂肪、蛋白質、胺基酸都是含碳的有機化合物 ✓",
+    "(B) 步驟 2 把礦物質變成碳酸鹽／氧化物後，Ca、Mg 的碳酸鹽幾乎不溶於水（表 6：MgCO<sub>3</sub> 與 CaCO<sub>3</sub> &lt; 0.01），在步驟 4 被濾紙濾掉，達到去除 Ca<sup>2+</sup>、Mg<sup>2+</sup> 的目的 ✓",
+    "(C) KClO<sub>4</sub> 溶解度只有 1.3，NaClO<sub>4</sub> 高達 209：加入 ClO<sub>4</sub><sup>−</sup> 時 K<sup>+</sup> 先沉澱，Na<sup>+</sup> 留在溶液，可以分開 ✓",
+    "(D) 若改用 SO<sub>4</sub><sup>2−</sup>：Na<sub>2</sub>SO<sub>4</sub> 110、K<sub>2</sub>SO<sub>4</sub> 130，兩者都很能溶，無法沉澱分離 ✗　(E) 沉澱物是溶解度小的 <b>KClO<sub>4</sub></b>，不是 NaClO<sub>4</sub> ✗"
+   ],
+   "final": "答案：(A)(B)(C)",
+   "passageId": "p25_27"
+  },
+  {
+   "id": 27,
+   "type": "multi",
+   "points": 2,
+   "text": "在步驟 5 中的反應，下列相關敘述，哪些正確？（應選 3 項）",
+   "options": {
+    "A": "此反應可能產生氣體而導致步驟 5 中的重量減少",
+    "B": "此反應中 Cl 被還原",
+    "C": "此反應產生 KClO",
+    "D": "此反應中，1 莫耳的反應物分解產生 1 莫耳的氧氣",
+    "E": "平衡反應式的最小整數係數和為 4"
+   },
+   "answer": "ABE",
+   "steps": [
+    "<b>【化學】</b>沉澱物是 KClO<sub>4</sub>（138.5 g/mol）。加熱後重量減少 46.2%，試著用 KClO<sub>4</sub> → KCl + <i>x</i> O<sub>2</sub> 驗證：",
+    "每莫耳 KClO<sub>4</sub> 若放出 2 mol O<sub>2</sub> = 64 g，64 ÷ 138.5 = <b>46.2%</b>，與題目完全吻合，所以反應是 <b>KClO<sub>4</sub> → KCl + 2 O<sub>2</sub></b>。",
+    "(A) 放出氧氣使重量減少 ✓　(B) Cl 在 ClO<sub>4</sub><sup>−</sup> 是 +7，在 KCl 是 −1，氧化數下降＝被還原 ✓　(E) 係數 1 + 1 + 2 = 4 ✓",
+    "(C) 產物是 KCl，不是 KClO ✗　(D) 1 莫耳 KClO<sub>4</sub> 產生 <b>2</b> 莫耳 O<sub>2</sub> ✗"
+   ],
+   "final": "答案：(A)(B)(E)",
+   "passageId": "p25_27"
+  },
+  {
+   "id": 28,
+   "type": "single",
+   "points": 2,
+   "text": "為了探討有絲分裂的現象，學生們觀察洋蔥根尖的切片。他們將已進入細胞分裂階段的細胞歸納如選項 (A)～(E) 所示之五個典型的樣態，並以此五個樣態依序代表細胞分裂階段中的五個進程。依推論，下列哪一進程最早形成 2 倍的 DNA？<div class='fig'><img src='data/img/sci-q28.jpg' alt='選項 (A)～(E)（由左至右）' style='max-width:620px'/><div class='cap'>選項 (A)～(E)（由左至右）</div></div>",
+   "options": {
+    "A": "見上圖 (A)",
+    "B": "見上圖 (B)",
+    "C": "見上圖 (C)",
+    "D": "見上圖 (D)",
+    "E": "見上圖 (E)"
+   },
+   "answer": "A",
+   "steps": [
+    "<b>【生物】</b>DNA 的複製發生在<b>間期（S 期）</b>，在細胞開始看到染色體濃縮之前就已經完成，所以「最早形成 2 倍 DNA」的進程是五個樣態中的<b>第一個</b>。",
+    "依圖排序：(A) 有核仁、看不到明顯染色體＝間期 → (B) 染色質開始濃縮＝前期 → (C) 染色體排列＝中期 → (D) 染色分體分向兩極＝後期 → (E) 形成兩個子細胞＝末期。",
+    "所以最早形成 2 倍 DNA 的是 (A)（間期，S 期複製完成）。(B)(C)(D)(E) 時 DNA 已是 2 倍，不是「最早」。"
+   ],
+   "final": "答案：(A)"
+  },
+  {
+   "id": 29,
+   "type": "single",
+   "points": 2,
+   "text": "將正常光照下生長的豆苗移入黑暗處，若仍然存活且未發生凋萎現象，則豆苗生理變化的敘述，何者最合理？",
+   "options": {
+    "A": "呼吸作用停止，細胞中葡萄糖分解產生丙酮酸",
+    "B": "呼吸作用逐漸下降，細胞中的乳酸因而累積",
+    "C": "呼吸作用受到抑制，細胞中的酒精因而累積",
+    "D": "光反應停止，細胞內醣類因能量需求減少而累積",
+    "E": "固碳反應停止，細胞為維持適當機能而分解醣類"
+   },
+   "answer": "E",
+   "steps": [
+    "<b>【生物】</b>移到黑暗：沒有光 → <b>光反應停止</b>（不再產生 ATP、NADPH）→ 固碳反應（需要光反應的產物）也跟著停止，無法製造新的醣類。",
+    "但植物仍然存活，細胞要維持生命活動，必須繼續進行呼吸作用，<b>分解原有儲存的醣類</b>供應能量，(E) ✓。",
+    "(A) 呼吸作用不會停止，存活的細胞仍需要能量 ✗　(B)(C) 植物在有氧氣的環境下進行有氧呼吸，不會累積乳酸或酒精 ✗　(D) 光反應停止後醣類不會「累積」，反而因消耗而減少 ✗"
+   ],
+   "final": "答案：(E)"
+  },
+  {
+   "id": 30,
+   "type": "single",
+   "points": 2,
+   "text": "研究生物體的細部結構，有賴顯微鏡製作技術的發展。十九世紀前後的科學家們，用逐步改良的顯微鏡觀察生物體的內部結構後，歸納出細胞學說。有關細胞學說的形成，下列歷史性敘述何者正確？",
+   "options": {
+    "A": "虎克觀察軟木塞發現細胞膜，是形成細胞學說的主要基礎",
+    "B": "雷文霍克改良顯微鏡，將細胞細部結構整理發表為《微物圖誌》",
+    "C": "布朗在細胞學說大體上被確立後，進一步發現動物細胞內的細胞核",
+    "D": "許來登觀察動物組織後，推論動物體由細胞及其產物所構成",
+    "E": "魏修研究細胞的生長後，認為所有的細胞都由既存的細胞產生"
+   },
+   "answer": "E",
+   "steps": [
+    "<b>【生物】</b>這題考細胞學說的發展史，把人物和貢獻配對：",
+    "(E) 魏修（Virchow）提出「所有的細胞都來自既存的細胞」，補上細胞學說的第三個要點 ✓。",
+    "(A) 虎克看到的是軟木塞中死細胞的<b>細胞壁</b>（空格），不是細胞膜，且他只是命名「cell」，並未提出學說 ✗　(B) 《微物圖誌》是虎克所著；雷文霍克以自製顯微鏡觀察到微生物（微小動物）✗　(C) 布朗發現的是<b>植物細胞</b>（蘭花）的細胞核 ✗　(D) 許來登研究的是<b>植物</b>，推論動物由細胞構成的是許旺 ✗"
+   ],
+   "final": "答案：(E)"
+  },
+  {
+   "id": 31,
+   "type": "multi",
+   "points": 2,
+   "text": "人類 ABO 血型的遺傳現象可用孟德爾遺傳法則解釋。某家族三代 ABO 血型的關係，除 X 與 Y 未知外，其餘成員的血型皆已填入譜系圖中，如圖 10 所示。若依法則，並以（X、Y）組合填入此二成員的基因型，則下列哪些合理？（應選 2 項）<div class='fig'><img src='data/img/sci-q31.jpg' alt='圖 10（方形為男性、圓形為女性）' style='max-width:260px'/><div class='cap'>圖 10（方形為男性、圓形為女性）</div></div>",
+   "options": {
+    "A": "(<i>I</i><sup>A</sup><i>i</i>、<i>I</i><sup>A</sup><i>i</i>)",
+    "B": "(<i>I</i><sup>A</sup><i>I</i><sup>A</sup>、<i>i i</i>)",
+    "C": "(<i>I</i><sup>B</sup><i>i</i>、<i>I</i><sup>A</sup><i>i</i>)",
+    "D": "(<i>I</i><sup>B</sup><i>i</i>、<i>i i</i>)",
+    "E": "(<i>i i</i>、<i>I</i><sup>A</sup><i>i</i>)"
+   },
+   "answer": "AC",
+   "steps": [
+    "<b>【生物】</b><b>先看 Y：</b>Y 與 O 型男性（<i>ii</i>）生下 A 型與 O 型的孩子。O 型孩子是 <i>ii</i>，所以 Y 要給一個 <i>i</i>；A 型孩子要有 <i>I</i><sup>A</sup>，只能來自 Y。所以 Y 一定是 <b><i>I</i><sup>A</sup><i>i</i></b>。",
+    "<b>再看 X：</b>X 與 AB 型（<i>I</i><sup>A</sup><i>I</i><sup>B</sup>）的女性生下 AB、A、B 三種孩子。AB 型孩子的 <i>I</i><sup>A</sup>、<i>I</i><sup>B</sup> 一個來自 AB 型母親，另一個必須來自 X，所以 X 至少有 <i>I</i><sup>A</sup> 或 <i>I</i><sup>B</sup>；<i>ii</i> 不可能。同時要能生出 A 型與 B 型，X 若是 <i>I</i><sup>A</sup><i>I</i><sup>A</sup> 就生不出 B 型，所以 X 可為 <i>I</i><sup>A</sup><i>i</i>、<i>I</i><sup>B</sup><i>i</i> 或 <i>I</i><sup>A</sup><i>I</i><sup>B</sup>。",
+    "把 Y 固定為 <i>I</i><sup>A</sup><i>i</i>，選項只有 (A)、(C)、(E) 的 Y 是 <i>I</i><sup>A</sup><i>i</i>；其中 (E) 的 X 是 <i>ii</i>，不可能。故答案是 (A)(C)。(B)(D) 的 Y 是 <i>ii</i>，生不出 A 型孩子 ✗"
+   ],
+   "final": "答案：(A)(C)"
+  },
+  {
+   "id": 32,
+   "type": "multi",
+   "points": 2,
+   "text": "ATP 是真核細胞運作的重要分子，有關此分子，下列哪些正確？（應選 2 項）",
+   "options": {
+    "A": "由核糖、嘧啶及三個磷酸基相連而成",
+    "B": "組成其分子之一的嘌呤為鳥糞嘌呤",
+    "C": "可由細胞質中的粒線體產生",
+    "D": "是細胞代謝的主要能量來源",
+    "E": "水解後會吸收能量而抑制細胞生長"
+   },
+   "answer": "CD",
+   "steps": [
+    "<b>【生物】</b>ATP（腺苷三磷酸）＝<b>腺嘌呤＋核糖＋三個磷酸基</b>。",
+    "(C) 有氧呼吸的主要場所是粒線體，會產生大量 ATP ✓　(D) ATP 是細胞通用的能量貨幣、主要的能量來源 ✓",
+    "(A) ATP 含的是<b>嘌呤</b>（腺嘌呤），不是嘧啶 ✗　(B) 腺嘌呤，而非鳥糞嘌呤（鳥嘌呤）✗　(E) ATP 水解是<b>釋放</b>能量供細胞使用，不是吸收能量，也不會因此抑制生長 ✗"
+   ],
+   "final": "答案：(C)(D)"
+  },
+  {
+   "id": 33,
+   "type": "single",
+   "points": 2,
+   "text": "在粗萃取奇異果 DNA 的實驗中，以果汁機打碎果實，依序加入清潔劑、食鹽水和新鮮鳳梨汁，分別攪拌之。接著，以過濾法去雜質，加酒精於濾液中。最後，濾液和酒精的交界處會出現含 DNA 的棉絮狀物質。若對此棉絮狀物質做後續處理，則理論上何者正確？",
+   "options": {
+    "A": "經染色後會緊密纏繞成棍棒狀，呈現類似在細胞內的染色體樣態",
+    "B": "經水解處理後會產生核苷酸",
+    "C": "加入胺基酸並水浴於 35 ℃ 會產生蛋白質",
+    "D": "置於生理食鹽水中會產生 RNA",
+    "E": "與草莓萃取的 DNA 混合會形成完全互補的雙股 DNA"
+   },
+   "answer": "B",
+   "steps": [
+    "<b>【生物】</b>棉絮狀物質是萃取出來的 <b>DNA</b>。DNA 由許多<b>核苷酸</b>組成。",
+    "(B) DNA 被水解（斷開核苷酸之間的鍵）後可得核苷酸 ✓ → 答案。",
+    "(A) 染色體要有組蛋白包裝，萃取出來的是裸露的長鏈，染色後呈絲狀而非棍棒 ✗　(C) 合成蛋白質需要 mRNA、核糖體、tRNA 等整套系統，只加胺基酸不會做出蛋白質 ✗　(D) 把 DNA 放在食鹽水中不會自己轉錄成 RNA（還需要 RNA 聚合酶）✗　(E) 不同物種的 DNA 序列不同，無法形成「完全」互補的雙股 ✗"
+   ],
+   "final": "答案：(B)"
+  },
+  {
+   "id": 34,
+   "type": "single",
+   "points": 2,
+   "text": "古生物學家舍科斯基（Sepkoski）教授將海洋生物化石多樣性歸納為三個動物相。以科為單位，他列舉了地球生命史上的五次大滅絕如圖 11 之數字 1～5 所示。依其歸納及後來的科學發展，下列敘述何者正確？<div class='fig'><img src='data/img/sci-q34.jpg' alt='圖 11' style='max-width:520px'/><div class='cap'>圖 11</div></div>",
+   "options": {
+    "A": "寒武紀大爆發之後，奧陶紀加速形成了古生動物相",
+    "B": "第 1 次大滅絕之後，古生代的海洋生物科幾乎消失殆盡",
+    "C": "第 3 次大滅絕之後，中生代的物種不再出現於新生代",
+    "D": "侏羅紀將結束之時，恐龍類群的物種大量從地球消失",
+    "E": "地球生命史上生物多樣性的高低，僅由滅絕速率的高低所決定"
+   },
+   "answer": "A",
+   "steps": [
+    "<b>【生物】</b>圖 11 的三個動物相：寒武動物相（最早）、古生動物相、現代動物相。五次大滅絕依序約在奧陶紀末（1）、泥盆紀晚期（2）、二疊紀末（3）、三疊紀末（4）、白堊紀末（5）。",
+    "(A) 寒武紀大爆發之後，到奧陶紀生物多樣性加速上升，古生動物相的各類群大量出現 ✓。",
+    "(B) 奧陶紀末滅絕之後，圖中古生動物相仍維持很高的多樣性，並未消失殆盡 ✗　(C) 第 3 次發生在二疊紀末，之後才有中生代，這句話的時序與說法都不對 ✗　(D) 恐龍滅絕是在<b>白堊紀</b>末（第 5 次），不是侏羅紀 ✗　(E) 多樣性由「形成速率」與「滅絕速率」共同決定，不是只有滅絕速率 ✗"
+   ],
+   "final": "答案：(A)"
+  },
+  {
+   "id": 35,
+   "type": "multi",
+   "points": 2,
+   "text": "有關共同祖先的概念及演化證據對生物分類系統之影響，下列敘述哪些正確？（應選 2 項）",
+   "options": {
+    "A": "以二名法為新物種命名，是根據共同祖先的概念而進行的方法",
+    "B": "因為無法決定病毒的分類地位，生物分類將二界分類系統擴增為三界",
+    "C": "DNA 及 RNA 分子的突變率太高，不適合運用於推論分類單元間的共同祖先",
+    "D": "由於有一些不具細胞核的單細胞生物體，故原核生物界從原生生物界劃分出來",
+    "E": "真核生物具有 DNA 位於核膜內的特徵，說明他們有一個不為古菌域所擁有的共同祖先"
+   },
+   "answer": "DE",
+   "steps": [
+    "<b>【生物】</b>(D) 早期的分類把單細胞生物都放進原生生物界，後來發現有些單細胞生物<b>沒有細胞核</b>（細菌），所以另立原核生物界 ✓。",
+    "(E) 真核生物都有核膜包住 DNA，這個特徵古菌域沒有，推論真核生物來自一個古菌域沒有的共同祖先 ✓。",
+    "(A) 二名法（林奈）是命名規則（屬名＋種小名），並不是依共同祖先概念制定 ✗　(B) 由二界擴增為三界的原因是微小的單細胞生物（原生生物）不易歸類為動物或植物，與病毒無關 ✗　(C) 分子序列正是目前推論親緣關係最重要的證據之一，不會因突變率高就不適用 ✗"
+   ],
+   "final": "答案：(D)(E)"
+  },
+  {
+   "id": 36,
+   "type": "single",
+   "points": 2,
+   "text": "分子生物學發展前，圖 12 表示現生四足類合理的親緣關係之一。科學家在侏羅紀的地層發現一塊恐龍之長骨，並從骨腔中採樣。假設此採樣可獲得約 200 個鹼基對的 DNA 序列，若將此序列與現生生物之序列比對並推論之，則該恐龍最可能插入圖中的哪一分支，形成新的節點？<div class='fig'><img src='data/img/sci-q36.jpg' alt='圖 12' style='max-width:300px'/><div class='cap'>圖 12</div></div>",
+   "options": {
+    "A": "①",
+    "B": "②",
+    "C": "③",
+    "D": "④",
+    "E": "⑤"
+   },
+   "answer": "A",
+   "steps": [
+    "<b>【生物】</b>圖 12 由右到左的五個分支：① 鳥類、② 鱷魚類、③ 蛇蜥類、④ 龜鱉類、⑤ 哺乳類，鳥類與鱷魚類最近緣。",
+    "現代演化證據：<b>鳥類是恐龍（獸腳類）的後代</b>，恐龍與鳥類的親緣關係，比和鱷魚更近。所以新插入的恐龍應該落在<b>通往鳥類的分支 ①</b> 上，形成新的節點。",
+    "(B) 的分支 ② 是鱷魚類，(C)(D)(E) 的親緣更遠。"
+   ],
+   "final": "答案：(A)"
+  },
+  {
+   "id": 37,
+   "type": "multi",
+   "points": 2,
+   "text": "關於 <i>Dmrt1</i> 與 <i>Kdm6b</i> 兩基因的敘述或推論，下列哪些正確？（應選 3 項）",
+   "options": {
+    "A": "<i>Dmrt1</i> 基因存在於雄性巴西龜，雌性則沒有",
+    "B": "Dmrt1 蛋白質可能會促進雄性性器官的發育",
+    "C": "<i>Dmrt1</i> 基因在細胞核中進行轉錄，<i>Kdm6b</i> 基因在細胞質中進行轉錄",
+    "D": "<i>Kdm6b</i> 基因與 <i>Dmrt1</i> 基因轉錄後，都在細胞質中進行轉譯",
+    "E": "Kdm6b 蛋白質會在細胞核中幫助 <i>Dmrt1</i> 基因的轉錄"
+   },
+   "answer": "BDE",
+   "steps": [
+    "<b>【生物】</b>先抓題目資訊：性別由<b>溫度</b>決定，不是由性染色體決定；Kdm6b 蛋白多 → 促進 <i>Dmrt1</i> 基因轉錄 → 雄性。",
+    "(B) 26 ℃ 時 <i>Dmrt1</i> 表現 → 雄性，所以 Dmrt1 蛋白質可能促進雄性性器官發育 ✓　(E) Kdm6b 蛋白質促進 <i>Dmrt1</i> 轉錄，轉錄在細胞核內進行，所以它在細胞核中發揮作用 ✓",
+    "(D) 真核生物的基因，轉錄後 mRNA 運到細胞質，由核糖體進行轉譯，兩個基因都一樣 ✓",
+    "(A) 兩種性別都有 <i>Dmrt1</i> 基因，只是 32 ℃ 時不表現 ✗　(C) 真核細胞的基因都在<b>細胞核</b>轉錄，<i>Kdm6b</i> 也不例外 ✗"
+   ],
+   "final": "答案：(B)(D)(E)",
+   "passageId": "p37_39",
+   "section": "第貳部分、混合題或非選擇題（占 56 分）：本部分共有 6 題組，選擇題每題 2 分，非選擇題配分標於題末。多選題計分方式同第壹部分。"
+  },
+  {
+   "id": 38,
+   "type": "open",
+   "points": 4,
+   "text": "將文本的研究發現歸納總結，可用示意圖 13 表示。<div class='fig'><img src='data/img/sci-q38.jpg' alt='圖 13' style='max-width:420px'/><div class='cap'>圖 13</div></div><br>（a）因此，可推論在 26 ℃ 孵化的巴西龜受精卵，若在適當時間點對其胚胎注射抑制 <i>Kdm6b</i> 基因表現的藥物，則此幼龜的性別為何？（2 分）<br>（b）承（a）題，相較於未經藥物處理的 26 ℃ 孵化胚胎，此胚胎中 <i>Dmrt1</i> 基因及 <i>Kdm6b</i> 基因的表現量變化為何（20 字以內）？（2 分）",
+   "modelAnswer": [
+    "(a) 雌性（雌／雌龜）。",
+    "(b) <i>Dmrt1</i> 基因表現量下降（減少／降低／抑制）；<i>Kdm6b</i> 基因表現量下降（減少／降低／抑制）。"
+   ],
+   "scoring": "(a) 2 分：寫出雌性（雌／雌龜）。(b) 2 分：兩個基因表現量皆下降得 2 分；僅寫出其中一個基因表現量下降得 1 分；其他錯誤答案或未作答 0 分。",
+   "steps": [
+    "<b>【生物】</b><b>(a)</b> 26 ℃ 原本會產生較多 Kdm6b → 活化 <i>Dmrt1</i> → 雄性。現在注射藥物抑制 <i>Kdm6b</i> 表現，就等於模擬 32 ℃ 的情況：Kdm6b 蛋白少 → <i>Dmrt1</i> 幾乎不表現 → 發育為<b>雌性</b>。",
+    "<b>(b)</b> 和沒被處理的 26 ℃ 胚胎相比：<i>Kdm6b</i> 被藥物<b>抑制（下降）</b>，連帶使 <i>Dmrt1</i> 的表現量也<b>下降</b>。兩個基因都要寫下降才得滿分。",
+    "<b>作答提醒：</b>題目限 20 字，寫「<i>Dmrt1</i> 下降、<i>Kdm6b</i> 下降」即可，不必解釋原因。"
+   ],
+   "final": "參考答案：(a) 雌性。(b) <i>Dmrt1</i> 基因及 <i>Kdm6b</i> 基因的表現量皆下降。",
+   "passageId": "p37_39"
+  },
+  {
+   "id": 39,
+   "type": "multi",
+   "points": 2,
+   "text": "<i>Dmrt1</i> 基因從「共同祖先」之祖先型演化出線蟲、昆蟲和魚類，乃至兩生類、爬蟲類、鳥類和哺乳類等不同衍生型的版本，形成一個基因族。發展至今，此基因族是一個高度保守（即大體上維持與過去相同），而且其成員間能忠實反映類群演化的分子性狀。今以巴西龜的 <i>Dmrt1</i> 基因對青蛙、大鼠、蛇、蜥蜴、鱷魚及鳥的同源 DNA 做親緣分析，得圖 14，則下列圖示哪些合理？（應選 2 項）<div class='fig'><img src='data/img/sci-q39a.jpg' alt='圖 14' style='max-width:300px'/><div class='cap'>圖 14</div></div><div class='fig'><img src='data/img/sci-q39b.jpg' alt='選項 (A)～(E)（以分支圖表示親緣關係）' style='max-width:640px'/><div class='cap'>選項 (A)～(E)（以分支圖表示親緣關係）</div></div>",
+   "options": {
+    "A": "見上圖 (A)",
+    "B": "見上圖 (B)",
+    "C": "見上圖 (C)",
+    "D": "見上圖 (D)",
+    "E": "見上圖 (E)"
+   },
+   "answer": "AD",
+   "steps": [
+    "<b>【生物】</b><b>先讀圖 14 的分支關係：</b>最早分出的是青蛙；接著是大鼠；剩下的爬蟲類與鳥分成兩群：<b>（巴西龜，（鱷魚，鳥））</b>與<b>（蜥蜴，蛇）</b>。",
+    "分支圖有個重要規則：<b>在同一個節點上，兩個分支左右對調，親緣關係不變</b>。所以不要比「由左到右的排列順序」，要比「誰跟誰先在同一個節點會合」。",
+    "(A) 青蛙最早分出 → 大鼠 → 再分成（烏龜，（鳥，鱷魚））與（蛇，蜥蜴），與圖 14 相同 ✓　(D) 青蛙 → 大鼠 → （蜥蜴，蛇）與（烏龜，（鱷魚，鳥））兩群，只是左右對調，與圖 14 相同 ✓",
+    "(B)(C) 最早分出的是大鼠而不是青蛙，與圖 14 不同 ✗　(E) 大鼠被畫成與鳥最近緣的末端，順序與關係均不符 ✗"
+   ],
+   "final": "答案：(A)(D)",
+   "passageId": "p37_39"
+  },
+  {
+   "id": 40,
+   "type": "single",
+   "points": 2,
+   "text": "根據圖 16 的結果，相較於野生型菸草，下列敘述何者<u><b>錯誤</b></u>？",
+   "options": {
+    "A": "不含尼古丁的花朵每天被蜂鳥到訪的數量較少",
+    "B": "缺乏苄丙酮或尼古丁及兩者都缺乏的花朵，蜂鳥停留時間變長",
+    "C": "花蜜不含尼古丁的基改型果實成熟率較低",
+    "D": "花蜜中只有苄丙酮的基改型被取食的量較多",
+    "E": "本結果已達成基改使果實成熟率提升的目的"
+   },
+   "answer": "E",
+   "steps": [
+    "<b>【生物】</b>野生型是 +/+（兩種都有）。基改型是 +/−（只有苄丙酮）、−/+（只有尼古丁）、−/−（都沒有）。本題選<b>錯誤</b>的。",
+    "(E) 圖 16 丙：野生型果實成熟率約 34%，三種基改型都只有約 12～14%，<b>成熟率都下降</b>，並未提升 ✗ → 答案。",
+    "(A) 不含尼古丁＝+/−、−/−：每天到訪花朵數約 32 與 31，低於野生型約 52 ✓　(B) +/−、−/−、−/+ 的停留時間 1.8、1.8、1.45 都比野生型 1.2 長 ✓　(C) +/−、−/−：成熟率約 13%、14%，低於野生型 ✓　(D) 只有苄丙酮＝+/−：花蜜剩餘體積最小（約 0.7），代表被取食最多 ✓"
+   ],
+   "final": "答案：(E)",
+   "passageId": "p40_43"
+  },
+  {
+   "id": 41,
+   "type": "open",
+   "points": 4,
+   "text": "根據圖 16 結果，顯示苄丙酮與尼古丁對蜂鳥吸食花蜜有不同的影響，試推論其影響並說明理由。（4 分）（於答題卷作答）<table class='qt'><tr><th></th><th>對蜂鳥吸食花蜜的影響（勾選）</th><th>說明理由</th></tr><tr><td>苄丙酮</td><td>☐ 抑制蜂鳥吸食花蜜<br>☐ 吸引蜂鳥吸食花蜜（1 分）</td><td>只有苄丙酮者，花蜜剩餘較少。（範例）</td></tr><tr><td>尼古丁</td><td>☐ 抑制蜂鳥吸食花蜜<br>☐ 吸引蜂鳥吸食花蜜（1 分）</td><td>（2 分）</td></tr></table>",
+   "modelAnswer": [
+    "苄丙酮：<b>吸引</b>蜂鳥吸食花蜜（範例理由：只有苄丙酮者，花蜜剩餘較少）。",
+    "尼古丁：<b>抑制</b>蜂鳥吸食花蜜；理由：只有尼古丁者，花蜜剩餘較多。"
+   ],
+   "scoring": "兩個勾選各 1 分（兩格均正確得 2 分）；說明理由正確舉出基改菸草類型與花蜜剩餘量的關係，得 2 分；說明理由正確但舉例的基改菸草類型不完全正確，得 1 分；勾選錯誤、說明理由錯誤或未作答，該部分 0 分。",
+   "steps": [
+    "<b>【生物】</b><b>圖 16 丁（花蜜剩餘體積）怎麼看：</b>剩餘越少 → 被蜂鳥喝得越多（吸引）；剩餘越多 → 被喝得少（抑制）。比較時要用「只缺其中一種」的類型，與兩者都沒有（−/−，約 1.15）對照。",
+    "<b>苄丙酮：</b>只有苄丙酮（+/−）的花蜜剩餘約 0.7，比兩者都沒有（−/−，約 1.15）少很多 → 苄丙酮<b>吸引</b>蜂鳥。",
+    "<b>尼古丁：</b>只有尼古丁（−/+）的花蜜剩餘約 1.3，比兩者都沒有（−/−，約 1.15）還多 → 尼古丁<b>抑制</b>蜂鳥吸食。",
+    "<b>作答提醒：</b>理由一定要寫「哪一型菸草」＋「花蜜剩餘較多／較少」，只寫「吸引」或「抑制」而沒寫證據不給理由分。"
+   ],
+   "final": "參考答案：苄丙酮→吸引蜂鳥吸食花蜜（只有苄丙酮者，花蜜剩餘較少）；尼古丁→抑制蜂鳥吸食花蜜（只有尼古丁者，花蜜剩餘較多）。",
+   "passageId": "p40_43"
+  },
+  {
+   "id": 42,
+   "type": "open",
+   "points": 4,
+   "text": "（a）寫出苄丙酮的分子式。（2 分）<br>（b）試在答題卷作答區中的尼古丁結構式，畫出其孤對電子。（2 分）",
+   "modelAnswer": [
+    "(a) C<sub>10</sub>H<sub>12</sub>O",
+    "(b) 尼古丁的路易斯結構式：兩個氮原子上各畫一對孤對電子（五元環上的 N，以及吡啶環上的 N，各有一對孤對電子 :N）。"
+   ],
+   "scoring": "(a) 2 分：分子式正確；答案不正確或答非所問不給分。(b) 2 分：兩個 N 原子周圍皆畫一對孤對電子；只畫其中一個 N 原子的一對孤對電子給 1 分；答案不正確或答非所問不給分。",
+   "steps": [
+    "<b>【化學】</b><b>(a) 數原子：</b>圖 15 中苄丙酮有苯環（6 個 C，上面接 5 個 H）、一條鏈 –CH<sub>2</sub>–CH<sub>2</sub>–（2 個 C、4 個 H）、羰基 C=O（1 個 C、1 個 O）、末端 –CH<sub>3</sub>（1 個 C、3 個 H）。<br>C：6 + 2 + 1 + 1 = <b>10</b>；H：5 + 4 + 3 = <b>12</b>；O：<b>1</b>。分子式 <b>C<sub>10</sub>H<sub>12</sub>O</b>。",
+    "<b>(b) 孤對電子怎麼找：</b>價電子 − 共用鍵的電子 = 剩下的電子。氮有 5 個價電子，形成 3 個鍵（共用 3 個電子），剩 2 個電子 → <b>一對孤對電子</b>。尼古丁有兩個 N：五元環上的 N（連 3 個單鍵）和吡啶環上的 N（2 個單鍵 + 1 個雙鍵的一部分，共 3 個鍵），兩個 N 都各有一對孤對電子。",
+    "<b>作答提醒：</b>只畫一個 N 的孤對電子只拿 1 分，兩個 N 都要畫。"
+   ],
+   "final": "參考答案：(a) C<sub>10</sub>H<sub>12</sub>O；(b) 尼古丁結構式中兩個 N 原子各畫一對孤對電子。",
+   "passageId": "p40_43"
+  },
+  {
+   "id": 43,
+   "type": "single",
+   "points": 2,
+   "text": "有關苄丙酮與尼古丁的分子結構與性質之敘述，下列何者正確？",
+   "options": {
+    "A": "苄丙酮與尼古丁互為同分異構物",
+    "B": "等重的苄丙酮與尼古丁完全燃燒會產生相同莫耳數的二氧化碳",
+    "C": "苄丙酮與尼古丁分子中含有相同數目的 C–H 鍵",
+    "D": "苄丙酮與尼古丁分子中的所有原子均有 8 個價電子",
+    "E": "苄丙酮與尼古丁分子有相同數目孤對電子"
+   },
+   "answer": "E",
+   "steps": [
+    "<b>【化學】</b>尼古丁的分子式是 C<sub>10</sub>H<sub>14</sub>N<sub>2</sub>，苄丙酮是 C<sub>10</sub>H<sub>12</sub>O（上一題算出）。",
+    "(E) 苄丙酮的 O（羰基氧）有 <b>2 對</b>孤對電子；尼古丁的兩個 N 各有 1 對，共 <b>2 對</b> → 相同 ✓。",
+    "(A) 分子式不同，不是同分異構物 ✗　(B) 兩者都含 10 個 C，但莫耳質量不同（148 與 162），等重時莫耳數不同，CO<sub>2</sub> 的量也不同 ✗　(C) C–H 鍵數 = H 數：12 與 14，不同 ✗　(D) H 原子只有 2 個價電子（雙電子組態），不是 8 個 ✗"
+   ],
+   "final": "答案：(E)",
+   "passageId": "p40_43"
+  },
+  {
+   "id": 44,
+   "type": "multi",
+   "points": 2,
+   "text": "關於硫化鋅量子點合成實驗的敘述，下列哪些正確？（應選 2 項）",
+   "options": {
+    "A": "反應中添加半胱胺酸，可幫助硫化鋅量子點分散在水中",
+    "B": "反應後的混合溶液，使用雷射光筆照射，可看到光束",
+    "C": "產物硫化鋅易溶於水，屬於分子化合物",
+    "D": "合成實驗時，會出現一種刺鼻的味道，是硫化鋅的氣味",
+    "E": "合成實驗時，添加冰冷的乙醇，可增加硫化鋅奈米粒子的溶解度"
+   },
+   "answer": "AB",
+   "steps": [
+    "<b>【化學】</b>(A) 半胱胺酸包覆在量子點表面，讓它穩定地<b>分散</b>在水中（題目說可由添加不同界面活性劑等方法控制大小與成分）✓",
+    "(B) 量子點直徑 1～10 nm，屬於<b>膠體</b>大小，雷射光通過會發生散射，看到光束（廷得耳效應）✓",
+    "(C) ZnS 是金屬與非金屬形成的<b>離子化合物</b>，難溶於水，才會產生沉澱 ✗　(D) 刺鼻味道（臭蛋味）應是硫化氫 H<sub>2</sub>S 之類，而不是硫化鋅（難揮發，沒有氣味）✗　(E) 加冰乙醇是降低溶解度，使 ZnS 沉澱析出（步驟 3 稱為乙醇沉澱），不是增加溶解度 ✗"
+   ],
+   "final": "答案：(A)(B)",
+   "passageId": "p44_46"
+  },
+  {
+   "id": 45,
+   "type": "multi",
+   "points": 2,
+   "text": "關於表 8 實驗結果的敘述，下列哪些正確？（應選 3 項）",
+   "options": {
+    "A": "當 Na<sub>2</sub>S 低於 5.0×10<sup>−5</sup> 莫耳時，硫化鋅量子點的產率低於 20%",
+    "B": "當 Na<sub>2</sub>S 超過 1.0×10<sup>−4</sup> 莫耳時，硫化鋅量子點的產率高於 40%",
+    "C": "當 Na<sub>2</sub>S 過量時，硫化鋅量子點的產率高於 45%",
+    "D": "硫化鋅量子點的產率可以達到 100%",
+    "E": "硫化鋅量子點的鋅離子/硫離子（Zn<sup>2+</sup>/S<sup>2−</sup>）比例遠大於 1"
+   },
+   "answer": "ABC",
+   "steps": [
+    "<b>【化學】</b>表 8 中 Na<sub>2</sub>S 的單位是 10<sup>−6</sup> mol，所以 5.0×10<sup>−5</sup> mol = 50、1.0×10<sup>−4</sup> mol = 100、ZnSO<sub>4</sub> 固定為 200。",
+    "(A) Na<sub>2</sub>S ≤ 50 時（樣品 1）產率 18.1% &lt; 20% ✓　(B) Na<sub>2</sub>S &gt; 100（樣品 3～6）產率 44.4%、44.0%、45.5%、50.2%，都 &gt; 40% ✓　(C) Na<sub>2</sub>S 過量（&gt; 200，樣品 5、6）產率 45.5%、50.2% &gt; 45% ✓",
+    "(D) 最高只有 50.2%，沒有達到 100% ✗　(E) Zn<sup>2+</sup>/S<sup>2−</sup> 比：樣品 1 為 7.2/9.4 ≈ 0.77，樣品 4 為 88.0/88.0 = 1，其餘更小於 1，沒有「遠大於 1」的情形 ✗"
+   ],
+   "final": "答案：(A)(B)(C)",
+   "passageId": "p44_46"
+  },
+  {
+   "id": 46,
+   "type": "open",
+   "points": 4,
+   "text": "若已知樣品 4 中，每顆硫化鋅量子點約含有 110 個硫化鋅。（原子量：Zn = 65.4，S = 32.0）。回答下列問題：<br>（a）生成硫化鋅量子點的莫耳數為多少？（2 分）<br>（b）每顆量子點含有多少克硫化鋅？（2 分）",
+   "modelAnswer": [
+    "(a) Zn<sup>2+</sup> + S<sup>2−</sup> → ZnS；樣品 4 的 ZnS 莫耳數 = 88×10<sup>−6</sup> mol；量子點莫耳數 = 88×10<sup>−6</sup> ÷ 110 = <b>8×10<sup>−7</sup> mol</b>。",
+    "(b) ZnS 式量 = 65.4 + 32.0 = 97.4 g/mol；每顆量子點含 ZnS = (110 ÷ 6.02×10<sup>23</sup>) mol × 97.4 g/mol = 1780×10<sup>−23</sup> g = <b>1.78×10<sup>−20</sup> g</b>。"
+   ],
+   "scoring": "(a) 列式正確得 1 分，答案正確再得 1 分；列式正確、答案不正確只得 1 分；只寫答案沒計算過程不給分。(b) 同 (a)：列式 1 分、答案 1 分；只寫答案沒計算過程不給分。",
+   "steps": [
+    "<b>【化學】</b><b>(a)</b> 表 8 的「產物」欄是量子點裡所含的 Zn<sup>2+</sup>、S<sup>2−</sup> 量。樣品 4 兩者都是 88.0×10<sup>−6</sup> mol，結合成 ZnS（Zn<sup>2+</sup> + S<sup>2−</sup> → ZnS），所以 ZnS 共 <b>88×10<sup>−6</sup> mol</b>。（驗算：88 ÷ 200 = 44%，與表中產率 44.0% 吻合。）",
+    "每顆量子點含 110 個 ZnS，所以量子點數目 = ZnS 的數目 ÷ 110，量子點的莫耳數 = 88×10<sup>−6</sup> ÷ 110 = <b>8×10<sup>−7</sup> mol</b>。",
+    "<b>(b)</b> ZnS 式量 = 65.4 + 32.0 = 97.4。每顆量子點含 110 個 ZnS，即 110 ÷ 6.02×10<sup>23</sup> mol，質量 = 110 ÷ 6.02×10<sup>23</sup> × 97.4 ≈ <b>1.78×10<sup>−20</sup> g</b>。",
+    "<b>作答提醒：</b>只寫答案沒有算式不給分，要把「88×10<sup>−6</sup> ÷ 110」、「110 ÷ 6.02×10<sup>23</sup> × 97.4」寫出來。"
+   ],
+   "final": "參考答案：(a) 8×10<sup>−7</sup> mol；(b) 1.78×10<sup>−20</sup> g。",
+   "passageId": "p44_46"
+  },
+  {
+   "id": 47,
+   "type": "single",
+   "points": 2,
+   "text": "關於圖 17 汞原子能階之間的躍遷，下列何者可以發出波長為 365 nm 的 UV 光波？",
+   "options": {
+    "A": "<i>E</i><sub>1</sub> → <i>E</i><sub>3</sub>",
+    "B": "<i>E</i><sub>1</sub> → <i>E</i><sub>4</sub>",
+    "C": "<i>E</i><sub>2</sub> → <i>E</i><sub>4</sub>",
+    "D": "<i>E</i><sub>2</sub> → <i>E</i><sub>5</sub>",
+    "E": "<i>E</i><sub>3</sub> → <i>E</i><sub>4</sub>"
+   },
+   "answer": "B",
+   "steps": [
+    "<b>【物理】</b>題目說明：365 nm 紫外光的光子能量為 <b>3.4 eV</b>。電子由高能階躍遷到低能階，會放出等於能階差的光子。",
+    "從圖 17：<i>E</i><sub>1</sub> = −1.6、<i>E</i><sub>2</sub> = −2.5、<i>E</i><sub>3</sub> = −3.7、<i>E</i><sub>4</sub> = −5.0、<i>E</i><sub>5</sub> = −10.4（單位 eV）。",
+    "(B) <i>E</i><sub>1</sub> → <i>E</i><sub>4</sub>：−1.6 − (−5.0) = <b>3.4 eV</b> ✓。",
+    "(A) 2.1 eV；(C) 2.5 eV；(D) 7.9 eV（且 <i>E</i><sub>2</sub> → <i>E</i><sub>5</sub> 是 −2.5 → −10.4）；(E) 1.3 eV，都不是 3.4 eV ✗"
+   ],
+   "final": "答案：(B)",
+   "passageId": "p47_49"
+  },
+  {
+   "id": 48,
+   "type": "multi",
+   "points": 2,
+   "text": "下列有關波長 <i>λ</i> 為 13.5 nm 的 EUV 光子能量 <i>E</i> 的敘述，哪些正確？（應選 2 項）",
+   "options": {
+    "A": "<i>E</i> = <i>hc</i> / <i>λ</i>",
+    "B": "<i>E</i> = <i>h</i> / <i>λ</i>",
+    "C": "<i>E</i> = <i>hcλ</i>",
+    "D": "<i>E</i> 約為 1.5×10<sup>−17</sup> J",
+    "E": "<i>E</i> 約為 5×10<sup>−44</sup> J"
+   },
+   "answer": "AD",
+   "steps": [
+    "<b>【物理】</b>光子能量 <i>E</i> = <i>hf</i>，而 <i>c</i> = <i>fλ</i>，所以 <b><i>E</i> = <i>hc</i>/<i>λ</i></b>（A ✓；B、C 的式子單位不對 ✗）。",
+    "代入：<i>E</i> = 6.63×10<sup>−34</sup> × 3×10<sup>8</sup> ÷ (13.5×10<sup>−9</sup>) = 1.989×10<sup>−25</sup> ÷ 1.35×10<sup>−8</sup> ≈ <b>1.5×10<sup>−17</sup> J</b>（D ✓），約等於 92 eV，比 365 nm 的 3.4 eV 大得多。",
+    "(E) 5×10<sup>−44</sup> 是把 <i>hc</i> 與 <i>λ</i> 相乘的結果（也就是 C 式），單位與意義都錯 ✗"
+   ],
+   "final": "答案：(A)(D)",
+   "passageId": "p47_49"
+  },
+  {
+   "id": 49,
+   "type": "open",
+   "points": 4,
+   "text": "圖 19（a）示意運用重複的薄膜單元以加強 EUV 反射效率。每一個單元包含兩層，分別為快、慢波速介質。依據上述回答下列各問題。<br>（a）在答題卷對應的方格紙中，依據某時刻 R<sub>2</sub> 的電場與位置關係圖，描繪在相同時刻 EUV 加強反射鍍膜之 R<sub>3</sub> 應有的電場與位置關係圖形，可使疊加後的反射 EUV 達到最大反射效率。（2 分）<br>（b）圖 19（b）的箭號 I 展示一束光線，從慢波速介質射向快波速介質。在答題卷對應的極坐標圖中，以一段箭號精確描繪光線 I 的反射光線（1 分），並以另一段箭號定性描繪光線 I 通過界面的折射光線（須明確表達偏近或偏離界面）。（1 分）",
+   "modelAnswer": [
+    "(a) 所繪 R<sub>3</sub> 的圖形要與 R<sub>2</sub> <b>相位相同</b>（波峰對齊波峰、波谷對齊波谷），振幅略小（波峰與波谷不可觸及上下虛線）。",
+    "(b) 反射線：<b>反射角 = 入射角</b>。折射線：比起原來光線路徑<b>更偏近界面</b>（位於虛線與右上界面之間）。"
+   ],
+   "scoring": "(a) 2 分：所繪 R<sub>3</sub> 圖形與 R<sub>2</sub> 相位相同、振幅略小（波峰與波谷不可觸及上下虛線）即得滿分。(b) 反射線：反射角 = 入射角（1 分）；折射線：比起原來光線路徑更偏近界面（1 分）。圖形須符合上述原則。",
+   "steps": [
+    "<b>【物理】</b><b>(a) 為什麼要「同相」？</b>多道反射光 R<sub>1</sub>、R<sub>2</sub>、R<sub>3</sub>… 疊加時，只有<b>相位相同（建設性干涉）</b>才會互相加強，總反射最強。所以 R<sub>3</sub> 的波峰要對齊 R<sub>2</sub> 的波峰、波谷對齊波谷。",
+    "每經過一個界面，光有一部分透射、一部分被吸收，所以越後面的反射光（R<sub>3</sub>）強度越弱，<b>振幅略小於 R<sub>2</sub></b>，但不可畫成完全一樣大或更大。",
+    "<div class='fig'><svg xmlns='http://www.w3.org/2000/svg' width='380' height='170' viewBox='0 0 380 170' font-family='sans-serif' font-size='12'><line x1='40' y1='85' x2='350' y2='85' stroke='#555'/><line x1='40' y1='10' x2='40' y2='160' stroke='#555'/><line x1='40' y1='25' x2='350' y2='25' stroke='#999' stroke-dasharray='4,3'/><line x1='40' y1='145' x2='350' y2='145' stroke='#999' stroke-dasharray='4,3'/><polyline points='40.0,85.0 41.0,82.7 42.0,80.4 43.0,78.1 44.0,75.8 45.0,73.6 46.0,71.3 47.0,69.1 48.0,66.9 49.0,64.8 50.0,62.6 51.0,60.5 52.0,58.5 53.0,56.5 54.0,54.6 55.0,52.7 56.0,50.8 57.0,49.1 58.0,47.3 59.0,45.7 60.0,44.1 61.0,42.6 62.0,41.2 63.0,39.8 64.0,38.6 65.0,37.4 66.0,36.3 67.0,35.2 68.0,34.3 69.0,33.4 70.0,32.7 71.0,32.0 72.0,31.5 73.0,31.0 74.0,30.6 75.0,30.3 76.0,30.1 77.0,30.0 78.0,30.0 79.0,30.1 80.0,30.3 81.0,30.6 82.0,31.0 83.0,31.5 84.0,32.0 85.0,32.7 86.0,33.4 87.0,34.3 88.0,35.2 89.0,36.3 90.0,37.4 91.0,38.6 92.0,39.8 93.0,41.2 94.0,42.6 95.0,44.1 96.0,45.7 97.0,47.3 98.0,49.1 99.0,50.8 100.0,52.7 101.0,54.6 102.0,56.5 103.0,58.5 104.0,60.5 105.0,62.6 106.0,64.8 107.0,66.9 108.0,69.1 109.0,71.3 110.0,73.6 111.0,75.8 112.0,78.1 113.0,80.4 114.0,82.7 115.0,85.0 116.0,87.3 117.0,89.6 118.0,91.9 119.0,94.2 120.0,96.4 121.0,98.7 122.0,100.9 123.0,103.1 124.0,105.2 125.0,107.4 126.0,109.5 127.0,111.5 128.0,113.5 129.0,115.4 130.0,117.3 131.0,119.2 132.0,120.9 133.0,122.7 134.0,124.3 135.0,125.9 136.0,127.4 137.0,128.8 138.0,130.2 139.0,131.4 140.0,132.6 141.0,133.7 142.0,134.8 143.0,135.7 144.0,136.6 145.0,137.3 146.0,138.0 147.0,138.5 148.0,139.0 149.0,139.4 150.0,139.7 151.0,139.9 152.0,140.0 153.0,140.0 154.0,139.9 155.0,139.7 156.0,139.4 157.0,139.0 158.0,138.5 159.0,138.0 160.0,137.3 161.0,136.6 162.0,135.7 163.0,134.8 164.0,133.7 165.0,132.6 166.0,131.4 167.0,130.2 168.0,128.8 169.0,127.4 170.0,125.9 171.0,124.3 172.0,122.7 173.0,120.9 174.0,119.2 175.0,117.3 176.0,115.4 177.0,113.5 178.0,111.5 179.0,109.5 180.0,107.4 181.0,105.2 182.0,103.1 183.0,100.9 184.0,98.7 185.0,96.4 186.0,94.2 187.0,91.9 188.0,89.6 189.0,87.3 190.0,85.0 191.0,82.7 192.0,80.4 193.0,78.1 194.0,75.8 195.0,73.6 196.0,71.3 197.0,69.1 198.0,66.9 199.0,64.8 200.0,62.6 201.0,60.5 202.0,58.5 203.0,56.5 204.0,54.6 205.0,52.7 206.0,50.8 207.0,49.1 208.0,47.3 209.0,45.7 210.0,44.1 211.0,42.6 212.0,41.2 213.0,39.8 214.0,38.6 215.0,37.4 216.0,36.3 217.0,35.2 218.0,34.3 219.0,33.4 220.0,32.7 221.0,32.0 222.0,31.5 223.0,31.0 224.0,30.6 225.0,30.3 226.0,30.1 227.0,30.0 228.0,30.0 229.0,30.1 230.0,30.3 231.0,30.6 232.0,31.0 233.0,31.5 234.0,32.0 235.0,32.7 236.0,33.4 237.0,34.3 238.0,35.2 239.0,36.3 240.0,37.4 241.0,38.6 242.0,39.8 243.0,41.2 244.0,42.6 245.0,44.1 246.0,45.7 247.0,47.3 248.0,49.1 249.0,50.8 250.0,52.7 251.0,54.6 252.0,56.5 253.0,58.5 254.0,60.5 255.0,62.6 256.0,64.8 257.0,66.9 258.0,69.1 259.0,71.3 260.0,73.6 261.0,75.8 262.0,78.1 263.0,80.4 264.0,82.7 265.0,85.0 266.0,87.3 267.0,89.6 268.0,91.9 269.0,94.2 270.0,96.4 271.0,98.7 272.0,100.9 273.0,103.1 274.0,105.2 275.0,107.4 276.0,109.5 277.0,111.5 278.0,113.5 279.0,115.4 280.0,117.3 281.0,119.2 282.0,120.9 283.0,122.7 284.0,124.3 285.0,125.9 286.0,127.4 287.0,128.8 288.0,130.2 289.0,131.4 290.0,132.6 291.0,133.7 292.0,134.8 293.0,135.7 294.0,136.6 295.0,137.3 296.0,138.0 297.0,138.5 298.0,139.0 299.0,139.4 300.0,139.7 301.0,139.9 302.0,140.0 303.0,140.0 304.0,139.9 305.0,139.7 306.0,139.4 307.0,139.0 308.0,138.5 309.0,138.0 310.0,137.3 311.0,136.6 312.0,135.7 313.0,134.8 314.0,133.7 315.0,132.6 316.0,131.4 317.0,130.2 318.0,128.8 319.0,127.4 320.0,125.9 321.0,124.3 322.0,122.7 323.0,120.9 324.0,119.2 325.0,117.3 326.0,115.4 327.0,113.5 328.0,111.5 329.0,109.5 330.0,107.4 331.0,105.2 332.0,103.1 333.0,100.9 334.0,98.7 335.0,96.4 336.0,94.2 337.0,91.9 338.0,89.6 339.0,87.3 340.0,85.0' fill='none' stroke='#2b6cb0' stroke-width='2' /><polyline points='40.0,85.0 41.0,83.2 42.0,81.5 43.0,79.7 44.0,78.0 45.0,76.3 46.0,74.6 47.0,72.9 48.0,71.2 49.0,69.5 50.0,67.9 51.0,66.3 52.0,64.8 53.0,63.2 54.0,61.8 55.0,60.3 56.0,58.9 57.0,57.6 58.0,56.2 59.0,55.0 60.0,53.8 61.0,52.6 62.0,51.5 63.0,50.5 64.0,49.5 65.0,48.6 66.0,47.8 67.0,47.0 68.0,46.3 69.0,45.6 70.0,45.1 71.0,44.5 72.0,44.1 73.0,43.7 74.0,43.5 75.0,43.2 76.0,43.1 77.0,43.0 78.0,43.0 79.0,43.1 80.0,43.2 81.0,43.5 82.0,43.7 83.0,44.1 84.0,44.5 85.0,45.1 86.0,45.6 87.0,46.3 88.0,47.0 89.0,47.8 90.0,48.6 91.0,49.5 92.0,50.5 93.0,51.5 94.0,52.6 95.0,53.8 96.0,55.0 97.0,56.2 98.0,57.6 99.0,58.9 100.0,60.3 101.0,61.8 102.0,63.2 103.0,64.8 104.0,66.3 105.0,67.9 106.0,69.5 107.0,71.2 108.0,72.9 109.0,74.6 110.0,76.3 111.0,78.0 112.0,79.7 113.0,81.5 114.0,83.2 115.0,85.0 116.0,86.8 117.0,88.5 118.0,90.3 119.0,92.0 120.0,93.7 121.0,95.4 122.0,97.1 123.0,98.8 124.0,100.5 125.0,102.1 126.0,103.7 127.0,105.2 128.0,106.8 129.0,108.2 130.0,109.7 131.0,111.1 132.0,112.4 133.0,113.8 134.0,115.0 135.0,116.2 136.0,117.4 137.0,118.5 138.0,119.5 139.0,120.5 140.0,121.4 141.0,122.2 142.0,123.0 143.0,123.7 144.0,124.4 145.0,124.9 146.0,125.5 147.0,125.9 148.0,126.3 149.0,126.5 150.0,126.8 151.0,126.9 152.0,127.0 153.0,127.0 154.0,126.9 155.0,126.8 156.0,126.5 157.0,126.3 158.0,125.9 159.0,125.5 160.0,124.9 161.0,124.4 162.0,123.7 163.0,123.0 164.0,122.2 165.0,121.4 166.0,120.5 167.0,119.5 168.0,118.5 169.0,117.4 170.0,116.2 171.0,115.0 172.0,113.8 173.0,112.4 174.0,111.1 175.0,109.7 176.0,108.2 177.0,106.8 178.0,105.2 179.0,103.7 180.0,102.1 181.0,100.5 182.0,98.8 183.0,97.1 184.0,95.4 185.0,93.7 186.0,92.0 187.0,90.3 188.0,88.5 189.0,86.8 190.0,85.0 191.0,83.2 192.0,81.5 193.0,79.7 194.0,78.0 195.0,76.3 196.0,74.6 197.0,72.9 198.0,71.2 199.0,69.5 200.0,67.9 201.0,66.3 202.0,64.8 203.0,63.2 204.0,61.8 205.0,60.3 206.0,58.9 207.0,57.6 208.0,56.2 209.0,55.0 210.0,53.8 211.0,52.6 212.0,51.5 213.0,50.5 214.0,49.5 215.0,48.6 216.0,47.8 217.0,47.0 218.0,46.3 219.0,45.6 220.0,45.1 221.0,44.5 222.0,44.1 223.0,43.7 224.0,43.5 225.0,43.2 226.0,43.1 227.0,43.0 228.0,43.0 229.0,43.1 230.0,43.2 231.0,43.5 232.0,43.7 233.0,44.1 234.0,44.5 235.0,45.1 236.0,45.6 237.0,46.3 238.0,47.0 239.0,47.8 240.0,48.6 241.0,49.5 242.0,50.5 243.0,51.5 244.0,52.6 245.0,53.8 246.0,55.0 247.0,56.2 248.0,57.6 249.0,58.9 250.0,60.3 251.0,61.8 252.0,63.2 253.0,64.8 254.0,66.3 255.0,67.9 256.0,69.5 257.0,71.2 258.0,72.9 259.0,74.6 260.0,76.3 261.0,78.0 262.0,79.7 263.0,81.5 264.0,83.2 265.0,85.0 266.0,86.8 267.0,88.5 268.0,90.3 269.0,92.0 270.0,93.7 271.0,95.4 272.0,97.1 273.0,98.8 274.0,100.5 275.0,102.1 276.0,103.7 277.0,105.2 278.0,106.8 279.0,108.2 280.0,109.7 281.0,111.1 282.0,112.4 283.0,113.8 284.0,115.0 285.0,116.2 286.0,117.4 287.0,118.5 288.0,119.5 289.0,120.5 290.0,121.4 291.0,122.2 292.0,123.0 293.0,123.7 294.0,124.4 295.0,124.9 296.0,125.5 297.0,125.9 298.0,126.3 299.0,126.5 300.0,126.8 301.0,126.9 302.0,127.0 303.0,127.0 304.0,126.9 305.0,126.8 306.0,126.5 307.0,126.3 308.0,125.9 309.0,125.5 310.0,124.9 311.0,124.4 312.0,123.7 313.0,123.0 314.0,122.2 315.0,121.4 316.0,120.5 317.0,119.5 318.0,118.5 319.0,117.4 320.0,116.2 321.0,115.0 322.0,113.8 323.0,112.4 324.0,111.1 325.0,109.7 326.0,108.2 327.0,106.8 328.0,105.2 329.0,103.7 330.0,102.1 331.0,100.5 332.0,98.8 333.0,97.1 334.0,95.4 335.0,93.7 336.0,92.0 337.0,90.3 338.0,88.5 339.0,86.8 340.0,85.0' fill='none' stroke='#c05621' stroke-width='2' stroke-dasharray='6,3'/><text x='250' y='20' fill='#2b6cb0'>R₂（實線）</text><text x='130' y='164' fill='#c05621'>R₃（虛線，同相、振幅略小）</text><text x='310' y='101'>位置</text><text x='4' y='14'>電場</text></svg><div class='cap'>參考作答示意：R₃ 與 R₂ 相位相同（波峰對波峰、波谷對波谷），振幅略小，波峰與波谷不碰到上下虛線</div></div>",
+    "<b>(b) 反射：</b>反射定律，反射角 = 入射角（相對法線量），反射線和入射線在法線的兩側對稱。<br><b>折射：</b>光由<b>慢波速介質進入快波速介質</b>，波速變大，光線會<b>偏離法線</b>，也就是更接近界面。（記法：像水中的光進入空氣時偏離法線；波速大的一側角度較大。）",
+    "<div class='fig'><svg xmlns='http://www.w3.org/2000/svg' width='300' height='220' viewBox='0 0 300 220' font-family='sans-serif' font-size='12'><rect x='0' y='0' width='300' height='110' fill='#e5e5e5'/><line x1='0' y1='110' x2='300' y2='110' stroke='#222' stroke-width='2'/><line x1='150' y1='10' x2='150' y2='210' stroke='#888' stroke-dasharray='4,3'/><defs><marker id='ar' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><path d='M0,0 L8,4 L0,8 z' fill='#c53030'/></marker></defs><line x1='70' y1='20' x2='148' y2='108' stroke='#2b6cb0' stroke-width='2.5' marker-end='url(#ar)'/><text x='60' y='16'>入射 I</text><line x1='150' y1='110' x2='228' y2='22' stroke='#c53030' stroke-width='2.5' marker-end='url(#ar)'/><text x='214' y='16'>反射（角度相等）</text><line x1='150' y1='110' x2='262' y2='160' stroke='#2f855a' stroke-width='2.5' marker-end='url(#ar)'/><text x='186' y='186'>折射（偏離法線、更靠近界面）</text><text x='6' y='30'>慢波速介質</text><text x='6' y='132'>快波速介質</text><text x='154' y='208'>法線（虛線）</text></svg><div class='cap'>參考作答示意：反射角 = 入射角；折射線比入射線更偏近界面（遠離法線）</div></div>",
+    "<b>作答提醒：</b>折射線一定要明確畫成「比入射線更貼近界面」，若畫得更靠近法線會被扣分。"
+   ],
+   "final": "參考答案：(a) R<sub>3</sub> 與 R<sub>2</sub> 同相、振幅略小。(b) 反射角 = 入射角；折射線更偏近界面（偏離法線）。",
+   "passageId": "p47_49"
+  },
+  {
+   "id": 50,
+   "type": "open",
+   "points": 4,
+   "text": "請在以下坐標格線中，標示表 9 中 13、15、17、19、21、23 時及次日 1 時的相對潮位高度，並將各點連線（2 分），由此觀測資料可推知此處的潮差是多少公尺（須列出計算過程）？（2 分）（於答題卷作答）<div class='fig'><img src='data/img/sci-q50b.jpg' alt='答題卷的坐標格線' style='max-width:420px'/><div class='cap'>答題卷的坐標格線</div></div>",
+   "modelAnswer": [
+    "繪圖：依序描出 (13 時, −0.75)、(15 時, −1.5)、(17 時, −1.0)、(19 時, 0.25)、(21 時, 1.75)、(23 時, 1.0)、(1 時, −0.25) 七點並連線（見詳解中的示意圖）。",
+    "計算：潮差 = 最高潮位 − 最低潮位 = 1.75 − (−1.5) = <b>3.25 公尺</b>。"
+   ],
+   "scoring": "（繪圖）滿分 2 分：各時的潮位點畫的位置正確 1 分、各點之間連線正確 1 分；潮位點的位置畫錯及沒有連線不給分。（計算）滿分 2 分：列出如參考答案或相似之有效算式，且計算正確得 2 分；列式正確但計算錯誤得 1 分；列式錯誤且計算錯誤得 0 分。",
+   "steps": [
+    "<b>【地球科學】</b><b>繪圖：</b>橫軸是時間，縱軸是相對潮位（公尺），把表 9 中指定的七個時間的數值描點，再逐點連線，你會看到一條起伏的曲線：15 時最低，21 時最高。",
+    "<div class='fig'><svg xmlns='http://www.w3.org/2000/svg' width='440' height='270' viewBox='0 0 440 270' font-family='sans-serif' font-size='11'><line x1='50' y1='240.0' x2='410' y2='240.0' stroke='#ddd'/><text x='6' y='244.0'>-2</text><line x1='50' y1='213.8' x2='410' y2='213.8' stroke='#ddd'/><text x='6' y='217.8'>-1.5</text><line x1='50' y1='187.5' x2='410' y2='187.5' stroke='#ddd'/><text x='6' y='191.5'>-1</text><line x1='50' y1='161.2' x2='410' y2='161.2' stroke='#ddd'/><text x='6' y='165.2'>-0.5</text><line x1='50' y1='135.0' x2='410' y2='135.0' stroke='#555'/><text x='6' y='139.0'>0</text><line x1='50' y1='108.8' x2='410' y2='108.8' stroke='#ddd'/><text x='6' y='112.8'>0.5</text><line x1='50' y1='82.5' x2='410' y2='82.5' stroke='#ddd'/><text x='6' y='86.5'>1</text><line x1='50' y1='56.2' x2='410' y2='56.2' stroke='#ddd'/><text x='6' y='60.2'>1.5</text><line x1='50' y1='30.0' x2='410' y2='30.0' stroke='#ddd'/><text x='6' y='34.0'>2</text><line x1='50.0' y1='30' x2='50.0' y2='240' stroke='#eee'/><text x='44.0' y='240'>13</text><line x1='110.0' y1='30' x2='110.0' y2='240' stroke='#eee'/><text x='104.0' y='240'>15</text><line x1='170.0' y1='30' x2='170.0' y2='240' stroke='#eee'/><text x='164.0' y='240'>17</text><line x1='230.0' y1='30' x2='230.0' y2='240' stroke='#eee'/><text x='224.0' y='240'>19</text><line x1='290.0' y1='30' x2='290.0' y2='240' stroke='#eee'/><text x='284.0' y='240'>21</text><line x1='350.0' y1='30' x2='350.0' y2='240' stroke='#eee'/><text x='344.0' y='240'>23</text><line x1='410.0' y1='30' x2='410.0' y2='240' stroke='#eee'/><text x='404.0' y='240'>1</text><polyline points='50.0,174.4 110.0,213.8 170.0,187.5 230.0,121.9 290.0,43.1 350.0,82.5 410.0,148.1' fill='none' stroke='#c53030' stroke-width='2'/><circle cx='50.0' cy='174.4' r='3.5' fill='#c53030'/><circle cx='110.0' cy='213.8' r='3.5' fill='#c53030'/><circle cx='170.0' cy='187.5' r='3.5' fill='#c53030'/><circle cx='230.0' cy='121.9' r='3.5' fill='#c53030'/><circle cx='290.0' cy='43.1' r='3.5' fill='#c53030'/><circle cx='350.0' cy='82.5' r='3.5' fill='#c53030'/><circle cx='410.0' cy='148.1' r='3.5' fill='#c53030'/><text x='200' y='260'>時（次日 1 時）</text><text x='4' y='14'>相對潮位（公尺）</text></svg><div class='cap'>參考作答示意：7 個點依序為 −0.75、−1.5、−1.0、0.25、1.75、1.0、−0.25 公尺，再逐點連線</div></div>",
+    "<b>潮差的定義：</b>「同一個潮汐週期中，高潮與低潮的水位差」。從表 9 找最高潮位與最低潮位：最高 <b>1.75 m</b>（21 時），最低 <b>−1.5 m</b>（15 時）。",
+    "潮差 = 1.75 − (−1.5) = <b>3.25 公尺</b>。<br>（<b>常見錯誤：</b>寫成 1.75 + 1.5 的人要說明「相減」；寫成 1.75 − 1.5 = 0.25 是把負號弄丟，會被扣分。）"
+   ],
+   "final": "參考答案：七個點依序描點並連線；潮差 = 1.75 − (−1.5) = 3.25 公尺。",
+   "passageId": "p50_53"
+  },
+  {
+   "id": 51,
+   "type": "single",
+   "points": 2,
+   "text": "在與表 9 同一個禮拜的星期四，廠商想在乾潮前後 1 小時進行水車發電機內的維護作業，則應該在星期四的哪一個時段進行作業最合適？",
+   "options": {
+    "A": "15–16 時",
+    "B": "17–18 時",
+    "C": "19–20 時",
+    "D": "21–22 時",
+    "E": "23–24 時"
+   },
+   "answer": "B",
+   "steps": [
+    "<b>【地球科學】</b><b>先找表 9（星期一）的乾潮時間：</b>相對潮位最低 −1.5 m 在 <b>15 時</b>，所以星期一乾潮約在 15:00。",
+    "<b>潮汐每天會延後約 50 分鐘</b>（因為月球繞地球公轉，一個「月球日」約 24 小時 50 分）。星期四和星期一差 3 天，延後約 3 × 50 = 150 分鐘 ≈ 2.5 小時。",
+    "星期四乾潮約在 15:00 + 2:30 = <b>17:30</b>，乾潮前後 1 小時 ≈ 16:30–18:30，與 (B) 17–18 時最吻合。",
+    "(A) 15–16 時是星期一的乾潮時間，忘了考慮延後 ✗；(C)(D)(E) 對應的是較高的潮位，水位高時不適合進入機組維護 ✗"
+   ],
+   "final": "答案：(B)",
+   "passageId": "p50_53"
+  },
+  {
+   "id": 52,
+   "type": "multi",
+   "points": 2,
+   "text": "若設置圖 20 的水車發電機系統之海域每日有二次漲潮，平均每一次漲潮時經過水車發電機系統通道的水體積 <i>V</i> 約為 2.5×10<sup>6</sup> m<sup>3</sup>，這些海水因為漲潮而被抬升的平均高度 <i>h</i> 約為 4 m。取重力加速度 <i>g</i> = 10 m/s<sup>2</sup>，1 度電能 = 1 kWh = 3.6×10<sup>6</sup> J，海水密度 <i>ρ</i> 約為 10<sup>3</sup> kg/m<sup>3</sup>。假設該設施將海水的重力位能轉為電能的效率約為 25%，則下列敘述哪些正確？（應選 2 項）",
+   "options": {
+    "A": "平均每一次漲潮，進入該水車發電機系統的海水重力位能增加 <i>ρgh</i>",
+    "B": "平均每一次退潮，該水車發電機系統轉換海水重力位能的數量級為百萬焦耳",
+    "C": "該海域每年漲潮次數約為 365 次",
+    "D": "該水車發電機系統每年產生電能約為 10<sup>7</sup> 度",
+    "E": "該水車發電機系統的運作機制牽涉萬有引力的作用與電磁感應"
+   },
+   "answer": "DE",
+   "steps": [
+    "<b>【物理】</b><b>先算一次漲潮的位能增加：</b>海水質量 <i>m</i> = <i>ρV</i> = 10<sup>3</sup> × 2.5×10<sup>6</sup> = 2.5×10<sup>9</sup> kg；重力位能增加 = <i>mgh</i> = 2.5×10<sup>9</sup> × 10 × 4 = <b>1×10<sup>11</sup> J</b>。",
+    "轉成電能（25%）：1×10<sup>11</sup> × 0.25 = <b>2.5×10<sup>10</sup> J</b> ≈ 6.9×10<sup>3</sup> 度（÷ 3.6×10<sup>6</sup>）。",
+    "(D) 每天 2 次漲潮、2 次退潮，題目說漲、退潮發電量相同，所以每天發電 4 次：4 × 6.9×10<sup>3</sup> ≈ 2.8×10<sup>4</sup> 度；一年 365 天 ≈ <b>1×10<sup>7</sup> 度</b> ✓。",
+    "(E) 潮汐來自月球、太陽的<b>萬有引力</b>；發電機轉動線圈切割磁場靠<b>電磁感應</b> ✓。",
+    "(A) 重力位能增加是 <i>ρVgh</i>，不是 <i>ρgh</i>（少乘了體積）✗　(B) 每次退潮轉換的數量級是 10<sup>10</sup> J，不是百萬（10<sup>6</sup>）焦耳 ✗　(C) 每日 2 次漲潮，一年約 730 次 ✗"
+   ],
+   "final": "答案：(D)(E)",
+   "passageId": "p50_53"
+  },
+  {
+   "id": 53,
+   "type": "open",
+   "points": 4,
+   "text": "某同學用手帶動磁鐵相對於線圈運動，以模擬潮汐驅動圖 21 發電設施中磁鐵相對於線圈的運動，如圖 22 所示，並將線圈串接檢流計 G。圖 22 中線圈與導線所標示的箭號，亦即電流由下往上流經檢流計的方向，取為正；並取線圈中點為位置 <i>z</i> 的原點，且 <i>z</i> 向上為正。該同學今將磁鐵從線圈下方，自靜止加速上提使磁鐵速度越來越快地穿過線圈。然後從錄影分析磁鐵位置 <i>z</i> 與感應電流 <i>I</i>，表 10 僅列出磁鐵在線圈外部的測量結果。<div class='fig'><img src='data/img/sci-q53.jpg' alt='圖 22' style='max-width:170px'/><div class='cap'>圖 22</div></div><table class='qt'><tr><th>位置量值 |<i>z</i>|（cm）</th><th>|<i>z</i>| &lt; 5</th><th>5</th><th>10</th><th>15</th><th>20</th></tr><tr><td>感應電流量值 |<i>I</i>|（mA）</td><td>磁鐵一部分於線圈之內</td><td>3.40</td><td>2.10</td><td>0.95</td><td>0.43</td></tr><tr><td>感應電流量值 |<i>I</i>|（mA）</td><td>（同上）</td><td>4.30</td><td>2.70</td><td>1.20</td><td>0.54</td></tr></table><div class='cap'>表 10</div>（a）當 <i>z</i> &lt; 0 時，說明研判感應電流 <i>I</i> 方向為正或負的理由。（1 分）<br>（b）考量感應電流量值較大的一列數據，說明研判其屬於 <i>z</i> &lt; 0 或 <i>z</i> &gt; 0 的理由。（1 分）<br>（c）在答題卷對應之方格紙的坐標系中，描繪表 10 中所有數據點（共有 8 個點）。（2 分）",
+   "modelAnswer": [
+    "(a) 依楞次定律與法拉第感應定律，磁鐵的 N 極磁場（磁通量）進入線圈漸增，線圈上感應電流會產生抗衡的磁場（線圈產生的磁場 N 極向下），故感應電流與圖 22 中電流反向，<b><i>I</i> &lt; 0</b>。",
+    "(b) 磁鐵加速上升，在 |<i>z</i>| 相同的相對位置（例如 <i>z</i> = 5 cm 與 <i>z</i> = −5 cm），磁鐵在線圈上方的速率大於在下方的速率，故磁鐵位於 <i>z</i> &gt; 0 時磁通量的時變率較大，感應電流也較大。所以<b>量值較大的一列（4.30、2.70、1.20、0.54）屬於 <i>z</i> &gt; 0</b>。",
+    "(c) 8 個點：<i>z</i> &gt; 0（第 1 象限）：(5, 4.30)、(10, 2.70)、(15, 1.20)、(20, 0.54)；<i>z</i> &lt; 0（第 3 象限）：(−5, −3.40)、(−10, −2.10)、(−15, −0.95)、(−20, −0.43)。"
+   ],
+   "scoring": "(a) 1 分：寫出如參考答案，理由說明合理正確。(b) 1 分：寫出如參考答案，理由說明合理正確。(c) 2 分：所繪之數據點分布在第 1、3 象限，且在 |<i>z</i>| 相同的相對位置（例如 <i>z</i> = 5 cm 與 <i>z</i> = −5 cm），感應電流量值大者在第 1 象限（例如 <i>z</i> = 5 cm），即得滿分。",
+   "steps": [
+    "<b>【物理】</b><b>(a) 判斷方向（楞次定律）：</b>磁鐵 N 極朝上，從線圈下方<b>接近</b>線圈（<i>z</i> &lt; 0），線圈中向上的磁通量在<b>增加</b>。感應電流要<b>阻止增加</b>，所以產生<b>向下</b>的磁場。用右手定則：線圈產生向下的磁場，電流方向與圖 22 標示的「正」方向相反，所以 <i>I</i> &lt; 0。",
+    "<b>(b) 哪一列在 <i>z</i> &gt; 0？</b>磁鐵是「自靜止加速上提」，越往上速度越大。感應電流大小與磁通量<b>變化得多快</b>（也就是磁鐵速率）成正比。同樣距離線圈 5 cm，在線圈上方（<i>z</i> &gt; 0）時磁鐵已經跑得比較快，感應電流較大 → 數值較大的那一列（4.30、2.70、1.20、0.54）屬於 <i>z</i> &gt; 0；較小的一列屬於 <i>z</i> &lt; 0。",
+    "<b>(c) 描點：</b>橫軸 <i>z</i>、縱軸 <i>I</i>（mA）。<i>z</i> &gt; 0 的點電流為正（第 1 象限），<i>z</i> &lt; 0 的點電流為負（第 3 象限），共 8 點。<b>先描 (a)(b) 的結論，兩者要一致</b>：負的在左邊、數值比較小；正的在右邊、數值比較大。",
+    "<b>作答提醒：</b>(a)(b) 的理由要寫出關鍵詞（楞次定律／磁通量變化／速率），不能只寫結論。"
+   ],
+   "final": "參考答案：(a) <i>I</i> &lt; 0（楞次定律）；(b) 量值較大的一列屬於 <i>z</i> &gt; 0（上方速率較大）；(c) 第 1、3 象限各 4 點，第 1 象限較大。",
+   "passageId": "p50_53"
+  },
+  {
+   "id": 54,
+   "type": "open",
+   "points": 4,
+   "text": "若要透過定年方法來瞭解隕石的形成時間，請於下表勾選<u><b>絕對不適合</b></u>的放射性元素，並試由半衰期、母元素與子元素的測量限制來說明原因（20 字以內）？（4 分）（於答題卷作答）<table class='qt'><tr><th>絕對不適合的放射性元素（勾選）</th><th>說明原因（20 字以內）</th></tr><tr><td>☐ 鈾 238<br>☐ 銣 87<br>☐ 碳 14</td><td></td></tr></table>",
+   "modelAnswer": [
+    "勾選：<b>碳 14</b>。",
+    "說明原因：半衰期太短，經長時間衰變，母元素已無法測量。"
+   ],
+   "scoring": "（勾選）2 分：勾選「碳 14」給 2 分，其餘作答或未作答不給分。（說明原因）2 分：正確寫出與參考答案概念相同且描述正確者給 2 分；僅描述部分原因者給 1 分；錯誤或其餘作答狀況不給分。",
+   "steps": [
+    "<b>【地球科學】</b>隕石的年齡約 <b>46 億年</b>。定年時要看「母元素衰變成子元素」剩下多少，所以放射性元素的<b>半衰期要和待測年代相近</b>。",
+    "鈾 238 半衰期 45 億年（與 46 億年相近）→ 適合。銣 87 半衰期 500 億年，雖然比隕石年齡長很多，但仍有一部分母元素衰變成子元素鍶 87，只要儀器夠靈敏也可測 → 仍可使用。",
+    "<b>碳 14 半衰期只有約 6 千年。</b>46 億年相當於約 80 萬個半衰期（46 億 ÷ 6 千），母元素碳 14 早就衰變殆盡，完全測不到，<b>絕對不適合</b>。",
+    "<b>作答提醒：</b>20 字內寫「半衰期太短，母元素早已衰變殆盡，無法測量」即可，一定要提到「半衰期」和「母元素量太少／測不到」。"
+   ],
+   "final": "參考答案：勾選碳 14；理由：半衰期太短，經長時間衰變，母元素已無法測量。",
+   "passageId": "p54_56"
+  },
+  {
+   "id": 55,
+   "type": "single",
+   "points": 2,
+   "text": "在做隕石定年時，必須挑出隕石中在太陽系早期即完成結晶、且其同位素未被後續作用重置或改變的礦物分別定年，而非使用隕石整體。假設某科學家在對圖 23 隕石中的礦物定年分析後，得到一個超過太陽系年齡的結果。下列何者是得出此結果最有可能的原因？<div class='fig'><img src='data/img/sci-q55.jpg' alt='圖 23' style='max-width:180px'/><div class='cap'>圖 23</div></div>",
+   "options": {
+    "A": "放射性定年所用的同位素半衰期被低估，導致年齡計算過大",
+    "B": "此礦物是比太陽系形成時間更早的結晶產物",
+    "C": "隕石在地球上受到風化或水作用汙染，導致定年結果異常",
+    "D": "科學界對太陽系形成的年代假說有誤，隕石年齡並未異常",
+    "E": "隕石中含有與地球上類似的礦物，此礦物比太陽系更老"
+   },
+   "answer": "B",
+   "steps": [
+    "<b>【地球科學】</b>定年得到「比太陽系年齡（約 46 億年）還老」的結果，要找<b>最合理</b>的原因。",
+    "(B) 太陽系是由星雲物質凝聚而成，星雲裡可能含有更早之前其他恆星留下的塵埃或礦物（題幹也提到偶爾有太陽系外的物質）。若該礦物在太陽系形成之前就已結晶，定出的年齡自然比太陽系老 ✓。",
+    "(A) 若半衰期被低估，衰變比實際快，算出的年齡會<b>偏小</b>，不是偏大 ✗　(C) 汙染通常使結果混亂，不會剛好得到「比太陽系更老」的穩定結果；而且題目強調挑出同位素未被改變的礦物 ✗　(D) 太陽系年齡是由許多隕石與月球樣本、多種元素定年交叉驗證的結果，不是這一個樣本就能推翻 ✗　(E) 「與地球類似」不代表更老，礦物的年齡要看定年結果，這個說法沒有依據 ✗"
+   ],
+   "final": "答案：(B)",
+   "passageId": "p54_56"
+  },
+  {
+   "id": 56,
+   "type": "single",
+   "points": 2,
+   "text": "當隕石掉到地球表面時可能形成隕石坑，然而與地球相比，月球上有更多的隕石坑。若以相同的原理推論並參考表 12 的數據，以下行星中何者表面較容易發現隕石坑？<table class='qt'><tr><th></th><th>金星</th><th>地球</th><th>火星</th><th>木星</th><th>土星</th><th>天王星</th></tr><tr><td>公轉週期（年）</td><td>0.62</td><td>1.00</td><td>1.88</td><td>11.86</td><td>29.45</td><td>84.02</td></tr><tr><td>表面大氣壓力（atm）</td><td>92</td><td>1.00</td><td>0.01</td><td>653</td><td>30</td><td>304</td></tr><tr><td>磁場（相較於地球）</td><td>微弱</td><td>1.00</td><td>0.1～0.3</td><td>50～100</td><td>17～34</td><td>3～6</td></tr><tr><td>質量（相較於地球）</td><td>0.82</td><td>1.00</td><td>0.11</td><td>317.82</td><td>95.14</td><td>14.37</td></tr></table><div class='cap'>表 12</div>",
+   "options": {
+    "A": "金星",
+    "B": "火星",
+    "C": "木星",
+    "D": "土星",
+    "E": "天王星"
+   },
+   "answer": "B",
+   "steps": [
+    "<b>【地球科學】</b><b>為什麼月球隕石坑比地球多？</b>月球<b>沒有大氣</b>，隕石不會在大氣中燃燒、減速、碎裂，大多能直接撞擊地表；月球也<b>沒有板塊運動、風化、水</b>等地質作用，坑洞不容易被抹平。地球有厚大氣與活躍的地質作用，隕石坑容易消失。",
+    "用同樣原理看表 12：能保存最多隕石坑的行星，要<b>大氣稀薄</b>（隕石不易被大氣阻擋）。表中大氣最稀薄的是<b>火星（0.01 atm）</b>，磁場也弱，地質活動也比地球和金星少，所以火星表面較容易發現隕石坑 ✓。",
+    "(A) 金星大氣壓 92 atm，非常厚，隕石多半在大氣中燃盡 ✗　(C)(D)(E) 木星、土星、天王星是氣態或冰質巨行星，沒有堅硬的固態表面可以保存隕石坑，大氣也很厚 ✗"
+   ],
+   "final": "答案：(B)",
+   "passageId": "p54_56"
+  }
+ ]
+}

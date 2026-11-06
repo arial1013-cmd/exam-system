@@ -1,0 +1,499 @@
+{
+ "examInfo": {
+  "year": "115",
+  "subject": "數學A",
+  "code": "",
+  "group": "學科能力測驗",
+  "title": "115學年度學科能力測驗 數學A考科",
+  "totalPoints": 100,
+  "partialScoring": true,
+  "summaryText": "共 20 題：單選題 1–6 題（每題 5 分）、多選題 7–12 題（每題 5 分）、選填題 13–17 題（每題 5 分）、混合題或非選擇題 18–20 題（共 15 分，含非選擇題 19、20 題）。"
+ },
+ "passages": {
+  "p18_20_a": {
+   "title": "第 18–20 題為題組",
+   "html": "<p>坐標空間中有一平行六面體 <i>PQRS</i> − <i>ABCD</i>，如圖所示。已知 <span style='position:relative;display:inline-block'><i>AB</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> × <span style='position:relative;display:inline-block'><i>AD</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> = (−5, 5, 5)、<span style='position:relative;display:inline-block'><i>AD</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> × <span style='position:relative;display:inline-block'><i>AP</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> = (−2, 0, −4)、<span style='position:relative;display:inline-block'><i>AP</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> × <span style='position:relative;display:inline-block'><i>AB</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> = (6, −10, −8)，|<span style='position:relative;display:inline-block'><i>AP</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span>| = 6。試回答下列問題。</p><div class='fig'><img src='data/img/matha-q18.jpg' alt='平行六面體 PQRS−ABCD（示意圖）' style='max-width:320px'/><div class='cap'>平行六面體 PQRS−ABCD（示意圖）</div></div>"
+  }
+ },
+ "questions": [
+  {
+   "id": 1,
+   "type": "single",
+   "points": 5,
+   "text": "財神廟舉辦抽發財金活動：參加者抽兩次籤，每次抽籤出現「吉」、「祥」的機率皆為 <span class='frac small'><span class='num'>1</span><span class='den'>3</span></span>。如果兩次都抽得「吉」，獲得獎金 180 元；如果兩次都抽得「祥」，獲得獎金 90 元；其餘情況則無獎金。試問參加者可獲獎金的期望值為何？",
+   "options": {
+    "1": "20 元",
+    "2": "30 元",
+    "3": "45 元",
+    "4": "60 元",
+    "5": "90 元"
+   },
+   "answer": "2",
+   "steps": [
+    "每次抽籤「吉」的機率是 <span class='frac small'><span class='num'>1</span><span class='den'>3</span></span>，兩次獨立，所以兩次都「吉」的機率 = <span class='frac small'><span class='num'>1</span><span class='den'>3</span></span>×<span class='frac small'><span class='num'>1</span><span class='den'>3</span></span> = <span class='frac small'><span class='num'>1</span><span class='den'>9</span></span>。",
+    "同理，兩次都「祥」的機率也是 <span class='frac small'><span class='num'>1</span><span class='den'>9</span></span>。其餘情況（獎金 0 元）不影響期望值。",
+    "期望值 = 180×<span class='frac small'><span class='num'>1</span><span class='den'>9</span></span> + 90×<span class='frac small'><span class='num'>1</span><span class='den'>9</span></span> + 0×(其餘機率) = 20 + 10 = <b>30</b>（元）。",
+    "【易錯】「吉」「祥」的機率各只有 <span class='frac small'><span class='num'>1</span><span class='den'>3</span></span>，不是 <span class='frac small'><span class='num'>1</span><span class='den'>2</span></span>；兩者加起來還不到 1，剩下的 <span class='frac small'><span class='num'>1</span><span class='den'>3</span></span> 是第三種結果，不能漏掉不算機率、也不能把獎金乘錯。"
+   ],
+   "final": "答案：(2) 30 元",
+   "section": "第壹部分、選擇（填）題（占 85 分）｜一、單選題（占 30 分）：第 1 題至第 6 題，每題 5 分"
+  },
+  {
+   "id": 2,
+   "type": "single",
+   "points": 5,
+   "text": "對任一實數 <i>a</i>，令 [<i>a</i>] 代表滿足 [<i>a</i>] ≤ <i>a</i> &lt; [<i>a</i>]+1 的整數，例如：[3]=3，[3.1]=3，[−3.1]=−4。關於函數 <i>f</i>(<i>x</i>) = [√(99−<i>x</i>)] + [√(99+<i>x</i>)]，其中 −99 ≤ <i>x</i> ≤ 99；試選出正確的選項。",
+   "options": {
+    "1": "<i>f</i>(−20) ≤ <i>f</i>(0) &lt; <i>f</i>(1)",
+    "2": "<i>f</i>(−20) &lt; <i>f</i>(1) ≤ <i>f</i>(0)",
+    "3": "<i>f</i>(1) &lt; <i>f</i>(−20) ≤ <i>f</i>(0)",
+    "4": "<i>f</i>(0) &lt; <i>f</i>(−20) ≤ <i>f</i>(1)",
+    "5": "<i>f</i>(0) ≤ <i>f</i>(1) &lt; <i>f</i>(−20)"
+   },
+   "answer": "1",
+   "steps": [
+    "[ ] 是高斯符號（取不超過的最大整數）。要比較三個函數值，逐一代入。",
+    "<i>f</i>(0) = [√99] + [√99]。因 9² = 81 &lt; 99 &lt; 100 = 10²，所以 [√99] = 9，<i>f</i>(0) = 9 + 9 = <b>18</b>。",
+    "<i>f</i>(1) = [√98] + [√100]。√98 介於 9 與 10 之間，[√98] = 9；√100 = 10，[√100] = 10；<i>f</i>(1) = 9 + 10 = <b>19</b>。",
+    "<i>f</i>(−20) = [√119] + [√79]。10² = 100 &lt; 119 &lt; 121 = 11²，[√119] = 10；8² = 64 &lt; 79 &lt; 81 = 9²，[√79] = 8；<i>f</i>(−20) = 10 + 8 = <b>18</b>。",
+    "所以 <i>f</i>(−20) = <i>f</i>(0) = 18 &lt; <i>f</i>(1) = 19，對應選項 (1)：<i>f</i>(−20) ≤ <i>f</i>(0) &lt; <i>f</i>(1)。",
+    "【易錯】(4) 寫成 <i>f</i>(0) &lt; <i>f</i>(−20)，但兩者其實相等（都是 18），嚴格小於不成立。"
+   ],
+   "final": "答案：(1) <i>f</i>(−20) ≤ <i>f</i>(0) &lt; <i>f</i>(1)"
+  },
+  {
+   "id": 3,
+   "type": "single",
+   "points": 5,
+   "text": "設 <i>f</i>(<i>x</i>) = <i>a</i><sup><i>x</i></sup>，其中 <i>a</i> 為正實數。已知 <i>c</i><sub>1</sub>, <i>c</i><sub>2</sub>, <i>c</i><sub>3</sub> 是公差為 <span class='frac small'><span class='num'>10</span><span class='den'>3</span></span> 的等差數列，且 <i>f</i>(<i>c</i><sub>1</sub>), <i>f</i>(<i>c</i><sub>2</sub>), <i>f</i>(<i>c</i><sub>3</sub>) 是公比為 4 的等比數列。則等比數列 <i>f</i>(10), <i>f</i>(8), <i>f</i>(6) 的公比為何？",
+   "options": {
+    "1": "2<sup>−6/5</sup>",
+    "2": "2<sup>−3/5</sup>",
+    "3": "2<sup>3/5</sup>",
+    "4": "2<sup>6/5</sup>",
+    "5": "2<sup>5/3</sup>"
+   },
+   "answer": "1",
+   "steps": [
+    "先用等比條件求 <i>a</i>：公比 = <i>f</i>(<i>c</i><sub>2</sub>)/<i>f</i>(<i>c</i><sub>1</sub>) = <i>a</i><sup><i>c</i><sub>2</sub>−<i>c</i><sub>1</sub></sup> = <i>a</i><sup>10/3</sup> = 4。",
+    "所以 <i>a</i> = 4<sup>3/10</sup> = (2²)<sup>3/10</sup> = 2<sup>3/5</sup>。",
+    "再看新數列 <i>f</i>(10), <i>f</i>(8), <i>f</i>(6)：公比 = <i>f</i>(8)/<i>f</i>(10) = <i>a</i><sup>8−10</sup> = <i>a</i><sup>−2</sup>。",
+    "代入：<i>a</i><sup>−2</sup> = (2<sup>3/5</sup>)<sup>−2</sup> = 2<sup>−6/5</sup>。（也可確認 <i>f</i>(6)/<i>f</i>(8) = <i>a</i><sup>−2</sup>，公比一致。）",
+    "【易錯】指數由大排到小（10, 8, 6），所以公比是 <i>a</i> 的<b>負</b>次方，不是正次方，別掉進 (4)。"
+   ],
+   "final": "答案：(1) 2<sup>−6/5</sup>"
+  },
+  {
+   "id": 4,
+   "type": "single",
+   "points": 5,
+   "text": "某網遊有 16 種材料，其中 6 種為基本材料，10 種為進階材料。任選 3 種不同材料可以合成出草藥、食物、藥水中的 1 類道具，其合成規則如下：若 3 種材料均為基本材料，則合成結果必為同一種草藥；若 3 種材料中 2 種為基本材料、1 種為進階材料，則合成結果會根據不同的進階材料得到不同種的食物，但不會受到基本材料不同而改變；其他的組合都會合成出不同種的藥水。試問此網遊總共可合成出多少種道具？",
+   "options": {
+    "1": "256",
+    "2": "370",
+    "3": "401",
+    "4": "455",
+    "5": "560"
+   },
+   "answer": "3",
+   "steps": [
+    "先把「選 3 種材料」的所有組合分成三類，再分別數「道具有幾種」。",
+    "<b>草藥</b>：3 種都是基本材料（C(6,3) = 20 種組合），但合成結果都是<b>同一種</b>草藥 → 只有 <b>1</b> 種道具。",
+    "<b>食物</b>：2 基本 + 1 進階，結果只看進階材料是哪一個，與基本材料無關 → 進階材料有 10 種 → 只有 <b>10</b> 種道具。",
+    "<b>藥水</b>：其餘組合每一組都合成不同種藥水。全部組合 C(16,3) = 560；扣掉 3 基本（C(6,3) = 20）與 2 基本 + 1 進階（C(6,2)×10 = 15×10 = 150）：560 − 20 − 150 = <b>390</b> 種。",
+    "總共 1 + 10 + 390 = <b>401</b> 種。",
+    "【易錯】食物不能算成 150 種（那是組合數）；題目明說「不會受到基本材料不同而改變」，所以只算 10 種。"
+   ],
+   "final": "答案：(3) 401"
+  },
+  {
+   "id": 5,
+   "type": "single",
+   "points": 5,
+   "text": "已知實數三階方陣 <i>A</i> 滿足 <i>A</i><span style='display:inline-grid;grid-template-columns:repeat(1,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>1</span><span>1</span><span>0</span></span> = <span style='display:inline-grid;grid-template-columns:repeat(1,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>0</span><span>-1</span><span>1</span></span>，<i>A</i><span style='display:inline-grid;grid-template-columns:repeat(1,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>0</span><span>-1</span><span>1</span></span> = <span style='display:inline-grid;grid-template-columns:repeat(1,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>1</span><span>1</span><span>0</span></span>，<i>A</i><span style='display:inline-grid;grid-template-columns:repeat(1,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>1</span><span>0</span><span>-1</span></span> = <span style='display:inline-grid;grid-template-columns:repeat(1,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>0</span><span>0</span><span>0</span></span>。試問有多少個行向量 <i>v</i> = <span style='display:inline-grid;grid-template-columns:repeat(1,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span><i>v</i><sub>1</sub></span><span><i>v</i><sub>2</sub></span><span><i>v</i><sub>3</sub></span></span> 滿足 <i>A</i><i>v</i> = <span style='display:inline-grid;grid-template-columns:repeat(1,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>1</span><span>0</span><span>1</span></span> 且 <i>v</i> 垂直於行向量 <span style='display:inline-grid;grid-template-columns:repeat(1,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>0</span><span>1</span><span>0</span></span>？",
+   "options": {
+    "1": "1 個",
+    "2": "2 個",
+    "3": "3 個",
+    "4": "0 個",
+    "5": "無窮多個"
+   },
+   "answer": "5",
+   "steps": [
+    "記 <i>u</i><sub>1</sub> = (1,1,0)、<i>u</i><sub>2</sub> = (0,−1,1)、<i>u</i><sub>3</sub> = (1,0,−1)（都寫成行向量）。題目給的是 <i>A</i><i>u</i><sub>1</sub> = <i>u</i><sub>2</sub>、<i>A</i><i>u</i><sub>2</sub> = <i>u</i><sub>1</sub>、<i>A</i><i>u</i><sub>3</sub> = <b>0</b>。",
+    "<b>先找一個特解。</b>要 <i>A</i><i>v</i> = (1,0,1)。觀察 <i>u</i><sub>1</sub> + <i>u</i><sub>2</sub> = (1,0,1)，而 <i>A</i>(<i>u</i><sub>1</sub> + <i>u</i><sub>2</sub>) = <i>u</i><sub>2</sub> + <i>u</i><sub>1</sub> = (1,0,1)。所以 <i>v</i><sub>0</sub> = <i>u</i><sub>1</sub> + <i>u</i><sub>2</sub> = (1,0,1) 就是一個解。",
+    "<b>通解。</b>因為 <i>A</i><i>u</i><sub>3</sub> = 0，對任意實數 <i>t</i>，<i>v</i> = <i>v</i><sub>0</sub> + <i>t</i><i>u</i><sub>3</sub> = (1+<i>t</i>, 0, 1−<i>t</i>) 都滿足 <i>A</i><i>v</i> = (1,0,1)。（<i>u</i><sub>1</sub>, <i>u</i><sub>2</sub>, <i>u</i><sub>3</sub> 線性獨立，所以 <i>A</i> 被完全決定，通解就是這一族。）",
+    "<b>垂直條件。</b><i>v</i> 垂直於 (0,1,0)，即 <i>v</i> 的第二個分量 = 0。而 (1+<i>t</i>, 0, 1−<i>t</i>) 的第二個分量永遠是 0，條件恆成立。",
+    "所以每一個實數 <i>t</i> 都給出一個符合的 <i>v</i>，共有<b>無窮多個</b>。",
+    "【易錯】看到「垂直」又「A v = 給定向量」就以為是兩個方程式解出唯一解；其實 <i>A</i> 不可逆（有零向量被送到 0），解不是唯一的。"
+   ],
+   "final": "答案：(5) 無窮多個"
+  },
+  {
+   "id": 6,
+   "type": "single",
+   "points": 5,
+   "text": "坐標平面上有 <i>A</i>(2,−2)、<i>B</i>(−1,2) 兩點，試問直線 <i>y</i> = −6 上有多少個點 <i>C</i> 使得 △<i>ABC</i> 為等腰三角形？",
+   "options": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+   },
+   "answer": "2",
+   "steps": [
+    "先算底邊：<span style='text-decoration:overline'><i>AB</i></span> = √((−1−2)²+(2+2)²) = √(9+16) = 5。等腰三角形有三種可能：<i>CA</i> = <i>CB</i>、<i>AC</i> = <i>AB</i>、<i>BC</i> = <i>AB</i>，逐一檢查直線 <i>y</i> = −6 上有幾個點。",
+    "<b>① <i>CA</i> = <i>CB</i>：</b><i>C</i> 在 <i>AB</i> 的中垂線上。中點 (1/2, 0)，<i>AB</i> 方向向量 (−3,4)，中垂線：−3(<i>x</i>−1/2) + 4<i>y</i> = 0。令 <i>y</i> = −6：−3<i>x</i> + 3/2 − 24 = 0，<i>x</i> = −15/2，得 <i>C</i> = (−15/2, −6)，1 個。",
+    "<b>② <i>AC</i> = 5：</b>以 <i>A</i> 為圓心、半徑 5 的圓與 <i>y</i> = −6 相交：(<i>x</i>−2)² + (−6+2)² = 25，(<i>x</i>−2)² = 9，<i>x</i> = 5 或 −1，得 (5,−6)、(−1,−6)。",
+    "<b>③ <i>BC</i> = 5：</b><i>B</i> 到直線 <i>y</i> = −6 的距離是 |2−(−6)| = 8 &gt; 5，圓與直線不相交，0 個。",
+    "<b>剔除退化情形：</b>(5,−6) 與 <i>A</i>、<i>B</i> 的關係：向量 <i>AC</i> = (3,−4) = −向量 <i>AB</i>，所以 <i>A</i> 是 <i>BC</i> 的中點，三點共線，構不成三角形，要捨去。(−1,−6) 與 <i>A</i>、<i>B</i> 不共線，保留。",
+    "共 (−15/2,−6) 和 (−1,−6) 兩點，且彼此不重複 → <b>2</b> 個。",
+    "【易錯】直接把三類的點數 1 + 2 + 0 = 3 當答案，忘了檢查是否三點共線。"
+   ],
+   "final": "答案：(2) 2"
+  },
+  {
+   "id": 7,
+   "type": "multi",
+   "points": 5,
+   "text": "坐標平面上同時滿足 <span style='display:inline-flex;align-items:center;vertical-align:middle'><span style='font-size:3.0em;font-weight:200;line-height:1;margin-right:2px'>{</span><span style='display:inline-block;text-align:left;line-height:1.4'>2<i>x</i> − <i>y</i> − 3 &gt; 0<br><i>x</i> + 2<i>y</i> + 1 &lt; 0</span></span> 的點 <i>P</i>(<i>x</i>,<i>y</i>) 可能位在下列哪些選項？",
+   "options": {
+    "1": "第一象限",
+    "2": "第二象限",
+    "3": "第三象限",
+    "4": "第四象限",
+    "5": "<i>x</i> 軸"
+   },
+   "answer": "34",
+   "steps": [
+    "兩個不等式化成 <i>y</i> 的範圍：2<i>x</i> − <i>y</i> − 3 &gt; 0 ⇒ <i>y</i> &lt; 2<i>x</i> − 3；<i>x</i> + 2<i>y</i> + 1 &lt; 0 ⇒ <i>y</i> &lt; −(<i>x</i>+1)/2。所以點必須在<b>兩條直線都在其下方</b>的區域。",
+    "兩條直線的交點：2<i>x</i> − 3 = −(<i>x</i>+1)/2，得 <i>x</i> = 1，<i>y</i> = −1。<i>x</i> &gt; 1 時看較低的 <i>y</i> = −(<i>x</i>+1)/2，<i>x</i> &lt; 1 時看較低的 <i>y</i> = 2<i>x</i> − 3。",
+    "<b>(1) 第一象限</b>（<i>x</i>&gt;0, <i>y</i>&gt;0）：<i>x</i> &gt; 0 時 −(<i>x</i>+1)/2 &lt; 0，所以 <i>y</i> &lt; 0，不可能 <i>y</i> &gt; 0 ✗。",
+    "<b>(2) 第二象限</b>（<i>x</i>&lt;0, <i>y</i>&gt;0）：<i>x</i> &lt; 0 時 2<i>x</i> − 3 &lt; 0，所以 <i>y</i> &lt; 0 ✗。",
+    "<b>(3) 第三象限</b>：取 (−1,−10)：2(−1)−(−10)−3 = 5 &gt; 0 ✓，−1+2(−10)+1 = −20 &lt; 0 ✓ → 可能 ✓。",
+    "<b>(4) 第四象限</b>：取 (2,−3)：4+3−3 = 4 &gt; 0 ✓，2−6+1 = −3 &lt; 0 ✓ → 可能 ✓。",
+    "<b>(5) <i>x</i> 軸</b>（<i>y</i>=0）：需要 0 &lt; 2<i>x</i>−3 即 <i>x</i> &gt; 3/2，又要 0 &lt; −(<i>x</i>+1)/2 即 <i>x</i> &lt; −1，互相矛盾 ✗。"
+   ],
+   "final": "答案：(3)(4)",
+   "section": "二、多選題（占 30 分）：第 7 題至第 12 題，每題 5 分。每題有 5 個選項，至少有一個正確選項；答錯 k 個選項得該題 (n−2k)/n 的分數，低於零分以零分計。"
+  },
+  {
+   "id": 8,
+   "type": "multi",
+   "points": 5,
+   "text": "已知 <i>A</i> = <span style='display:inline-grid;grid-template-columns:repeat(2,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>2</span><span>1</span><span>1</span><span>0</span></span>，且對所有正整數 <i>n</i> ≥ 2，令 <i>A</i><sup><i>n</i></sup> = <span style='display:inline-grid;grid-template-columns:repeat(2,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span><i>a</i><sub><i>n</i></sub></span><span><i>b</i><sub><i>n</i></sub></span><span><i>c</i><sub><i>n</i></sub></span><span><i>d</i><sub><i>n</i></sub></span></span>。試選出正確的選項。",
+   "options": {
+    "1": "<i>b</i><sub>2</sub> &lt; <i>c</i><sub>2</sub>",
+    "2": "<i>A</i><sup>2</sup> = 2<i>A</i> + <span style='display:inline-grid;grid-template-columns:repeat(2,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>1</span><span>0</span><span>0</span><span>1</span></span>",
+    "3": "<i>c</i><sub><i>n</i>+2</sub> = <i>c</i><sub><i>n</i>+1</sub> + 2<i>c</i><sub><i>n</i></sub>",
+    "4": "<span style='display:inline-grid;grid-template-columns:repeat(2,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span><i>a</i><sub><i>n</i></sub></span><span><i>b</i><sub><i>n</i></sub></span><span><i>c</i><sub><i>n</i></sub></span><span><i>d</i><sub><i>n</i></sub></span></span><span style='display:inline-grid;grid-template-columns:repeat(1,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>0</span><span>1</span></span> = <span style='display:inline-grid;grid-template-columns:repeat(1,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span><i>b</i><sub><i>n</i>+1</sub></span><span><i>d</i><sub><i>n</i>+1</sub></span></span>",
+    "5": "<i>d</i><sub>2<i>n</i></sub> − <i>a</i><sub>2<i>n</i></sub> = (<i>d</i><sub><i>n</i></sub>)² − (<i>a</i><sub><i>n</i></sub>)²"
+   },
+   "answer": "25",
+   "steps": [
+    "先算 <i>A</i>² = <span style='display:inline-grid;grid-template-columns:repeat(2,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>2</span><span>1</span><span>1</span><span>0</span></span><span style='display:inline-grid;grid-template-columns:repeat(2,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>2</span><span>1</span><span>1</span><span>0</span></span> = <span style='display:inline-grid;grid-template-columns:repeat(2,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>5</span><span>2</span><span>2</span><span>1</span></span>。",
+    "<b>(1)</b> <i>b</i><sub>2</sub> = 2，<i>c</i><sub>2</sub> = 2，相等，不是 &lt; ✗。",
+    "<b>(2)</b> 2<i>A</i> + <i>I</i> = <span style='display:inline-grid;grid-template-columns:repeat(2,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>4</span><span>2</span><span>2</span><span>0</span></span> + <span style='display:inline-grid;grid-template-columns:repeat(2,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>1</span><span>0</span><span>0</span><span>1</span></span> = <span style='display:inline-grid;grid-template-columns:repeat(2,auto);gap:0 .7em;padding:0 .45em;border-left:1.5px solid;border-right:1.5px solid;border-radius:3px;vertical-align:middle;text-align:center;line-height:1.35'><span>5</span><span>2</span><span>2</span><span>1</span></span> = <i>A</i>²（這就是 <i>A</i> 的特徵多項式 <i>λ</i>² = 2<i>λ</i> + 1 給出的關係） ✓。",
+    "<b>(3)</b> 由 <i>A</i>² = 2<i>A</i> + <i>I</i>，兩邊乘 <i>A</i><sup><i>n</i></sup>：<i>A</i><sup><i>n</i>+2</sup> = 2<i>A</i><sup><i>n</i>+1</sup> + <i>A</i><sup><i>n</i></sup>，比較第二列第一行：<i>c</i><sub><i>n</i>+2</sub> = 2<i>c</i><sub><i>n</i>+1</sub> + <i>c</i><sub><i>n</i></sub>。題目寫的是 <i>c</i><sub><i>n</i>+1</sub> + 2<i>c</i><sub><i>n</i></sub>，係數對調了 ✗（驗證：<i>c</i><sub>1</sub> = 1, <i>c</i><sub>2</sub> = 2, <i>c</i><sub>3</sub> = 5；正確式 2×2+1 = 5 ✓，題目式 2+2×1 = 4 ✗）。",
+    "<b>(4)</b> <i>A</i><sup><i>n</i></sup> 乘 (0,1) 取的是 <i>A</i><sup><i>n</i></sup> 的<b>第二行</b> (<i>b</i><sub><i>n</i></sub>, <i>d</i><sub><i>n</i></sub>)，不是 <i>A</i><sup><i>n</i>+1</sup> 的第二行。例如 <i>n</i> = 1：(1,0)，而 (<i>b</i><sub>2</sub>, <i>d</i><sub>2</sub>) = (2,1) ✗。",
+    "<b>(5)</b> <i>A</i><sup>2<i>n</i></sup> = <i>A</i><sup><i>n</i></sup><i>A</i><sup><i>n</i></sup>。<i>a</i><sub>2<i>n</i></sub> = <i>a</i><sub><i>n</i></sub>² + <i>b</i><sub><i>n</i></sub><i>c</i><sub><i>n</i></sub>，<i>d</i><sub>2<i>n</i></sub> = <i>c</i><sub><i>n</i></sub><i>b</i><sub><i>n</i></sub> + <i>d</i><sub><i>n</i></sub>²。相減 <i>d</i><sub>2<i>n</i></sub> − <i>a</i><sub>2<i>n</i></sub> = <i>d</i><sub><i>n</i></sub>² − <i>a</i><sub><i>n</i></sub>² ✓（<i>b</i><sub><i>n</i></sub><i>c</i><sub><i>n</i></sub> 兩邊抵消）。"
+   ],
+   "final": "答案：(2)(5)"
+  },
+  {
+   "id": 9,
+   "type": "multi",
+   "points": 5,
+   "text": "<i>T</i> 分數為評量成績的一種方式，其計算方式如下：設全班平均成績為 <i>μ</i> 且標準差為 <i>σ</i>。若某生原始成績為 <i>S</i>，則他該科之 <i>T</i> 分數為 <i>T</i> = 50 + 10(<span class='frac small'><span class='num'><i>S</i> − <i>μ</i></span><span class='den'><i>σ</i></span></span>)。已知某班期末數學和英文兩科的平均成績皆為 60，數學成績的標準差為 12，英文成績的標準差為 8。試選出正確的選項。",
+   "options": {
+    "1": "若甲生英文的原始成績為 52，則其 <i>T</i> 分數為 40",
+    "2": "各生數學的 <i>T</i> 分數不會超過其原始成績",
+    "3": "若乙生兩科的原始成績平均比丙生兩科的原始成績平均高，則乙生兩科的 <i>T</i> 分數平均比丙生兩科的 <i>T</i> 分數平均高",
+    "4": "若該班級兩科的及格標準均為 <i>T</i> 分數大於或等於 40，則數學及格的原始成績比英文及格的原始成績低",
+    "5": "該班原始成績數學對英文的迴歸直線（即最適直線）之斜率與該班 <i>T</i> 分數數學對英文的迴歸直線之斜率相同"
+   },
+   "answer": "124",
+   "steps": [
+    "兩科平均都是 60，所以 <i>T</i> = 50 + 10(<i>S</i>−60)/<i>σ</i>。數學 <i>σ</i> = 12：<i>T</i> = 50 + (5/6)(<i>S</i>−60) = (5/6)<i>S</i>。英文 <i>σ</i> = 8：<i>T</i> = 50 + (5/4)(<i>S</i>−60) = (5/4)<i>S</i> − 25。",
+    "<b>(1)</b> 英文 <i>S</i> = 52：<i>T</i> = 50 + 10×(52−60)/8 = 50 − 10 = 40 ✓。",
+    "<b>(2)</b> 數學 <i>T</i> = (5/6)<i>S</i>，而成績 <i>S</i> ≥ 0，所以 <i>T</i> ≤ <i>S</i>（只有 <i>S</i> = 0 時相等）✓。",
+    "<b>(3)</b> 兩科的標準差不同，<i>T</i> 分數等於對兩科「加權」：數學每 1 分只值 5/6 分，英文每 1 分值 5/4 分。反例：乙生 (數學 100, 英文 40)，丙生 (數學 50, 英文 80)。原始平均：乙 70 &gt; 丙 65。但 <i>T</i> 分數：乙 = ((5/6)×100, (5/4)×40 − 25) = (83.3, 25)，平均約 54.2；丙 = ((5/6)×50, (5/4)×80 − 25) = (41.7, 75)，平均約 58.3，乙反而比丙<b>低</b> ✗。",
+    "<b>(4)</b> 數學 <i>T</i> ≥ 40：(5/6)<i>S</i> ≥ 40，<i>S</i> ≥ 48；英文 <i>T</i> ≥ 40：(5/4)<i>S</i> − 25 ≥ 40，<i>S</i> ≥ 52。數學及格的原始成績 48 &lt; 英文的 52 ✓。",
+    "<b>(5)</b> 回歸直線斜率 = <i>r</i>·<i>σ</i><sub>Y</sub>/<i>σ</i><sub>X</sub>。原始成績的斜率含標準差比（8/12 或 12/8 倍），而 <i>T</i> 分數兩科的標準差都是 10，斜率只剩 <i>r</i>。兩者只有在 <i>r</i> = 0 時才相等，一般不同 ✗。",
+    "【易錯】(2) 若誤以為 <i>T</i> 分數是「把成績往 50 拉近」就會誤判；這裡因為班平均剛好是 60，算出 <i>T</i> = (5/6)<i>S</i> 才容易看出 <i>T</i> ≤ <i>S</i>。"
+   ],
+   "final": "答案：(1)(2)(4)"
+  },
+  {
+   "id": 10,
+   "type": "multi",
+   "points": 5,
+   "text": "已知四邊形 <i>ABCD</i> 中，<span style='text-decoration:overline'><i>AB</i></span> 平行 <span style='text-decoration:overline'><i>DC</i></span>，<span style='text-decoration:overline'><i>AC</i></span> 與 <span style='text-decoration:overline'><i>BD</i></span> 交於 <i>E</i>。若 <span style='position:relative;display:inline-block'><i>AB</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> = (2,−6)、<span style='position:relative;display:inline-block'><i>AD</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> = (1,5) 且 △<i>ABE</i> 面積為 3。試選出正確的選項。",
+   "options": {
+    "1": "cos∠<i>BAD</i> = <span class='frac small'><span class='num'>−7√65</span><span class='den'>65</span></span>",
+    "2": "△<i>ABD</i> 面積為 9",
+    "3": "<span style='position:relative;display:inline-block'><i>AE</i><span style='position:absolute;left:0;right:0;top:-.62em;text-align:center;font-size:.75em;line-height:1'>→</span></span> = (<span class='frac small'><span class='num'>3</span><span class='den'>2</span></span>, <span class='frac small'><span class='num'>1</span><span class='den'>2</span></span>)",
+    "4": "四邊形 <i>ABCD</i> 面積為 <span class='frac small'><span class='num'>65</span><span class='den'>3</span></span>",
+    "5": "<span style='text-decoration:overline'><i>BC</i></span> &lt; <span class='frac small'><span class='num'>8</span><span class='den'>3</span></span>"
+   },
+   "answer": "15",
+   "steps": [
+    "先由向量算 △<i>ABD</i> 的面積：½|2×5 − (−6)×1| = ½×16 = <b>8</b>，所以 <b>(2) 的 9 是錯的 ✗</b>。",
+    "<b>(1)</b> 向量 <i>AB</i>·向量 <i>AD</i> = 2×1 + (−6)×5 = −28；|<i>AB</i>| = √40 = 2√10，|<i>AD</i>| = √26；乘積 = 2√260 = 4√65。cos∠<i>BAD</i> = −28/(4√65) = −7/√65 = −7√65/65 ✓。",
+    "<b>求 <i>E</i> 與 <i>C</i>。</b>△<i>ABE</i> 面積 3，△<i>ABD</i> 面積 8，所以 △<i>ADE</i> 面積 = 8 − 3 = 5。△<i>ABE</i> 與 △<i>ADE</i> 以 <i>BD</i> 上的 <i>BE</i>、<i>ED</i> 為底、同高（頂點 <i>A</i>），故 <i>BE</i> : <i>ED</i> = 3 : 5。",
+    "因 <i>AB</i> ∥ <i>DC</i>，△<i>ABE</i> ~ △<i>CDE</i>，相似比 <i>AB</i> : <i>DC</i> = <i>BE</i> : <i>DE</i> = <i>AE</i> : <i>CE</i> = 3 : 5。所以向量 <i>DC</i> = (5/3)×向量 <i>AB</i> = (10/3, −10)，<i>C</i> = <i>D</i> + 向量 <i>DC</i> = (1,5) + (10/3,−10) = (13/3, −5)。",
+    "<b>(3)</b> <i>AE</i> = (3/8)<i>AC</i> = (3/8)(13/3, −5) = (13/8, −15/8)，不是 (3/2, 1/2) ✗。",
+    "<b>(4)</b> 梯形面積 = △<i>ABD</i> + △<i>BCD</i> = 8 + (5/3)×8 = 8 + 40/3 = <b>64/3</b>（△<i>BCD</i> 與 △<i>ABD</i> 同高，底 <i>DC</i> = (5/3)<i>AB</i>），不是 65/3 ✗。",
+    "<b>(5)</b> 向量 <i>BC</i> = (13/3 − 2, −5 − (−6)) = (7/3, 1)，|<i>BC</i>| = √(49/9 + 1) = √58/3 ≈ 7.62/3 ≈ 2.54，而 8/3 ≈ 2.67（√58 &lt; 8）✓。"
+   ],
+   "final": "答案：(1)(5)"
+  },
+  {
+   "id": 11,
+   "type": "multi",
+   "points": 5,
+   "text": "令 Γ 為坐標平面上 <i>y</i> = cos(<span class='frac small'><span class='num'>π</span><span class='den'>2</span></span><i>x</i>) 的圖形。對任一實數 <i>m</i> ≠ 0，以 <i>L</i><sub><i>m</i></sub> 表示直線 <i>y</i> = <i>mx</i> + 1。試選出正確的選項。",
+   "options": {
+    "1": "<i>m</i> &gt; 0 時，<i>L</i><sub><i>m</i></sub> 和 Γ 交點的 <i>x</i> 坐標皆為負",
+    "2": "若 (<i>a</i>,<i>b</i>) 為 <i>L</i><sub><i>m</i></sub> 和 Γ 的交點，則 (−<i>a</i>,<i>b</i>) 為 <i>L</i><sub>−<i>m</i></sub> 和 Γ 的交點",
+    "3": "可以找到一實數 <i>m</i> ≠ 0 使得 <i>L</i><sub><i>m</i></sub> 和 Γ 交於點 (<span class='frac small'><span class='num'>20</span><span class='den'>3</span></span>, <span class='frac small'><span class='num'>1</span><span class='den'>2</span></span>)",
+    "4": "若 <i>L</i><sub><i>m</i></sub> 與 Γ 有一交點在直線 <i>y</i> = −1 上，則 <span class='frac small'><span class='num'>1</span><span class='den'><i>m</i></span></span> 是奇數",
+    "5": "若 <i>L</i><sub><i>m</i></sub> 與 Γ 有一交點在 <i>x</i> 軸上，則 <i>L</i><sub><i>m</i></sub> 與 Γ 有偶數個交點"
+   },
+   "answer": "24",
+   "steps": [
+    "Γ 與每一條 <i>L</i><sub><i>m</i></sub> 都通過 (0,1)：cos 0 = 1，且 <i>m</i>·0 + 1 = 1。",
+    "<b>(1)</b> <i>m</i> &gt; 0 時，(0,1) 就是一個交點，<i>x</i> 坐標是 0，不是負數 ✗。",
+    "<b>(2)</b> cos 是偶函數，(<i>a</i>,<i>b</i>) 在 Γ 上 ⇒ (−<i>a</i>,<i>b</i>) 在 Γ 上。又 <i>b</i> = <i>ma</i> + 1，代入直線 <i>L</i><sub>−<i>m</i></sub>：<i>y</i> = −<i>m</i>(−<i>a</i>) + 1 = <i>ma</i> + 1 = <i>b</i> ✓。",
+    "<b>(3)</b> 把 <i>x</i> = 20/3 代入 Γ：cos(π/2×20/3) = cos(10π/3) = cos(10π/3 − 2π) = cos(4π/3) = −1/2，而題目要 <i>y</i> = 1/2 ✗（這點根本不在 Γ 上）。",
+    "<b>(4)</b> <i>y</i> = −1 時 cos(π<i>x</i>/2) = −1，所以 π<i>x</i>/2 = π + 2<i>kπ</i>，<i>x</i> = 2 + 4<i>k</i>（<i>k</i> 為整數）。代入 −1 = <i>mx</i> + 1 得 <i>m</i> = −2/<i>x</i>，1/<i>m</i> = −<i>x</i>/2 = −(1 + 2<i>k</i>)，是<b>奇數</b> ✓。",
+    "<b>(5)</b> 找一個反例：<i>m</i> = −1，直線 <i>y</i> = −<i>x</i> + 1 通過 (1,0)（交點在 <i>x</i> 軸上，符合前提）。檢查它與 Γ 的交點：(0,1)（cos 0 = 1 = −0+1）、(1,0)（cos(π/2) = 0）、(2,−1)（cos π = −1 = −2+1），共 <b>3</b> 個交點，是奇數，不是偶數 ✗。（一般地，(0,1) 恆為交點，其餘交點大多成對，個數常為奇數。）"
+   ],
+   "final": "答案：(2)(4)"
+  },
+  {
+   "id": 12,
+   "type": "multi",
+   "points": 5,
+   "text": "令 <i>f</i>(<i>x</i>)、<i>g</i>(<i>x</i>) 為實係數三次多項式且 <i>f</i>(<i>x</i>) 的首項係數為 1，已知 <i>f</i>(<i>x</i>) − <i>g</i>(<i>x</i>) = 2<i>x</i><sup>3</sup> + 2<i>x</i>。令 Γ<sub>1</sub> 和 Γ<sub>2</sub> 分別為 <i>f</i>(<i>x</i>) 和 <i>g</i>(<i>x</i>) 在坐標平面上的函數圖形，其對稱中心分別為 (<i>a</i><sub>1</sub>,<i>b</i><sub>1</sub>)、(<i>a</i><sub>2</sub>,<i>b</i><sub>2</sub>)。試選出正確的選項。",
+   "options": {
+    "1": "Γ<sub>1</sub> 和 Γ<sub>2</sub> 恰交於三點",
+    "2": "<i>a</i><sub>1</sub> + <i>a</i><sub>2</sub> 可唯一確定",
+    "3": "<i>b</i><sub>1</sub> + <i>b</i><sub>2</sub> 可唯一確定",
+    "4": "若 <i>a</i><sub>1</sub> = <i>a</i><sub>2</sub>，則 <i>b</i><sub>1</sub> = <i>b</i><sub>2</sub>",
+    "5": "若 <i>b</i><sub>1</sub> = <i>b</i><sub>2</sub>，則 <i>a</i><sub>1</sub> = <i>a</i><sub>2</sub>"
+   },
+   "answer": "24",
+   "steps": [
+    "設 <i>f</i>(<i>x</i>) = <i>x</i>³ + <i>px</i>² + <i>qx</i> + <i>r</i>，則 <i>g</i>(<i>x</i>) = <i>f</i>(<i>x</i>) − 2<i>x</i>³ − 2<i>x</i> = −<i>x</i>³ + <i>px</i>² + (<i>q</i>−2)<i>x</i> + <i>r</i>。",
+    "三次函數的對稱中心在二階導數的零點：<i>f</i>'' = 6<i>x</i> + 2<i>p</i> ⇒ <i>a</i><sub>1</sub> = −<i>p</i>/3；<i>g</i>'' = −6<i>x</i> + 2<i>p</i> ⇒ <i>a</i><sub>2</sub> = <i>p</i>/3。",
+    "<b>(1)</b> 交點滿足 <i>f</i> = <i>g</i>，即 2<i>x</i>³ + 2<i>x</i> = 2<i>x</i>(<i>x</i>²+1) = 0，只有 <i>x</i> = 0 一個實根，所以只交於<b>一點</b> ✗。",
+    "<b>(2)</b> <i>a</i><sub>1</sub> + <i>a</i><sub>2</sub> = −<i>p</i>/3 + <i>p</i>/3 = <b>0</b>，與 <i>p</i> 無關，可唯一確定 ✓。",
+    "<b>(3)</b> <i>b</i><sub>1</sub> = <i>f</i>(−<i>p</i>/3)，<i>b</i><sub>2</sub> = <i>g</i>(<i>p</i>/3)，相加後得 4<i>p</i>³/27 − 2<i>p</i>/3 + 2<i>r</i>，隨 <i>p</i>、<i>r</i> 改變，無法唯一確定 ✗。",
+    "<b>(4)</b> <i>a</i><sub>1</sub> = <i>a</i><sub>2</sub> ⇒ −<i>p</i>/3 = <i>p</i>/3 ⇒ <i>p</i> = 0。此時對稱中心都在 <i>x</i> = 0，<i>b</i><sub>1</sub> = <i>f</i>(0) = <i>r</i>，<i>b</i><sub>2</sub> = <i>g</i>(0) = <i>r</i>，相等 ✓。",
+    "<b>(5)</b> 計算得 <i>b</i><sub>1</sub> − <i>b</i><sub>2</sub> = 2<i>p</i>(1−<i>q</i>)/3。<i>b</i><sub>1</sub> = <i>b</i><sub>2</sub> 時可以是 <i>p</i> = 0，也可以是 <i>q</i> = 1（此時 <i>p</i> 不必為 0），所以不能保證 <i>a</i><sub>1</sub> = <i>a</i><sub>2</sub> ✗（例如 <i>f</i> = <i>x</i>³ + <i>x</i>² + <i>x</i>，<i>q</i> = 1、<i>p</i> = 1）。"
+   ],
+   "final": "答案：(2)(4)"
+  },
+  {
+   "id": 13,
+   "type": "fill",
+   "points": 5,
+   "text": "某高中聘用的全體教師，<span class='frac small'><span class='num'>1</span><span class='den'>4</span></span> 只有學士學位，<span class='frac small'><span class='num'>3</span><span class='den'>4</span></span> 有碩士學位。只有學士學位的教師中有 <span class='frac small'><span class='num'>1</span><span class='den'>5</span></span> 通過英聽檢定，有碩士學位的教師中有 <span class='frac small'><span class='num'>3</span><span class='den'>5</span></span> 通過英聽檢定。已知每位教師被抽到的機會相等，若隨機抽選一位通過英聽檢定的教師，則該教師有碩士學位的條件機率為＿＿。（化為最簡分數；答案卡 13-1～13-3）",
+   "fills": [
+    {
+     "label": "條件機率（最簡分數）",
+     "answer": "9/10",
+     "hint": "例：3/8"
+    }
+   ],
+   "answer": "9/10",
+   "steps": [
+    "把全體教師當 1。只有學士：<span class='frac small'><span class='num'>1</span><span class='den'>4</span></span>；有碩士：<span class='frac small'><span class='num'>3</span><span class='den'>4</span></span>。",
+    "只有學士且通過英聽：<span class='frac small'><span class='num'>1</span><span class='den'>4</span></span> × <span class='frac small'><span class='num'>1</span><span class='den'>5</span></span> = <span class='frac small'><span class='num'>1</span><span class='den'>20</span></span>。有碩士且通過英聽：<span class='frac small'><span class='num'>3</span><span class='den'>4</span></span> × <span class='frac small'><span class='num'>3</span><span class='den'>5</span></span> = <span class='frac small'><span class='num'>9</span><span class='den'>20</span></span>。",
+    "通過英聽的總機率 = <span class='frac small'><span class='num'>1</span><span class='den'>20</span></span> + <span class='frac small'><span class='num'>9</span><span class='den'>20</span></span> = <span class='frac small'><span class='num'>10</span><span class='den'>20</span></span>。",
+    "條件機率 P(碩士｜通過) = <span class='frac small'><span class='num'>9</span><span class='den'>20</span></span> ÷ <span class='frac small'><span class='num'>10</span><span class='den'>20</span></span> = <b><span class='frac small'><span class='num'>9</span><span class='den'>10</span></span></b>。",
+    "【易錯】條件機率的分母是「通過英聽的人」(10/20)，不是全體教師，也不是碩士教師的 3/4。",
+    "劃答案卡：13-1 劃 9、13-2 劃 1、13-3 劃 0（分數 9/10 的分子 9、分母 10）。"
+   ],
+   "final": "答案：9/10（13-1：9，13-2：1，13-3：0）",
+   "section": "三、選填題（占 25 分）：第 13 題至第 17 題，每題 5 分。每題有 n 個空格，須全部答對才給分，答錯不倒扣。"
+  },
+  {
+   "id": 14,
+   "type": "fill",
+   "points": 5,
+   "text": "坐標平面上，向量 (<i>a</i>,<i>b</i>) 與直線 <i>y</i> = <i>bx</i> − 1 垂直，則 <i>a</i> + <i>b</i> 的最大可能值為＿＿。（化為最簡分數；答案卡 14-1、14-2）",
+   "fills": [
+    {
+     "label": "最大值（最簡分數）",
+     "answer": "1/4",
+     "hint": "例：3/8"
+    }
+   ],
+   "answer": "1/4",
+   "steps": [
+    "直線 <i>y</i> = <i>bx</i> − 1 的斜率是 <i>b</i>，方向向量是 (1, <i>b</i>)。",
+    "向量 (<i>a</i>,<i>b</i>) 與直線垂直 ⇒ 與方向向量內積為 0：<i>a</i>×1 + <i>b</i>×<i>b</i> = 0，所以 <i>a</i> = −<i>b</i>²。",
+    "<i>a</i> + <i>b</i> = −<i>b</i>² + <i>b</i> = −(<i>b</i> − 1/2)² + 1/4。",
+    "當 <i>b</i> = 1/2（此時 <i>a</i> = −1/4）有最大值 <b>1/4</b>。",
+    "劃答案卡：14-1 劃 1、14-2 劃 4。"
+   ],
+   "final": "答案：1/4（14-1：1，14-2：4）"
+  },
+  {
+   "id": 15,
+   "type": "fill",
+   "points": 5,
+   "text": "已知三正數 <i>a</i>, <i>b</i>, <i>c</i> 成一等差數列，其中 <i>a</i> &lt; <i>b</i> &lt; <i>c</i>，且坐標平面上三點 (<i>a</i>, log 3<i>a</i>)、(<i>b</i>, log 4<i>b</i>)、(<i>c</i>, log 6<i>c</i>) 在同一直線上，則 <span class='frac small'><span class='num'><i>b</i></span><span class='den'><i>a</i></span></span> 之值為＿＿。（化為最簡分數；答案卡 15-1、15-2）",
+   "fills": [
+    {
+     "label": "<i>b</i>/<i>a</i>（最簡分數）",
+     "answer": "3/2",
+     "hint": "例：3/8"
+    }
+   ],
+   "answer": "3/2",
+   "steps": [
+    "等差：<i>b</i> − <i>a</i> = <i>c</i> − <i>b</i>。三點共線 ⇒ 前兩點的斜率 = 後兩點的斜率。",
+    "兩段的橫向間隔相等（都是公差 <i>d</i>），所以縱向增量也要相等：log 4<i>b</i> − log 3<i>a</i> = log 6<i>c</i> − log 4<i>b</i>，即 log <span class='frac small'><span class='num'>4<i>b</i></span><span class='den'>3<i>a</i></span></span> = log <span class='frac small'><span class='num'>6<i>c</i></span><span class='den'>4<i>b</i></span></span>。",
+    "對數相等 ⇒ <span class='frac small'><span class='num'>4<i>b</i></span><span class='den'>3<i>a</i></span></span> = <span class='frac small'><span class='num'>6<i>c</i></span><span class='den'>4<i>b</i></span></span>，整理得 16<i>b</i>² = 18<i>ac</i>，即 8<i>b</i>² = 9<i>ac</i>。",
+    "設 <i>b</i> = <i>ka</i>，<i>c</i> = 2<i>b</i> − <i>a</i> = (2<i>k</i> − 1)<i>a</i>。代入：8<i>k</i>² = 9(2<i>k</i> − 1)，8<i>k</i>² − 18<i>k</i> + 9 = 0，(2<i>k</i> − 3)(4<i>k</i> − 3) = 0，<i>k</i> = 3/2 或 3/4。",
+    "因 <i>a</i> &lt; <i>b</i>，要 <i>k</i> &gt; 1，所以 <i>b</i>/<i>a</i> = <b>3/2</b>（<i>k</i> = 3/4 會使 <i>b</i> &lt; <i>a</i>，捨去）。",
+    "劃答案卡：15-1 劃 3、15-2 劃 2。"
+   ],
+   "final": "答案：3/2（15-1：3，15-2：2）"
+  },
+  {
+   "id": 16,
+   "type": "fill",
+   "points": 5,
+   "text": "坐標平面上，已知二次函數圖形 Γ：<i>y</i> = <i>f</i>(<i>x</i>) 的頂點 <i>P</i> 在直線 <i>y</i> = 1 + 2<i>x</i> 上，且交 <i>x</i> 軸於點 <i>A</i>(−<span class='frac small'><span class='num'>1</span><span class='den'>2</span></span>, 0)、<i>B</i>(<span class='frac small'><span class='num'>1</span><span class='den'>2</span></span>, 0)。將 Γ 平移使得平移後圖形的頂點 <i>Q</i> 仍在直線 <i>y</i> = 1 + 2<i>x</i> 上，且亦通過點 <i>B</i>(<span class='frac small'><span class='num'>1</span><span class='den'>2</span></span>, 0)，此時 <i>P</i>、<i>Q</i> 為兩相異點，則 <span style='text-decoration:overline'><i>PQ</i></span> = <span class='frac small'><span class='num'>【16-1】</span><span class='den'>【16-3】</span></span>√<span style='border-top:1px solid;padding:0 1px'>【16-2】</span>。（化為最簡根式；答案卡 16-1～16-3）",
+   "fills": [
+    {
+     "label": "16-1（分子）",
+     "answer": "3",
+     "hint": "一位數字"
+    },
+    {
+     "label": "16-2（根號內）",
+     "answer": "5",
+     "hint": "一位數字"
+    },
+    {
+     "label": "16-3（分母）",
+     "answer": "2",
+     "hint": "一位數字"
+    }
+   ],
+   "answer": "3/2 √5",
+   "steps": [
+    "<i>f</i> 與 <i>x</i> 軸交於 ±1/2，所以對稱軸是 <i>x</i> = 0，頂點 <i>P</i> 的 <i>x</i> 坐標是 0。<i>P</i> 在 <i>y</i> = 1 + 2<i>x</i> 上 ⇒ <i>P</i> = (0, 1)。",
+    "設 <i>f</i>(<i>x</i>) = <i>k</i>(<i>x</i> + 1/2)(<i>x</i> − 1/2) = <i>k</i>(<i>x</i>² − 1/4)。<i>f</i>(0) = −<i>k</i>/4 = 1 ⇒ <i>k</i> = −4，<i>f</i>(<i>x</i>) = −4<i>x</i>² + 1。",
+    "平移後形狀不變（開口向下、<i>k</i> = −4）。設新頂點 <i>Q</i> = (<i>h</i>, 1 + 2<i>h</i>)，新圖形 <i>y</i> = −4(<i>x</i> − <i>h</i>)² + 1 + 2<i>h</i>。",
+    "通過 <i>B</i>(1/2, 0)：0 = −4(1/2 − <i>h</i>)² + 1 + 2<i>h</i> = −(1 − 2<i>h</i>)² + 1 + 2<i>h</i> = −1 + 4<i>h</i> − 4<i>h</i>² + 1 + 2<i>h</i> = 6<i>h</i> − 4<i>h</i>²。解得 <i>h</i> = 0（就是 <i>P</i>，原圖形）或 <i>h</i> = 3/2。",
+    "<i>P</i>、<i>Q</i> 為相異點 ⇒ <i>h</i> = 3/2，<i>Q</i> = (3/2, 4)。",
+    "<i>PQ</i> = √((3/2)² + (4−1)²) = √(9/4 + 9) = √(45/4) = 3√5/2 = (3/2)√5。對照格式 (16-1)/(16-3)·√(16-2)：16-1 = 3、16-3 = 2、16-2 = 5。",
+    "劃答案卡：16-1 劃 3、16-2 劃 5、16-3 劃 2。（官方答案列：16-1：3，16-2：5，16-3：2。）"
+   ],
+   "final": "答案：(3/2)√5（16-1：3，16-2：5，16-3：2）"
+  },
+  {
+   "id": 17,
+   "type": "fill",
+   "points": 5,
+   "text": "直角 △<i>ABC</i> 中，∠<i>CAB</i> 為直角，<span style='text-decoration:overline'><i>AB</i></span> 邊上一點 <i>D</i>，滿足 ∠<i>BCD</i> = 2∠<i>ACD</i>，且 <span style='text-decoration:overline'><i>BC</i></span> = 2<span style='text-decoration:overline'><i>BD</i></span>。若 <i>AD</i> = <i>k</i> <i>AB</i>，則 <i>k</i> = ＿＿。（化為最簡分數；答案卡 17-1～17-3）",
+   "fills": [
+    {
+     "label": "<i>k</i>（最簡分數）",
+     "answer": "3/11",
+     "hint": "例：3/8"
+    }
+   ],
+   "answer": "3/11",
+   "steps": [
+    "令 ∠<i>ACD</i> = <i>θ</i>，則 ∠<i>BCD</i> = 2<i>θ</i>，∠<i>ACB</i> = 3<i>θ</i>。",
+    "在直角 △<i>ACD</i>（∠<i>A</i> = 90°）中，∠<i>ADC</i> = 90° − <i>θ</i>，所以 ∠<i>BDC</i> = 180° − (90° − <i>θ</i>) = 90° + <i>θ</i>，sin∠<i>BDC</i> = cos <i>θ</i>。",
+    "在 △<i>BCD</i> 用正弦定理：<i>BD</i> / sin 2<i>θ</i> = <i>BC</i> / sin∠<i>BDC</i> = <i>BC</i> / cos <i>θ</i>，所以 <i>BD</i> = <i>BC</i>·sin 2<i>θ</i> / cos <i>θ</i> = 2<i>BC</i> sin <i>θ</i>。",
+    "題目 <i>BC</i> = 2<i>BD</i>，代入 <i>BD</i> = 2×(2<i>BD</i>) sin <i>θ</i> = 4<i>BD</i> sin <i>θ</i>，得 sin <i>θ</i> = 1/4。",
+    "於是 tan²<i>θ</i> = sin²<i>θ</i> / (1 − sin²<i>θ</i>) = (1/16)/(15/16) = 1/15。設 <i>t</i> = tan <i>θ</i>，<i>t</i>² = 1/15。",
+    "在直角 △<i>ABC</i> 與 △<i>ADC</i>：<i>AB</i> = <i>AC</i>·tan 3<i>θ</i>，<i>AD</i> = <i>AC</i>·tan <i>θ</i>，所以 <i>k</i> = <i>AD</i>/<i>AB</i> = tan <i>θ</i> / tan 3<i>θ</i>。",
+    "三倍角：tan 3<i>θ</i> = <i>t</i>(3 − <i>t</i>²)/(1 − 3<i>t</i>²) = <i>t</i>(3 − 1/15)/(1 − 3/15) = <i>t</i>·(44/15)/(4/5) = (11/3)<i>t</i>。",
+    "<i>k</i> = <i>t</i> / ((11/3)<i>t</i>) = <b>3/11</b>。",
+    "劃答案卡：17-1 劃 3、17-2 劃 1、17-3 劃 1（分數 3/11 的分子 3、分母 11）。"
+   ],
+   "final": "答案：3/11（17-1：3，17-2：1，17-3：1）"
+  },
+  {
+   "id": 18,
+   "type": "single",
+   "points": 3,
+   "text": "試問平行四邊形 <i>ABCD</i> 的面積為何？（單選題，3 分）",
+   "options": {
+    "1": "2√5",
+    "2": "5√2",
+    "3": "5√3",
+    "4": "6√3",
+    "5": "10√2"
+   },
+   "answer": "3",
+   "steps": [
+    "平行四邊形 <i>ABCD</i> 由 向量<i>AB</i>、向量<i>AD</i> 張成，面積 = |向量<i>AB</i> × 向量<i>AD</i>|。",
+    "已知 向量<i>AB</i> × 向量<i>AD</i> = (−5, 5, 5)，長度 = √(25 + 25 + 25) = √75 = <b>5√3</b>。",
+    "【提醒】面積用的是外積向量的「長度」，不要把 (−5,5,5) 各分量相加或直接取 5。"
+   ],
+   "final": "答案：(3) 5√3",
+   "section": "第貳部分、混合題或非選擇題（占 15 分）：第 18–20 題為題組。單選題每題 3 分，非選擇題配分標於題末；非選擇題作答時必須寫出計算過程或理由，否則將酌予扣分。",
+   "passageId": "p18_20_a"
+  },
+  {
+   "id": 19,
+   "type": "open",
+   "points": 4,
+   "passageId": "p18_20_a",
+   "text": "設 <i>B</i> 點坐標為 (1,2,0)，試求平面 <i>ABCD</i> 的平面方程式。（非選擇題，4 分）",
+   "modelAnswer": [
+    "平面 <i>ABCD</i> 的法向量平行於 向量<i>AB</i> × 向量<i>AD</i> = (−5, 5, 5)，即 (−1, 1, 1)。",
+    "又 <i>B</i> 點坐標為 (1, 2, 0)，故平面 <i>ABCD</i> 的方程式為 −(<i>x</i> − 1) + (<i>y</i> − 2) + (<i>z</i> − 0) = 0，即 −<i>x</i> + <i>y</i> + <i>z</i> = 1（等價於 <i>x</i> − <i>y</i> − <i>z</i> = −1）。"
+   ],
+   "scoring": "<b>滿分</b>（兩項均須正確）：① 正確指出平面 <i>ABCD</i> 的法向量平行於 (−5,5,5)（即 (−1,1,1)）；② 將 <i>B</i> 點坐標代入後，得到正確的平面方程式。<b>部分給分</b>：未完整說明如何求得正確方程式，僅正確指出平面 <i>ABCD</i> 的法向量平行於 (−5,5,5)。<b>零分</b>：未作答或未符合部分給分原則。",
+   "steps": [
+    "平面要寫成 <i>ax</i> + <i>by</i> + <i>cz</i> = <i>d</i>，其中 (<i>a</i>,<i>b</i>,<i>c</i>) 是法向量。平行四邊形 <i>ABCD</i> 在平面上，<i>AB</i>、<i>AD</i> 是平面上兩個不平行的向量，所以它們的外積就是法向量。",
+    "向量<i>AB</i> × 向量<i>AD</i> = (−5, 5, 5)，約去公因數 5，法向量取 (−1, 1, 1)。",
+    "平面通過 <i>B</i>(1,2,0)：−<i>x</i> + <i>y</i> + <i>z</i> = −1 + 2 + 0 = 1。",
+    "驗證（用第 20 題解出的 向量<i>AB</i> = (1,−1,2)、向量<i>AD</i> = (2,3,−1)）：<i>A</i> = <i>B</i> − 向量<i>AB</i> = (0,3,−2)，代入 −0 + 3 + (−2) = 1 ✓；<i>D</i> = <i>A</i> + 向量<i>AD</i> = (2,6,−3)，代入 −2 + 6 − 3 = 1 ✓。",
+    "答案可寫 −<i>x</i> + <i>y</i> + <i>z</i> = 1，或乘 −1 寫成 <i>x</i> − <i>y</i> − <i>z</i> = −1。"
+   ],
+   "final": "答案：−<i>x</i> + <i>y</i> + <i>z</i> = 1"
+  },
+  {
+   "id": 20,
+   "type": "open",
+   "points": 8,
+   "passageId": "p18_20_a",
+   "text": "試求平行六面體的體積，並求平行六面體上（含邊界）距點 <i>A</i> 的最長距離。（非選擇題，8 分）",
+   "modelAnswer": [
+    "向量<i>AD</i> × 向量<i>AP</i> 與 向量<i>AP</i> × 向量<i>AB</i> 都垂直於 向量<i>AP</i>，所以 向量<i>AP</i> ∥ (向量<i>AD</i> × 向量<i>AP</i>) × (向量<i>AP</i> × 向量<i>AB</i>) = (−2,0,−4) × (6,−10,−8) = −20(2,2,−1)，即 向量<i>AP</i> ∥ (2,2,−1)；又 |向量<i>AP</i>| = 6，故 向量<i>AP</i> = ±(4,4,−2)。體積 = |向量<i>AP</i> · (向量<i>AB</i> × 向量<i>AD</i>)| = |(4,4,−2)·(−5,5,5)| = <b>10</b>。",
+    "封閉區域上距一點最遠的距離必發生在邊界上，故只需考慮各頂點到 <i>A</i> 的距離。不失一般性設 向量<i>AP</i> = (4,4,−2)。",
+    "向量<i>AB</i> ∥ (向量<i>AB</i> × 向量<i>AD</i>) × (向量<i>AP</i> × 向量<i>AB</i>) = (−5,5,5) × (6,−10,−8) = 10(1,−1,2)，可設 向量<i>AB</i> = <i>t</i>(1,−1,2)，由 向量<i>AP</i> × 向量<i>AB</i> = (6,−10,−8) 得 <i>t</i> = 1，即 向量<i>AB</i> = (1,−1,2)。",
+    "同理 向量<i>AD</i> ∥ (向量<i>AB</i> × 向量<i>AD</i>) × (向量<i>AD</i> × 向量<i>AP</i>) = (−5,5,5) × (−2,0,−4) = 10(−2,−3,1)，可設 向量<i>AD</i> = <i>s</i>(2,3,−1)，由 向量<i>AD</i> × 向量<i>AP</i> = (−2,0,−4) 得 <i>s</i> = 1，即 向量<i>AD</i> = (2,3,−1)。",
+    "於是 向量<i>AC</i> = 向量<i>AB</i> + 向量<i>AD</i> = (3,2,1)，向量<i>AS</i> = 向量<i>AP</i> + 向量<i>AD</i> = (6,7,−3)，向量<i>AQ</i> = 向量<i>AP</i> + 向量<i>AB</i> = (5,3,0)，向量<i>AR</i> = 向量<i>AP</i> + 向量<i>AB</i> + 向量<i>AD</i> = (7,6,−1)。",
+    "各頂點到 <i>A</i> 的距離：|<i>AB</i>| = √6，|<i>AD</i>| = √14，|<i>AC</i>| = √14，|<i>AP</i>| = 6 = √36，|<i>AQ</i>| = √34，|<i>AR</i>| = √86，|<i>AS</i>| = √94，故最長者為 <i>AS</i> = <b>√94</b>。"
+   ],
+   "scoring": "<b>滿分</b>（以下四項均須正確）：① 正確計算得到 向量<i>AP</i>；② 正確計算得平行六面體體積的值；③ 正確計算得到 向量<i>AB</i>、向量<i>AD</i>；④ 可由 <i>AB</i>、<i>AD</i>、<i>AC</i>、<i>AS</i>、<i>AQ</i>、<i>AR</i> 判斷距 <i>A</i> 的最長距離為 √94。<b>部分給分</b>：(1) 正確方法求得 向量<i>AP</i>，但未能正確求得 向量<i>AB</i>、向量<i>AD</i>；(2) 正確方法求得 向量<i>AP</i> 與體積的值，但未能正確求得 向量<i>AB</i>、向量<i>AD</i>；(3) 正確方法求得體積的值，但未能完成正確求得 向量<i>AP</i>、向量<i>AB</i>、向量<i>AD</i>；(4) 能正確求得 向量<i>AP</i>、向量<i>AB</i>、向量<i>AD</i> 及體積，但未能求得最長距離的值。<b>零分</b>：未作答或未符合部分給分原則。",
+   "steps": [
+    "<b>策略：</b>題目只給三個外積與 |<i>AP</i>| = 6，要先把 向量<i>AP</i>、<i>AB</i>、<i>AD</i> 各自解出來。外積的方向有用：<i>a</i> × <i>b</i> 垂直於 <i>a</i> 和 <i>b</i>。",
+    "<b>求 向量<i>AP</i>。</b>(向量<i>AD</i> × 向量<i>AP</i>) 垂直於 <i>AP</i>，(向量<i>AP</i> × 向量<i>AB</i>) 也垂直於 <i>AP</i>；兩個都垂直於 <i>AP</i> 的向量，它們的外積必定「平行於 <i>AP</i>」。算 (−2,0,−4) × (6,−10,−8) = (−40,−40,20) = −20(2,2,−1)，方向 (2,2,−1)，長 3；<i>AP</i> 長 6，所以 向量<i>AP</i> = ±2(2,2,−1) = ±(4,4,−2)。",
+    "<b>體積。</b>平行六面體體積 = |向量<i>AP</i> · (向量<i>AB</i> × 向量<i>AD</i>)| = |(4,4,−2)·(−5,5,5)| = |−20 + 20 − 10| = <b>10</b>。",
+    "<b>求 向量<i>AB</i>。</b>用同樣的想法：<i>AB</i> 垂直於 (向量<i>AB</i> × 向量<i>AD</i>)，也垂直於 (向量<i>AP</i> × 向量<i>AB</i>)，所以 向量<i>AB</i> ∥ (−5,5,5) × (6,−10,−8) = (10,−10,20)，即 (1,−1,2)。設 向量<i>AB</i> = <i>t</i>(1,−1,2)，用 向量<i>AP</i> × 向量<i>AB</i> = (6,−10,−8)：(4,4,−2) × (1,−1,2) = (6,−10,−8)，所以 <i>t</i> = 1，向量<i>AB</i> = (1,−1,2)。",
+    "<b>求 向量<i>AD</i>。</b>向量<i>AD</i> ∥ (−5,5,5) × (−2,0,−4) = (−20,−30,10) = −10(2,3,−1)。設 向量<i>AD</i> = <i>s</i>(2,3,−1)，由 向量<i>AD</i> × 向量<i>AP</i> = (−2,0,−4)：(2,3,−1) × (4,4,−2) = (−2,0,−4)，<i>s</i> = 1，向量<i>AD</i> = (2,3,−1)。<b>驗算：</b>向量<i>AB</i> × 向量<i>AD</i> = (1,−1,2) × (2,3,−1) = (−5,5,5) ✓ 與題目相同。",
+    "<b>最遠距離。</b>平行六面體上的點到 <i>A</i> 的距離，最大值一定出現在頂點。以 <i>A</i> 為原點，各頂點向量：<i>B</i> = (1,−1,2)、<i>D</i> = (2,3,−1)、<i>C</i> = <i>B</i> + <i>D</i> = (3,2,1)、<i>P</i> = (4,4,−2)、<i>Q</i> = <i>P</i> + <i>B</i> = (5,3,0)、<i>R</i> = <i>P</i> + <i>B</i> + <i>D</i> = (7,6,−1)、<i>S</i> = <i>P</i> + <i>D</i> = (6,7,−3)。",
+    "長度平方：<i>B</i> 6、<i>D</i> 14、<i>C</i> 14、<i>P</i> 36、<i>Q</i> 34、<i>R</i> 86、<i>S</i> 94。最大是 94，最遠距離 = <b>√94</b>（在頂點 <i>S</i>）。",
+    "【易錯】只比較 <i>AC</i>、<i>AR</i>（體對角線）就以為最遠一定是 <i>AR</i>；這個六面體很斜，<i>AS</i> = √94 反而比體對角線 <i>AR</i> = √86 長，要把八個頂點都算過。",
+    "若取 向量<i>AP</i> = −(4,4,−2)，則 向量<i>AB</i>、<i>AD</i> 也全部變號，所有頂點到 <i>A</i> 的距離不變，結果相同，所以「不失一般性」。"
+   ],
+   "final": "答案：體積 10；最長距離 √94"
+  }
+ ]
+}

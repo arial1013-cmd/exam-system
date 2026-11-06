@@ -58,7 +58,7 @@
   },
   "e47_50": {
    "title": "第 47 至 50 題為題組（混合題）",
-   "html": "<p>Located along the sparkling coastline of the Pacific Ocean, Wonder Village is a famous indigenous district in eastern Taiwan. The historic village exhibits the traditional way of life of the tribe there. However, it does not live in the past. As numerous new restaurants and shops have sprung up in recent years, it has become not only a cultural center but also a unique commercial zone. The following six shops are examples of some of the specialty stores there.</p><p><b>A. Oh Eco</b><br>Greatly concerned about the presence of fake “green” products on the market, Alice Bao decided to open this shop. She sells environmentally friendly items such as reusable bottles, bamboo toothbrushes, and soy candles. “Here everyone looks out for each other and the neighborhood,” she says. “There’s a sense of community in the area.”</p><p><b>B. After Work</b><br>Neighborhood beer lovers rejoiced when After Work moved in last summer. “We knew we were coming into a really cool neighborhood,” says co-owner Joey Ma. Aside from handcrafted beer, the menu boasts hand-made gourmet pizzas such as the Yummy Duck n’ Cheese, loaded with roast duck and, yes, creamy delicious cheese. A truly unique blend!</p><p><b>C. Aroma Paradise</b><br>The fragrances at this scent shop are largely customized to meet the individual shopper’s taste. Owner Joseph Tang says he knew the idea would work well in this unique district: “Each store is one of a kind in Wonder Village,” he states. “Aroma Paradise wants to create a paradise for those who are looking for fragrance made for their special preferences.”</p><p><b>D. Something Different</b><br>Looking for something unique? Yes, at this tiny antique store you can always find, as promised, something different. Open since 1996, the store features traditional-style home accessories, ranging from cabinets and chairs to picture frames and decorative mirrors.</p><p><b>E. Beyond World</b><br>Owner Foting Mayaw opened this boutique in what he calls “the most fascinating area in Taiwan.” The shop focuses on selling various “good goods” that showcase the skill and spirit of neighborhood artisans. From fashion items to rice snacks, it carries products only from local makers and small businesses owned by indigenous people.</p><p><b>F. The Pinery</b><br>This restaurant got its name from the pineapple farms that once populated the area. Indeed, the fruit appears in some innovative menu items (e.g., pineapple jam on the burger). “Wonder Village is much more than just a tourist destination,” says owner Carol Hon. “It is a place where the old meets the new: diverse, unique, and always full of surprises.”</p>"
+   "html": "<p>Located along the sparkling coastline of the Pacific Ocean, Wonder Village is a famous indigenous district in eastern Taiwan. The historic village exhibits the traditional way of life of the tribe there. However, it does not live in the past. As numerous new restaurants and shops have sprung up in recent years, it has become not only a cultural center but also a unique commercial zone. The following six shops are examples of some of the specialty stores there.</p><div class='fig'><img src='data/img/en-q47-map.jpg' alt='Wonder Village 六家商店位置示意圖' style='max-width:620px'/><div class='cap'>Wonder Village 六家商店位置示意圖</div></div><p><b>A. Oh Eco</b><br>Greatly concerned about the presence of fake “green” products on the market, Alice Bao decided to open this shop. She sells environmentally friendly items such as reusable bottles, bamboo toothbrushes, and soy candles. “Here everyone looks out for each other and the neighborhood,” she says. “There’s a sense of community in the area.”</p><p><b>B. After Work</b><br>Neighborhood beer lovers rejoiced when After Work moved in last summer. “We knew we were coming into a really cool neighborhood,” says co-owner Joey Ma. Aside from handcrafted beer, the menu boasts hand-made gourmet pizzas such as the Yummy Duck n’ Cheese, loaded with roast duck and, yes, creamy delicious cheese. A truly unique blend!</p><p><b>C. Aroma Paradise</b><br>The fragrances at this scent shop are largely customized to meet the individual shopper’s taste. Owner Joseph Tang says he knew the idea would work well in this unique district: “Each store is one of a kind in Wonder Village,” he states. “Aroma Paradise wants to create a paradise for those who are looking for fragrance made for their special preferences.”</p><p><b>D. Something Different</b><br>Looking for something unique? Yes, at this tiny antique store you can always find, as promised, something different. Open since 1996, the store features traditional-style home accessories, ranging from cabinets and chairs to picture frames and decorative mirrors.</p><p><b>E. Beyond World</b><br>Owner Foting Mayaw opened this boutique in what he calls “the most fascinating area in Taiwan.” The shop focuses on selling various “good goods” that showcase the skill and spirit of neighborhood artisans. From fashion items to rice snacks, it carries products only from local makers and small businesses owned by indigenous people.</p><p><b>F. The Pinery</b><br>This restaurant got its name from the pineapple farms that once populated the area. Indeed, the fruit appears in some innovative menu items (e.g., pineapple jam on the burger). “Wonder Village is much more than just a tourist destination,” says owner Carol Hon. “It is a place where the old meets the new: diverse, unique, and always full of surprises.”</p>"
   }
  },
  "questions": [
@@ -675,19 +675,19 @@
    "id": 38,
    "type": "single",
    "passageId": "e35_38",
-   "text": "Which of the following shows the correct route of the Endurance after leaving South Georgia?",
+   "text": "Which of the following shows the correct route of the Endurance after leaving South Georgia?<div class='fig'><img src='data/img/en-q38-maps.jpg' alt='圖：(A)～(D) 四種 Endurance 離開 South Georgia 後的航線' style='max-width:620px'/><div class='cap'>圖：(A)～(D) 四種 Endurance 離開 South Georgia 後的航線</div></div>",
    "options": {
-    "A": "路線圖 (A)：從 South Georgia 出發順時針繞完 Weddell Sea 一整圈，回到起點附近",
-    "B": "路線圖 (B)：從 South Georgia 出發逆時針繞 Weddell Sea 一圈",
-    "C": "路線圖 (C)：從 South Georgia 沿東側往南，繞過 Weddell Sea 南端後再向北，終點在海面上，未到 Elephant Island",
-    "D": "路線圖 (D)：從 South Georgia 往西南直接駛向南極半島附近，路線不折返"
+    "A": "見上圖 (A)",
+    "B": "見上圖 (B)",
+    "C": "見上圖 (C)",
+    "D": "見上圖 (D)"
    },
    "answer": "C",
    "points": 2,
    "steps": [
-    "第三段：船先「向南漂」(drifting down south)，再被浮冰推向北；最後在 Weddell Sea 沉沒，所以路線是先往南(沿東側)，繞到南端後轉北，並止於海面上 → (C)。",
-    "路線圖 (A) 的終點回到起點附近，不符；(B) 方向相反；(D) 沒有轉北的過程。Elephant Island 是船員搭救生艇抵達的地方，不是船的路線終點。",
-    "※ 原題為四張地圖，此處以文字描述，請對照原卷圖形。"
+    "第三段：船先被困在浮冰中「向南漂」(drifting down south slowly)，之後才被冰「向北推」(pushed northward)，最後在 Weddell Sea 沉沒。所以路線應是：自 South Georgia 往東南、沿東側往南，繞到 Weddell Sea 南端後轉向北，終點停在 Weddell Sea 的海面上。",
+    "(A) 路線繞成一圈並抵達 Elephant Island，但 Elephant Island 是船員棄船後乘救生艇才到的地方，不是 Endurance 的航線終點。(B) 一開始往西、而且整圈方向相反。(D) 一路往西南走，沒有先南後北的過程。",
+    "只有 (C)：沿東側南下、在南端轉北、終點在 Weddell Sea 內，且與 Elephant Island 分開。"
    ],
    "final": "答案：(C)",
    "figure": "原題為四張 Weddell Sea 路線地圖，網頁以文字描述；詳見原試題卷第 6 頁。"
@@ -909,7 +909,7 @@
    "modelAnswer": [
     "one of a kind"
    ],
-   "scoring": "以文章中的片語作答；本題未公布細部給分，建議答案須完整、拼字正確。",
+   "scoring": "完全正確（含選字與字形變化）得 2 分；字形錯誤或拼字錯誤得 1 分；空白、答案錯誤或與答案無關者得 0 分。",
    "steps": [
     "Joseph Tang 是 Aroma Paradise 的老闆，他說：“Each store is <b>one of a kind</b> in Wonder Village.”，形容每間店都是獨一無二的。",
     "注意題目問的是 Joseph Tang 用來形容「uniqueness」的片語，不是 something different (D 店名)，也不是 truly unique (After Work 的評語)。"
@@ -956,7 +956,7 @@
    "id": 53,
    "type": "open",
    "points": 20,
-   "text": "二、英文作文（20 分）：近年來養寵物的風氣在臺灣日漸普遍，而寵物在人們生活中的角色也與過去不同。請以此為主題，並參照圖片，寫一篇至少 120 個單詞的英文作文，文分兩段。第一段描述這些圖片中所呈現的現象；第二段則根據你自身的經驗或觀察，說明此現象的原因以及可能的影響。<br><i>（圖片：左圖為一家人在公園裡推著寵物推車、拉著寵物拖車散步；中圖為父母與兩個孩子在家，一旁寵物被一同照顧；右圖為一家人和兩隻狗一起坐在餐桌旁用餐。原圖請見原試題卷第 11 頁。）</i>",
+   "text": "二、英文作文（20 分）：近年來養寵物的風氣在臺灣日漸普遍，而寵物在人們生活中的角色也與過去不同。請以此為主題，並參照圖片，寫一篇至少 120 個單詞的英文作文，文分兩段。第一段描述這些圖片中所呈現的現象；第二段則根據你自身的經驗或觀察，說明此現象的原因以及可能的影響。<div class='fig'><img src='data/img/en-q53-pics.jpg' alt='作文提示圖片（左：一家人在公園推寵物推車、拉寵物拖車散步；中：父母與兩個孩子在家，寵物一同被照顧；右：一家人與兩隻狗同桌用餐）' style='max-width:620px'/><div class='cap'>作文提示圖片（左：一家人在公園推寵物推車、拉寵物拖車散步；中：父母與兩個孩子在家，寵物一同被照顧；右：一家人與兩隻狗同桌用餐）</div></div>",
    "modelAnswer": [
     "（以下為示範範文，非大考中心官方答案）<br>In the pictures, pets are no longer just animals kept at home; they have become important members of the family. In the first picture, a family takes their dogs for a walk in the park, pushing them in a stroller and a wagon just like babies. In the other two, parents spend time with their children while pets stay close by, and everyone even enjoys a meal together with two dogs. Obviously, pets receive the same love and care as children do.<br>There are several reasons for this change. First, more young couples choose to have fewer children or none at all because of high living costs, so pets fill the emotional gap. Second, my neighbor told me that her dog always waits for her at the door after work, which helps relieve her stress. As a result, the pet industry has grown quickly in Taiwan, and more restaurants and parks welcome pets. However, owners should also learn to be responsible and respect people who are afraid of animals, so that humans and pets can live together in harmony."
    ],

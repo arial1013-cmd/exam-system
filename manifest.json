@@ -221,6 +221,17 @@
    "category": "學測"
   },
   {
+   "id": "115-gsat-mathA",
+   "year": "115",
+   "subject": "數學A",
+   "code": "",
+   "group": "學科能力測驗",
+   "title": "115學年度學科能力測驗 數學A考科",
+   "questionCount": 20,
+   "dataFile": "data/115-gsat-mathA.json",
+   "category": "學測"
+  },
+  {
    "id": "115-gsat-math",
    "year": "115",
    "subject": "數學B",
@@ -240,6 +251,17 @@
    "title": "115學年度學科能力測驗 社會考科",
    "questionCount": 65,
    "dataFile": "data/115-gsat-social.json",
+   "category": "學測"
+  },
+  {
+   "id": "115-gsat-science",
+   "year": "115",
+   "subject": "自然",
+   "code": "",
+   "group": "學科能力測驗",
+   "title": "115學年度學科能力測驗 自然考科",
+   "questionCount": 56,
+   "dataFile": "data/115-gsat-science.json",
    "category": "學測"
   }
  ]
